@@ -1,46 +1,85 @@
-# Ascend BatchMatmulMaxSum archive
+# CANN 竞赛 BatchMatmulMaxSum 算子开发归档
 
-Private source snapshot of the Ascend/CANN BatchMatmulMaxSum development work, archived on 2026-10-18 (Asia/Shanghai).
+本仓库记录了参加 **2026 年 CANN 挑战赛——上合赛区（初赛）**期间，使用 Ascend C 开发和优化 **BatchMatmulMaxSum** 融合算子的过程。归档日期为 **2026-10-18（北京时间）**，仓库保持私有。
 
-## Contents
+## 竞赛背景与题目要求
 
-- `server/home/developer/`: source, scripts, documentation, configuration, and text measurement records from **all six `bmms*` project directories** on the development server: `bmms_codex`, `bmms_codex_round2`, `bmms_final`, `bmms_fused`, `bmms_opt`, and `bmms_v3`.
-- `final-delivery/`: the locally verified final `clean203` source and its official submission, performance, and review records.
-- `historical-high-score/`: the retained `clean197` source and its historical score records.
-- `metadata/server-manifest.json`: original server-relative paths, exact file sizes, SHA-256 digests, permissions, internal symlink relationships, scope, and exclusion counts.
-- `embedded-archives/`: source and text records extracted from historical server archives; binary tensor datasets remain excluded. `metadata/embedded-manifest.json` records the original archive/member and the digest of every preserved file.
-- `tools/`: the scripts used to create and verify this snapshot.
+赛事通过算子开发任务考查昇腾 NPU 上的计算正确性与执行效率。本项目对应的官方页面：
 
-## Final submitted version
+- [CANN 挑战赛上合赛区初赛](https://cannjudge.cn/public/op_challenge_shanghe_prelim)
+- [BatchMatmulMaxSum 题目与提交入口](https://cannjudge.cn/public/op_challenge_shanghe_prelim/batchmatmulmaxsum)
 
-The final competition submission was **893147**, submitted at **2026-10-17 17:53:48 Asia/Shanghai**, before the 18:00 deadline.
+题目要求将批量矩阵乘法、按行取最大值、按行求和融合为一次完整的算子计算。设逻辑输入为 A ∈ R^(B×M×K)、X ∈ R^(B×K×N)，输出为 y ∈ R^B：
 
-- Variant: **clean203**
-- Official result: **15/15 Pass**, **63.72 points**, **rank 29**
-- Source SHA-256: `9feb4e97863b23d014f85f59393629ebb775b9b755dbd0262bd9847aa65c4a3e`
-- Server source: `server/home/developer/bmms_v3/variants/clean203/kernel.asc`
-- Verified local source: `final-delivery/kernel.asc`
+```text
+C[b, m, n] = Σ_k A[b, m, k] × X[b, k, n]
+r[b, m]    = max_n C[b, m, n]
+y[b]       = Σ_m r[b, m]
+```
 
-The downloaded official source was compared byte-for-byte with the final source. Both copies are preserved here. Historical scores use different TBest references and should not be compared without normalization. The earlier 65.68-point `clean197` snapshot remains separately preserved.
+这对应 `torch.bmm`、`torch.amax`、`torch.sum` 的组合。输入支持 FP16、BF16，输出为 FP32；转置参数描述输入张量的存储布局，逻辑计算关系不变。精度判定应以官方题目和校验器为准。
 
-Historical experiment folders include rejected, diagnostic, incomplete, and unsubmitted implementations. Their presence is an archival record, not a statement that every experiment passed correctness or compliance review. Final review records also document the known precision/validation limits.
+题目页面标注使用 **Ascend C、Cube、CANN 9.0.0**；本次开发获知的 OJ 评测硬件为 **昇腾 910C**。本地服务器测量与 OJ 测量可能存在硬件、环境及波动差异，因此本地相对提速和估分只作为候选筛选依据，正式结果以 OJ 为准。
 
-## Scope and exclusions
+性能基线为拆分执行 BatchMatMul、ReduceMax、ReduceSum 的总耗时，评分考查融合实现相对基线的加速效果。优化围绕 Cube 与 Vector 协同、GM/L1/L0/UB 数据搬运和复用、多核分块、尾块处理、流水与双缓冲展开，同时关注小形状的初始化、同步和收尾开销。
 
-This is a **project source archive**, not a full server disk image. It excludes SSH keys, credentials, shell history, IDE state, system/CANN installations, Git object databases, dependency environments, generated build/profiler trees, raw tensor datasets, binary outputs, and files exceeding the documented archive size threshold. Original server files were not modified or removed.
+Host 侧仅负责参数校验、shape 推导、tiling 和启动配置；Device 侧承担完整计算，单次算子调用通过一次 Kernel 启动完成。开发必须遵守赛事规则，包括禁止 Host 读取或重排输入参与计算、预存结果、按评测用例或数据规律跳算、复用旧输出、跨调用缓存结果，以及干扰校验或计时。通用分派条件应能解释其布局、容量或性能依据；注释本身不能替代规则审核。
 
-All selected regular files were checked for common credential patterns before upload. Every copied file is verified against the manifest. Internal project symlinks are normalized to relative links so the archived directory layout can be moved as a unit; external links are excluded. Some dataset links may point to raw data that is intentionally not part of a source archive.
+## 最终提交与成绩
 
-The main server snapshot contains **9,150 regular files** and **5,113 internal symlink entries**. Historical compressed archives contribute **2,501 additional source/text entries**, including duplicate versions preserved in their original archive context. The main snapshot is approximately296MiB; the extracted historical entries are approximately109MiB before Git compression.
+最终提交编号为 **893147**，提交时间为 **2026-10-17 17:53:48（北京时间）**，早于当日 18:00 截止时间。
 
-## Verification and restoration
+| 项目 | 记录 |
+| :--- | :--- |
+| 最终版本 | `clean203` |
+| 官方正确性结果 | **15/15 Pass** |
+| 官方分数 | **63.72 分** |
+| 最终榜单排名 | **第 29 名** |
+| 归档中的服务器源码 | `server/home/developer/bmms_v3/variants/clean203/kernel.asc` |
+| 交付源码 | `final-delivery/kernel.asc` |
 
-Run from the repository root:
+[查看最终官方提交](https://cannjudge.cn/public/op_challenge_shanghe_prelim/batchmatmulmaxsum/submission/6ad345ac193e507d8ebac416)。最终源码的 SHA-256 为：
+
+```text
+9feb4e97863b23d014f85f59393629ebb775b9b755dbd0262bd9847aa65c4a3e
+```
+
+从 OJ 下载的提交源码已与最终交付源码逐字节比对一致，两份均已保留。另行保留了历史上显示 **65.68 分**的 `clean197` 版本及其记录。不同时间的 TBest 参考值会变化，历史显示分数不能直接作为版本优劣的结论；使用统一参考值重新计算的分数也不等同于官方实测成绩。
+
+官方 15 点通过只代表该次评测覆盖范围。最终审查记录保留了已知的精度与验证边界，不能据此声称所有合法输入均已验证，或已取得官方合规认定。历史实验中还包括失败、诊断、未完成及未提交的实现，归档不表示每个版本都通过正确性或合规审核。
+
+## 目录说明
+
+| 路径 | 内容 |
+| :--- | :--- |
+| `server/home/developer/` | 服务器全部六个 `bmms*` 项目目录中的源码、脚本、文档、配置和文本测量记录 |
+| `final-delivery/` | 最终 `clean203` 源码，以及官方提交、性能和审查记录 |
+| `historical-high-score/` | 历史高分 `clean197` 源码与成绩记录 |
+| `embedded-archives/` | 从服务器历史压缩包中提取的源码和文本记录，保留原压缩包上下文 |
+| `metadata/server-manifest.json` | 服务器原始相对路径、文件大小、SHA-256、权限、内部符号链接、归档范围和排除统计 |
+| `metadata/embedded-manifest.json` | 历史压缩包、成员路径及提取文件的校验信息 |
+| `tools/` | 生成和校验本次快照的工具 |
+
+六个服务器项目目录分别为 `bmms_codex`、`bmms_codex_round2`、`bmms_final`、`bmms_fused`、`bmms_opt`、`bmms_v3`。原有源码、历史文档和第三方说明保持原貌，本页作为中文归档入口。
+
+## 归档范围与排除项
+
+这是项目源码归档，包含上述项目目录内选定的开发资料。未包含 SSH 密钥、凭据、Shell 历史、IDE 状态、系统及 CANN 安装目录、Git 对象库、依赖环境、生成的构建和性能分析目录、原始张量数据集、二进制输出，以及超过归档大小阈值的文件。归档过程未修改或删除服务器原始文件。
+
+上传前已对选定普通文件扫描常见凭据特征，扫描未发现命中；复制后的文件均按清单校验。项目内部符号链接已转换为相对链接，便于整体搬迁目录；外部链接被排除。部分数据集链接指向有意未归档的原始数据，恢复环境时需要重新生成对应数据。
+
+主快照包含 **9,150 个普通文件**、**5,113 个内部符号链接条目**，普通文件合计约 **296 MiB**。历史压缩包额外提取 **2,501 个源码或文本条目**，合计约 **109 MiB**，其中包含保留在各自历史上下文中的重复版本。以上体积均为 Git 压缩前的统计。
+
+## 校验与恢复
+
+在仓库根目录运行：
 
 ```sh
 python3 tools/verify_archive.py
 ```
 
-Restore the project source directories from `server/home/developer/` to a chosen development directory. Reinstall the required Ascend/CANN environment and regenerate raw test inputs as needed. The snapshot preserves existing project directory names and individual experimental versions; it does not reconstruct previous Git commit histories.
+校验工具检查主快照、符号链接、历史压缩包提取文件、本地交付文件，以及最终源码的一致性。归档上传后已通过一次全新克隆校验。
 
-Keep this repository private. Existing notices and licenses in archived source directories continue to apply.
+恢复时，将 `server/home/developer/` 下所需项目目录复制到目标开发目录，重新安装适配的昇腾/CANN 环境，并按需生成测试输入。快照保留项目目录名和实验版本文件，不重建原服务器项目的 Git 提交历史。
+
+`snapshot-2026-10-18` 标签保留首次归档快照，后续中文说明更新可在主分支查看。请保持仓库私有；原源码目录中的版权声明、许可证及第三方使用条件继续适用。
