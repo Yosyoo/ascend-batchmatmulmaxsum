@@ -1,0 +1,14 @@
+{
+  "variant": "s32d",
+  "expected": 320,
+  "observed": 320,
+  "passed": true,
+  "fixture_metadata_sha256": "7b144cf94a7674d33e77acf95fe7c31d5820cffb2ea1c4f04b125c1c7ea47ddb",
+  "manifest_sha256": "ff30bd9138d460524c81aa8acba14a1704a9a4e727033ea40100d8a24eb83603",
+  "inputs_unchanged": true,
+  "hashes": {
+    "kernel.asc": "ef9d0ef98259a4065ac7643168a4f9b51a823e11bad417b54a2e059fb456a14c",
+    "bench_cases": "3af3ecd2e28aa0ee4c885d18a4e18ccf945d8f177297a6b793824a5f85759f21"
+  },
+  "failures": []
+}

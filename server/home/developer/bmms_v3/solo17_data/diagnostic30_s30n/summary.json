@@ -1,0 +1,36 @@
+{
+  "variant": "s30n",
+  "hashes": {
+    "bench_cases": "0d354be0a3dfe4ec4a086bbf0cb96d23557fb72afc44113e498b4749a55d962d",
+    "kernel.asc": "5152d6d02c014d29665ee7154c2985c3c6b2b1c30554f38f0d275c9bc35739c8"
+  },
+  "origin_hashes": {
+    "/home/developer/bmms_v3/solo17_data/diagnostic30_s30l/cases.txt": "57d0f4fb174d611094fd7ff76e18560f065a0b9c26719f585abf7812627e6b83",
+    "/home/developer/bmms_v3/solo17_data/whole_stress30.txt": "268367890ead863276edf44acd9a39a7cde4797b4fea8e2105c1185679433d6d"
+  },
+  "fixture_metadata_sha256": "b558db6077de07c2324aae9784ee9fbf0c553f740a0d931b04400da181787a56",
+  "expected": 552,
+  "observed": 149,
+  "passed": false,
+  "inputs_unchanged": true,
+  "manifest_sha256": "cdc42ad63ec17cc32981dc6cef88e16cb2858461feacb0b7470b863f66ee109b",
+  "failures": [
+    {
+      "case": 148,
+      "shape": [
+        1,
+        63,
+        127,
+        1024
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0.0002302879,
+      "relative": 23.02879,
+      "consistent": true,
+      "passed": false
+    }
+  ],
+  "returncode": 3
+}

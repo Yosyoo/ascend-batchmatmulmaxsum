@@ -1,0 +1,12 @@
+{
+  "variant": "s22a",
+  "passed": true,
+  "observed": 96,
+  "expected": 96,
+  "hashes": {
+    "bench_cases": "5e0bf26b1dc026ce9d7123249018b8f8135f6ea76b9d18cb084ee1852a6a8e42",
+    "kernel.asc": "ac2be87e7efdf9e50aa7d923b8d14bada8ebd2dc461945203746ed62b006e0ca"
+  },
+  "fixture_metadata_sha256": "07fb2be7d946b2eaf9e9ae3bc42759f6c7dacffdc22fc68e96310f3bbeaa20c6",
+  "all_fixture_hashes_unchanged": true
+}

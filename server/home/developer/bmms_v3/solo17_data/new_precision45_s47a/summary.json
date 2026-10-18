@@ -1,0 +1,9 @@
+{
+  "variant": "s47a",
+  "passed": true,
+  "expected": 656,
+  "observed": 656,
+  "manifest": "/home/developer/bmms_v3/solo17_data/diagnostic42_s41c/cases.txt",
+  "manifest_sha256": "999a95cb6e8bd6ea2ed394f474fb5286aa585b83f0307f2f02aec514da4a19bb",
+  "failures": []
+}

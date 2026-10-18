@@ -1,0 +1,13 @@
+{
+  "UB_max": 164864,
+  "L1_max": 524288,
+  "L0A": 16384,
+  "L0B": 65536,
+  "L0C": 131072,
+  "L0C_formula": "2 banks * 64 rows * 256 columns * 4 bytes; INNER_PRODUCT and doSpecialMDL=false => lenFactor=1",
+  "GM": "unchanged: outer 128x256, two scratch slots, same maxima and workspace",
+  "mechanism": "halve internal baseM to permit independent MAC/FIX L0C banks; preserve outer tile, K order and vector reduction",
+  "gate": "nonpacked nonpair nonresident SDK, full 128x256 outer tiles, M<=8192, K256..1024 multiple64, volume>=2^28",
+  "precision": "all original inputs; one kernel per invocation; no output cache; no tolerance change",
+  "hypothesis": "medium K benefits from MAC/FIX overlap; reject if ABBA does not improve. Different from s17b: mediumK, split internal M, preserve N256."
+}

@@ -1,0 +1,84 @@
+{
+  "variant": "s33a",
+  "expected": 344,
+  "observed": 344,
+  "passed": true,
+  "origins": [
+    {
+      "path": "/home/developer/bmms_v3/delivery4/validation/cases.txt",
+      "sha256": "4e205575ee08001febe14e61d8bb5067ee53961ebe8cd9587344c18d54a57f45",
+      "count": 8
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo13_data/generic_nt_cases.txt",
+      "sha256": "fb36e667c54d44aa418ca5b094cf76254a78b7025150cc4ca4b40c73b430caec",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo13_data/nt_cases.txt",
+      "sha256": "40e0b6f203d64ead6694dda01cca8d5663535c3473b67e4d7b4022967198e9da",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo11_data/copy_cases.txt",
+      "sha256": "7af424dfbf9931c73d42093bbd5158c34e115a3550532f5d6fee189a445545c7",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo17_data/medium_cases.txt",
+      "sha256": "1ddd1946a72286fb8e3edf9113e7cbacf5a6b8bf4c0d2c7c154ae9b147683cef",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo14_data/balanced_cases.txt",
+      "sha256": "307ee00a720f9fbfc05838f2733ca2e07f160f16dcc8c0f4e90af54b7ea66914",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo14_data/narrow_legal_cases.txt",
+      "sha256": "9315eb0e1c254c4a74a342e488758989a17fcae3ee01d769ad71d7da69ddf707",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo14_data/split16_cases.txt",
+      "sha256": "6f8aaac72b5b4485c389477a26f706ce02a9ee29fee32cd07785b492e0ffd2a7",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo14_data/pair_edge_cases.txt",
+      "sha256": "bd97746d7757bb1ec1c787ecd785b9c0a1e81b2e9c8f8f30faca49eb8b8dc1de",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo14_data/long_sum_cases.txt",
+      "sha256": "9218ac85e38e51db80a90f2fff8d9dfe544996cbb124809bf5af2e2e4970dad6",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo8_data/narrow_cases.txt",
+      "sha256": "1717ea3b9765d93c1b2323a333c1ca0fad05027116b4fb1e929b2e4ab0409817",
+      "count": 72
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo8_data/narrow_extra_cases.txt",
+      "sha256": "e5f1eca222f0e606e55b6142edbb137a18e41e5096f11244a017c8003ab6410b",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo6_data/large_cases.txt",
+      "sha256": "28d01e60b31479080072d7ce1ee4f85bde183cd290d2d83ee58051cfe0fe7430",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/work/solo18/fail_8.txt",
+      "sha256": "bde0d318b39d6c8187090f434dfc122e8aae63642959aaaae1249eee1072dc9d",
+      "count": 8
+    }
+  ],
+  "hashes": {
+    "kernel.asc": "3e98f5ecb1b847264180d1a6b551439f1a8c743e5272b3ea634f729a50e80040",
+    "bench_cases": "886288b39c06bfa1a881e84d587ce64fe434de7401b43e7e4dc06c02f9aed50f"
+  },
+  "manifest_sha256": "a036037f1a6cadf5f233ac1d0ffcd5e874a99543e104a03eae8c4ee894be354c",
+  "failures": []
+}

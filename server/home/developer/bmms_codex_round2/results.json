@@ -1,0 +1,866 @@
+[
+  {
+    "shape": [
+      1,
+      1,
+      1,
+      32
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      6.933,
+      7.369,
+      7.151,
+      6.993,
+      7.133
+    ],
+    "min": 6.933,
+    "median": 7.133,
+    "mean": 7.116,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      1,
+      1,
+      32
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "pipeline",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      7.219,
+      7.053,
+      6.961,
+      7.153,
+      6.948
+    ],
+    "min": 6.948,
+    "median": 7.053,
+    "mean": 7.067,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      2,
+      3,
+      7,
+      40
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      8.407,
+      7.794,
+      7.82,
+      7.794,
+      7.799
+    ],
+    "min": 7.794,
+    "median": 7.799,
+    "mean": 7.923,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      2,
+      3,
+      7,
+      40
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "pipeline",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      8.536,
+      7.717,
+      7.739,
+      7.722,
+      7.531
+    ],
+    "min": 7.531,
+    "median": 7.722,
+    "mean": 7.849,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      3,
+      17,
+      19,
+      72
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      8.144,
+      7.879,
+      7.876,
+      7.875,
+      7.85
+    ],
+    "min": 7.85,
+    "median": 7.876,
+    "mean": 7.925,
+    "consistent": true,
+    "passed": true,
+    "relative": 8.022377073757525e-08
+  },
+  {
+    "shape": [
+      3,
+      17,
+      19,
+      72
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "pipeline",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      8.059,
+      7.796,
+      7.827,
+      7.802,
+      7.771
+    ],
+    "min": 7.771,
+    "median": 7.802,
+    "mean": 7.851,
+    "consistent": true,
+    "passed": true,
+    "relative": 8.022377073757525e-08
+  },
+  {
+    "shape": [
+      1,
+      65,
+      129,
+      128
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      9.505,
+      9.485,
+      9.287,
+      9.325,
+      9.366
+    ],
+    "min": 9.287,
+    "median": 9.366,
+    "mean": 9.394,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      65,
+      129,
+      128
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "pipeline",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      9.505,
+      9.063,
+      9.307,
+      9.203,
+      9.268
+    ],
+    "min": 9.063,
+    "median": 9.268,
+    "mean": 9.269,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      2,
+      129,
+      257,
+      256
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      14.072,
+      13.393,
+      13.35,
+      13.347,
+      13.359
+    ],
+    "min": 13.347,
+    "median": 13.359,
+    "mean": 13.504,
+    "consistent": true,
+    "passed": true,
+    "relative": 6.285858944465872e-08
+  },
+  {
+    "shape": [
+      2,
+      129,
+      257,
+      256
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "pipeline",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      13.853,
+      13.609,
+      13.096,
+      13.149,
+      12.966
+    ],
+    "min": 12.966,
+    "median": 13.149,
+    "mean": 13.334,
+    "consistent": true,
+    "passed": true,
+    "relative": 6.285858944465872e-08
+  },
+  {
+    "shape": [
+      1,
+      31,
+      513,
+      8192
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      65.679,
+      64.408,
+      64.468,
+      64.385,
+      64.416
+    ],
+    "min": 64.385,
+    "median": 64.416,
+    "mean": 64.671,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      31,
+      513,
+      8192
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "pipeline",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      65.564,
+      64.514,
+      64.403,
+      64.481,
+      64.497
+    ],
+    "min": 64.403,
+    "median": 64.497,
+    "mean": 64.692,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      8192,
+      17,
+      32
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      32.045,
+      32.209,
+      32.147,
+      32.024,
+      32.102
+    ],
+    "min": 32.024,
+    "median": 32.102,
+    "mean": 32.105,
+    "consistent": true,
+    "passed": true,
+    "relative": 2.7817048930955934e-07
+  },
+  {
+    "shape": [
+      1,
+      8192,
+      17,
+      32
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "pipeline",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      31.453,
+      31.922,
+      31.705,
+      31.723,
+      31.769
+    ],
+    "min": 31.453,
+    "median": 31.723,
+    "mean": 31.715,
+    "consistent": true,
+    "passed": true,
+    "relative": 6.954262232738984e-08
+  },
+  {
+    "shape": [
+      1,
+      16,
+      8192,
+      64
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      12.317,
+      12.592,
+      12.387,
+      12.401,
+      12.378
+    ],
+    "min": 12.317,
+    "median": 12.387,
+    "mean": 12.415,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      16,
+      8192,
+      64
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "pipeline",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      12.625,
+      12.669,
+      12.651,
+      12.645,
+      12.647
+    ],
+    "min": 12.625,
+    "median": 12.647,
+    "mean": 12.647,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      4,
+      256,
+      256,
+      128
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      11.315,
+      10.925,
+      10.911,
+      10.913,
+      10.828
+    ],
+    "min": 10.828,
+    "median": 10.913,
+    "mean": 10.978,
+    "consistent": true,
+    "passed": true,
+    "relative": 9.08305395341813e-08
+  },
+  {
+    "shape": [
+      4,
+      256,
+      256,
+      128
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "pipeline",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      11.372,
+      11.022,
+      10.931,
+      10.988,
+      10.936
+    ],
+    "min": 10.931,
+    "median": 10.988,
+    "mean": 11.05,
+    "consistent": true,
+    "passed": true,
+    "relative": 9.08305395341813e-08
+  },
+  {
+    "shape": [
+      1,
+      512,
+      512,
+      512
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      14.964,
+      14.669,
+      14.767,
+      14.745,
+      14.655
+    ],
+    "min": 14.655,
+    "median": 14.745,
+    "mean": 14.76,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      512,
+      512,
+      512
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "pipeline",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      15.189,
+      15.037,
+      15.086,
+      15.018,
+      15.066
+    ],
+    "min": 15.018,
+    "median": 15.066,
+    "mean": 15.079,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      1024
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      27.572,
+      27.823,
+      27.643,
+      27.838,
+      27.627
+    ],
+    "min": 27.572,
+    "median": 27.643,
+    "mean": 27.701,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.1009145595153313e-07
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      1024
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "pipeline",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      27.712,
+      28.076,
+      27.911,
+      28.067,
+      28.018
+    ],
+    "min": 27.712,
+    "median": 28.018,
+    "mean": 27.957,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      256,
+      4096,
+      1024
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      28.812,
+      28.157,
+      28.194,
+      28.037,
+      28.104
+    ],
+    "min": 28.037,
+    "median": 28.157,
+    "mean": 28.261,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      256,
+      4096,
+      1024
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "pipeline",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      28.539,
+      27.853,
+      27.731,
+      27.823,
+      27.873
+    ],
+    "min": 27.731,
+    "median": 27.853,
+    "mean": 27.964,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      8191,
+      33,
+      72
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      38.026,
+      38.365,
+      38.489,
+      38.175,
+      38.285
+    ],
+    "min": 38.026,
+    "median": 38.285,
+    "mean": 38.268,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.6199469143884926e-07
+  },
+  {
+    "shape": [
+      1,
+      8191,
+      33,
+      72
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "pipeline",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      36.983,
+      37.361,
+      37.328,
+      37.205,
+      37.307
+    ],
+    "min": 36.983,
+    "median": 37.307,
+    "mean": 37.237,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      8192,
+      64,
+      8192
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      161.845,
+      161.982,
+      161.714,
+      162.466,
+      162.552
+    ],
+    "min": 161.714,
+    "median": 161.982,
+    "mean": 162.112,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      8192,
+      64,
+      8192
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "pipeline",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      160.396,
+      160.715,
+      160.922,
+      160.245,
+      160.662
+    ],
+    "min": 160.245,
+    "median": 160.662,
+    "mean": 160.588,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.0766434144215964e-07
+  },
+  {
+    "shape": [
+      1,
+      8192,
+      129,
+      64
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      56.414,
+      56.573,
+      56.683,
+      56.533,
+      56.539
+    ],
+    "min": 56.414,
+    "median": 56.539,
+    "mean": 56.548,
+    "consistent": true,
+    "passed": true,
+    "relative": 6.985086997701728e-08
+  },
+  {
+    "shape": [
+      1,
+      8192,
+      129,
+      64
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "pipeline",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      61.189,
+      61.33,
+      60.782,
+      61.156,
+      61.067
+    ],
+    "min": 60.782,
+    "median": 61.156,
+    "mean": 61.105,
+    "consistent": true,
+    "passed": true,
+    "relative": 6.985086997701728e-08
+  },
+  {
+    "shape": [
+      3,
+      255,
+      4096,
+      64
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      34.216,
+      34.478,
+      34.302,
+      34.82,
+      34.589
+    ],
+    "min": 34.216,
+    "median": 34.478,
+    "mean": 34.481,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.014532031717863e-07
+  },
+  {
+    "shape": [
+      3,
+      255,
+      4096,
+      64
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "pipeline",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      34.243,
+      34.629,
+      34.535,
+      34.525,
+      34.507
+    ],
+    "min": 34.243,
+    "median": 34.525,
+    "mean": 34.488,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.014532031717863e-07
+  }
+]

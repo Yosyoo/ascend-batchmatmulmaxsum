@@ -1,0 +1,464 @@
+[
+  {
+    "shape": [
+      2,
+      3,
+      7,
+      40
+    ],
+    "variant": "v2",
+    "mean_us": 6.833333333333333,
+    "median_us": 5.380000000000001,
+    "tasks": 20,
+    "passed": true,
+    "relative": 9.416700663678057e-08
+  },
+  {
+    "shape": [
+      2,
+      3,
+      7,
+      40
+    ],
+    "variant": "balanced",
+    "mean_us": 6.7188888888888885,
+    "median_us": 5.26,
+    "tasks": 20,
+    "passed": true,
+    "relative": 9.416700663678057e-08
+  },
+  {
+    "shape": [
+      2,
+      3,
+      7,
+      40
+    ],
+    "variant": "baseline",
+    "mean_us": 7.233333333333334,
+    "median_us": 5.84,
+    "tasks": 20,
+    "passed": true,
+    "relative": 9.416700663678057e-08
+  },
+  {
+    "shape": [
+      3,
+      17,
+      19,
+      72
+    ],
+    "variant": "v2",
+    "mean_us": 5.986666666666668,
+    "median_us": 5.07,
+    "tasks": 20,
+    "passed": true,
+    "relative": 8.83214426039558e-08
+  },
+  {
+    "shape": [
+      3,
+      17,
+      19,
+      72
+    ],
+    "variant": "balanced",
+    "mean_us": 5.858888888888889,
+    "median_us": 4.86,
+    "tasks": 20,
+    "passed": true,
+    "relative": 8.83214426039558e-08
+  },
+  {
+    "shape": [
+      3,
+      17,
+      19,
+      72
+    ],
+    "variant": "baseline",
+    "mean_us": 6.571111111111112,
+    "median_us": 5.57,
+    "tasks": 20,
+    "passed": true,
+    "relative": 8.83214426039558e-08
+  },
+  {
+    "shape": [
+      1,
+      65,
+      129,
+      128
+    ],
+    "variant": "v2",
+    "mean_us": 7.395555555555556,
+    "median_us": 6.53,
+    "tasks": 20,
+    "passed": true,
+    "relative": 1.0118514381929344e-07
+  },
+  {
+    "shape": [
+      1,
+      65,
+      129,
+      128
+    ],
+    "variant": "balanced",
+    "mean_us": 7.702222222222223,
+    "median_us": 6.75,
+    "tasks": 20,
+    "passed": true,
+    "relative": 1.0118514381929344e-07
+  },
+  {
+    "shape": [
+      1,
+      65,
+      129,
+      128
+    ],
+    "variant": "baseline",
+    "mean_us": 9.504444444444445,
+    "median_us": 8.32,
+    "tasks": 20,
+    "passed": true,
+    "relative": 1.0118514381929344e-07
+  },
+  {
+    "shape": [
+      2,
+      129,
+      257,
+      256
+    ],
+    "variant": "v2",
+    "mean_us": 12.47888888888889,
+    "median_us": 10.82,
+    "tasks": 20,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      2,
+      129,
+      257,
+      256
+    ],
+    "variant": "balanced",
+    "mean_us": 12.453333333333331,
+    "median_us": 10.67,
+    "tasks": 20,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      2,
+      129,
+      257,
+      256
+    ],
+    "variant": "baseline",
+    "mean_us": 14.711111111111112,
+    "median_us": 12.36,
+    "tasks": 20,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      31,
+      513,
+      8192
+    ],
+    "variant": "v2",
+    "mean_us": 65.58555555555556,
+    "median_us": 61.39,
+    "tasks": 20,
+    "passed": true,
+    "relative": 8.37893807670298e-08
+  },
+  {
+    "shape": [
+      1,
+      31,
+      513,
+      8192
+    ],
+    "variant": "balanced",
+    "mean_us": 65.7811111111111,
+    "median_us": 61.489999999999995,
+    "tasks": 20,
+    "passed": true,
+    "relative": 8.37893807670298e-08
+  },
+  {
+    "shape": [
+      1,
+      31,
+      513,
+      8192
+    ],
+    "variant": "baseline",
+    "mean_us": 264.05111111111114,
+    "median_us": 263.33000000000004,
+    "tasks": 20,
+    "passed": true,
+    "relative": 8.37893807670298e-08
+  },
+  {
+    "shape": [
+      1,
+      8192,
+      17,
+      32
+    ],
+    "variant": "v2",
+    "mean_us": 32.062222222222225,
+    "median_us": 32.11,
+    "tasks": 20,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      8192,
+      17,
+      32
+    ],
+    "variant": "balanced",
+    "mean_us": 32.187777777777775,
+    "median_us": 32.33,
+    "tasks": 20,
+    "passed": true,
+    "relative": 1.3983344615553506e-07
+  },
+  {
+    "shape": [
+      1,
+      8192,
+      17,
+      32
+    ],
+    "variant": "baseline",
+    "mean_us": 97.69444444444443,
+    "median_us": 97.78999999999999,
+    "tasks": 20,
+    "passed": true,
+    "relative": 1.3983344615553506e-07
+  },
+  {
+    "shape": [
+      1,
+      16,
+      8192,
+      64
+    ],
+    "variant": "v2",
+    "mean_us": 10.56777777777778,
+    "median_us": 9.66,
+    "tasks": 20,
+    "passed": true,
+    "relative": 9.724394089971611e-08
+  },
+  {
+    "shape": [
+      1,
+      16,
+      8192,
+      64
+    ],
+    "variant": "balanced",
+    "mean_us": 9.945555555555556,
+    "median_us": 9.100000000000001,
+    "tasks": 20,
+    "passed": true,
+    "relative": 9.724394089971611e-08
+  },
+  {
+    "shape": [
+      1,
+      16,
+      8192,
+      64
+    ],
+    "variant": "baseline",
+    "mean_us": 56.36,
+    "median_us": 56.2,
+    "tasks": 20,
+    "passed": true,
+    "relative": 9.724394089971611e-08
+  },
+  {
+    "shape": [
+      4,
+      256,
+      256,
+      128
+    ],
+    "variant": "v2",
+    "mean_us": 9.346666666666666,
+    "median_us": 7.71,
+    "tasks": 20,
+    "passed": true,
+    "relative": 8.853599808844592e-08
+  },
+  {
+    "shape": [
+      4,
+      256,
+      256,
+      128
+    ],
+    "variant": "balanced",
+    "mean_us": 9.363333333333335,
+    "median_us": 7.6899999999999995,
+    "tasks": 20,
+    "passed": true,
+    "relative": 8.853599808844592e-08
+  },
+  {
+    "shape": [
+      4,
+      256,
+      256,
+      128
+    ],
+    "variant": "baseline",
+    "mean_us": 9.83222222222222,
+    "median_us": 8.23,
+    "tasks": 20,
+    "passed": true,
+    "relative": 8.853599808844592e-08
+  },
+  {
+    "shape": [
+      1,
+      512,
+      512,
+      512
+    ],
+    "variant": "v2",
+    "mean_us": 13.209999999999999,
+    "median_us": 12.04,
+    "tasks": 20,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      512,
+      512,
+      512
+    ],
+    "variant": "balanced",
+    "mean_us": 13.056666666666667,
+    "median_us": 11.91,
+    "tasks": 20,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      512,
+      512,
+      512
+    ],
+    "variant": "baseline",
+    "mean_us": 18.114444444444445,
+    "median_us": 15.66,
+    "tasks": 20,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      1024
+    ],
+    "variant": "v2",
+    "mean_us": 24.95555555555556,
+    "median_us": 24.91,
+    "tasks": 20,
+    "passed": true,
+    "relative": 1.1024769008827207e-07
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      1024
+    ],
+    "variant": "balanced",
+    "mean_us": 24.705555555555556,
+    "median_us": 24.72,
+    "tasks": 20,
+    "passed": true,
+    "relative": 1.1024769008827207e-07
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      1024
+    ],
+    "variant": "baseline",
+    "mean_us": 44.07111111111111,
+    "median_us": 43.95,
+    "tasks": 20,
+    "passed": true,
+    "relative": 1.1024769008827207e-07
+  },
+  {
+    "shape": [
+      1,
+      256,
+      4096,
+      1024
+    ],
+    "variant": "v2",
+    "mean_us": 27.122222222222224,
+    "median_us": 24.700000000000003,
+    "tasks": 20,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      256,
+      4096,
+      1024
+    ],
+    "variant": "balanced",
+    "mean_us": 26.678888888888892,
+    "median_us": 24.38,
+    "tasks": 20,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      256,
+      4096,
+      1024
+    ],
+    "variant": "baseline",
+    "mean_us": 146.22888888888883,
+    "median_us": 144.45999999999998,
+    "tasks": 20,
+    "passed": true,
+    "relative": 0.0
+  }
+]

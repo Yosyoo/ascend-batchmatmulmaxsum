@@ -1,0 +1,15 @@
+{
+  "variant": "s23o",
+  "parent": "s23l",
+  "capacity_calculated_before_edit": true,
+  "scope": "M=N8,K32/64,B<=min(20,availableCube),aligned32B,TA or not TB; NT stays parentD",
+  "UB_bytes": 5184,
+  "L1_max": 4096,
+  "L0A_max": 2048,
+  "L0B_max": 2048,
+  "L0C_bytes": 1024,
+  "GM_scratch_max": 102400,
+  "host_kernel_workspace_same_source": true,
+  "change": "Vector copies each real short row8 to row16 with zero padding, writes current input to GM, Cube reads wider aligned rows; one mixed kernel with crosscore flags7/8",
+  "precision": "FP32 Mmad and valid8-column max/8-row sum; no CPU output, no cached input/output"
+}

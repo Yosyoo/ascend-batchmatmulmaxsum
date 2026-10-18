@@ -1,0 +1,39 @@
+"""Sequential NPU checks: narrow precision, order-swapped pool, targeted timings, hangs."""
+import json
+import subprocess
+import sys
+from pathlib import Path
+
+root = Path('/home/developer/bmms_v3')
+out = root / 'solo8_data'
+v = sys.argv[1] if len(sys.argv)>1 else 's8l'
+
+def run(label, command, filename, timeout=900):
+    print('START', label, flush=True)
+    with (out/filename).open('w') as f:
+        p = subprocess.run(command,cwd=root,stdout=f,stderr=subprocess.STDOUT,timeout=timeout)
+    print('END', label, 'RC', p.returncode, flush=True)
+    if p.returncode:
+        print((out/filename).read_text()[-4000:],flush=True)
+        raise SystemExit(p.returncode)
+
+run('narrow precision',[f'variants/{v}/build/bench_cases','solo8_data/narrow_cases.txt'],f'narrow_{v}.log')
+for order,variants in [(1,['s6v',v]),(2,[v,'s6v'])]:
+    for variant in variants:
+        filename = f'pool{order}_{variant}.json'
+        run(filename,['python3','harness/multi.py',variant,'shapes_pool2.txt','160'],filename)
+        data = json.loads((out/filename).read_text())
+        assert data['ntasks'] == 16000 and len(data['shapes']) == 100 and 'leftover' not in data
+
+specs=['1_1025_1031_1032_2_1_1','1_8192_64_128_1_0_0',
+       '1_3_5_40_2_1_0','1_2048_1536_1280_1_0_1','1_4096_1280_1152_2_0_0']
+for variants in ['s6v,'+v,v+',s6v']:
+    run('target '+variants,['python3','solo8_scan_total.py',variants,*specs],
+        'target_'+variants.replace(',','_')+'.log')
+
+hangs=['1_4096_4096_1024','1_8192_512_1024','1_4096_1024_512',
+       '1_2048_2048_1024','1_8192_256_512','2_4096_2048_512']
+for spec in hangs:
+    run('hang '+spec,['timeout','120','python3','harness/one.py',v,spec],
+        'hang_'+v+'_'+spec+'.log',timeout=150)
+print('PASS: performance protocol and six historical hang shapes',flush=True)

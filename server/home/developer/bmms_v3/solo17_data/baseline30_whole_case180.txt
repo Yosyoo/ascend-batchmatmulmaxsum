@@ -1,0 +1,1 @@
+1 64 128 512 1 0 0 /home/developer/bmms_v3/solo17_data/whole_stress30/c140

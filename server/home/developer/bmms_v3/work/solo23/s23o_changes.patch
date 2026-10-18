@@ -1,0 +1,93 @@
+--- s23l/kernel.asc
++++ s23o/kernel.asc
+@@ -2015,19 +2015,37 @@
+ }
+ 
+ template<class T, bool TA, bool TB, int K>
+-__global__ __aicore__ __mix__(1, 1) void bmms_tiny_cube(GM_ADDR a, GM_ADDR b, GM_ADDR scratch, GM_ADDR y)
++__global__ __aicore__ __mix__(1, 1) void bmms_tiny_packed_cube(GM_ADDR a, GM_ADDR b, GM_ADDR scratch, GM_ADDR y)
+ {
+-    constexpr int MP=16,NP=16;
++    constexpr int MP=16,NP=16,PACK=K*16,PACKBYTES=PACK*2;
++    constexpr int STEP=MP*NP*4+2*PACKBYTES;
+     const int core=GetBlockIdx();
+-    GlobalTensor<float> sg;sg.SetGlobalBuffer((__gm__ float*)scratch);
++    GM_ADDR cs=scratch+core*STEP;
++    GlobalTensor<float> sg;sg.SetGlobalBuffer((__gm__ float*)cs);
++    GlobalTensor<T> pag,pbg;pag.SetGlobalBuffer((__gm__ T*)(cs+MP*NP*4));
++    pbg.SetGlobalBuffer((__gm__ T*)(cs+MP*NP*4+PACKBYTES));
++    if ASCEND_IS_AIV {
++        LocalTensor<T> ax(TPosition::VECIN,0,PACK),bx(TPosition::VECIN,PACKBYTES,PACK);
++        GlobalTensor<T> ag,bg;ag.SetGlobalBuffer((__gm__ T*)a);bg.SetGlobalBuffer((__gm__ T*)b);
++        DataCopyExtParams cp{K,16,0,0,0};
++        DataCopyPadExtParams<T> pad{true,0,8,(T)0};
++        if constexpr(TA)DataCopyPad(ax,ag[core*8*K],cp,pad);
++        if constexpr(!TB)DataCopyPad(bx,bg[core*8*K],cp,pad);
++        SetFlag<HardEvent::MTE2_MTE3>(EVENT_ID0);WaitFlag<HardEvent::MTE2_MTE3>(EVENT_ID0);
++        if constexpr(TA)DataCopy(pag,ax,PACK);
++        if constexpr(!TB)DataCopy(pbg,bx,PACK);
++        CrossCoreSetFlag<2,PIPE_MTE3>(7);
++    }
+     if ASCEND_IS_AIC {
+         GlobalTensor<T> ag,bg;ag.SetGlobalBuffer((__gm__ T*)a);bg.SetGlobalBuffer((__gm__ T*)b);
+         LocalTensor<T> la(TPosition::A1,0,MP*K),lb(TPosition::B1,MP*K*2,NP*K);
+         LocalTensor<T> aa(TPosition::A2,0,MP*K),bb(TPosition::B2,0,NP*K);
+         LocalTensor<float> cc(TPosition::CO1,0,MP*NP);
+-        Nd2NzParams pa{1,TA?K:8,TA?8:K,0,TA?8:K,TA?K:MP,1,0};
+-        Nd2NzParams pb{1,TB?8:K,TB?K:8,0,TB?K:8,TB?NP:K,1,0};
+-        DataCopy(la,ag[core*8*K],pa);DataCopy(lb,bg[core*8*K],pb);
++        CrossCoreWaitFlag(7);
++        Nd2NzParams pa{1,TA?K:8,TA?MP:K,0,TA?MP:K,TA?K:MP,1,0};
++        Nd2NzParams pb{1,TB?8:K,TB?K:NP,0,TB?K:NP,TB?NP:K,1,0};
++        if constexpr(TA)DataCopy(la,pag,pa);else DataCopy(la,ag[core*8*K],pa);
++        if constexpr(!TB)DataCopy(lb,pbg,pb);else DataCopy(lb,bg[core*8*K],pb);
+         SetFlag<HardEvent::MTE2_MTE1>(EVENT_ID0);WaitFlag<HardEvent::MTE2_MTE1>(EVENT_ID0);
+         LoadData2dParams ap{0,K/16,1,0,0,TA,0};
+         LoadData2dParams bp{0,K/16,1,0,0,!TB,0};
+@@ -2036,14 +2054,14 @@
+         MmadParams mm{MP,NP,K,0,false,true};Mmad(cc,aa,bb,mm);
+         SetFlag<HardEvent::M_FIX>(EVENT_ID0);WaitFlag<HardEvent::M_FIX>(EVENT_ID0);
+         FixpipeParamsV220 fp;fp.mSize=MP;fp.nSize=NP;fp.srcStride=MP;fp.dstStride=NP;
+-        Fixpipe(sg[core*MP*NP],cc,fp);CrossCoreSetFlag<2,PIPE_FIX>(8);
++        Fixpipe(sg,cc,fp);CrossCoreSetFlag<2,PIPE_FIX>(8);
+     }
+     if ASCEND_IS_AIV {
+-        LocalTensor<float> vx(TPosition::VECIN,0,MP*NP);
+-        LocalTensor<float> rm(TPosition::VECCALC,MP*NP*4,8);
+-        LocalTensor<float> out(TPosition::VECOUT,MP*NP*4+32,8);
++        LocalTensor<float> vx(TPosition::VECIN,2*PACKBYTES,MP*NP);
++        LocalTensor<float> rm(TPosition::VECCALC,2*PACKBYTES+MP*NP*4,8);
++        LocalTensor<float> out(TPosition::VECOUT,2*PACKBYTES+MP*NP*4+32,8);
+         GlobalTensor<float> yg;yg.SetGlobalBuffer((__gm__ float*)y);
+-        CrossCoreWaitFlag(8);DataCopy(vx,sg[core*MP*NP],MP*NP);
++        CrossCoreWaitFlag(8);DataCopy(vx,sg,MP*NP);
+         SetFlag<HardEvent::MTE2_V>(EVENT_ID0);WaitFlag<HardEvent::MTE2_V>(EVENT_ID0);
+         // The padded columns must not win on all-negative real inputs.
+         WholeReduceMax(rm,vx,8,8,1,1,NP/8,ReduceOrder::ORDER_ONLY_VALUE);
+@@ -2844,22 +2862,22 @@
+ #undef BMMS_MP
+         return;
+     }
+-    if (m == 8 && n == 8 && (k == 32 || k == 64) && b <= std::min<int64_t>(20,availableCoreNum) &&
++    if ((transposeX1 || !transposeX2) && m == 8 && n == 8 && (k == 32 || k == 64) && b <= std::min<int64_t>(20,availableCoreNum) &&
+         ((reinterpret_cast<uintptr_t>(x1)|reinterpret_cast<uintptr_t>(x2))%32)==0) {
+         struct TinyCubeSpace { aclrtStream stream;int32_t device;void* ptr;size_t bytes; };
+         static thread_local std::vector<TinyCubeSpace> spaces;
+         int32_t device=0;aclrtGetDevice(&device);TinyCubeSpace* ws=nullptr;
+         for(auto& item:spaces)if(item.stream==stream && item.device==device)ws=&item;
+         if(!ws){spaces.push_back({stream,device,nullptr,0});ws=&spaces.back();}
+-        const size_t bytes=(size_t)b*16*16*4;
++        const size_t bytes=(size_t)b*(16*16*4+2*k*16*2);
+         if(bytes>ws->bytes){
+             if(ws->ptr){aclrtSynchronizeStream(stream);aclrtFree(ws->ptr);ws->ptr=nullptr;ws->bytes=0;}
+             if(aclrtMalloc(&ws->ptr,bytes,ACL_MEM_MALLOC_HUGE_FIRST)!=ACL_SUCCESS)return;
+             ws->bytes=bytes;
+         }
+ #define BMMS_TINY_CUBE(T,A,B) do { \
+-    if(k==32)bmms_tiny_cube<T,A,B,32><<<b,nullptr,stream>>>(x1,x2,(GM_ADDR)ws->ptr,y); \
+-    else bmms_tiny_cube<T,A,B,64><<<b,nullptr,stream>>>(x1,x2,(GM_ADDR)ws->ptr,y); \
++    if(k==32)bmms_tiny_packed_cube<T,A,B,32><<<b,nullptr,stream>>>(x1,x2,(GM_ADDR)ws->ptr,y); \
++    else bmms_tiny_packed_cube<T,A,B,64><<<b,nullptr,stream>>>(x1,x2,(GM_ADDR)ws->ptr,y); \
+ } while(0)
+ #define BMMS_TINY_CUBE_TYPE(T) if(transposeX1){if(transposeX2){BMMS_TINY_CUBE(T,true,true);}else{BMMS_TINY_CUBE(T,true,false);}}else{if(transposeX2){BMMS_TINY_CUBE(T,false,true);}else{BMMS_TINY_CUBE(T,false,false);}}
+         if(info_x1.tensors[0].dtype==2){BMMS_TINY_CUBE_TYPE(bfloat16_t);}else{BMMS_TINY_CUBE_TYPE(half);}

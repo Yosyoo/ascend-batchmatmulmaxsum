@@ -1,0 +1,26 @@
+{
+  "scope": "910C user identification; running CANN9.0 dav-2201 capabilities must be confirmed in local SDK; do not borrow 950-only data paths",
+  "findings": [
+    {
+      "topic": "Cube-Vector transfer",
+      "source": "https://ascendnpu-ir.gitcode.com/zh_cn/developer_guide/features/cv_optimization.html",
+      "finding": "910 series documents L0C->GM->UB; keep similarity scratch, eliminate reducible maxima GM traffic instead"
+    },
+    {
+      "topic": "IterateBatch",
+      "source": "https://www.hiascend.com/doc_center/source/en/CANNCommunityEdition/900/programug/Ascendcopdevg/atlas_ascendc_10_0041.html",
+      "finding": "Batch API may improve bandwidth for small independent matrices; Norm-only documented restriction prevents blind replacement of existing MDL; not implemented this round"
+    },
+    {
+      "topic": "L2 address conflicts",
+      "source": "https://www.hiascend.com/document/detail/zh/CANNCommunityEdition/850alpha001/opdevg/ascendcbestP/atlas_ascendc_best_practices_10_10012.html",
+      "finding": "Official indexed text describes staggered core assignment to avoid simultaneous access to identical operand addresses; current sequential N loop reads identical B tile across row cores; possible N phase rotation preserves arithmetic within each dot"
+    },
+    {
+      "topic": "IBShare",
+      "source": "https://www.hiascend.com/document/detail/zh/CANNCommunityEdition/850alpha002/opdevg/ascendcbestP/atlas_ascendc_best_practices_10_10010.html",
+      "finding": "Reuse same A/B data in L1; not evidence for arbitrary cross-core sharing. Need SDK template restriction audit before implementation"
+    }
+  ],
+  "experiment": "s41a batch ownership; exact same Matmul arithmetic and final ReduceSum, fewer inter-core dependencies"
+}

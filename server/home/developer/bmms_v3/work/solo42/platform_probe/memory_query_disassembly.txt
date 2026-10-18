@@ -1,0 +1,677 @@
+   27410:	94000688 	bl	28e30 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const>
+   27414:	d0fffef5 	adrp	x21, 5000 <_IO_stdin_used-0xd98>
+   27418:	9137f6b5 	add	x21, x21, #0xdfd
+   2741c:	f94007e3 	ldr	x3, [sp, #8]
+   27420:	d0fffee1 	adrp	x1, 5000 <_IO_stdin_used-0xd98>
+   27424:	91383421 	add	x1, x1, #0xe0d
+   27428:	d0fffee2 	adrp	x2, 5000 <_IO_stdin_used-0xd98>
+   2742c:	913bbc42 	add	x2, x2, #0xeef
+   27430:	aa1503e0 	mov	x0, x21
+   27434:	94007027 	bl	434d0 <printf@plt>
+   27438:	b27e0341 	orr	x1, x26, #0x4
+   2743c:	910023e2 	add	x2, sp, #0x8
+   27440:	aa1403e0 	mov	x0, x20
+   27444:	f90007ff 	str	xzr, [sp, #8]
+   27448:	9400067a 	bl	28e30 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const>
+   2744c:	d0fffef7 	adrp	x23, 5000 <_IO_stdin_used-0xd98>
+   27450:	913d36f7 	add	x23, x23, #0xf4d
+   27454:	f94007e3 	ldr	x3, [sp, #8]
+   27458:	d0fffee2 	adrp	x2, 5000 <_IO_stdin_used-0xd98>
+   2745c:	913d3c42 	add	x2, x2, #0xf4f
+   27460:	aa1503e0 	mov	x0, x21
+   27464:	aa1703e1 	mov	x1, x23
+   27468:	9400701a 	bl	434d0 <printf@plt>
+   2746c:	b27d0341 	orr	x1, x26, #0x8
+   27470:	910023e2 	add	x2, sp, #0x8
+   27474:	aa1403e0 	mov	x0, x20
+   27478:	f90007ff 	str	xzr, [sp, #8]
+   2747c:	9400066d 	bl	28e30 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const>
+   27480:	f94007e3 	ldr	x3, [sp, #8]
+   27484:	d0fffee2 	adrp	x2, 5000 <_IO_stdin_used-0xd98>
+   27488:	91382442 	add	x2, x2, #0xe09
+   2748c:	aa1503e0 	mov	x0, x21
+   27490:	aa1703e1 	mov	x1, x23
+   27494:	9400700f 	bl	434d0 <printf@plt>
+   27498:	910023e2 	add	x2, sp, #0x8
+   2749c:	aa1403e0 	mov	x0, x20
+   274a0:	aa1603e1 	mov	x1, x22
+   274a4:	f90007ff 	str	xzr, [sp, #8]
+   274a8:	94000662 	bl	28e30 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const>
+   274ac:	f94007e3 	ldr	x3, [sp, #8]
+   274b0:	d0fffee2 	adrp	x2, 5000 <_IO_stdin_used-0xd98>
+   274b4:	91386842 	add	x2, x2, #0xe1a
+   274b8:	aa1503e0 	mov	x0, x21
+   274bc:	aa1703e1 	mov	x1, x23
+   274c0:	94007004 	bl	434d0 <printf@plt>
+   274c4:	91004341 	add	x1, x26, #0x10
+   274c8:	910023e2 	add	x2, sp, #0x8
+   274cc:	aa1403e0 	mov	x0, x20
+   274d0:	f90007ff 	str	xzr, [sp, #8]
+   274d4:	94000657 	bl	28e30 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const>
+   274d8:	f94007e3 	ldr	x3, [sp, #8]
+   274dc:	d0fffee2 	adrp	x2, 5000 <_IO_stdin_used-0xd98>
+   274e0:	913bcc42 	add	x2, x2, #0xef3
+   274e4:	aa1503e0 	mov	x0, x21
+   274e8:	aa1703e1 	mov	x1, x23
+   274ec:	94006ff9 	bl	434d0 <printf@plt>
+   274f0:	91005341 	add	x1, x26, #0x14
+   274f4:	910023e2 	add	x2, sp, #0x8
+   274f8:	aa1403e0 	mov	x0, x20
+   274fc:	f90007ff 	str	xzr, [sp, #8]
+   27500:	9400064c 	bl	28e30 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const>
+   27504:	f94007e3 	ldr	x3, [sp, #8]
+   27508:	d0fffee2 	adrp	x2, 5000 <_IO_stdin_used-0xd98>
+   2750c:	9136c442 	add	x2, x2, #0xdb1
+   27510:	aa1503e0 	mov	x0, x21
+   27514:	aa1703e1 	mov	x1, x23
+   27518:	94006fee 	bl	434d0 <printf@plt>
+   2751c:	91006341 	add	x1, x26, #0x18
+   27520:	910023e2 	add	x2, sp, #0x8
+   27524:	aa1403e0 	mov	x0, x20
+   27528:	f90007ff 	str	xzr, [sp, #8]
+   2752c:	94000641 	bl	28e30 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const>
+   27530:	f94007e3 	ldr	x3, [sp, #8]
+   27534:	d503201f 	nop
+   27538:	10ef4322 	adr	x2, 5d9c <_IO_stdin_used+0x4>
+   2753c:	aa1503e0 	mov	x0, x21
+   27540:	aa1703e1 	mov	x1, x23
+   27544:	94006fe3 	bl	434d0 <printf@plt>
+   27548:	d0fffee0 	adrp	x0, 5000 <_IO_stdin_used-0xd98>
+   2754c:	913a0000 	add	x0, x0, #0xe80
+   27550:	94007000 	bl	43550 <puts@plt>
+   27554:	35000053 	cbnz	w19, 2755c <main+0x2ec>
+   27558:	94007002 	bl	43560 <aclFinalize@plt>
+   2755c:	2a1f03e0 	mov	w0, wzr
+   27560:	14000007 	b	2757c <main+0x30c>
+   27564:	d0fffee0 	adrp	x0, 5000 <_IO_stdin_used-0xd98>
+   27568:	91368000 	add	x0, x0, #0xda0
+   2756c:	94006ff9 	bl	43550 <puts@plt>
+   27570:	35000053 	cbnz	w19, 27578 <main+0x308>
+   27574:	94006ffb 	bl	43560 <aclFinalize@plt>
+   27578:	52800040 	mov	w0, #0x2                   	// #2
+   2757c:	a9474ff4 	ldp	x20, x19, [sp, #112]
+   27580:	a94657f6 	ldp	x22, x21, [sp, #96]
+   27584:	a9455ff8 	ldp	x24, x23, [sp, #80]
+   27588:	a94467fa 	ldp	x26, x25, [sp, #64]
+   2758c:	a9437bfd 	ldp	x29, x30, [sp, #48]
+   27590:	910203ff 	add	sp, sp, #0x80
+   27594:	d65f03c0 	ret
+   27598:	aa1f03e0 	mov	x0, xzr
+   2759c:	940008fd 	bl	29990 <platform_ascendc::PlatformAscendCManager::PlatformAscendCManagerInit(char const*)>
+   275a0:	f94002d4 	ldr	x20, [x22]
+   275a4:	b5ffeeb5 	cbnz	x21, 27378 <main+0x108>
+   275a8:	17ffff77 	b	27384 <main+0x114>
+   275ac:	94006ff1 	bl	43570 <std::__throw_system_error(int)@plt>
+   275b0:	aa0003f3 	mov	x19, x0
+   275b4:	b5000096 	cbnz	x22, 275c4 <main+0x354>
+   275b8:	14000006 	b	275d0 <main+0x360>
+   275bc:	aa0003f3 	mov	x19, x0
+   275c0:	b4000095 	cbz	x21, 275d0 <main+0x360>
+   275c4:	d503201f 	nop
+   275c8:	101ee7c0 	adr	x0, 652c0 <platform_ascendc::PlatformAscendCManager::platformInitMtx>
+   275cc:	94006fdd 	bl	43540 <pthread_mutex_unlock@plt>
+   275d0:	aa1303e0 	mov	x0, x19
+   275d4:	94006fc7 	bl	434f0 <_Unwind_Resume@plt>
+   275d8:	d65f03c0 	ret
+   275dc:	00000000 	.inst	0x00000000 ; undefined
+   275e0:	1ac10842 	udiv	w2, w2, w1
+   275e4:	51000400 	sub	w0, w0, #0x1
+   275e8:	0b020000 	add	w0, w0, w2
+   275ec:	7100085f 	cmp	w2, #0x2
+   275f0:	1ac20800 	udiv	w0, w0, w2
+   275f4:	7a400022 	ccmp	w1, w0, #0x2, eq  // eq = none
+   275f8:	54000043 	b.cc	27600 <main+0x390>  // b.lo, b.ul, b.last
+   275fc:	d65f03c0 	ret
+   27600:	a9bf7bfd 	stp	x29, x30, [sp, #-16]!
+   27604:	2a0103e7 	mov	w7, w1
+   27608:	2a0003e6 	mov	w6, w0
+   2760c:	52802044 	mov	w4, #0x102                 	// #258
+   27610:	910003fd 	mov	x29, sp
+   27614:	52800061 	mov	w1, #0x3                   	// #3
+   27618:	528008a0 	mov	w0, #0x45                  	// #69
+   2761c:	d0fffee5 	adrp	x5, 5000 <_IO_stdin_used-0xd98>
+   27620:	f0fffee3 	adrp	x3, 6000 <_IO_stdin_used+0x268>
+   27624:	913dc0a5 	add	x5, x5, #0xf70
+   27628:	91045c63 	add	x3, x3, #0x117
+   2762c:	f0fffee2 	adrp	x2, 6000 <_IO_stdin_used+0x268>
+   27630:	910be042 	add	x2, x2, #0x2f8
+   27634:	94006fd3 	bl	43580 <DlogRecord@plt>
+   27638:	52800000 	mov	w0, #0x0                   	// #0
+   2763c:	a8c17bfd 	ldp	x29, x30, [sp], #16
+   27640:	d65f03c0 	ret
+   27644:	d503201f 	nop
+
+0000000000028e30 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const>:
+   28e30:	a9b77bfd 	stp	x29, x30, [sp, #-144]!
+   28e34:	910003fd 	mov	x29, sp
+   28e38:	a90153f3 	stp	x19, x20, [sp, #16]
+   28e3c:	90000173 	adrp	x19, 54000 <__init_array_end+0x3e8>
+   28e40:	910243b4 	add	x20, x29, #0x90
+   28e44:	a9025bf5 	stp	x21, x22, [sp, #32]
+   28e48:	aa0103f5 	mov	x21, x1
+   28e4c:	aa0203f6 	mov	x22, x2
+   28e50:	b9400022 	ldr	w2, [x1]
+   28e54:	f9439a61 	ldr	x1, [x19, #1840]
+   28e58:	a90363f7 	stp	x23, x24, [sp, #48]
+   28e5c:	aa0003f7 	mov	x23, x0
+   28e60:	a9046bf9 	stp	x25, x26, [sp, #64]
+   28e64:	b81dce82 	str	w2, [x20, #-36]!
+   28e68:	f9400022 	ldr	x2, [x1]
+   28e6c:	f90047a2 	str	x2, [x29, #136]
+   28e70:	d2800002 	mov	x2, #0x0                   	// #0
+   28e74:	97fff9f5 	bl	27648 <platform_ascendc::PlatformAscendC::GetPlatFormInfo() const>
+   28e78:	aa1403e1 	mov	x1, x20
+   28e7c:	aa1603e2 	mov	x2, x22
+   28e80:	94006a28 	bl	43720 <fe::PlatFormInfos::GetLocalMemSize(fe::LocalMemType const&, unsigned long&)@plt>
+   28e84:	b94002a0 	ldr	w0, [x21]
+   28e88:	51000c01 	sub	w1, w0, #0x3
+   28e8c:	721e783f 	tst	w1, #0xfffffffd
+   28e90:	54001080 	b.eq	290a0 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x270>  // b.none
+   28e94:	7100141f 	cmp	w0, #0x5
+   28e98:	54000f80 	b.eq	29088 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x258>  // b.none
+   28e9c:	71001c1f 	cmp	w0, #0x7
+   28ea0:	54000900 	b.eq	28fc0 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x190>  // b.none
+   28ea4:	7100201f 	cmp	w0, #0x8
+   28ea8:	54000180 	b.eq	28ed8 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0xa8>  // b.none
+   28eac:	f9439a73 	ldr	x19, [x19, #1840]
+   28eb0:	f94047a1 	ldr	x1, [x29, #136]
+   28eb4:	f9400260 	ldr	x0, [x19]
+   28eb8:	ca000020 	eor	x0, x1, x0
+   28ebc:	b5002600 	cbnz	x0, 2937c <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x54c>
+   28ec0:	a94153f3 	ldp	x19, x20, [sp, #16]
+   28ec4:	a9425bf5 	ldp	x21, x22, [sp, #32]
+   28ec8:	a94363f7 	ldp	x23, x24, [sp, #48]
+   28ecc:	a9446bf9 	ldp	x25, x26, [sp, #64]
+   28ed0:	a8c97bfd 	ldp	x29, x30, [sp], #144
+   28ed4:	d65f03c0 	ret
+   28ed8:	90000174 	adrp	x20, 54000 <__init_array_end+0x3e8>
+   28edc:	aa1703e0 	mov	x0, x23
+   28ee0:	f9439e81 	ldr	x1, [x20, #1848]
+   28ee4:	91006021 	add	x1, x1, #0x18
+   28ee8:	f9003ba1 	str	x1, [x29, #112]
+   28eec:	97fff9d7 	bl	27648 <platform_ascendc::PlatformAscendC::GetPlatFormInfo() const>
+   28ef0:	9101e3b9 	add	x25, x29, #0x78
+   28ef4:	aa0003f5 	mov	x21, x0
+   28ef8:	d0fffee1 	adrp	x1, 6000 <_IO_stdin_used+0x268>
+   28efc:	910163a2 	add	x2, x29, #0x58
+   28f00:	911ec021 	add	x1, x1, #0x7b0
+   28f04:	aa1903e0 	mov	x0, x25
+   28f08:	940069d6 	bl	43660 <std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)@plt>
+   28f0c:	910203b8 	add	x24, x29, #0x80
+   28f10:	d0fffee1 	adrp	x1, 6000 <_IO_stdin_used+0x268>
+   28f14:	910183a2 	add	x2, x29, #0x60
+   28f18:	911ba021 	add	x1, x1, #0x6e8
+   28f1c:	aa1803e0 	mov	x0, x24
+   28f20:	940069d0 	bl	43660 <std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)@plt>
+   28f24:	9101c3a3 	add	x3, x29, #0x70
+   28f28:	aa1803e2 	mov	x2, x24
+   28f2c:	aa1903e1 	mov	x1, x25
+   28f30:	aa1503e0 	mov	x0, x21
+   28f34:	940069ab 	bl	435e0 <fe::PlatFormInfos::GetPlatformResWithLock(std::string const&, std::string const&, std::string&)@plt>
+   28f38:	f94043a2 	ldr	x2, [x29, #128]
+   28f3c:	12001c15 	and	w21, w0, #0xff
+   28f40:	f9439e81 	ldr	x1, [x20, #1848]
+   28f44:	d1006040 	sub	x0, x2, #0x18
+   28f48:	eb01001f 	cmp	x0, x1
+   28f4c:	540012e1 	b.ne	291a8 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x378>  // b.any
+   28f50:	f9403fa2 	ldr	x2, [x29, #120]
+   28f54:	f9439e81 	ldr	x1, [x20, #1848]
+   28f58:	d1006040 	sub	x0, x2, #0x18
+   28f5c:	eb01001f 	cmp	x0, x1
+   28f60:	54001401 	b.ne	291e0 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x3b0>  // b.any
+   28f64:	34000ab5 	cbz	w21, 290b8 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x288>
+   28f68:	f9403ba2 	ldr	x2, [x29, #112]
+   28f6c:	d2800000 	mov	x0, #0x0                   	// #0
+   28f70:	f85e8041 	ldur	x1, [x2, #-24]
+   28f74:	b5001a61 	cbnz	x1, 292c0 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x490>
+   28f78:	f9439e94 	ldr	x20, [x20, #1848]
+   28f7c:	f90002c0 	str	x0, [x22]
+   28f80:	d1006040 	sub	x0, x2, #0x18
+   28f84:	eb14001f 	cmp	x0, x20
+   28f88:	54fff920 	b.eq	28eac <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x7c>  // b.none
+   28f8c:	90000161 	adrp	x1, 54000 <__init_array_end+0x3e8>
+   28f90:	f9437421 	ldr	x1, [x1, #1768]
+   28f94:	b4001dc1 	cbz	x1, 2934c <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x51c>
+   28f98:	d1002042 	sub	x2, x2, #0x8
+   28f9c:	885ffc41 	ldaxr	w1, [x2]
+   28fa0:	51000423 	sub	w3, w1, #0x1
+   28fa4:	8804fc43 	stlxr	w4, w3, [x2]
+   28fa8:	35ffffa4 	cbnz	w4, 28f9c <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x16c>
+   28fac:	7100003f 	cmp	w1, #0x0
+   28fb0:	54fff7ec 	b.gt	28eac <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x7c>
+   28fb4:	aa1803e1 	mov	x1, x24
+   28fb8:	94006976 	bl	43590 <std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt>
+   28fbc:	17ffffbc 	b	28eac <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x7c>
+   28fc0:	90000174 	adrp	x20, 54000 <__init_array_end+0x3e8>
+   28fc4:	aa1703e0 	mov	x0, x23
+   28fc8:	f9439e81 	ldr	x1, [x20, #1848]
+   28fcc:	91006021 	add	x1, x1, #0x18
+   28fd0:	f9003ba1 	str	x1, [x29, #112]
+   28fd4:	97fff99d 	bl	27648 <platform_ascendc::PlatformAscendC::GetPlatFormInfo() const>
+   28fd8:	9101e3b9 	add	x25, x29, #0x78
+   28fdc:	aa0003fa 	mov	x26, x0
+   28fe0:	d0fffee1 	adrp	x1, 6000 <_IO_stdin_used+0x268>
+   28fe4:	910163a2 	add	x2, x29, #0x58
+   28fe8:	911ec021 	add	x1, x1, #0x7b0
+   28fec:	aa1903e0 	mov	x0, x25
+   28ff0:	9400699c 	bl	43660 <std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)@plt>
+   28ff4:	910203b8 	add	x24, x29, #0x80
+   28ff8:	d0fffee1 	adrp	x1, 6000 <_IO_stdin_used+0x268>
+   28ffc:	910183a2 	add	x2, x29, #0x60
+   29000:	910ba021 	add	x1, x1, #0x2e8
+   29004:	aa1803e0 	mov	x0, x24
+   29008:	94006996 	bl	43660 <std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)@plt>
+   2900c:	9101c3a3 	add	x3, x29, #0x70
+   29010:	aa1803e2 	mov	x2, x24
+   29014:	aa1903e1 	mov	x1, x25
+   29018:	aa1a03e0 	mov	x0, x26
+   2901c:	94006971 	bl	435e0 <fe::PlatFormInfos::GetPlatformResWithLock(std::string const&, std::string const&, std::string&)@plt>
+   29020:	f94043a2 	ldr	x2, [x29, #128]
+   29024:	12001c19 	and	w25, w0, #0xff
+   29028:	f9439e81 	ldr	x1, [x20, #1848]
+   2902c:	d1006040 	sub	x0, x2, #0x18
+   29030:	eb01001f 	cmp	x0, x1
+   29034:	540010e1 	b.ne	29250 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x420>  // b.any
+   29038:	f9403fa2 	ldr	x2, [x29, #120]
+   2903c:	f9439e81 	ldr	x1, [x20, #1848]
+   29040:	d1006040 	sub	x0, x2, #0x18
+   29044:	eb01001f 	cmp	x0, x1
+   29048:	54000e81 	b.ne	29218 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x3e8>  // b.any
+   2904c:	340006f9 	cbz	w25, 29128 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x2f8>
+   29050:	f9403ba2 	ldr	x2, [x29, #112]
+   29054:	d2800000 	mov	x0, #0x0                   	// #0
+   29058:	f85e8041 	ldur	x1, [x2, #-24]
+   2905c:	b5001461 	cbnz	x1, 292e8 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x4b8>
+   29060:	f9439e94 	ldr	x20, [x20, #1848]
+   29064:	f90002c0 	str	x0, [x22]
+   29068:	d1006040 	sub	x0, x2, #0x18
+   2906c:	eb14001f 	cmp	x0, x20
+   29070:	540010c1 	b.ne	29288 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x458>  // b.any
+   29074:	b94002a0 	ldr	w0, [x21]
+   29078:	7100201f 	cmp	w0, #0x8
+   2907c:	54fff181 	b.ne	28eac <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x7c>  // b.any
+   29080:	17ffff96 	b	28ed8 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0xa8>
+   29084:	d503201f 	nop
+   29088:	b9400ae1 	ldr	w1, [x23, #8]
+   2908c:	f94002c0 	ldr	x0, [x22]
+   29090:	cb010000 	sub	x0, x0, x1
+   29094:	f90002c0 	str	x0, [x22]
+   29098:	17ffff85 	b	28eac <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x7c>
+   2909c:	d503201f 	nop
+   290a0:	aa1703e0 	mov	x0, x23
+   290a4:	97fffea5 	bl	28b38 <platform_ascendc::PlatformAscendC::GetSocVersion() const>
+   290a8:	7100041f 	cmp	w0, #0x1
+   290ac:	54000720 	b.eq	29190 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x360>  // b.none
+   290b0:	b94002a0 	ldr	w0, [x21]
+   290b4:	17ffff78 	b	28e94 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x64>
+   290b8:	d503201f 	nop
+   290bc:	10ee75a5 	adr	x5, 5f70 <_IO_stdin_used+0x1d8>
+   290c0:	b0fffee3 	adrp	x3, 6000 <_IO_stdin_used+0x268>
+   290c4:	b0fffee2 	adrp	x2, 6000 <_IO_stdin_used+0x268>
+   290c8:	910340a5 	add	x5, x5, #0xd0
+   290cc:	528016a4 	mov	w4, #0xb5                  	// #181
+   290d0:	91045c63 	add	x3, x3, #0x117
+   290d4:	9121c042 	add	x2, x2, #0x870
+   290d8:	52800061 	mov	w1, #0x3                   	// #3
+   290dc:	528008a0 	mov	w0, #0x45                  	// #69
+   290e0:	94006928 	bl	43580 <DlogRecord@plt>
+   290e4:	f9403ba1 	ldr	x1, [x29, #112]
+   290e8:	f9439e94 	ldr	x20, [x20, #1848]
+   290ec:	d1006020 	sub	x0, x1, #0x18
+   290f0:	eb14001f 	cmp	x0, x20
+   290f4:	54ffedc0 	b.eq	28eac <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x7c>  // b.none
+   290f8:	f0000142 	adrp	x2, 54000 <__init_array_end+0x3e8>
+   290fc:	f9437442 	ldr	x2, [x2, #1768]
+   29100:	b40012e2 	cbz	x2, 2935c <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x52c>
+   29104:	d1002021 	sub	x1, x1, #0x8
+   29108:	885ffc22 	ldaxr	w2, [x1]
+   2910c:	51000443 	sub	w3, w2, #0x1
+   29110:	8804fc23 	stlxr	w4, w3, [x1]
+   29114:	35ffffa4 	cbnz	w4, 29108 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x2d8>
+   29118:	7100005f 	cmp	w2, #0x0
+   2911c:	54ffec8c 	b.gt	28eac <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x7c>
+   29120:	17ffffa5 	b	28fb4 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x184>
+   29124:	d503201f 	nop
+   29128:	d503201f 	nop
+   2912c:	10ee7225 	adr	x5, 5f70 <_IO_stdin_used+0x1d8>
+   29130:	b0fffee3 	adrp	x3, 6000 <_IO_stdin_used+0x268>
+   29134:	b0fffee2 	adrp	x2, 6000 <_IO_stdin_used+0x268>
+   29138:	910340a5 	add	x5, x5, #0xd0
+   2913c:	52801564 	mov	w4, #0xab                  	// #171
+   29140:	91045c63 	add	x3, x3, #0x117
+   29144:	91100042 	add	x2, x2, #0x400
+   29148:	52800061 	mov	w1, #0x3                   	// #3
+   2914c:	528008a0 	mov	w0, #0x45                  	// #69
+   29150:	9400690c 	bl	43580 <DlogRecord@plt>
+   29154:	f9403ba1 	ldr	x1, [x29, #112]
+   29158:	f9439e94 	ldr	x20, [x20, #1848]
+   2915c:	d1006020 	sub	x0, x1, #0x18
+   29160:	eb14001f 	cmp	x0, x20
+   29164:	54ffea40 	b.eq	28eac <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x7c>  // b.none
+   29168:	f0000142 	adrp	x2, 54000 <__init_array_end+0x3e8>
+   2916c:	f9437442 	ldr	x2, [x2, #1768]
+   29170:	b4000f62 	cbz	x2, 2935c <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x52c>
+   29174:	d1002021 	sub	x1, x1, #0x8
+   29178:	885ffc22 	ldaxr	w2, [x1]
+   2917c:	51000443 	sub	w3, w2, #0x1
+   29180:	8804fc23 	stlxr	w4, w3, [x1]
+   29184:	34fffca4 	cbz	w4, 29118 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x2e8>
+   29188:	17fffffc 	b	29178 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x348>
+   2918c:	d503201f 	nop
+   29190:	f94002c1 	ldr	x1, [x22]
+   29194:	b94002a0 	ldr	w0, [x21]
+   29198:	d1040021 	sub	x1, x1, #0x100
+   2919c:	f90002c1 	str	x1, [x22]
+   291a0:	17ffff3d 	b	28e94 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x64>
+   291a4:	d503201f 	nop
+   291a8:	f0000141 	adrp	x1, 54000 <__init_array_end+0x3e8>
+   291ac:	f9437421 	ldr	x1, [x1, #1768]
+   291b0:	b4000b61 	cbz	x1, 2931c <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x4ec>
+   291b4:	d1002042 	sub	x2, x2, #0x8
+   291b8:	885ffc41 	ldaxr	w1, [x2]
+   291bc:	51000423 	sub	w3, w1, #0x1
+   291c0:	8804fc43 	stlxr	w4, w3, [x2]
+   291c4:	35ffffa4 	cbnz	w4, 291b8 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x388>
+   291c8:	7100003f 	cmp	w1, #0x0
+   291cc:	54ffec2c 	b.gt	28f50 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x120>
+   291d0:	9101a3a1 	add	x1, x29, #0x68
+   291d4:	940068ef 	bl	43590 <std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt>
+   291d8:	17ffff5e 	b	28f50 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x120>
+   291dc:	d503201f 	nop
+   291e0:	f0000141 	adrp	x1, 54000 <__init_array_end+0x3e8>
+   291e4:	f9437421 	ldr	x1, [x1, #1768]
+   291e8:	b4000921 	cbz	x1, 2930c <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x4dc>
+   291ec:	d1002042 	sub	x2, x2, #0x8
+   291f0:	885ffc41 	ldaxr	w1, [x2]
+   291f4:	51000423 	sub	w3, w1, #0x1
+   291f8:	8804fc43 	stlxr	w4, w3, [x2]
+   291fc:	35ffffa4 	cbnz	w4, 291f0 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x3c0>
+   29200:	7100003f 	cmp	w1, #0x0
+   29204:	54ffeb0c 	b.gt	28f64 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x134>
+   29208:	aa1803e1 	mov	x1, x24
+   2920c:	940068e1 	bl	43590 <std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt>
+   29210:	35ffead5 	cbnz	w21, 28f68 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x138>
+   29214:	17ffffa9 	b	290b8 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x288>
+   29218:	f0000141 	adrp	x1, 54000 <__init_array_end+0x3e8>
+   2921c:	f9437421 	ldr	x1, [x1, #1768]
+   29220:	b40008e1 	cbz	x1, 2933c <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x50c>
+   29224:	d1002042 	sub	x2, x2, #0x8
+   29228:	885ffc41 	ldaxr	w1, [x2]
+   2922c:	51000423 	sub	w3, w1, #0x1
+   29230:	8804fc43 	stlxr	w4, w3, [x2]
+   29234:	35ffffa4 	cbnz	w4, 29228 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x3f8>
+   29238:	7100003f 	cmp	w1, #0x0
+   2923c:	54fff08c 	b.gt	2904c <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x21c>
+   29240:	aa1803e1 	mov	x1, x24
+   29244:	940068d3 	bl	43590 <std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt>
+   29248:	35fff059 	cbnz	w25, 29050 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x220>
+   2924c:	17ffffb7 	b	29128 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x2f8>
+   29250:	f0000141 	adrp	x1, 54000 <__init_array_end+0x3e8>
+   29254:	f9437421 	ldr	x1, [x1, #1768]
+   29258:	b40006a1 	cbz	x1, 2932c <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x4fc>
+   2925c:	d1002042 	sub	x2, x2, #0x8
+   29260:	885ffc41 	ldaxr	w1, [x2]
+   29264:	51000423 	sub	w3, w1, #0x1
+   29268:	8804fc43 	stlxr	w4, w3, [x2]
+   2926c:	35ffffa4 	cbnz	w4, 29260 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x430>
+   29270:	7100003f 	cmp	w1, #0x0
+   29274:	54ffee2c 	b.gt	29038 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x208>
+   29278:	9101a3a1 	add	x1, x29, #0x68
+   2927c:	940068c5 	bl	43590 <std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt>
+   29280:	17ffff6e 	b	29038 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x208>
+   29284:	d503201f 	nop
+   29288:	f0000141 	adrp	x1, 54000 <__init_array_end+0x3e8>
+   2928c:	f9437421 	ldr	x1, [x1, #1768]
+   29290:	b40006e1 	cbz	x1, 2936c <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x53c>
+   29294:	d1002042 	sub	x2, x2, #0x8
+   29298:	885ffc41 	ldaxr	w1, [x2]
+   2929c:	51000423 	sub	w3, w1, #0x1
+   292a0:	8804fc43 	stlxr	w4, w3, [x2]
+   292a4:	35ffffa4 	cbnz	w4, 29298 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x468>
+   292a8:	7100003f 	cmp	w1, #0x0
+   292ac:	54ffee4c 	b.gt	29074 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x244>
+   292b0:	aa1803e1 	mov	x1, x24
+   292b4:	940068b7 	bl	43590 <std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt>
+   292b8:	b94002a0 	ldr	w0, [x21]
+   292bc:	17ffff6f 	b	29078 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x248>
+   292c0:	f0000140 	adrp	x0, 54000 <__init_array_end+0x3e8>
+   292c4:	b0fffee1 	adrp	x1, 6000 <_IO_stdin_used+0x268>
+   292c8:	52800144 	mov	w4, #0xa                   	// #10
+   292cc:	d2800003 	mov	x3, #0x0                   	// #0
+   292d0:	f943a000 	ldr	x0, [x0, #1856]
+   292d4:	910d8021 	add	x1, x1, #0x360
+   292d8:	940002b8 	bl	29db8 <unsigned long long __gnu_cxx::__stoa<unsigned long long, unsigned long long, char, int>(unsigned long long (*)(char const*, char**, int), char const*, char const*, unsigned long*, int)>
+   292dc:	f9403ba2 	ldr	x2, [x29, #112]
+   292e0:	17ffff26 	b	28f78 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x148>
+   292e4:	d503201f 	nop
+   292e8:	f0000140 	adrp	x0, 54000 <__init_array_end+0x3e8>
+   292ec:	b0fffee1 	adrp	x1, 6000 <_IO_stdin_used+0x268>
+   292f0:	52800144 	mov	w4, #0xa                   	// #10
+   292f4:	d2800003 	mov	x3, #0x0                   	// #0
+   292f8:	f943a000 	ldr	x0, [x0, #1856]
+   292fc:	910d8021 	add	x1, x1, #0x360
+   29300:	940002ae 	bl	29db8 <unsigned long long __gnu_cxx::__stoa<unsigned long long, unsigned long long, char, int>(unsigned long long (*)(char const*, char**, int), char const*, char const*, unsigned long*, int)>
+   29304:	f9403ba2 	ldr	x2, [x29, #112]
+   29308:	17ffff56 	b	29060 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x230>
+   2930c:	b85f8041 	ldur	w1, [x2, #-8]
+   29310:	51000423 	sub	w3, w1, #0x1
+   29314:	b81f8043 	stur	w3, [x2, #-8]
+   29318:	17ffffba 	b	29200 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x3d0>
+   2931c:	b85f8041 	ldur	w1, [x2, #-8]
+   29320:	51000423 	sub	w3, w1, #0x1
+   29324:	b81f8043 	stur	w3, [x2, #-8]
+   29328:	17ffffa8 	b	291c8 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x398>
+   2932c:	b85f8041 	ldur	w1, [x2, #-8]
+   29330:	51000423 	sub	w3, w1, #0x1
+   29334:	b81f8043 	stur	w3, [x2, #-8]
+   29338:	17ffffce 	b	29270 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x440>
+   2933c:	b85f8041 	ldur	w1, [x2, #-8]
+   29340:	51000423 	sub	w3, w1, #0x1
+   29344:	b81f8043 	stur	w3, [x2, #-8]
+   29348:	17ffffbc 	b	29238 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x408>
+   2934c:	b85f8041 	ldur	w1, [x2, #-8]
+   29350:	51000423 	sub	w3, w1, #0x1
+   29354:	b81f8043 	stur	w3, [x2, #-8]
+   29358:	17ffff15 	b	28fac <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x17c>
+   2935c:	b85f8022 	ldur	w2, [x1, #-8]
+   29360:	51000443 	sub	w3, w2, #0x1
+   29364:	b81f8023 	stur	w3, [x1, #-8]
+   29368:	17ffff6c 	b	29118 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x2e8>
+   2936c:	b85f8041 	ldur	w1, [x2, #-8]
+   29370:	51000423 	sub	w3, w1, #0x1
+   29374:	b81f8043 	stur	w3, [x2, #-8]
+   29378:	17ffffcc 	b	292a8 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x478>
+   2937c:	94006895 	bl	435d0 <__stack_chk_fail@plt>
+   29380:	aa0003f3 	mov	x19, x0
+   29384:	f9403fa0 	ldr	x0, [x29, #120]
+   29388:	f9439e81 	ldr	x1, [x20, #1848]
+   2938c:	d1006000 	sub	x0, x0, #0x18
+   29390:	eb01001f 	cmp	x0, x1
+   29394:	54000060 	b.eq	293a0 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x570>  // b.none
+   29398:	aa1803e1 	mov	x1, x24
+   2939c:	94000234 	bl	29c6c <std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_destroy()+0xc>
+   293a0:	f9403ba0 	ldr	x0, [x29, #112]
+   293a4:	f9439e94 	ldr	x20, [x20, #1848]
+   293a8:	d1006000 	sub	x0, x0, #0x18
+   293ac:	eb14001f 	cmp	x0, x20
+   293b0:	54000060 	b.eq	293bc <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x58c>  // b.none
+   293b4:	910203a1 	add	x1, x29, #0x80
+   293b8:	9400022d 	bl	29c6c <std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_destroy()+0xc>
+   293bc:	aa1303e0 	mov	x0, x19
+   293c0:	9400684c 	bl	434f0 <_Unwind_Resume@plt>
+   293c4:	f94043a1 	ldr	x1, [x29, #128]
+   293c8:	aa0003f3 	mov	x19, x0
+   293cc:	f9439e82 	ldr	x2, [x20, #1848]
+   293d0:	d1006020 	sub	x0, x1, #0x18
+   293d4:	eb02001f 	cmp	x0, x2
+   293d8:	54fffd60 	b.eq	29384 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x554>  // b.none
+   293dc:	9101a3a1 	add	x1, x29, #0x68
+   293e0:	94000223 	bl	29c6c <std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_destroy()+0xc>
+   293e4:	17ffffe8 	b	29384 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x554>
+   293e8:	aa0003f3 	mov	x19, x0
+   293ec:	17ffffed 	b	293a0 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x570>
+   293f0:	17fffffe 	b	293e8 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x5b8>
+   293f4:	17ffffe3 	b	29380 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x550>
+   293f8:	17fffff3 	b	293c4 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x594>
+   293fc:	d503201f 	nop
+
+   29714:	90000000 	adrp	x0, 29000 <platform_ascendc::PlatformAscendC::GetCoreMemSize(platform_ascendc::CoreMemType const&, unsigned long&) const+0x1d0>
+   29718:	911de042 	add	x2, x2, #0x778
+   2971c:	9132c000 	add	x0, x0, #0xcb0
+   29720:	940067f0 	bl	436e0 <__cxa_atexit@plt>
+   29724:	f9401fb8 	ldr	x24, [x29, #56]
+   29728:	17ffff86 	b	29540 <platform_ascendc::PlatformAscendCManager::PlatformAscendCInit(char const*)+0x78>
+   2972c:	d503201f 	nop
+   29730:	b0fffee0 	adrp	x0, 6000 <_IO_stdin_used+0x268>
+   29734:	52800021 	mov	w1, #0x1                   	// #1
+   29738:	911e4000 	add	x0, x0, #0x790
+   2973c:	94006815 	bl	43790 <dlopen@plt>
+   29740:	aa0003f3 	mov	x19, x0
+   29744:	b4000720 	cbz	x0, 29828 <platform_ascendc::PlatformAscendCManager::PlatformAscendCInit(char const*)+0x360>
+   29748:	b0fffee1 	adrp	x1, 6000 <_IO_stdin_used+0x268>
+   2974c:	91164021 	add	x1, x1, #0x590
+   29750:	94006814 	bl	437a0 <dlsym@plt>
+   29754:	aa0003e2 	mov	x2, x0
+   29758:	b4000c00 	cbz	x0, 298d8 <platform_ascendc::PlatformAscendCManager::PlatformAscendCInit(char const*)+0x410>
+   2975c:	9101c3b5 	add	x21, x29, #0x70
+   29760:	52800641 	mov	w1, #0x32                  	// #50
+   29764:	aa1503e0 	mov	x0, x21
+   29768:	d63f0040 	blr	x2
+   2976c:	aa1303e0 	mov	x0, x19
+   29770:	94006810 	bl	437b0 <dlclose@plt>
+   29774:	aa1503e0 	mov	x0, x21
+   29778:	17ffff64 	b	29508 <platform_ascendc::PlatformAscendCManager::PlatformAscendCInit(char const*)+0x40>
+   2977c:	d503201f 	nop
+   29780:	d503201f 	nop
+   29784:	10ee3f65 	adr	x5, 5f70 <_IO_stdin_used+0x1d8>
+   29788:	b0fffee3 	adrp	x3, 6000 <_IO_stdin_used+0x268>
+   2978c:	b0fffee2 	adrp	x2, 6000 <_IO_stdin_used+0x268>
+   29790:	9104e0a5 	add	x5, x5, #0x138
+   29794:	52804104 	mov	w4, #0x208                 	// #520
+   29798:	91045c63 	add	x3, x3, #0x117
+   2979c:	9104c042 	add	x2, x2, #0x130
+   297a0:	52800061 	mov	w1, #0x3                   	// #3
+   297a4:	528008a0 	mov	w0, #0x45                  	// #69
+   297a8:	94006776 	bl	43580 <DlogRecord@plt>
+   297ac:	d2800013 	mov	x19, #0x0                   	// #0
+   297b0:	17ffff8f 	b	295ec <platform_ascendc::PlatformAscendCManager::PlatformAscendCInit(char const*)+0x124>
+   297b4:	d503201f 	nop
+   297b8:	f0000142 	adrp	x2, 54000 <__init_array_end+0x3e8>
+   297bc:	f9437442 	ldr	x2, [x2, #1768]
+   297c0:	b4000682 	cbz	x2, 29890 <platform_ascendc::PlatformAscendCManager::PlatformAscendCInit(char const*)+0x3c8>
+   297c4:	d1002021 	sub	x1, x1, #0x8
+   297c8:	885ffc22 	ldaxr	w2, [x1]
+   297cc:	51000443 	sub	w3, w2, #0x1
+   297d0:	8804fc23 	stlxr	w4, w3, [x1]
+   297d4:	35ffffa4 	cbnz	w4, 297c8 <platform_ascendc::PlatformAscendCManager::PlatformAscendCInit(char const*)+0x300>
+   297d8:	7100005f 	cmp	w2, #0x0
+   297dc:	54fff1cc 	b.gt	29614 <platform_ascendc::PlatformAscendCManager::PlatformAscendCInit(char const*)+0x14c>
+   297e0:	9101a3a1 	add	x1, x29, #0x68
+   297e4:	9400676b 	bl	43590 <std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt>
+   297e8:	17ffff8b 	b	29614 <platform_ascendc::PlatformAscendCManager::PlatformAscendCInit(char const*)+0x14c>
+   297ec:	d503201f 	nop
+   297f0:	f0000141 	adrp	x1, 54000 <__init_array_end+0x3e8>
+   297f4:	f9437421 	ldr	x1, [x1, #1768]
+   297f8:	b4000441 	cbz	x1, 29880 <platform_ascendc::PlatformAscendCManager::PlatformAscendCInit(char const*)+0x3b8>
+   297fc:	d1002042 	sub	x2, x2, #0x8
+   29800:	885ffc41 	ldaxr	w1, [x2]
+   29804:	51000423 	sub	w3, w1, #0x1
+   29808:	8804fc43 	stlxr	w4, w3, [x2]
+   2980c:	35ffffa4 	cbnz	w4, 29800 <platform_ascendc::PlatformAscendCManager::PlatformAscendCInit(char const*)+0x338>
+   29810:	7100003f 	cmp	w1, #0x0
+   29814:	54ffef6c 	b.gt	29600 <platform_ascendc::PlatformAscendCManager::PlatformAscendCInit(char const*)+0x138>
+   29818:	aa1503e1 	mov	x1, x21
+   2981c:	9400675d 	bl	43590 <std::string::_Rep::_M_destroy(std::allocator<char> const&)@plt>
+   29820:	17ffff78 	b	29600 <platform_ascendc::PlatformAscendCManager::PlatformAscendCInit(char const*)+0x138>
+   29824:	d503201f 	nop
+   29828:	90fffef3 	adrp	x19, 5000 <_IO_stdin_used-0xd98>
+   2982c:	913dc265 	add	x5, x19, #0xf70
+   29830:	b0fffef5 	adrp	x21, 6000 <_IO_stdin_used+0x268>
+   29834:	b0fffee2 	adrp	x2, 6000 <_IO_stdin_used+0x268>
+   29838:	910480a5 	add	x5, x5, #0x120
+   2983c:	528036e4 	mov	w4, #0x1b7                 	// #439
+   29840:	91045ea3 	add	x3, x21, #0x117
+   29844:	9124e042 	add	x2, x2, #0x938
+   29848:	52800061 	mov	w1, #0x3                   	// #3
+   2984c:	528008a0 	mov	w0, #0x45                  	// #69
+   29850:	9400674c 	bl	43580 <DlogRecord@plt>
+   29854:	913dc265 	add	x5, x19, #0xf70
+   29858:	b0fffee2 	adrp	x2, 6000 <_IO_stdin_used+0x268>
+   2985c:	9104e0a5 	add	x5, x5, #0x138
+   29860:	52803ea4 	mov	w4, #0x1f5                 	// #501
+   29864:	91045ea3 	add	x3, x21, #0x117
+   29868:	91138042 	add	x2, x2, #0x4e0
+   2986c:	52800061 	mov	w1, #0x3                   	// #3
+   29870:	528008a0 	mov	w0, #0x45                  	// #69
+   29874:	94006743 	bl	43580 <DlogRecord@plt>
+   29878:	d2800013 	mov	x19, #0x0                   	// #0
+   2987c:	17ffff61 	b	29600 <platform_ascendc::PlatformAscendCManager::PlatformAscendCInit(char const*)+0x138>
+   29880:	b85f8041 	ldur	w1, [x2, #-8]
+   29884:	51000423 	sub	w3, w1, #0x1
+   29888:	b81f8043 	stur	w3, [x2, #-8]
+   2988c:	17ffffe1 	b	29810 <platform_ascendc::PlatformAscendCManager::PlatformAscendCInit(char const*)+0x348>
+   29890:	b85f8022 	ldur	w2, [x1, #-8]
+   29894:	51000443 	sub	w3, w2, #0x1
+   29898:	b81f8023 	stur	w3, [x1, #-8]
+   2989c:	17ffffcf 	b	297d8 <platform_ascendc::PlatformAscendCManager::PlatformAscendCInit(char const*)+0x310>
+   298a0:	f0000141 	adrp	x1, 54000 <__init_array_end+0x3e8>
+   298a4:	f9437421 	ldr	x1, [x1, #1768]
+   298a8:	b4000101 	cbz	x1, 298c8 <platform_ascendc::PlatformAscendCManager::PlatformAscendCInit(char const*)+0x400>
+   298ac:	d1002042 	sub	x2, x2, #0x8
+   298b0:	885ffc41 	ldaxr	w1, [x2]
+   298b4:	51000423 	sub	w3, w1, #0x1
+   298b8:	8804fc43 	stlxr	w4, w3, [x2]
+   298bc:	34fff0a4 	cbz	w4, 296d0 <platform_ascendc::PlatformAscendCManager::PlatformAscendCInit(char const*)+0x208>
+   298c0:	17fffffc 	b	298b0 <platform_ascendc::PlatformAscendCManager::PlatformAscendCInit(char const*)+0x3e8>
+   298c4:	d503201f 	nop
+   298c8:	b85f8041 	ldur	w1, [x2, #-8]
+   298cc:	51000423 	sub	w3, w1, #0x1
+   298d0:	b81f8043 	stur	w3, [x2, #-8]
+   298d4:	17ffff7f 	b	296d0 <platform_ascendc::PlatformAscendCManager::PlatformAscendCInit(char const*)+0x208>
+   298d8:	aa1303e0 	mov	x0, x19
+   298dc:	940067b5 	bl	437b0 <dlclose@plt>
+   298e0:	90fffef3 	adrp	x19, 5000 <_IO_stdin_used-0xd98>
+   298e4:	913dc265 	add	x5, x19, #0xf70
+   298e8:	b0fffef5 	adrp	x21, 6000 <_IO_stdin_used+0x268>
+   298ec:	b0fffee2 	adrp	x2, 6000 <_IO_stdin_used+0x268>
+   298f0:	910480a5 	add	x5, x5, #0x120
+   298f4:	52803804 	mov	w4, #0x1c0                 	// #448
+   298f8:	91045ea3 	add	x3, x21, #0x117
+   298fc:	91206042 	add	x2, x2, #0x818
+   29900:	52800061 	mov	w1, #0x3                   	// #3
+   29904:	528008a0 	mov	w0, #0x45                  	// #69
+   29908:	9400671e 	bl	43580 <DlogRecord@plt>
+   2990c:	17ffffd2 	b	29854 <platform_ascendc::PlatformAscendCManager::PlatformAscendCInit(char const*)+0x38c>
+   29910:	f9001fb8 	str	x24, [x29, #56]
+   29914:	9400672f 	bl	435d0 <__stack_chk_fail@plt>
+   29918:	aa0003f3 	mov	x19, x0
+   2991c:	f9402fa0 	ldr	x0, [x29, #88]
+   29920:	f9439e94 	ldr	x20, [x20, #1848]
+   29924:	f9001fb8 	str	x24, [x29, #56]
+   29928:	d1006000 	sub	x0, x0, #0x18
+   2992c:	eb14001f 	cmp	x0, x20
+   29930:	54000060 	b.eq	2993c <platform_ascendc::PlatformAscendCManager::PlatformAscendCInit(char const*)+0x474>  // b.none
+   29934:	9101a3a1 	add	x1, x29, #0x68
+   29938:	940000cd 	bl	29c6c <std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_destroy()+0xc>
+   2993c:	aa1303e0 	mov	x0, x19
+   29940:	940066ec 	bl	434f0 <_Unwind_Resume@plt>
+   29944:	f94037a1 	ldr	x1, [x29, #104]
+   29948:	aa0003f3 	mov	x19, x0
+   2994c:	f9439e82 	ldr	x2, [x20, #1848]
+   29950:	d1006020 	sub	x0, x1, #0x18
+   29954:	eb02001f 	cmp	x0, x2
+   29958:	54000060 	b.eq	29964 <platform_ascendc::PlatformAscendCManager::PlatformAscendCInit(char const*)+0x49c>  // b.none
+   2995c:	910143a1 	add	x1, x29, #0x50
+   29960:	940000c3 	bl	29c6c <std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_destroy()+0xc>
+   29964:	f94033a0 	ldr	x0, [x29, #96]
+   29968:	f9439e81 	ldr	x1, [x20, #1848]
+   2996c:	d1006000 	sub	x0, x0, #0x18
+   29970:	eb01001f 	cmp	x0, x1
+   29974:	54fffd40 	b.eq	2991c <platform_ascendc::PlatformAscendCManager::PlatformAscendCInit(char const*)+0x454>  // b.none
+   29978:	aa1503e1 	mov	x1, x21
+   2997c:	940000bc 	bl	29c6c <std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_destroy()+0xc>
+   29980:	17ffffe7 	b	2991c <platform_ascendc::PlatformAscendCManager::PlatformAscendCInit(char const*)+0x454>
+   29984:	aa0003f3 	mov	x19, x0
+   29988:	17fffff7 	b	29964 <platform_ascendc::PlatformAscendCManager::PlatformAscendCInit(char const*)+0x49c>
+   2998c:	17ffffee 	b	29944 <platform_ascendc::PlatformAscendCManager::PlatformAscendCInit(char const*)+0x47c>
+

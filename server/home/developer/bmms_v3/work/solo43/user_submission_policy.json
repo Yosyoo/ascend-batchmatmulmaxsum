@@ -1,0 +1,8 @@
+{
+  "user_instruction": "一些不稳定但有概率提升的你也可以提交，只需要有一次进了前25你就不用提交了",
+  "stop_condition": "Stop submitting immediately after any verified official ranking at or above position25.",
+  "supersedes": "Previous top20 stopping target and requirement for stable local acceleration before an official trial.",
+  "unchanged": "Correctness, real inputs, NPU outputs, one kernel per call, no relaxed tolerance, preserve failed experiments.",
+  "s43a_screen": "Original screen FAILED (.1%-.5% noise-level mixed order result); do not relabel it as a pass. User subsequently authorized uncertain official trials. Complete final regression before submitting once.",
+  "ranking_evidence": "Read the official user ranking after a completed submission, using current score/TBest. Do not treat a local pool result as rank progress."
+}

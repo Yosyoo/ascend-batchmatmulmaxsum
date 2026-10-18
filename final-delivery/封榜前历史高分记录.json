@@ -1,0 +1,30 @@
+{
+  "id": 891719,
+  "opaque_id": "6ad33d23193e507d8ea68b9b",
+  "variant": "clean197",
+  "sha256": "34825221d6820a628ada14c3ab334d04669979a4934fe52ab7f570f8fd3ba844",
+  "source_exact": true,
+  "status": "Pass",
+  "time": "2026/10/17 17:17:23",
+  "passed": 15,
+  "times_us": [
+    1.76,
+    2.69,
+    2.83,
+    3.46,
+    4.5,
+    9.85,
+    6.34,
+    31.1,
+    50.02,
+    78.49,
+    75.89,
+    95.6,
+    10.04,
+    10.65,
+    8.87
+  ],
+  "score_recomputed_from_rounded_times": 65.68494878607541,
+  "observed_score": 65.68,
+  "observed_rank": 29
+}

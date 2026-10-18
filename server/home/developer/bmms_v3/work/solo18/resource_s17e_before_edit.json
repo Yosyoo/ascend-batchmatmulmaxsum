@@ -1,0 +1,14 @@
+{
+  "variant": "s17e",
+  "parent": "s15i",
+  "capacity_calculated_before_edit": true,
+  "UB_max_bytes": 164864,
+  "L1_capacity": 524288,
+  "L0A_capacity": 65536,
+  "L0B_capacity": 65536,
+  "L0C_capacity": 131072,
+  "cube_budget": "CANN tiling with original limits, half-K singleCoreK; actual probe pending",
+  "workspace": "cores * 2 slots * 2 halves * tileM * tileN * 4, then maxima",
+  "half_tail": "ND Matmul library handles arbitrary half K; no Nd2Nz for half-tail",
+  "scope": "all even K >1024 on nonpacked generic path, split64 only equal aligned segments"
+}

@@ -1,0 +1,62 @@
+{
+  "variant": "s31j",
+  "hashes": {
+    "bench_cases": "bf1935fd87285a6b67b3a956f32221ba01c349ec69cdbc8d121f55ceb742801f",
+    "kernel.asc": "c4bf581a935e7b3fa7d628fa67a5dbfa1c1252229bb2db86f65978bf3c68f86c"
+  },
+  "origins": [
+    {
+      "path": "/home/developer/bmms_v3/delivery4/validation/cases.txt",
+      "sha256": "4e205575ee08001febe14e61d8bb5067ee53961ebe8cd9587344c18d54a57f45",
+      "selected": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo13_data/generic_nt_cases.txt",
+      "sha256": "fb36e667c54d44aa418ca5b094cf76254a78b7025150cc4ca4b40c73b430caec",
+      "selected": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo13_data/nt_cases.txt",
+      "sha256": "40e0b6f203d64ead6694dda01cca8d5663535c3473b67e4d7b4022967198e9da",
+      "selected": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo11_data/copy_cases.txt",
+      "sha256": "7af424dfbf9931c73d42093bbd5158c34e115a3550532f5d6fee189a445545c7",
+      "selected": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo17_data/medium_cases.txt",
+      "sha256": "1ddd1946a72286fb8e3edf9113e7cbacf5a6b8bf4c0d2c7c154ae9b147683cef",
+      "selected": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo14_data/balanced_cases.txt",
+      "sha256": "307ee00a720f9fbfc05838f2733ca2e07f160f16dcc8c0f4e90af54b7ea66914",
+      "selected": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/work/solo18/fail_8.txt",
+      "sha256": "bde0d318b39d6c8187090f434dfc122e8aae63642959aaaae1249eee1072dc9d",
+      "selected": 8
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo17_data/whole_stress30.txt",
+      "sha256": "268367890ead863276edf44acd9a39a7cde4797b4fea8e2105c1185679433d6d",
+      "selected": 512
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo17_data/short_resident_stress31.txt",
+      "sha256": "e904f2d97fe275c6251b085095a401619276cb1c2c730ea5632c82edd515193f",
+      "selected": 128
+    }
+  ],
+  "manifest_sha256": "4d148fb5c79ef9e61a7c25d59d83b659546db09bee7faeb157171821a465e6d1",
+  "fixture_metadata_sha256": "64b14f8243e3ab6df8d7c4441c9b0b9dddd3414c7f59f8a62abdb3fdf75f8747",
+  "inputs_unchanged": true,
+  "expected": 648,
+  "observed": 648,
+  "passed": true,
+  "failures": [],
+  "returncode": 0
+}

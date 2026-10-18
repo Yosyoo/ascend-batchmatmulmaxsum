@@ -1,0 +1,17 @@
+{
+  "variant": "s23q",
+  "parent": "s23p",
+  "capacity_calculated_before_edit": true,
+  "scope": "M fullBase scope112x128 only, NN B1, original128x128grid16,M>=N,K2048..8192 multiple32,20Cube available",
+  "UB_max": 74720,
+  "L1_bytes": 491520,
+  "L0A_bytes": 57344,
+  "L0B_bytes": 65536,
+  "L0C_bytes": 57344,
+  "GM_C_max": 1146880,
+  "GM_maxima_max": 8192,
+  "change": "Only pipeline geometry changes:BK256,4L1banks,1L0bank; same halfKFP32Fixatomic and paired-row final reduction",
+  "host_kernel_workspace_same_source": true,
+  "real_inputs_each_call": true,
+  "reason": "Measured M512squareK8192 AICMTE2=24.2175us >scalar19.8715us >MAC17.24us. Increase ND2NZ row transfer length256->512B to test transfer efficiency; CPU must never calculate output"
+}

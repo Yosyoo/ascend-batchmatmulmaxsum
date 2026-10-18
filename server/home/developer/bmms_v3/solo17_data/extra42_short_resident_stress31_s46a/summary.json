@@ -1,0 +1,14 @@
+{
+  "variant": "s46a",
+  "expected": 128,
+  "observed": 128,
+  "passed": true,
+  "fixture_metadata_sha256": "64b14f8243e3ab6df8d7c4441c9b0b9dddd3414c7f59f8a62abdb3fdf75f8747",
+  "manifest_sha256": "e904f2d97fe275c6251b085095a401619276cb1c2c730ea5632c82edd515193f",
+  "inputs_unchanged": true,
+  "hashes": {
+    "kernel.asc": "edd7b57ca02c049b77017a21c3cfcdaa113f22e10739ebe133a6d1df3a069262",
+    "bench_cases": "6d1313d66256c0ef37a9ca5b4362310729c101da5d3621051828879c3e800bee"
+  },
+  "failures": []
+}

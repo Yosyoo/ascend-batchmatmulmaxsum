@@ -1,0 +1,8 @@
+{
+  "groups": {
+    "split_random48": 48,
+    "split_cancel48": 48
+  },
+  "cases": 96,
+  "golden": "FP64 of actual stored input values ->FP32; 4 storage layouts; both16bit dtypes; negative rows andtails"
+}

@@ -1,0 +1,1 @@
+{"baseM":128,"baseN":256,"baseK":64,"residentABytes":393216,"bDoubleStageBytes":65536,"stepKb":2,"totalL1Bytes":524288,"maxAlignedKWithOneBStage":1792}

@@ -1,0 +1,3 @@
+{"requestedN":256,"rc":0,"baseM":128,"baseN":256,"baseK":64,"depthA1":4,"depthB1":4,"stepKa":2,"stepKb":2,"dbL0A":2,"dbL0B":2,"dbL0C":1,"L1_bytes":196608,"L0A_bytes":32768,"L0B_bytes":65536,"L0C_bytes":131072}
+{"requestedN":128,"rc":0,"baseM":128,"baseN":128,"baseK":128,"depthA1":4,"depthB1":4,"stepKa":2,"stepKb":2,"dbL0A":2,"dbL0B":2,"dbL0C":1,"L1_bytes":262144,"L0A_bytes":65536,"L0B_bytes":65536,"L0C_bytes":65536}
+{"requestedN":512,"rc":0,"baseM":64,"baseN":512,"baseK":32,"depthA1":8,"depthB1":8,"stepKa":4,"stepKb":4,"dbL0A":2,"dbL0B":2,"dbL0C":1,"L1_bytes":294912,"L0A_bytes":8192,"L0B_bytes":65536,"L0C_bytes":131072}

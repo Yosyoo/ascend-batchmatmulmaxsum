@@ -1,0 +1,35 @@
+{
+  "stage": "Pre-test mechanism screening, NOT proof of official improvement",
+  "parent": "s41c",
+  "parent_sha256": "5fc87dcd3f6e8eff0c036274369af504b2951ae2a1c186a88d107e5e398b3494",
+  "hypothesis": "The packed path currently serializes AIC Matmul Init/SetOrgShape after all AIV input packing. Move only the first-input-ready wait behind initialization, preserving its position before any input consumption. This may overlap initialization with packing.",
+  "official_basis": "60 archived official responses show no attributable improvement at points3/8/13/14; packed code and helper stayed unchanged in the selected anchors. No known hidden point is mapped to this path.",
+  "source_change_scope": "Only bmms_fused_nz AIC wait placement; all math, dispatch, tiling, resources and precision repair preserved.",
+  "precision_set": "ALL 200 existing historical manifest entries hitting the packed dispatch; all failures retained; unchanged tolerances; three-call consistency.",
+  "performance_set": "ALL 8 distinct shapes from those entries, sorted lexicographically, no selection by timings. These are historical development fixtures, NOT a blind set or official hidden shapes.",
+  "origins": [
+    {
+      "manifest": "/home/developer/bmms_v3/solo8_data/nz_cases.txt",
+      "sha256": "674ec25cfdd0ff6652327390b0e56e371be3489c24212427defb1485ce7a96e2",
+      "selected": 120
+    },
+    {
+      "manifest": "/home/developer/bmms_v3/variants/s5r/tail_cases.txt",
+      "sha256": "881c648fddec1c3dfd5f68aac411226961be636a1e14c766d0380592175ea2d2",
+      "selected": 64
+    },
+    {
+      "manifest": "/home/developer/bmms_v3/solo6_data/large_cases.txt",
+      "sha256": "28d01e60b31479080072d7ce1ee4f85bde183cd290d2d83ee58051cfe0fe7430",
+      "selected": 16
+    }
+  ],
+  "hashes": {
+    "packed_cases.txt": "88116ea4d317c0e154ff0777882e6237422f5f0aeec30b9d0bf6a5b9847d4b5c",
+    "packed_shapes.txt": "72af004fb9c72fd3f767befcaaf72462bf8079a7012e91fd762338f731585806"
+  },
+  "metric": "160 calls per shape, median last80 msprof Task Duration, ABBA",
+  "screen_rule": "First FP16 NN across all8. Stop if either order geometric mean exceeds0.98 or any shape exceeds1.03 in both orders. If qualified, run other7 dtype/layout combinations; no posthoc shape removal or dispatch narrowing.",
+  "promotion": "Screen only. No automatic OJ submission. A final candidate requires full historical+new precision, fixed100 and sixhang regression, direct official baseline comparisons and explicit assessment of s41c precision repair cost. Official15-point results alone establish ranking improvement.",
+  "pool_coverage": "The unchanged100 shape pool contains ZERO packed-dispatch shapes, so improvement of its geometric mean cannot measure this mechanism. Keep it as regression coverage; do not change its membership."
+}

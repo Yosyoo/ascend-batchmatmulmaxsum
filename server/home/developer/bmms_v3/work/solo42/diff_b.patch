@@ -1,0 +1,22 @@
+--- s42a/kernel.asc
++++ s42b/kernel.asc
+@@ -1959,8 +1959,10 @@
+     const int32_t tileM=TM, tileN=TN, mt=m/TM, nt=n/TN;
+     const int32_t core=GetBlockIdx();
+     const int64_t coreOffset=(int64_t)core*2*TM*TN;
+-    TPipe pipe;
+     if ASCEND_IS_AIC {
++        // Keep register defaults without TPipe's pre-seeded M_MTE1 event0/1/2.
++        // All raw AIC buffers and explicit events below are owned by this kernel.
++        InitSocState();
+         // SDK Init uses ND traversal with unitFlag; match it before issuing Mmad.
+         SetMMLayoutTransform(true);
+         GlobalTensor<T> ag,bg; GlobalTensor<float> sg;
+@@ -2076,6 +2078,7 @@
+         SetMMLayoutTransform(false);
+     }
+     if ASCEND_IS_AIV {
++        TPipe pipe;
+         TQue<TPosition::VECIN, 1> input, sumInput;
+         TQue<TPosition::VECOUT, 1> output;
+         TBuf<TPosition::VECCALC> temp, reduced, rowMax;

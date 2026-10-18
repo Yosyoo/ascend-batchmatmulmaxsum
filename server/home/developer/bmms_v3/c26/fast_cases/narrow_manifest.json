@@ -1,0 +1,8 @@
+{
+  "groups": {
+    "narrow_random80": 80,
+    "narrow_cancel80": 80
+  },
+  "cases": 160,
+  "golden": "FP64 of actual stored input values ->FP32; 4 storage layouts; both16bit dtypes; negative rows andtails"
+}

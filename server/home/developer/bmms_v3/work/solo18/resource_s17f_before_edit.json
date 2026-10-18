@@ -1,0 +1,13 @@
+{
+  "variant": "s17f",
+  "parent": "s17e",
+  "capacity_calculated_before_edit": true,
+  "UB_max_bytes": 164864,
+  "L1_capacity": 524288,
+  "L0A_capacity": 65536,
+  "L0B_capacity": 65536,
+  "L0C_capacity": 131072,
+  "cube_tiling": "same half-K tiling as e",
+  "workspace": "original s15i geometry, no second C matrix",
+  "atomic_order": "same core writes first half, FIX_M event waits, then second half atomic adds; no intercore writers"
+}

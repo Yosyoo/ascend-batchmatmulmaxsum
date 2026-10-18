@@ -1,0 +1,104 @@
+[
+  {
+    "point": "P5",
+    "control_sessions_us": [
+      2.45,
+      2.51,
+      2.44,
+      2.59
+    ],
+    "control_range_percent": 6.1475409836065475,
+    "blocks": [
+      {
+        "times_ABBA": [
+          2.45,
+          2.52,
+          2.54,
+          2.51
+        ],
+        "speedup_geomean": 0.9801730880766296,
+        "time_reduction_percent": -2.022797010503141,
+        "control_drift_percent": 2.4489795918367196
+      },
+      {
+        "times_ABBA": [
+          2.44,
+          2.42,
+          2.42,
+          2.59
+        ],
+        "speedup_geomean": 1.0387939921520895,
+        "time_reduction_percent": 3.7345221906529447,
+        "control_drift_percent": 6.1475409836065475
+      }
+    ]
+  },
+  {
+    "point": "P6",
+    "control_sessions_us": [
+      3.76,
+      3.84,
+      3.6,
+      3.7
+    ],
+    "control_range_percent": 6.666666666666665,
+    "blocks": [
+      {
+        "times_ABBA": [
+          3.76,
+          3.66,
+          3.64,
+          3.84
+        ],
+        "speedup_geomean": 1.0410421174602242,
+        "time_reduction_percent": 3.9424070142668577,
+        "control_drift_percent": 2.127659574468077
+      },
+      {
+        "times_ABBA": [
+          3.6,
+          3.7,
+          3.6,
+          3.7
+        ],
+        "speedup_geomean": 1.0,
+        "time_reduction_percent": 0.0,
+        "control_drift_percent": 2.77777777777779
+      }
+    ]
+  },
+  {
+    "point": "P7",
+    "control_sessions_us": [
+      3.74,
+      3.76,
+      3.98,
+      4.0
+    ],
+    "control_range_percent": 6.951871657753994,
+    "blocks": [
+      {
+        "times_ABBA": [
+          3.74,
+          3.8499999999999996,
+          3.88,
+          3.76
+        ],
+        "speedup_geomean": 0.9702496528250187,
+        "time_reduction_percent": -3.0662569255612615,
+        "control_drift_percent": 0.53475935828875
+      },
+      {
+        "times_ABBA": [
+          3.98,
+          3.86,
+          3.88,
+          4.0
+        ],
+        "speedup_geomean": 1.0310079558631682,
+        "time_reduction_percent": 3.0075379813347958,
+        "control_drift_percent": 0.5025125628140614
+      }
+    ]
+  }
+]

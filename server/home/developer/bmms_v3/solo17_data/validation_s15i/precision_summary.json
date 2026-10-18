@@ -1,0 +1,20 @@
+{
+  "variant": "s15i",
+  "total": 13,
+  "suites": [
+    {
+      "suite": "medium_256",
+      "manifest": "/home/developer/bmms_v3/solo17_data/medium_cases.txt",
+      "expected": 256,
+      "observed": 13,
+      "passed": false,
+      "max_absolute": 0.0078125,
+      "max_relative": 242.972071
+    }
+  ],
+  "source_and_exe_sha256": {
+    "bench_cases": "6c4eff7771b651f3ff9951b961a86fb72fa505c3ee5207e8fb229efee023cecc",
+    "kernel.asc": "b67d45e1b270ad416e403cd18a7e9f0cd06341f26e8e734f1dee4fdc8e37c4f6"
+  },
+  "passed": false
+}

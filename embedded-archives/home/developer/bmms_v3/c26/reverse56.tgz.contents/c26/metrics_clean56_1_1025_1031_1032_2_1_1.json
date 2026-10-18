@@ -1,0 +1,32 @@
+{
+  "variant": "clean56",
+  "shape": "1_1025_1031_1032_2_1_1",
+  "tasks": 123,
+  "warm_count": 60,
+  "metrics": {
+    "Task Start Time(us)": 1792111698852688.5,
+    "Task Duration(us)": 28.729999999999997,
+    "Task Wait Time(us)": 64.24000000000001,
+    "aicore_time(us)": 23.5185,
+    "aic_mac_time(us)": 9.74,
+    "aic_mac_ratio": 0.414,
+    "aic_scalar_time(us)": 13.872499999999999,
+    "aic_scalar_ratio": 0.5905,
+    "aic_mte1_time(us)": 9.319500000000001,
+    "aic_mte1_ratio": 0.397,
+    "aic_mte2_time(us)": 9.2255,
+    "aic_mte2_ratio": 0.392,
+    "aic_fixpipe_time(us)": 2.0385,
+    "aic_fixpipe_ratio": 0.087,
+    "aiv_time(us)": 25.7565,
+    "aiv_vec_time(us)": 3.115,
+    "aiv_vec_ratio": 0.121,
+    "aiv_scalar_time(us)": 7.661,
+    "aiv_scalar_ratio": 0.2975,
+    "aiv_mte2_time(us)": 7.2945,
+    "aiv_mte2_ratio": 0.283,
+    "aiv_mte3_time(us)": 3.1814999999999998,
+    "aiv_mte3_ratio": 0.124,
+    "cube_utilization(%)": 73.707
+  }
+}

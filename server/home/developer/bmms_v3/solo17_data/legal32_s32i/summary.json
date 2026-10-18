@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "expected": 96,
+  "observed": 96,
+  "inputs_unchanged": true,
+  "fixture_metadata_sha256": "725814fa717f9650571731b50091c51043560752b6889e8363113542eeddf56a",
+  "hashes": {
+    "kernel.asc": "5a2e4117fc3829c6b74452ef5303254d918b3ca094cc2fb3773b6b5ed1dd84b4",
+    "bench_cases": "54e8086a42f2f770c633f58f8c4e15c63e6d8b22b371f3e2094cece751de0747"
+  },
+  "failures": []
+}

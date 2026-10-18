@@ -1,0 +1,236 @@
+{
+  "scope": "user-supplied 15 shapes only; zero OJ submissions",
+  "records": [
+    {
+      "file": "clean100_p3_A.json",
+      "variant": "clean100",
+      "spec": "2_7_13_48_1_0_1",
+      "passed": true,
+      "returncode": 0,
+      "maxrel": 0.0,
+      "tasks": 123,
+      "warm_us": 2.02,
+      "pipes": {
+        "aic_mac_time(us)": 0.0,
+        "aic_scalar_time(us)": 0.0,
+        "aic_mte1_time(us)": 0.0,
+        "aic_mte2_time(us)": 0.0,
+        "aic_fixpipe_time(us)": 0.0,
+        "aiv_vec_time(us)": 0.793,
+        "aiv_scalar_time(us)": 0.468,
+        "aiv_mte2_time(us)": 0.179
+      },
+      "output_bitwise_equal_to93": true
+    },
+    {
+      "file": "clean101_p3_A.json",
+      "variant": "clean101",
+      "spec": "2_7_13_48_1_0_1",
+      "passed": true,
+      "returncode": 0,
+      "maxrel": 0.0,
+      "tasks": 123,
+      "warm_us": 1.98,
+      "pipes": {
+        "aic_mac_time(us)": 0.0,
+        "aic_scalar_time(us)": 0.0,
+        "aic_mte1_time(us)": 0.0,
+        "aic_mte2_time(us)": 0.0,
+        "aic_fixpipe_time(us)": 0.0,
+        "aiv_vec_time(us)": 0.779,
+        "aiv_scalar_time(us)": 0.343,
+        "aiv_mte2_time(us)": 0.1795
+      },
+      "output_bitwise_equal_to93": true
+    },
+    {
+      "file": "clean93_p12_B.json",
+      "variant": "clean93",
+      "spec": "1_1280_4096_1536_2_1_0",
+      "passed": true,
+      "returncode": 0,
+      "maxrel": 0.0,
+      "tasks": 123,
+      "warm_us": 84.34,
+      "pipes": {
+        "aic_mac_time(us)": 61.1995,
+        "aic_scalar_time(us)": 58.33,
+        "aic_mte1_time(us)": 49.9495,
+        "aic_mte2_time(us)": 47.0015,
+        "aic_fixpipe_time(us)": 51.742999999999995,
+        "aiv_vec_time(us)": 4.943,
+        "aiv_scalar_time(us)": 17.278,
+        "aiv_mte2_time(us)": 9.593
+      },
+      "output_bitwise_equal_to93": true
+    },
+    {
+      "file": "clean93_p2_B.json",
+      "variant": "clean93",
+      "spec": "1_3_5_40_2_1_0",
+      "passed": true,
+      "returncode": 0,
+      "maxrel": 0.0,
+      "tasks": 123,
+      "warm_us": 1.68,
+      "pipes": {
+        "aic_mac_time(us)": 0.0,
+        "aic_scalar_time(us)": 0.0,
+        "aic_mte1_time(us)": 0.0,
+        "aic_mte2_time(us)": 0.0,
+        "aic_fixpipe_time(us)": 0.0,
+        "aiv_vec_time(us)": 0.523,
+        "aiv_scalar_time(us)": 0.496,
+        "aiv_mte2_time(us)": 0.1755
+      },
+      "output_bitwise_equal_to93": true
+    },
+    {
+      "file": "clean93_p3_B.json",
+      "variant": "clean93",
+      "spec": "2_7_13_48_1_0_1",
+      "passed": true,
+      "returncode": 0,
+      "maxrel": 0.0,
+      "tasks": 123,
+      "warm_us": 2.0,
+      "pipes": {
+        "aic_mac_time(us)": 0.0,
+        "aic_scalar_time(us)": 0.0,
+        "aic_mte1_time(us)": 0.0,
+        "aic_mte2_time(us)": 0.0,
+        "aic_fixpipe_time(us)": 0.0,
+        "aiv_vec_time(us)": 0.793,
+        "aiv_scalar_time(us)": 0.4615,
+        "aiv_mte2_time(us)": 0.178
+      },
+      "output_bitwise_equal_to93": true
+    },
+    {
+      "file": "clean94_p12_A.json",
+      "variant": "clean94",
+      "spec": "1_1280_4096_1536_2_1_0",
+      "passed": true,
+      "returncode": 0,
+      "maxrel": 0.0,
+      "tasks": 123,
+      "warm_us": 83.57,
+      "pipes": {
+        "aic_mac_time(us)": 61.169,
+        "aic_scalar_time(us)": 56.829499999999996,
+        "aic_mte1_time(us)": 49.854,
+        "aic_mte2_time(us)": 49.564,
+        "aic_fixpipe_time(us)": 49.13,
+        "aiv_vec_time(us)": 10.538,
+        "aiv_scalar_time(us)": 29.721,
+        "aiv_mte2_time(us)": 19.69
+      },
+      "output_bitwise_equal_to93": true
+    },
+    {
+      "file": "clean95_p12_A.json",
+      "variant": "clean95",
+      "spec": "1_1280_4096_1536_2_1_0",
+      "passed": true,
+      "returncode": 0,
+      "maxrel": 0.0,
+      "tasks": 123,
+      "warm_us": 83.5,
+      "pipes": {
+        "aic_mac_time(us)": 61.194,
+        "aic_scalar_time(us)": 51.005,
+        "aic_mte1_time(us)": 50.1555,
+        "aic_mte2_time(us)": 46.9835,
+        "aic_fixpipe_time(us)": 51.9255,
+        "aiv_vec_time(us)": 4.943,
+        "aiv_scalar_time(us)": 17.4375,
+        "aiv_mte2_time(us)": 9.814499999999999
+      },
+      "output_bitwise_equal_to93": true
+    },
+    {
+      "file": "clean96_p12_A.json",
+      "variant": "clean96",
+      "spec": "1_1280_4096_1536_2_1_0",
+      "passed": true,
+      "returncode": 0,
+      "maxrel": 0.0,
+      "tasks": 123,
+      "warm_us": 83.46000000000001,
+      "pipes": {
+        "aic_mac_time(us)": 61.414500000000004,
+        "aic_scalar_time(us)": 58.641000000000005,
+        "aic_mte1_time(us)": 56.597,
+        "aic_mte2_time(us)": 60.8975,
+        "aic_fixpipe_time(us)": 19.0045,
+        "aiv_vec_time(us)": 4.943,
+        "aiv_scalar_time(us)": 17.7315,
+        "aiv_mte2_time(us)": 10.216999999999999
+      },
+      "output_bitwise_equal_to93": true
+    },
+    {
+      "file": "clean97_p2_A.json",
+      "variant": "clean97",
+      "spec": "1_3_5_40_2_1_0",
+      "passed": true,
+      "returncode": 0,
+      "maxrel": 0.0,
+      "tasks": 123,
+      "warm_us": 2.78,
+      "pipes": {
+        "aic_mac_time(us)": 0.0,
+        "aic_scalar_time(us)": 0.0,
+        "aic_mte1_time(us)": 0.0,
+        "aic_mte2_time(us)": 0.0,
+        "aic_fixpipe_time(us)": 0.0,
+        "aiv_vec_time(us)": 0.373,
+        "aiv_scalar_time(us)": 0.3995,
+        "aiv_mte2_time(us)": 1.4184999999999999
+      },
+      "output_bitwise_equal_to93": true
+    },
+    {
+      "file": "clean98_p2_A.json",
+      "variant": "clean98",
+      "spec": "1_3_5_40_2_1_0",
+      "passed": true,
+      "returncode": 0,
+      "maxrel": 0.0,
+      "tasks": 123,
+      "warm_us": 1.68,
+      "pipes": {
+        "aic_mac_time(us)": 0.0,
+        "aic_scalar_time(us)": 0.0,
+        "aic_mte1_time(us)": 0.0,
+        "aic_mte2_time(us)": 0.0,
+        "aic_fixpipe_time(us)": 0.0,
+        "aiv_vec_time(us)": 0.485,
+        "aiv_scalar_time(us)": 0.5155000000000001,
+        "aiv_mte2_time(us)": 0.1755
+      },
+      "output_bitwise_equal_to93": true
+    },
+    {
+      "file": "clean99_p3_A.json",
+      "variant": "clean99",
+      "spec": "2_7_13_48_1_0_1",
+      "passed": true,
+      "returncode": 0,
+      "maxrel": 0.0,
+      "tasks": 123,
+      "warm_us": 2.22,
+      "pipes": {
+        "aic_mac_time(us)": 0.0,
+        "aic_scalar_time(us)": 0.0,
+        "aic_mte1_time(us)": 0.0,
+        "aic_mte2_time(us)": 0.0,
+        "aic_fixpipe_time(us)": 0.0,
+        "aiv_vec_time(us)": 0.986,
+        "aiv_scalar_time(us)": 0.458,
+        "aiv_mte2_time(us)": 0.179
+      },
+      "output_bitwise_equal_to93": true
+    }
+  ]
+}

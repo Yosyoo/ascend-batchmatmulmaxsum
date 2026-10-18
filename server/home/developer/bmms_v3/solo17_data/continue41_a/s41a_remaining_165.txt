@@ -1,0 +1,3 @@
+21 256 128 512 2 0 1 /home/developer/bmms_v3/solo17_data/owned_stress41/c157
+21 256 128 512 2 1 0 /home/developer/bmms_v3/solo17_data/owned_stress41/c158
+21 256 128 512 2 1 1 /home/developer/bmms_v3/solo17_data/owned_stress41/c159

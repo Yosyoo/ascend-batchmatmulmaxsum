@@ -1,0 +1,55 @@
+{
+  "variant": "s30l",
+  "hashes": {
+    "bench_cases": "22850b9896d199440b9d8f9e9ca6980984b7f92b64da551bbca781eeb298dd27",
+    "kernel.asc": "0c62bc301bda9c9faa351f4252891fb8ab4fc0050d9163533f95ed137c9c1263"
+  },
+  "origins": [
+    {
+      "path": "/home/developer/bmms_v3/delivery4/validation/cases.txt",
+      "sha256": "4e205575ee08001febe14e61d8bb5067ee53961ebe8cd9587344c18d54a57f45",
+      "selected": 32
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo13_data/generic_nt_cases.txt",
+      "sha256": "fb36e667c54d44aa418ca5b094cf76254a78b7025150cc4ca4b40c73b430caec",
+      "selected": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo13_data/nt_cases.txt",
+      "sha256": "40e0b6f203d64ead6694dda01cca8d5663535c3473b67e4d7b4022967198e9da",
+      "selected": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo11_data/copy_cases.txt",
+      "sha256": "7af424dfbf9931c73d42093bbd5158c34e115a3550532f5d6fee189a445545c7",
+      "selected": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo17_data/manual_cases18.txt",
+      "sha256": "354827c1afe621bfaf4cca506f37424f4ec2e0abd282b07bdcf9df7c1d943d72",
+      "selected": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo17_data/medium_cases.txt",
+      "sha256": "1ddd1946a72286fb8e3edf9113e7cbacf5a6b8bf4c0d2c7c154ae9b147683cef",
+      "selected": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo14_data/balanced_cases.txt",
+      "sha256": "307ee00a720f9fbfc05838f2733ca2e07f160f16dcc8c0f4e90af54b7ea66914",
+      "selected": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/work/solo18/fail_8.txt",
+      "sha256": "bde0d318b39d6c8187090f434dfc122e8aae63642959aaaae1249eee1072dc9d",
+      "selected": 8
+    }
+  ],
+  "manifest_sha256": "57d0f4fb174d611094fd7ff76e18560f065a0b9c26719f585abf7812627e6b83",
+  "expected": 40,
+  "observed": 40,
+  "passed": true,
+  "failures": [],
+  "returncode": 0
+}

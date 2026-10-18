@@ -1,0 +1,2 @@
+f903151b0112b4626aae8ac69d42249eb9b7b2a0fbf9b3a5aa98bd38c0cf9a56  variants/s11a/kernel.asc
+69fdba55db0af7194942dff84bfed78f7998573f19d8b33dcfe7c84c1e3ae348  variants/s10g/kernel.asc

@@ -1,0 +1,8 @@
+{
+  "groups": {
+    "flat_random48": 48,
+    "flat_cancel32": 32
+  },
+  "cases": 80,
+  "golden": "FP64 of actual stored input values ->FP32; 4 storage layouts; both16bit dtypes; negative rows andtails"
+}

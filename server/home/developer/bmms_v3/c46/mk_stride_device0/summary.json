@@ -1,0 +1,104 @@
+[
+  {
+    "point": "P2",
+    "control_sessions_us": [
+      1.56,
+      1.56,
+      1.58,
+      1.58
+    ],
+    "control_range_percent": 1.2820512820512775,
+    "blocks": [
+      {
+        "times_ABBA": [
+          1.56,
+          1.58,
+          1.57,
+          1.56
+        ],
+        "speedup_geomean": 0.9904811815755965,
+        "time_reduction_percent": -0.9610297097478959,
+        "control_drift_percent": 0.0
+      },
+      {
+        "times_ABBA": [
+          1.58,
+          1.58,
+          1.6,
+          1.58
+        ],
+        "speedup_geomean": 0.9937303457175896,
+        "time_reduction_percent": -0.6309210853255198,
+        "control_drift_percent": 0.0
+      }
+    ]
+  },
+  {
+    "point": "P3",
+    "control_sessions_us": [
+      1.98,
+      1.98,
+      1.98,
+      1.99
+    ],
+    "control_range_percent": 0.5050505050504972,
+    "blocks": [
+      {
+        "times_ABBA": [
+          1.98,
+          1.96,
+          1.98,
+          1.98
+        ],
+        "speedup_geomean": 1.0050890913907349,
+        "time_reduction_percent": 0.5063323673817899,
+        "control_drift_percent": 0.0
+      },
+      {
+        "times_ABBA": [
+          1.98,
+          1.98,
+          1.96,
+          1.99
+        ],
+        "speedup_geomean": 1.007623998547563,
+        "time_reduction_percent": 0.756631298832966,
+        "control_drift_percent": 0.5050505050504972
+      }
+    ]
+  },
+  {
+    "point": "P4",
+    "control_sessions_us": [
+      2.64,
+      2.64,
+      2.64,
+      2.64
+    ],
+    "control_range_percent": 0.0,
+    "blocks": [
+      {
+        "times_ABBA": [
+          2.64,
+          2.62,
+          2.62,
+          2.64
+        ],
+        "speedup_geomean": 1.0076335877862594,
+        "time_reduction_percent": 0.7575757575757569,
+        "control_drift_percent": 0.0
+      },
+      {
+        "times_ABBA": [
+          2.64,
+          2.62,
+          2.63,
+          2.64
+        ],
+        "speedup_geomean": 1.0057161101442584,
+        "time_reduction_percent": 0.5683621935258065,
+        "control_drift_percent": 0.0
+      }
+    ]
+  }
+]

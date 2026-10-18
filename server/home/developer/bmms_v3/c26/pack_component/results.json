@@ -1,0 +1,66 @@
+[
+  {
+    "fixture": 18,
+    "dtype": 1,
+    "full_padding": 0,
+    "operand": "A",
+    "mismatches": 0,
+    "first": []
+  },
+  {
+    "fixture": 18,
+    "dtype": 1,
+    "full_padding": 0,
+    "operand": "B",
+    "mismatches": 0,
+    "first": []
+  },
+  {
+    "fixture": 18,
+    "dtype": 1,
+    "full_padding": 1,
+    "operand": "A",
+    "mismatches": 0,
+    "first": []
+  },
+  {
+    "fixture": 18,
+    "dtype": 1,
+    "full_padding": 1,
+    "operand": "B",
+    "mismatches": 0,
+    "first": []
+  },
+  {
+    "fixture": 22,
+    "dtype": 2,
+    "full_padding": 0,
+    "operand": "A",
+    "mismatches": 0,
+    "first": []
+  },
+  {
+    "fixture": 22,
+    "dtype": 2,
+    "full_padding": 0,
+    "operand": "B",
+    "mismatches": 0,
+    "first": []
+  },
+  {
+    "fixture": 22,
+    "dtype": 2,
+    "full_padding": 1,
+    "operand": "A",
+    "mismatches": 0,
+    "first": []
+  },
+  {
+    "fixture": 22,
+    "dtype": 2,
+    "full_padding": 1,
+    "operand": "B",
+    "mismatches": 0,
+    "first": []
+  }
+]

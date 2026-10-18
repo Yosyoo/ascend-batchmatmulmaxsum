@@ -1,0 +1,162 @@
+[
+  {
+    "shape": [
+      1,
+      1025,
+      1031,
+      1032
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "passed": false,
+    "relative": 1.0,
+    "returncode": 0,
+    "seconds": 2.0465993729885668,
+    "stdout": "{\"iters\":1,\"rounds\":[27007.460],\"min\":27007.460,\"median\":27007.460,\"mean\":27007.460,\"consistent\":true}\n",
+    "stderr": "",
+    "actual": [
+      0.0
+    ],
+    "golden": [
+      35854.09375
+    ]
+  },
+  {
+    "shape": [
+      1,
+      1025,
+      1031,
+      1032
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 1,
+    "passed": true,
+    "relative": 1.0922954629677406e-07,
+    "returncode": 0,
+    "seconds": 2.040100974001689
+  },
+  {
+    "shape": [
+      1,
+      1025,
+      1031,
+      1032
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "passed": true,
+    "relative": 0.0,
+    "returncode": 0,
+    "seconds": 3.0476281880110037
+  },
+  {
+    "shape": [
+      1,
+      1025,
+      1031,
+      1032
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 1,
+    "passed": true,
+    "relative": 0.0,
+    "returncode": 0,
+    "seconds": 3.054988393007079
+  },
+  {
+    "shape": [
+      1,
+      1025,
+      1031,
+      1032
+    ],
+    "dtype": 2,
+    "ta": 0,
+    "tb": 0,
+    "passed": false,
+    "relative": 1.0,
+    "returncode": 0,
+    "seconds": 2.0439469639968593,
+    "stdout": "{\"iters\":1,\"rounds\":[14992.500],\"min\":14992.500,\"median\":14992.500,\"mean\":14992.500,\"consistent\":true}\n",
+    "stderr": "",
+    "actual": [
+      0.0
+    ],
+    "golden": [
+      35639.91796875
+    ]
+  },
+  {
+    "shape": [
+      1,
+      1025,
+      1031,
+      1032
+    ],
+    "dtype": 2,
+    "ta": 0,
+    "tb": 1,
+    "passed": false,
+    "relative": 1.0,
+    "returncode": 0,
+    "seconds": 2.05233521698392,
+    "stdout": "{\"iters\":1,\"rounds\":[19174.480],\"min\":19174.480,\"median\":19174.480,\"mean\":19174.480,\"consistent\":true}\n",
+    "stderr": "",
+    "actual": [
+      0.0
+    ],
+    "golden": [
+      35652.9921875
+    ]
+  },
+  {
+    "shape": [
+      1,
+      1025,
+      1031,
+      1032
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 0,
+    "passed": false,
+    "relative": 1.0,
+    "returncode": 0,
+    "seconds": 2.0439764649781864,
+    "stdout": "{\"iters\":1,\"rounds\":[15872.760],\"min\":15872.760,\"median\":15872.760,\"mean\":15872.760,\"consistent\":true}\n",
+    "stderr": "",
+    "actual": [
+      0.0
+    ],
+    "golden": [
+      35606.58203125
+    ]
+  },
+  {
+    "shape": [
+      1,
+      1025,
+      1031,
+      1032
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 1,
+    "passed": false,
+    "relative": 1.0,
+    "returncode": 0,
+    "seconds": 2.05154342300375,
+    "stdout": "{\"iters\":1,\"rounds\":[18451.460],\"min\":18451.460,\"median\":18451.460,\"mean\":18451.460,\"consistent\":true}\n",
+    "stderr": "",
+    "actual": [
+      0.0
+    ],
+    "golden": [
+      35761.6171875
+    ]
+  }
+]

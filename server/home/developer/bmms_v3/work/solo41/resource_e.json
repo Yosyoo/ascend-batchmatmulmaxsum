@@ -1,0 +1,12 @@
+{
+  "UB_max": 164864,
+  "L1_max": 524288,
+  "L0A_max": 65536,
+  "L0B_max": 65536,
+  "L0C_max": 131072,
+  "GM": "unchanged",
+  "mechanism": "phase-shift N tile traversal by core index to reduce simultaneous same-address B reads; no tile size or floating-point dot accumulation changes",
+  "gate": "original SDK fused_static/pair_static only, ns1, nt>=4, M512..8192; original dispatch ensures full tiles",
+  "precision": "same dot K order including paired halves, each N tile exactly once; max reduction permutation only; final row sum unchanged",
+  "hardware_basis": "Huawei L2 Cache tiling case describes staggered core assignment to reduce operand address conflicts; benefit on current workload remains hypothesis"
+}

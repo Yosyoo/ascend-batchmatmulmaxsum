@@ -1,0 +1,15 @@
+{
+  "variant": "s17g",
+  "parent": "s17f",
+  "capacity_calculated_before_edit": true,
+  "allocations_unchanged": true,
+  "UB_17536_M_tile16_bytes": 181376,
+  "UB_official_max_bytes": 164864,
+  "L1_capacity": 524288,
+  "L0A_capacity": 65536,
+  "L0B_capacity": 65536,
+  "L0C_capacity": 131072,
+  "temporary": "existing 32KiB reduction temp; partial count <=ceil(M/64)",
+  "repeat_limit": "chunks of <=248 groups; every offset aligned to 32B",
+  "scope": "count>8192 only; <=8192 instruction/data order preserved"
+}

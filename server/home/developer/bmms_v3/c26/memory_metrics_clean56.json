@@ -1,0 +1,24 @@
+{
+  "tasks": 123,
+  "warm_count": 60,
+  "metric": "Memory",
+  "metrics": {
+    "Task Start Time(us)": 1792111802165017.0,
+    "Task Duration(us)": 28.83,
+    "Task Wait Time(us)": 70.21,
+    "aicore_time(us)": 23.6205,
+    "aic_l1_read_bw(GB/s)": 170.584,
+    "aic_l1_write_bw(GB/s)": 26.061,
+    "aic_main_mem_read_bw(GB/s)": 0.815,
+    "aic_main_mem_write_bw(GB/s)": 0.165,
+    "aic_l2_read_bw(GB/s)": 0.0,
+    "aic_l2_write_bw(GB/s)": 0.0,
+    "aiv_time(us)": 25.938499999999998,
+    "aiv_ub_read_bw(GB/s)": 20.5745,
+    "aiv_ub_write_bw(GB/s)": 29.6005,
+    "aiv_main_mem_read_bw(GB/s)": 0.3775,
+    "aiv_main_mem_write_bw(GB/s)": 0.142,
+    "aiv_l2_read_bw(GB/s)": 0.0,
+    "aiv_l2_write_bw(GB/s)": 0.0
+  }
+}

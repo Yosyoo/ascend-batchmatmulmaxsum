@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+find_package(ASC REQUIRED)
+project(load3d_component LANGUAGES ASC CXX)
+set(CMAKE_CXX_STANDARD 14)
+add_executable(component component.asc)
+target_link_libraries(component PRIVATE ascendcl unified_dlog dl m)
+target_compile_options(component PRIVATE $<$<COMPILE_LANGUAGE:ASC>:--npu-arch=dav-2201>)

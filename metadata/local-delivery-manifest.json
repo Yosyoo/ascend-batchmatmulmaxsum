@@ -1,0 +1,102 @@
+[
+  {
+    "path": "final-delivery/15点耗时.csv",
+    "bytes": 245,
+    "sha256": "fd8cd2196d771507cb664382baf0eb283458786cf260e325c42c2b7de86fd49f"
+  },
+  {
+    "path": "final-delivery/kernel.asc",
+    "bytes": 159806,
+    "sha256": "9feb4e97863b23d014f85f59393629ebb775b9b755dbd0262bd9847aa65c4a3e"
+  },
+  {
+    "path": "final-delivery/sha256.txt",
+    "bytes": 77,
+    "sha256": "96cfbf2b6cea46e9eeb5f1a238a5046cb3563bd6d25945ce6fb972b33907743a"
+  },
+  {
+    "path": "final-delivery/历次官方对照_固定参考预测.csv",
+    "bytes": 2254,
+    "sha256": "e723cb646a78ee5232840f11ed09896d0eb355df8658d94d574935464f7e3c41"
+  },
+  {
+    "path": "final-delivery/官方交替对照_固定参考预测.json",
+    "bytes": 1456,
+    "sha256": "199075b8d13309a55c3dbd0ff8bfeffbdb04c8df1a425ded8c8d79b194a132e7"
+  },
+  {
+    "path": "final-delivery/官方工程.zip",
+    "bytes": 37871,
+    "sha256": "d937c2cba7a674bf81a6844633bdaea785c65bfec2926e654cbab9602dcbebb0"
+  },
+  {
+    "path": "final-delivery/封榜前历史高分记录.json",
+    "bytes": 544,
+    "sha256": "664c9ee00c4d16f123d72b9f1e1eaf454746c8c11a058ef4a7ee9f78769377e8"
+  },
+  {
+    "path": "final-delivery/封榜观测.json",
+    "bytes": 240,
+    "sha256": "6394f0f8d64875174ca9ffe0b3ace90e94fc37e512973d17f317c1bc5b3b678a"
+  },
+  {
+    "path": "final-delivery/截止后官方结果.json",
+    "bytes": 460,
+    "sha256": "7fb7256d3a0b7bbe4d2263f9f523ecba180149b25205ef4c3bc5f8e73bca89ae"
+  },
+  {
+    "path": "final-delivery/提交次数记录.json",
+    "bytes": 333,
+    "sha256": "0bc86978a7852fae9a424ae8bf228e3dcda726bb34bcfe047aae2e0bbd9f6f66"
+  },
+  {
+    "path": "final-delivery/提交记录.json",
+    "bytes": 939,
+    "sha256": "ab20ef215b90b2c1eca75c18ed002c6fe5c0b6c0bd5957c0315cc745defad86d"
+  },
+  {
+    "path": "final-delivery/最终TBest统一口径对照.json",
+    "bytes": 477,
+    "sha256": "621ad78103fb43e7d891832aa4adc918e09efed27de937a11067ee6f34a03a47"
+  },
+  {
+    "path": "final-delivery/本地记录独立核验.json",
+    "bytes": 167,
+    "sha256": "9aa359d54555834a477120c87b1260321a2a48c42db2d04bef02a716201af1a6"
+  },
+  {
+    "path": "final-delivery/规则自查.json",
+    "bytes": 3820,
+    "sha256": "d3f574a06ca8a6fd78b8f47af0f021018e22d95326f103e10e681af4a49257e6"
+  },
+  {
+    "path": "final-delivery/说明.txt",
+    "bytes": 1376,
+    "sha256": "1c59fb124b0d8fabcfdcfad10bb6d33d56979458d6721ebdf4c59aa59a5c106a"
+  },
+  {
+    "path": "historical-high-score/kernel.asc",
+    "bytes": 159455,
+    "sha256": "34825221d6820a628ada14c3ab334d04669979a4934fe52ab7f570f8fd3ba844"
+  },
+  {
+    "path": "historical-high-score/官方工程_891719.zip",
+    "bytes": 37727,
+    "sha256": "ea0c6e8d19dd7995b3d9543e8c37a092b0e78f90931fe01883d110b53f219084"
+  },
+  {
+    "path": "historical-high-score/官方记录.json",
+    "bytes": 544,
+    "sha256": "664c9ee00c4d16f123d72b9f1e1eaf454746c8c11a058ef4a7ee9f78769377e8"
+  },
+  {
+    "path": "historical-high-score/规则自查.json",
+    "bytes": 3694,
+    "sha256": "f2ccd3fbe3d94f4476dc0d3aeb508dc1094390b580effb1076462a3ef636fae9"
+  },
+  {
+    "path": "historical-high-score/说明.txt",
+    "bytes": 389,
+    "sha256": "dec46a66a55c41a74ff1e337db0d7fecef47c3b26cb9f80eed38dfe0ccac38bf"
+  }
+]

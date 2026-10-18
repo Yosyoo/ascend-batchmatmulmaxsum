@@ -1,0 +1,39 @@
+{
+  "observed_original_BF16_failures": 12,
+  "official_submissions_this_round": 0,
+  "runners": {
+    "270681": false,
+    "271551": false,
+    "281294": false,
+    "281419": false,
+    "288225": false,
+    "294339": false,
+    "294772": false
+  },
+  "full_precision": {
+    "total": 18378,
+    "passed": true
+  },
+  "diagnostics": {
+    "cases": 648,
+    "passed": true
+  },
+  "long96": {
+    "passed": true,
+    "observed": 96,
+    "expected": 96
+  },
+  "pool": [
+    0.9935380982772282,
+    0.9940768935400889
+  ],
+  "repeat_pool": [
+    0.981092585476875,
+    1.0001326504263466
+  ],
+  "sources": {
+    "s15i": "b67d45e1b270ad416e403cd18a7e9f0cd06341f26e8e734f1dee4fdc8e37c4f6",
+    "s21d": "00601d4b917ad487200cc7907e6a6adfdbf76d9a820bb8a8e6c47df56f2c272d",
+    "s22a": "ac2be87e7efdf9e50aa7d923b8d14bada8ebd2dc461945203746ed62b006e0ca"
+  }
+}

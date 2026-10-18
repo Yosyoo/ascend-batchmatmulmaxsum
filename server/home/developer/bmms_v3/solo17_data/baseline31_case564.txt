@@ -1,0 +1,1 @@
+1 2048 1024 128 1 0 0 /home/developer/bmms_v3/solo17_data/short_resident_stress31/c044

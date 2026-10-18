@@ -1,0 +1,141 @@
+{
+  "variant": "s41a",
+  "expected": 168,
+  "observed": 21,
+  "passed": false,
+  "origins": [
+    {
+      "path": "/home/developer/bmms_v3/solo17_data/medium_cases.txt",
+      "sha256": "1ddd1946a72286fb8e3edf9113e7cbacf5a6b8bf4c0d2c7c154ae9b147683cef",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo14_data/split16_cases.txt",
+      "sha256": "6f8aaac72b5b4485c389477a26f706ce02a9ee29fee32cd07785b492e0ffd2a7",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo14_data/narrow_legal_cases.txt",
+      "sha256": "9315eb0e1c254c4a74a342e488758989a17fcae3ee01d769ad71d7da69ddf707",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo14_data/balanced_cases.txt",
+      "sha256": "307ee00a720f9fbfc05838f2733ca2e07f160f16dcc8c0f4e90af54b7ea66914",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo14_data/pair_edge_cases.txt",
+      "sha256": "bd97746d7757bb1ec1c787ecd785b9c0a1e81b2e9c8f8f30faca49eb8b8dc1de",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo17_data/dot_once_cases.txt",
+      "sha256": "96e06575a0b29b055f3760ce47fb65a7aede82c900fb3768bc7ced7471b9eea7",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo14_data/long_sum_cases.txt",
+      "sha256": "9218ac85e38e51db80a90f2fff8d9dfe544996cbb124809bf5af2e2e4970dad6",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo13_data/generic_nt_cases.txt",
+      "sha256": "fb36e667c54d44aa418ca5b094cf76254a78b7025150cc4ca4b40c73b430caec",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo13_data/nt_cases.txt",
+      "sha256": "40e0b6f203d64ead6694dda01cca8d5663535c3473b67e4d7b4022967198e9da",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo11_data/copy_cases.txt",
+      "sha256": "7af424dfbf9931c73d42093bbd5158c34e115a3550532f5d6fee189a445545c7",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo10_data/vector_cases.txt",
+      "sha256": "396970e3e08f18aaf26404cfb2c7adb0ac07d90a582a7c8d24723727327868e2",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo9_data/micro_cases.txt",
+      "sha256": "b9ec53b6303174286418b3a9f562c3e1bab37b126cf7baa7ae518f3c6efcd422",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo8_data/nz_cases.txt",
+      "sha256": "674ec25cfdd0ff6652327390b0e56e371be3489c24212427defb1485ce7a96e2",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/delivery4/validation/cases.txt",
+      "sha256": "4e205575ee08001febe14e61d8bb5067ee53961ebe8cd9587344c18d54a57f45",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/variants/s5d/split_cases.txt",
+      "sha256": "d836de6450fa48ceeb8ff2267f8589cbbef4abc43191d849f1fe690f487ef625",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/variants/s5p/direct_cases.txt",
+      "sha256": "173758d07154be19f885e8a5958fedb4fa03fca5cd3574335bf2ef10f1838619",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/variants/s5r/tail_cases.txt",
+      "sha256": "881c648fddec1c3dfd5f68aac411226961be636a1e14c766d0380592175ea2d2",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo6_data/large_cases.txt",
+      "sha256": "28d01e60b31479080072d7ce1ee4f85bde183cd290d2d83ee58051cfe0fe7430",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo8_data/narrow_cases.txt",
+      "sha256": "1717ea3b9765d93c1b2323a333c1ca0fad05027116b4fb1e929b2e4ab0409817",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo8_data/narrow_extra_cases.txt",
+      "sha256": "e5f1eca222f0e606e55b6142edbb137a18e41e5096f11244a017c8003ab6410b",
+      "count": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/work/solo18/fail_8.txt",
+      "sha256": "bde0d318b39d6c8187090f434dfc122e8aae63642959aaaae1249eee1072dc9d",
+      "count": 8
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo17_data/owned_stress41.txt",
+      "sha256": "239030fa1192b0054823096f183e27811eb3b2e3840a0e5f664a7f791c8c5410",
+      "count": 160
+    }
+  ],
+  "hashes": {
+    "kernel.asc": "50378733e7de4d1001d89aecaa9425134f0beae38fd418b0ca9abde21eeb7163",
+    "bench_cases": "5ae8d183dd545dd52ffa740155c1e640826afbb4fe6b0185e563254290eb1726"
+  },
+  "manifest_sha256": "6998ae10c3213ebca3ec715894e6757ff493d45a1d2b048bc8c38f6ffeffa102",
+  "failures": [
+    {
+      "case": 20,
+      "shape": [
+        16,
+        256,
+        256,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0.000268957956,
+      "relative": 26.8957956,
+      "consistent": true,
+      "passed": false
+    }
+  ]
+}

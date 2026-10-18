@@ -1,0 +1,2528 @@
+{
+  "variant": "s43a",
+  "manifest": "/home/developer/bmms_v3/solo17_data/bounds45.txt",
+  "manifest_sha256": "e348cf9d45a00c3d198b76f87e8586c1d9f7fc7bb67d669395e6771c32406953",
+  "expected": 128,
+  "observed": 128,
+  "passed": false,
+  "failures": [
+    {
+      "case": 12,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0.000111688831,
+      "relative": 11.1688831,
+      "consistent": true,
+      "passed": false,
+      "global_case": 12
+    },
+    {
+      "case": 0,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0.000111688831,
+      "relative": 11.1688831,
+      "consistent": true,
+      "passed": false,
+      "global_case": 13
+    },
+    {
+      "case": 0,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0.000111688831,
+      "relative": 11.1688831,
+      "consistent": true,
+      "passed": false,
+      "global_case": 14
+    },
+    {
+      "case": 0,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0.000111688831,
+      "relative": 11.1688831,
+      "consistent": true,
+      "passed": false,
+      "global_case": 15
+    },
+    {
+      "case": 28,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0.000120112352,
+      "relative": 12.0112352,
+      "consistent": true,
+      "passed": false,
+      "global_case": 44
+    },
+    {
+      "case": 0,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0.000120112352,
+      "relative": 12.0112352,
+      "consistent": true,
+      "passed": false,
+      "global_case": 45
+    },
+    {
+      "case": 0,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0.000120112352,
+      "relative": 12.0112352,
+      "consistent": true,
+      "passed": false,
+      "global_case": 46
+    },
+    {
+      "case": 0,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0.000120112352,
+      "relative": 12.0112352,
+      "consistent": true,
+      "passed": false,
+      "global_case": 47
+    },
+    {
+      "case": 12,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0.000106751919,
+      "relative": 10.6751919,
+      "consistent": true,
+      "passed": false,
+      "global_case": 60
+    },
+    {
+      "case": 0,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0.000106751919,
+      "relative": 10.6751919,
+      "consistent": true,
+      "passed": false,
+      "global_case": 61
+    },
+    {
+      "case": 0,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0.000106751919,
+      "relative": 10.6751919,
+      "consistent": true,
+      "passed": false,
+      "global_case": 62
+    },
+    {
+      "case": 0,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0.000106751919,
+      "relative": 10.6751919,
+      "consistent": true,
+      "passed": false,
+      "global_case": 63
+    },
+    {
+      "case": 12,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0.000122902216,
+      "relative": 12.2902216,
+      "consistent": true,
+      "passed": false,
+      "global_case": 76
+    },
+    {
+      "case": 0,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0.000122902216,
+      "relative": 12.2902216,
+      "consistent": true,
+      "passed": false,
+      "global_case": 77
+    },
+    {
+      "case": 0,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0.000122902216,
+      "relative": 12.2902216,
+      "consistent": true,
+      "passed": false,
+      "global_case": 78
+    },
+    {
+      "case": 0,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0.000122902216,
+      "relative": 12.2902216,
+      "consistent": true,
+      "passed": false,
+      "global_case": 79
+    },
+    {
+      "case": 12,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0.000108333305,
+      "relative": 10.8333305,
+      "consistent": true,
+      "passed": false,
+      "global_case": 92
+    },
+    {
+      "case": 0,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0.000108333305,
+      "relative": 10.8333305,
+      "consistent": true,
+      "passed": false,
+      "global_case": 93
+    },
+    {
+      "case": 0,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0.000108333305,
+      "relative": 10.8333305,
+      "consistent": true,
+      "passed": false,
+      "global_case": 94
+    },
+    {
+      "case": 0,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0.000108333305,
+      "relative": 10.8333305,
+      "consistent": true,
+      "passed": false,
+      "global_case": 95
+    }
+  ],
+  "rows": [
+    {
+      "case": 0,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 0
+    },
+    {
+      "case": 1,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 1
+    },
+    {
+      "case": 2,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 2
+    },
+    {
+      "case": 3,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 3
+    },
+    {
+      "case": 4,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 4
+    },
+    {
+      "case": 5,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 5
+    },
+    {
+      "case": 6,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 6
+    },
+    {
+      "case": 7,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 7
+    },
+    {
+      "case": 8,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 8
+    },
+    {
+      "case": 9,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 9
+    },
+    {
+      "case": 10,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 10
+    },
+    {
+      "case": 11,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 11
+    },
+    {
+      "case": 12,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0.000111688831,
+      "relative": 11.1688831,
+      "consistent": true,
+      "passed": false,
+      "global_case": 12
+    },
+    {
+      "case": 0,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0.000111688831,
+      "relative": 11.1688831,
+      "consistent": true,
+      "passed": false,
+      "global_case": 13
+    },
+    {
+      "case": 0,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0.000111688831,
+      "relative": 11.1688831,
+      "consistent": true,
+      "passed": false,
+      "global_case": 14
+    },
+    {
+      "case": 0,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0.000111688831,
+      "relative": 11.1688831,
+      "consistent": true,
+      "passed": false,
+      "global_case": 15
+    },
+    {
+      "case": 0,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0.000122070312,
+      "relative": 6.95221548e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 16
+    },
+    {
+      "case": 1,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0.000122070312,
+      "relative": 6.95221548e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 17
+    },
+    {
+      "case": 2,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0.000122070312,
+      "relative": 6.95221548e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 18
+    },
+    {
+      "case": 3,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0.000122070312,
+      "relative": 6.95221548e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 19
+    },
+    {
+      "case": 4,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 20
+    },
+    {
+      "case": 5,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 21
+    },
+    {
+      "case": 6,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 22
+    },
+    {
+      "case": 7,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 23
+    },
+    {
+      "case": 8,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 24
+    },
+    {
+      "case": 9,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 25
+    },
+    {
+      "case": 10,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 26
+    },
+    {
+      "case": 11,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 27
+    },
+    {
+      "case": 12,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 9.95770097e-05,
+      "relative": 9.95770097,
+      "consistent": true,
+      "passed": true,
+      "global_case": 28
+    },
+    {
+      "case": 13,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 9.95770097e-05,
+      "relative": 9.95770097,
+      "consistent": true,
+      "passed": true,
+      "global_case": 29
+    },
+    {
+      "case": 14,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 9.95770097e-05,
+      "relative": 9.95770097,
+      "consistent": true,
+      "passed": true,
+      "global_case": 30
+    },
+    {
+      "case": 15,
+      "shape": [
+        1,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 9.95770097e-05,
+      "relative": 9.95770097,
+      "consistent": true,
+      "passed": true,
+      "global_case": 31
+    },
+    {
+      "case": 16,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0.000122070312,
+      "relative": 7.0688858e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 32
+    },
+    {
+      "case": 17,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0.000122070312,
+      "relative": 7.0688858e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 33
+    },
+    {
+      "case": 18,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0.000122070312,
+      "relative": 7.0688858e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 34
+    },
+    {
+      "case": 19,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0.000122070312,
+      "relative": 7.0688858e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 35
+    },
+    {
+      "case": 20,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0.00048828125,
+      "relative": 6.69823276e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 36
+    },
+    {
+      "case": 21,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0.00048828125,
+      "relative": 6.69823276e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 37
+    },
+    {
+      "case": 22,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0.00048828125,
+      "relative": 6.69823276e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 38
+    },
+    {
+      "case": 23,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0.00048828125,
+      "relative": 6.69823276e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 39
+    },
+    {
+      "case": 24,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 40
+    },
+    {
+      "case": 25,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 41
+    },
+    {
+      "case": 26,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 42
+    },
+    {
+      "case": 27,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 43
+    },
+    {
+      "case": 28,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0.000120112352,
+      "relative": 12.0112352,
+      "consistent": true,
+      "passed": false,
+      "global_case": 44
+    },
+    {
+      "case": 0,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0.000120112352,
+      "relative": 12.0112352,
+      "consistent": true,
+      "passed": false,
+      "global_case": 45
+    },
+    {
+      "case": 0,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0.000120112352,
+      "relative": 12.0112352,
+      "consistent": true,
+      "passed": false,
+      "global_case": 46
+    },
+    {
+      "case": 0,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0.000120112352,
+      "relative": 12.0112352,
+      "consistent": true,
+      "passed": false,
+      "global_case": 47
+    },
+    {
+      "case": 0,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0.000122070312,
+      "relative": 7.07190322e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 48
+    },
+    {
+      "case": 1,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0.000122070312,
+      "relative": 7.07190322e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 49
+    },
+    {
+      "case": 2,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0.000122070312,
+      "relative": 7.07190322e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 50
+    },
+    {
+      "case": 3,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0.000122070312,
+      "relative": 7.07190322e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 51
+    },
+    {
+      "case": 4,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0.00048828125,
+      "relative": 6.83327793e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 52
+    },
+    {
+      "case": 5,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0.00048828125,
+      "relative": 6.83327793e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 53
+    },
+    {
+      "case": 6,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0.00048828125,
+      "relative": 6.83327793e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 54
+    },
+    {
+      "case": 7,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0.00048828125,
+      "relative": 6.83327793e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 55
+    },
+    {
+      "case": 8,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 56
+    },
+    {
+      "case": 9,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 57
+    },
+    {
+      "case": 10,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 58
+    },
+    {
+      "case": 11,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 59
+    },
+    {
+      "case": 12,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0.000106751919,
+      "relative": 10.6751919,
+      "consistent": true,
+      "passed": false,
+      "global_case": 60
+    },
+    {
+      "case": 0,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0.000106751919,
+      "relative": 10.6751919,
+      "consistent": true,
+      "passed": false,
+      "global_case": 61
+    },
+    {
+      "case": 0,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0.000106751919,
+      "relative": 10.6751919,
+      "consistent": true,
+      "passed": false,
+      "global_case": 62
+    },
+    {
+      "case": 0,
+      "shape": [
+        21,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0.000106751919,
+      "relative": 10.6751919,
+      "consistent": true,
+      "passed": false,
+      "global_case": 63
+    },
+    {
+      "case": 0,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0.000122070312,
+      "relative": 7.09642674e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 64
+    },
+    {
+      "case": 1,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0.000122070312,
+      "relative": 7.09642674e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 65
+    },
+    {
+      "case": 2,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0.000122070312,
+      "relative": 7.09642674e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 66
+    },
+    {
+      "case": 3,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0.000122070312,
+      "relative": 7.09642674e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 67
+    },
+    {
+      "case": 4,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0.00048828125,
+      "relative": 6.81208423e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 68
+    },
+    {
+      "case": 5,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0.00048828125,
+      "relative": 6.81208423e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 69
+    },
+    {
+      "case": 6,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0.00048828125,
+      "relative": 6.81208423e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 70
+    },
+    {
+      "case": 7,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0.00048828125,
+      "relative": 6.81208423e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 71
+    },
+    {
+      "case": 8,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 72
+    },
+    {
+      "case": 9,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 73
+    },
+    {
+      "case": 10,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 74
+    },
+    {
+      "case": 11,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 75
+    },
+    {
+      "case": 12,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0.000122902216,
+      "relative": 12.2902216,
+      "consistent": true,
+      "passed": false,
+      "global_case": 76
+    },
+    {
+      "case": 0,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0.000122902216,
+      "relative": 12.2902216,
+      "consistent": true,
+      "passed": false,
+      "global_case": 77
+    },
+    {
+      "case": 0,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0.000122902216,
+      "relative": 12.2902216,
+      "consistent": true,
+      "passed": false,
+      "global_case": 78
+    },
+    {
+      "case": 0,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0.000122902216,
+      "relative": 12.2902216,
+      "consistent": true,
+      "passed": false,
+      "global_case": 79
+    },
+    {
+      "case": 0,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0.000122070312,
+      "relative": 7.06977236e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 80
+    },
+    {
+      "case": 1,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0.000122070312,
+      "relative": 7.06977236e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 81
+    },
+    {
+      "case": 2,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0.000122070312,
+      "relative": 7.06977236e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 82
+    },
+    {
+      "case": 3,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0.000122070312,
+      "relative": 7.06977236e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 83
+    },
+    {
+      "case": 4,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0.00048828125,
+      "relative": 6.74067887e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 84
+    },
+    {
+      "case": 5,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0.00048828125,
+      "relative": 6.74067887e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 85
+    },
+    {
+      "case": 6,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0.00048828125,
+      "relative": 6.74067887e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 86
+    },
+    {
+      "case": 7,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0.00048828125,
+      "relative": 6.74067887e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 87
+    },
+    {
+      "case": 8,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 88
+    },
+    {
+      "case": 9,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 89
+    },
+    {
+      "case": 10,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 90
+    },
+    {
+      "case": 11,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 91
+    },
+    {
+      "case": 12,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0.000108333305,
+      "relative": 10.8333305,
+      "consistent": true,
+      "passed": false,
+      "global_case": 92
+    },
+    {
+      "case": 0,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0.000108333305,
+      "relative": 10.8333305,
+      "consistent": true,
+      "passed": false,
+      "global_case": 93
+    },
+    {
+      "case": 0,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0.000108333305,
+      "relative": 10.8333305,
+      "consistent": true,
+      "passed": false,
+      "global_case": 94
+    },
+    {
+      "case": 0,
+      "shape": [
+        63,
+        128,
+        128,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0.000108333305,
+      "relative": 10.8333305,
+      "consistent": true,
+      "passed": false,
+      "global_case": 95
+    },
+    {
+      "case": 0,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 6.10351562e-05,
+      "relative": 7.68704266e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 96
+    },
+    {
+      "case": 1,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 6.10351562e-05,
+      "relative": 7.68704266e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 97
+    },
+    {
+      "case": 2,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 6.10351562e-05,
+      "relative": 7.68704266e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 98
+    },
+    {
+      "case": 3,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 6.10351562e-05,
+      "relative": 7.68704266e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 99
+    },
+    {
+      "case": 4,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0.000244140625,
+      "relative": 6.70080414e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 100
+    },
+    {
+      "case": 5,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0.000244140625,
+      "relative": 6.70080414e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 101
+    },
+    {
+      "case": 6,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0.000244140625,
+      "relative": 6.70080414e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 102
+    },
+    {
+      "case": 7,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0.000244140625,
+      "relative": 6.70080414e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 103
+    },
+    {
+      "case": 8,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 104
+    },
+    {
+      "case": 9,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 105
+    },
+    {
+      "case": 10,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 106
+    },
+    {
+      "case": 11,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 107
+    },
+    {
+      "case": 12,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 5.35350264e-05,
+      "relative": 5.35350264,
+      "consistent": true,
+      "passed": true,
+      "global_case": 108
+    },
+    {
+      "case": 13,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 5.35350264e-05,
+      "relative": 5.35350264,
+      "consistent": true,
+      "passed": true,
+      "global_case": 109
+    },
+    {
+      "case": 14,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 5.35350264e-05,
+      "relative": 5.35350264,
+      "consistent": true,
+      "passed": true,
+      "global_case": 110
+    },
+    {
+      "case": 15,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 5.35350264e-05,
+      "relative": 5.35350264,
+      "consistent": true,
+      "passed": true,
+      "global_case": 111
+    },
+    {
+      "case": 16,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 6.10351562e-05,
+      "relative": 7.61176179e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 112
+    },
+    {
+      "case": 17,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 6.10351562e-05,
+      "relative": 7.61176179e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 113
+    },
+    {
+      "case": 18,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 6.10351562e-05,
+      "relative": 7.61176179e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 114
+    },
+    {
+      "case": 19,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 6.10351562e-05,
+      "relative": 7.61176179e-08,
+      "consistent": true,
+      "passed": true,
+      "global_case": 115
+    },
+    {
+      "case": 20,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0.00048828125,
+      "relative": 1.30926683e-07,
+      "consistent": true,
+      "passed": true,
+      "global_case": 116
+    },
+    {
+      "case": 21,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0.00048828125,
+      "relative": 1.30926683e-07,
+      "consistent": true,
+      "passed": true,
+      "global_case": 117
+    },
+    {
+      "case": 22,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0.00048828125,
+      "relative": 1.30926683e-07,
+      "consistent": true,
+      "passed": true,
+      "global_case": 118
+    },
+    {
+      "case": 23,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0.00048828125,
+      "relative": 1.30926683e-07,
+      "consistent": true,
+      "passed": true,
+      "global_case": 119
+    },
+    {
+      "case": 24,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 120
+    },
+    {
+      "case": 25,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 121
+    },
+    {
+      "case": 26,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 122
+    },
+    {
+      "case": 27,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true,
+      "global_case": 123
+    },
+    {
+      "case": 28,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 4.7005713e-05,
+      "relative": 4.7005713,
+      "consistent": true,
+      "passed": true,
+      "global_case": 124
+    },
+    {
+      "case": 29,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 4.7005713e-05,
+      "relative": 4.7005713,
+      "consistent": true,
+      "passed": true,
+      "global_case": 125
+    },
+    {
+      "case": 30,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 4.7005713e-05,
+      "relative": 4.7005713,
+      "consistent": true,
+      "passed": true,
+      "global_case": 126
+    },
+    {
+      "case": 31,
+      "shape": [
+        21,
+        65,
+        73,
+        256
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 4.7005713e-05,
+      "relative": 4.7005713,
+      "consistent": true,
+      "passed": true,
+      "global_case": 127
+    }
+  ]
+}

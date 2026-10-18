@@ -1,0 +1,62 @@
+{
+  "ntasks": 123,
+  "csv": "/home/developer/bmms_v3/variants/s4t/work/1_1025_1031_1032_2_1_1/profile/PROF_000001_20261005001603510_00271380DODHLGGB/mindstudio_profiler_output/op_summary_20261005001607.csv",
+  "fields": {
+    "Task Duration(us)": {
+      "first": 83.52,
+      "tail60_median": 71.94
+    },
+    "Block Num": {
+      "first": 18.0,
+      "tail60_median": 18.0
+    },
+    "Mix Block Num": {
+      "first": 18.0,
+      "tail60_median": 18.0
+    },
+    "aic_mac_time(us)": {
+      "first": 10.824,
+      "tail60_median": 10.824
+    },
+    "aic_scalar_time(us)": {
+      "first": 35.201,
+      "tail60_median": 33.727000000000004
+    },
+    "aic_mte1_time(us)": {
+      "first": 7.997,
+      "tail60_median": 8.046
+    },
+    "aic_mte2_time(us)": {
+      "first": 65.182,
+      "tail60_median": 56.831
+    },
+    "aic_fixpipe_time(us)": {
+      "first": 17.343,
+      "tail60_median": 16.433999999999997
+    },
+    "aiv_vec_time(us)": {
+      "first": 1.39,
+      "tail60_median": 1.39
+    },
+    "aiv_scalar_time(us)": {
+      "first": 7.424,
+      "tail60_median": 6.345
+    },
+    "aiv_mte2_time(us)": {
+      "first": 2.583,
+      "tail60_median": 2.379
+    },
+    "aiv_mte3_time(us)": {
+      "first": 0.225,
+      "tail60_median": 0.1685
+    },
+    "aic_icache_miss_rate": {
+      "first": 0.011,
+      "tail60_median": 0.0
+    },
+    "aiv_icache_miss_rate": {
+      "first": 0.088,
+      "tail60_median": 0.0
+    }
+  }
+}

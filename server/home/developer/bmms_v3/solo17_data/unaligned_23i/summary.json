@@ -1,0 +1,35 @@
+[
+  {
+    "offsetA": 2,
+    "offsetB": 0,
+    "passed": true,
+    "observed": 576,
+    "expected": 576,
+    "hashes": {
+      "bench_unaligned": "72320114b9e1ffb104ce556bd7a2236092f3fe29da935fb9ba7b7ae4995ae855",
+      "kernel.asc": "be327461b89963ee31f33989983c41522b40e0d4e056f9d470fae0f45931b8df"
+    }
+  },
+  {
+    "offsetA": 0,
+    "offsetB": 2,
+    "passed": true,
+    "observed": 576,
+    "expected": 576,
+    "hashes": {
+      "bench_unaligned": "72320114b9e1ffb104ce556bd7a2236092f3fe29da935fb9ba7b7ae4995ae855",
+      "kernel.asc": "be327461b89963ee31f33989983c41522b40e0d4e056f9d470fae0f45931b8df"
+    }
+  },
+  {
+    "offsetA": 2,
+    "offsetB": 2,
+    "passed": true,
+    "observed": 576,
+    "expected": 576,
+    "hashes": {
+      "bench_unaligned": "72320114b9e1ffb104ce556bd7a2236092f3fe29da935fb9ba7b7ae4995ae855",
+      "kernel.asc": "be327461b89963ee31f33989983c41522b40e0d4e056f9d470fae0f45931b8df"
+    }
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "shape": {
+    "B": 4,
+    "M": 256,
+    "N": 256,
+    "K": 128
+  },
+  "dtype": "float16",
+  "repetitions": 20,
+  "task_count": 20,
+  "mean": {
+    "Task Duration(us)": 10.588000000000001,
+    "aic_mac_ratio": 0.06020000000000001,
+    "aiv_vec_ratio": 0.05005,
+    "aic_mte2_ratio": 0.277,
+    "aiv_mte2_ratio": 0.0811,
+    "aiv_mte3_ratio": 0.023600000000000003,
+    "cube_utilization(%)": 58.28665000000001
+  }
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "shape": [
+      2,
+      2,
+      6,
+      24
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "passed": true,
+    "relative": 0.0,
+    "returncode": 0,
+    "seconds": 2.040596527978778
+  },
+  {
+    "shape": [
+      2,
+      2,
+      6,
+      24
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 0,
+    "passed": true,
+    "relative": 0.0,
+    "returncode": 0,
+    "seconds": 2.0515344869927503
+  },
+  {
+    "shape": [
+      1,
+      3,
+      5,
+      40
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "passed": true,
+    "relative": 0.0,
+    "returncode": 0,
+    "seconds": 2.0476000850030687
+  },
+  {
+    "shape": [
+      1,
+      3,
+      5,
+      40
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 0,
+    "passed": true,
+    "relative": 0.0,
+    "returncode": 0,
+    "seconds": 2.051380524004344
+  },
+  {
+    "shape": [
+      41,
+      7,
+      7,
+      56
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "passed": true,
+    "relative": 1.0454046162067243e-07,
+    "returncode": 0,
+    "seconds": 2.0509432859835215
+  },
+  {
+    "shape": [
+      41,
+      7,
+      7,
+      56
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 0,
+    "passed": true,
+    "relative": 9.53687688820537e-08,
+    "returncode": 0,
+    "seconds": 2.050955396000063
+  },
+  {
+    "shape": [
+      2,
+      8,
+      8,
+      64
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "passed": true,
+    "relative": 7.11583965085083e-08,
+    "returncode": 0,
+    "seconds": 2.0434688499954063
+  },
+  {
+    "shape": [
+      2,
+      8,
+      8,
+      64
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 0,
+    "passed": true,
+    "relative": 6.1233471626565e-08,
+    "returncode": 0,
+    "seconds": 2.047382994001964
+  },
+  {
+    "shape": [
+      1,
+      1,
+      8,
+      8
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "passed": true,
+    "relative": 0.0,
+    "returncode": 0,
+    "seconds": 2.0473801709886175
+  },
+  {
+    "shape": [
+      1,
+      1,
+      8,
+      8
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 0,
+    "passed": true,
+    "relative": 0.0,
+    "returncode": 0,
+    "seconds": 2.0509168160206173
+  }
+]

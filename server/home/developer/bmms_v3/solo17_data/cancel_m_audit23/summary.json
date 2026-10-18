@@ -1,0 +1,488 @@
+[
+  {
+    "variant": "s23f",
+    "fixture_case": 72,
+    "pattern": "cancel_m",
+    "passed": true,
+    "measurement": {
+      "case": 0,
+      "shape": [
+        1,
+        2048,
+        128,
+        8192
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 3.05175781e-05,
+      "relative": 3.05175781,
+      "consistent": true,
+      "passed": true
+    },
+    "hashes": {
+      "bench_cases": "3437e03be6afa5a87aebb539b770c9ef9fa5de604d67e32944f60ce9a75f50d8",
+      "kernel.asc": "550bcc0de7aba9d5d524856a446aa98cc567db62ee39300701ad9c3acffa1abe"
+    },
+    "returncode": 0
+  },
+  {
+    "variant": "s23f",
+    "fixture_case": 88,
+    "pattern": "cancel_m",
+    "passed": false,
+    "measurement": {
+      "case": 0,
+      "shape": [
+        1,
+        2048,
+        128,
+        8192
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0.000228881836,
+      "relative": 22.8881836,
+      "consistent": true,
+      "passed": false
+    },
+    "hashes": {
+      "bench_cases": "3437e03be6afa5a87aebb539b770c9ef9fa5de604d67e32944f60ce9a75f50d8",
+      "kernel.asc": "550bcc0de7aba9d5d524856a446aa98cc567db62ee39300701ad9c3acffa1abe"
+    },
+    "returncode": 3
+  },
+  {
+    "variant": "s23f",
+    "fixture_case": 89,
+    "pattern": "cancel_m",
+    "passed": true,
+    "measurement": {
+      "case": 0,
+      "shape": [
+        1,
+        2048,
+        128,
+        8192
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 7.62939453e-05,
+      "relative": 7.62939453,
+      "consistent": true,
+      "passed": true
+    },
+    "hashes": {
+      "bench_cases": "3437e03be6afa5a87aebb539b770c9ef9fa5de604d67e32944f60ce9a75f50d8",
+      "kernel.asc": "550bcc0de7aba9d5d524856a446aa98cc567db62ee39300701ad9c3acffa1abe"
+    },
+    "returncode": 0
+  },
+  {
+    "variant": "s23f",
+    "fixture_case": 90,
+    "pattern": "cancel_m",
+    "passed": true,
+    "measurement": {
+      "case": 0,
+      "shape": [
+        1,
+        2048,
+        128,
+        8192
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 7.62939453e-05,
+      "relative": 7.62939453,
+      "consistent": true,
+      "passed": true
+    },
+    "hashes": {
+      "bench_cases": "3437e03be6afa5a87aebb539b770c9ef9fa5de604d67e32944f60ce9a75f50d8",
+      "kernel.asc": "550bcc0de7aba9d5d524856a446aa98cc567db62ee39300701ad9c3acffa1abe"
+    },
+    "returncode": 0
+  },
+  {
+    "variant": "s23f",
+    "fixture_case": 91,
+    "pattern": "cancel_m",
+    "passed": true,
+    "measurement": {
+      "case": 0,
+      "shape": [
+        1,
+        2048,
+        128,
+        8192
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 7.62939453e-05,
+      "relative": 7.62939453,
+      "consistent": true,
+      "passed": true
+    },
+    "hashes": {
+      "bench_cases": "3437e03be6afa5a87aebb539b770c9ef9fa5de604d67e32944f60ce9a75f50d8",
+      "kernel.asc": "550bcc0de7aba9d5d524856a446aa98cc567db62ee39300701ad9c3acffa1abe"
+    },
+    "returncode": 0
+  },
+  {
+    "variant": "s23f",
+    "fixture_case": 92,
+    "pattern": "cancel_k",
+    "passed": true,
+    "measurement": {
+      "case": 0,
+      "shape": [
+        1,
+        2048,
+        128,
+        8192
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true
+    },
+    "hashes": {
+      "bench_cases": "3437e03be6afa5a87aebb539b770c9ef9fa5de604d67e32944f60ce9a75f50d8",
+      "kernel.asc": "550bcc0de7aba9d5d524856a446aa98cc567db62ee39300701ad9c3acffa1abe"
+    },
+    "returncode": 0
+  },
+  {
+    "variant": "s23d",
+    "fixture_case": 72,
+    "pattern": "cancel_m",
+    "passed": true,
+    "measurement": {
+      "case": 0,
+      "shape": [
+        1,
+        2048,
+        128,
+        8192
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 6.10351562e-05,
+      "relative": 6.10351562,
+      "consistent": true,
+      "passed": true
+    },
+    "hashes": {
+      "bench_cases": "939586d13e9b297d292adc978c3f6e0e513f09faf978999311f79aa3dc2caa9c",
+      "kernel.asc": "f0aab8ebf32d2f71314baadc98359ed18e0ab42177e99aaf2a153de9ba886a5b"
+    },
+    "returncode": 0
+  },
+  {
+    "variant": "s23d",
+    "fixture_case": 88,
+    "pattern": "cancel_m",
+    "passed": true,
+    "measurement": {
+      "case": 0,
+      "shape": [
+        1,
+        2048,
+        128,
+        8192
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 7.62939453e-05,
+      "relative": 7.62939453,
+      "consistent": true,
+      "passed": true
+    },
+    "hashes": {
+      "bench_cases": "939586d13e9b297d292adc978c3f6e0e513f09faf978999311f79aa3dc2caa9c",
+      "kernel.asc": "f0aab8ebf32d2f71314baadc98359ed18e0ab42177e99aaf2a153de9ba886a5b"
+    },
+    "returncode": 0
+  },
+  {
+    "variant": "s23d",
+    "fixture_case": 89,
+    "pattern": "cancel_m",
+    "passed": true,
+    "measurement": {
+      "case": 0,
+      "shape": [
+        1,
+        2048,
+        128,
+        8192
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 7.62939453e-05,
+      "relative": 7.62939453,
+      "consistent": true,
+      "passed": true
+    },
+    "hashes": {
+      "bench_cases": "939586d13e9b297d292adc978c3f6e0e513f09faf978999311f79aa3dc2caa9c",
+      "kernel.asc": "f0aab8ebf32d2f71314baadc98359ed18e0ab42177e99aaf2a153de9ba886a5b"
+    },
+    "returncode": 0
+  },
+  {
+    "variant": "s23d",
+    "fixture_case": 90,
+    "pattern": "cancel_m",
+    "passed": true,
+    "measurement": {
+      "case": 0,
+      "shape": [
+        1,
+        2048,
+        128,
+        8192
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 7.62939453e-05,
+      "relative": 7.62939453,
+      "consistent": true,
+      "passed": true
+    },
+    "hashes": {
+      "bench_cases": "939586d13e9b297d292adc978c3f6e0e513f09faf978999311f79aa3dc2caa9c",
+      "kernel.asc": "f0aab8ebf32d2f71314baadc98359ed18e0ab42177e99aaf2a153de9ba886a5b"
+    },
+    "returncode": 0
+  },
+  {
+    "variant": "s23d",
+    "fixture_case": 91,
+    "pattern": "cancel_m",
+    "passed": true,
+    "measurement": {
+      "case": 0,
+      "shape": [
+        1,
+        2048,
+        128,
+        8192
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 7.62939453e-05,
+      "relative": 7.62939453,
+      "consistent": true,
+      "passed": true
+    },
+    "hashes": {
+      "bench_cases": "939586d13e9b297d292adc978c3f6e0e513f09faf978999311f79aa3dc2caa9c",
+      "kernel.asc": "f0aab8ebf32d2f71314baadc98359ed18e0ab42177e99aaf2a153de9ba886a5b"
+    },
+    "returncode": 0
+  },
+  {
+    "variant": "s23d",
+    "fixture_case": 92,
+    "pattern": "cancel_k",
+    "passed": true,
+    "measurement": {
+      "case": 0,
+      "shape": [
+        1,
+        2048,
+        128,
+        8192
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0,
+      "relative": 0,
+      "consistent": true,
+      "passed": true
+    },
+    "hashes": {
+      "bench_cases": "939586d13e9b297d292adc978c3f6e0e513f09faf978999311f79aa3dc2caa9c",
+      "kernel.asc": "f0aab8ebf32d2f71314baadc98359ed18e0ab42177e99aaf2a153de9ba886a5b"
+    },
+    "returncode": 0
+  },
+  {
+    "variant": "s15i",
+    "fixture_case": 72,
+    "pattern": "cancel_m",
+    "passed": true,
+    "measurement": {
+      "case": 0,
+      "shape": [
+        1,
+        2048,
+        128,
+        8192
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 3.05175781e-05,
+      "relative": 3.05175781,
+      "consistent": true,
+      "passed": true
+    },
+    "hashes": {
+      "bench_cases": "6c4eff7771b651f3ff9951b961a86fb72fa505c3ee5207e8fb229efee023cecc",
+      "kernel.asc": "b67d45e1b270ad416e403cd18a7e9f0cd06341f26e8e734f1dee4fdc8e37c4f6"
+    },
+    "returncode": 0
+  },
+  {
+    "variant": "s15i",
+    "fixture_case": 88,
+    "pattern": "cancel_m",
+    "passed": false,
+    "measurement": {
+      "case": 0,
+      "shape": [
+        1,
+        2048,
+        128,
+        8192
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0.000152587891,
+      "relative": 15.2587891,
+      "consistent": true,
+      "passed": false
+    },
+    "hashes": {
+      "bench_cases": "6c4eff7771b651f3ff9951b961a86fb72fa505c3ee5207e8fb229efee023cecc",
+      "kernel.asc": "b67d45e1b270ad416e403cd18a7e9f0cd06341f26e8e734f1dee4fdc8e37c4f6"
+    },
+    "returncode": 3
+  },
+  {
+    "variant": "s15i",
+    "fixture_case": 89,
+    "pattern": "cancel_m",
+    "passed": false,
+    "measurement": {
+      "case": 0,
+      "shape": [
+        1,
+        2048,
+        128,
+        8192
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 1,
+      "absolute": 0.000152587891,
+      "relative": 15.2587891,
+      "consistent": true,
+      "passed": false
+    },
+    "hashes": {
+      "bench_cases": "6c4eff7771b651f3ff9951b961a86fb72fa505c3ee5207e8fb229efee023cecc",
+      "kernel.asc": "b67d45e1b270ad416e403cd18a7e9f0cd06341f26e8e734f1dee4fdc8e37c4f6"
+    },
+    "returncode": 3
+  },
+  {
+    "variant": "s15i",
+    "fixture_case": 90,
+    "pattern": "cancel_m",
+    "passed": false,
+    "measurement": {
+      "case": 0,
+      "shape": [
+        1,
+        2048,
+        128,
+        8192
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 0,
+      "absolute": 0.000152587891,
+      "relative": 15.2587891,
+      "consistent": true,
+      "passed": false
+    },
+    "hashes": {
+      "bench_cases": "6c4eff7771b651f3ff9951b961a86fb72fa505c3ee5207e8fb229efee023cecc",
+      "kernel.asc": "b67d45e1b270ad416e403cd18a7e9f0cd06341f26e8e734f1dee4fdc8e37c4f6"
+    },
+    "returncode": 3
+  },
+  {
+    "variant": "s15i",
+    "fixture_case": 91,
+    "pattern": "cancel_m",
+    "passed": false,
+    "measurement": {
+      "case": 0,
+      "shape": [
+        1,
+        2048,
+        128,
+        8192
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 1,
+      "absolute": 0.000152587891,
+      "relative": 15.2587891,
+      "consistent": true,
+      "passed": false
+    },
+    "hashes": {
+      "bench_cases": "6c4eff7771b651f3ff9951b961a86fb72fa505c3ee5207e8fb229efee023cecc",
+      "kernel.asc": "b67d45e1b270ad416e403cd18a7e9f0cd06341f26e8e734f1dee4fdc8e37c4f6"
+    },
+    "returncode": 3
+  },
+  {
+    "variant": "s15i",
+    "fixture_case": 92,
+    "pattern": "cancel_k",
+    "passed": false,
+    "measurement": {
+      "case": 0,
+      "shape": [
+        1,
+        2048,
+        128,
+        8192
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0.0590564609,
+      "relative": 5905.64609,
+      "consistent": true,
+      "passed": false
+    },
+    "hashes": {
+      "bench_cases": "6c4eff7771b651f3ff9951b961a86fb72fa505c3ee5207e8fb229efee023cecc",
+      "kernel.asc": "b67d45e1b270ad416e403cd18a7e9f0cd06341f26e8e734f1dee4fdc8e37c4f6"
+    },
+    "returncode": 3
+  }
+]

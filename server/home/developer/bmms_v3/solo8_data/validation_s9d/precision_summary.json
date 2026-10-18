@@ -1,0 +1,13 @@
+{
+  "total": 153,
+  "suites": [
+    {
+      "suite": "nz_precision",
+      "expected": 192,
+      "observed": 153,
+      "passed": false,
+      "max_absolute": 0.125,
+      "max_relative": 10.6811523
+    }
+  ]
+}

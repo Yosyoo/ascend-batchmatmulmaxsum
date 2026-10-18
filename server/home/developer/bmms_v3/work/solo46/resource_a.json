@@ -1,0 +1,23 @@
+{
+  "parent": "s45c",
+  "scope": "Only existing pairK dispatch with K256,M/N<=128; all legacy earlier fast paths retained, all dtypes/layouts.",
+  "hypothesis": "Use existing manual two-half Mmad plus FP32 atomic Fixpipe, avoiding Matmul Init/IterateAll scheduler cost while retaining independent half sums.",
+  "max_bytes": {
+    "L1": 65536,
+    "L0A": 32768,
+    "L0B": 32768,
+    "L0C": 65536,
+    "UB": 100352
+  },
+  "limits": {
+    "L1": 524032,
+    "L0A": 65536,
+    "L0B": 65536,
+    "L0C": 131072,
+    "UB": 196352
+  },
+  "workspace": "Existing C host tiling/core count/workspace unchanged; pass the same tileM/tileN/ns to manual kernel. No added GM.",
+  "mandatory_source_corrections": "Existing manual_pad PAIR had NN-only half offsets: add partStart*m for TA and partStart for TB. Skip B zero fill only for new PAIR/TK256 specialization because halfK128 has no K tail; preserve all old instantiations.",
+  "math": "Two independently initialized Mmad half128 results; q0 normal Fixpipe, q1 FP32 atomic addition, same existing Vector max/sum, current input read each call, one kernel.",
+  "acceptance": "Full old21818 + all new128, original100 ABBA160 last80, six hangs; report all outcomes; official result determines score benefit; stop all submissions on first rank<=25."
+}

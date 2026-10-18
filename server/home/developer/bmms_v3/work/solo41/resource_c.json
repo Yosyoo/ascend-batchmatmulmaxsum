@@ -1,0 +1,12 @@
+{
+  "UB": "unchanged <=180KiB under original guard",
+  "L1_max": 524288,
+  "L0A_max": 65536,
+  "L0B_max": 65536,
+  "L0C_max": 131072,
+  "GM": "same two scratch slots",
+  "mechanism": "extend existing two-half FP32 accumulation to substantial aligned medium-K SDK work; no value-dependent routing",
+  "gate": "K256..1024, K%32==0, B*M*N*K>=2^28, !packed",
+  "evidence": "s33a and s41a same error0.000268957956 on FP16 NN [16,256,256,256] exact half-K cancellation fixture c012; remaining patterns being audited",
+  "precision": "two real half products combined on NPU, no zeros shortcut, original tolerance unchanged"
+}

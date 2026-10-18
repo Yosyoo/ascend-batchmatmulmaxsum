@@ -1,0 +1,310 @@
+[
+  {
+    "shape": [
+      2,
+      3,
+      7,
+      40
+    ],
+    "variant": "baseline",
+    "mean_us": 7.203333333333333,
+    "median_us": 5.67,
+    "tasks": 20,
+    "passed": true,
+    "relative": 9.416700663678057e-08
+  },
+  {
+    "shape": [
+      2,
+      3,
+      7,
+      40
+    ],
+    "variant": "candidate",
+    "mean_us": 6.523333333333333,
+    "median_us": 5.2,
+    "tasks": 20,
+    "passed": true,
+    "relative": 9.416700663678057e-08
+  },
+  {
+    "shape": [
+      3,
+      17,
+      19,
+      72
+    ],
+    "variant": "baseline",
+    "mean_us": 6.552222222222222,
+    "median_us": 5.57,
+    "tasks": 20,
+    "passed": true,
+    "relative": 8.83214426039558e-08
+  },
+  {
+    "shape": [
+      3,
+      17,
+      19,
+      72
+    ],
+    "variant": "candidate",
+    "mean_us": 5.7411111111111115,
+    "median_us": 4.84,
+    "tasks": 20,
+    "passed": true,
+    "relative": 8.83214426039558e-08
+  },
+  {
+    "shape": [
+      1,
+      65,
+      129,
+      128
+    ],
+    "variant": "baseline",
+    "mean_us": 9.457777777777778,
+    "median_us": 7.92,
+    "tasks": 20,
+    "passed": true,
+    "relative": 1.0118514381929344e-07
+  },
+  {
+    "shape": [
+      1,
+      65,
+      129,
+      128
+    ],
+    "variant": "candidate",
+    "mean_us": 7.416666666666667,
+    "median_us": 6.51,
+    "tasks": 20,
+    "passed": true,
+    "relative": 1.0118514381929344e-07
+  },
+  {
+    "shape": [
+      2,
+      129,
+      257,
+      256
+    ],
+    "variant": "baseline",
+    "mean_us": 14.79888888888889,
+    "median_us": 12.59,
+    "tasks": 20,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      2,
+      129,
+      257,
+      256
+    ],
+    "variant": "candidate",
+    "mean_us": 12.27111111111111,
+    "median_us": 10.67,
+    "tasks": 20,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      31,
+      513,
+      8192
+    ],
+    "variant": "baseline",
+    "mean_us": 264.5588888888889,
+    "median_us": 264.62,
+    "tasks": 20,
+    "passed": true,
+    "relative": 8.37893807670298e-08
+  },
+  {
+    "shape": [
+      1,
+      31,
+      513,
+      8192
+    ],
+    "variant": "candidate",
+    "mean_us": 65.0488888888889,
+    "median_us": 61.1,
+    "tasks": 20,
+    "passed": true,
+    "relative": 8.37893807670298e-08
+  },
+  {
+    "shape": [
+      1,
+      8192,
+      17,
+      32
+    ],
+    "variant": "baseline",
+    "mean_us": 111.83222222222223,
+    "median_us": 111.83,
+    "tasks": 20,
+    "passed": true,
+    "relative": 1.3983344615553506e-07
+  },
+  {
+    "shape": [
+      1,
+      8192,
+      17,
+      32
+    ],
+    "variant": "candidate",
+    "mean_us": 112.31777777777779,
+    "median_us": 112.37,
+    "tasks": 20,
+    "passed": true,
+    "relative": 1.3983344615553506e-07
+  },
+  {
+    "shape": [
+      1,
+      16,
+      8192,
+      64
+    ],
+    "variant": "baseline",
+    "mean_us": 56.93444444444444,
+    "median_us": 57.59,
+    "tasks": 20,
+    "passed": true,
+    "relative": 9.724394089971611e-08
+  },
+  {
+    "shape": [
+      1,
+      16,
+      8192,
+      64
+    ],
+    "variant": "candidate",
+    "mean_us": 11.020000000000001,
+    "median_us": 10.96,
+    "tasks": 20,
+    "passed": true,
+    "relative": 9.724394089971611e-08
+  },
+  {
+    "shape": [
+      4,
+      256,
+      256,
+      128
+    ],
+    "variant": "baseline",
+    "mean_us": 9.568888888888889,
+    "median_us": 8.06,
+    "tasks": 20,
+    "passed": true,
+    "relative": 8.853599808844592e-08
+  },
+  {
+    "shape": [
+      4,
+      256,
+      256,
+      128
+    ],
+    "variant": "candidate",
+    "mean_us": 10.51,
+    "median_us": 10.43,
+    "tasks": 20,
+    "passed": true,
+    "relative": 8.853599808844592e-08
+  },
+  {
+    "shape": [
+      1,
+      512,
+      512,
+      512
+    ],
+    "variant": "baseline",
+    "mean_us": 17.77111111111111,
+    "median_us": 15.48,
+    "tasks": 20,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      512,
+      512,
+      512
+    ],
+    "variant": "candidate",
+    "mean_us": 16.702222222222222,
+    "median_us": 16.630000000000003,
+    "tasks": 20,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      1024
+    ],
+    "variant": "baseline",
+    "mean_us": 43.51444444444445,
+    "median_us": 43.59,
+    "tasks": 20,
+    "passed": true,
+    "relative": 1.1024769008827207e-07
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      1024
+    ],
+    "variant": "candidate",
+    "mean_us": 45.87555555555556,
+    "median_us": 45.8,
+    "tasks": 20,
+    "passed": true,
+    "relative": 1.1024769008827207e-07
+  },
+  {
+    "shape": [
+      1,
+      256,
+      4096,
+      1024
+    ],
+    "variant": "baseline",
+    "mean_us": 146.33444444444444,
+    "median_us": 145.16,
+    "tasks": 20,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      256,
+      4096,
+      1024
+    ],
+    "variant": "candidate",
+    "mean_us": 38.37333333333333,
+    "median_us": 38.36,
+    "tasks": 20,
+    "passed": true,
+    "relative": 0.0
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "variant": "s21b",
+  "parent": "s20f",
+  "capacity_calculated_before_edit": true,
+  "resource_probe_rows": 1920,
+  "probe_sha256": "fe210261e1504e6992f1629059b696c33cd0bbb9bc5c886b8207fdf89e472f19",
+  "maxima": {
+    "L1_bytes": 458752,
+    "L0A_bytes": 65536,
+    "L0B_bytes": 32768,
+    "L0C_bytes": 131072,
+    "UB_bytes": 182272
+  },
+  "limits": {
+    "L1_bytes": 524288,
+    "L0A_bytes": 65536,
+    "L0B_bytes": 65536,
+    "L0C_bytes": 131072,
+    "UB_bytes": 184320
+  },
+  "scope": "GM ND; K=2048..8192 multiple32; M=512..2048 multiple256; N=512..8192 multiple256; existing tile128x256; b*ceil(M/128)<availableCoreNum",
+  "change": "tile128x256 to256x128 before UB guard, tiling, tasks, workspace and dispatch; preserves half-K arithmetic and ordered FP32 accumulation",
+  "inference": "Larger M may reuse B more efficiently; official case shapes unknown. Tile64x256 (s21a) was measured slower and rejected."
+}

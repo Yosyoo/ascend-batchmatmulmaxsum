@@ -1,0 +1,109 @@
+{
+  "total": 16498,
+  "suites": [
+    {
+      "suite": "generic_nt_2970",
+      "expected": 2970,
+      "observed": 2970,
+      "passed": true,
+      "max_absolute": 1.52587891e-05,
+      "max_relative": 0.0953674316
+    },
+    {
+      "suite": "nt_2352",
+      "expected": 2352,
+      "observed": 2352,
+      "passed": true,
+      "max_absolute": 7.62939453e-06,
+      "max_relative": 0.0953674316
+    },
+    {
+      "suite": "copy_1728",
+      "expected": 1728,
+      "observed": 1728,
+      "passed": true,
+      "max_absolute": 0.000122070312,
+      "max_relative": 0.190734863
+    },
+    {
+      "suite": "vector_192",
+      "expected": 192,
+      "observed": 192,
+      "passed": true,
+      "max_absolute": 1.52587891e-05,
+      "max_relative": 1.53694587e-07
+    },
+    {
+      "suite": "micro_precision",
+      "expected": 192,
+      "observed": 192,
+      "passed": true,
+      "max_absolute": 3.81469727e-06,
+      "max_relative": 1.81081804e-07
+    },
+    {
+      "suite": "nz_precision",
+      "expected": 192,
+      "observed": 192,
+      "passed": true,
+      "max_absolute": 0.125,
+      "max_relative": 3.05175781
+    },
+    {
+      "suite": "regression_5712",
+      "expected": 5712,
+      "observed": 5712,
+      "passed": true,
+      "max_absolute": 0.015625,
+      "max_relative": 0.000628002105
+    },
+    {
+      "suite": "split_precision",
+      "expected": 504,
+      "observed": 504,
+      "passed": true,
+      "max_absolute": 0.0078125,
+      "max_relative": 1.12536397e-07
+    },
+    {
+      "suite": "direct_precision",
+      "expected": 2016,
+      "observed": 2016,
+      "passed": true,
+      "max_absolute": 0.000122070312,
+      "max_relative": 0.381469727
+    },
+    {
+      "suite": "tail_precision",
+      "expected": 96,
+      "observed": 96,
+      "passed": true,
+      "max_absolute": 0.03125,
+      "max_relative": 1.2945205e-07
+    },
+    {
+      "suite": "large_precision",
+      "expected": 256,
+      "observed": 256,
+      "passed": true,
+      "max_absolute": 0.75,
+      "max_relative": 2.28881836
+    },
+    {
+      "suite": "narrow_precision",
+      "expected": 192,
+      "observed": 192,
+      "passed": true,
+      "max_absolute": 0.015625,
+      "max_relative": 4.91142273
+    },
+    {
+      "suite": "narrow_extra_precision",
+      "expected": 96,
+      "observed": 96,
+      "passed": true,
+      "max_absolute": 0.015625,
+      "max_relative": 3.05175781
+    }
+  ]
+}

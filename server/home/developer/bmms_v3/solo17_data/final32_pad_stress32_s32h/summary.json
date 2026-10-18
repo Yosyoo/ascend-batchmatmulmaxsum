@@ -1,0 +1,31 @@
+{
+  "variant": "s32h",
+  "expected": 96,
+  "observed": 84,
+  "passed": false,
+  "fixture_metadata_sha256": "0b0327840e2e4152b3f776c0ef5af6eecd9c7e40bd6b26cddf69e0009c5a3edf",
+  "manifest_sha256": "83b54e1276c84c75939522b4a39ee868ca319ce7f6f39f33d6b44016df85b9fd",
+  "inputs_unchanged": true,
+  "hashes": {
+    "kernel.asc": "4cfc3ee799883aeb53dc171d519ef80c23931bfb857f49b4ab4af2bc925b631d",
+    "bench_cases": "ddcb32cbc5ea8d4ab919b63329d64d695d528ec5affb16cb59faf256d2c2f827"
+  },
+  "failures": [
+    {
+      "case": 83,
+      "shape": [
+        1,
+        255,
+        255,
+        239
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0.000237510656,
+      "relative": 23.7510656,
+      "consistent": true,
+      "passed": false
+    }
+  ]
+}

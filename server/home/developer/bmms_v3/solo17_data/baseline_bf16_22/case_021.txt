@@ -1,0 +1,1 @@
+1 512 512 8192 2 0 1 /home/developer/bmms_v3/solo17_data/long_stress21/c021

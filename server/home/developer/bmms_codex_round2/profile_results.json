@@ -1,0 +1,114 @@
+[
+  {
+    "shape": [
+      1,
+      4096,
+      17,
+      128
+    ],
+    "variant": "reference",
+    "median_us": 56.86,
+    "mean_us": 57.053,
+    "tasks": 23,
+    "passed": true,
+    "csv": "/home/developer/bmms_codex_round2/profiles/1_4096_17_128/reference/profile/PROF_000001_20261004091514728_00096358JQAGHJKL/mindstudio_profiler_output/op_summary_20261004091519.csv"
+  },
+  {
+    "shape": [
+      1,
+      4096,
+      17,
+      128
+    ],
+    "variant": "selected",
+    "median_us": 23.17,
+    "mean_us": 23.102000000000004,
+    "tasks": 23,
+    "passed": true,
+    "csv": "/home/developer/bmms_codex_round2/profiles/1_4096_17_128/selected/profile/PROF_000001_20261004091521764_00096608EDJHRMNP/mindstudio_profiler_output/op_summary_20261004091526.csv"
+  },
+  {
+    "shape": [
+      1,
+      8192,
+      17,
+      32
+    ],
+    "variant": "reference",
+    "median_us": 29.32,
+    "mean_us": 29.325,
+    "tasks": 23,
+    "passed": true,
+    "csv": "/home/developer/bmms_codex_round2/profiles/1_8192_17_32/reference/profile/PROF_000001_20261004091528802_00096856RNKAFQRI/mindstudio_profiler_output/op_summary_20261004091534.csv"
+  },
+  {
+    "shape": [
+      1,
+      8192,
+      17,
+      32
+    ],
+    "variant": "selected",
+    "median_us": 20.96,
+    "mean_us": 20.94,
+    "tasks": 23,
+    "passed": true,
+    "csv": "/home/developer/bmms_codex_round2/profiles/1_8192_17_32/selected/profile/PROF_000001_20261004091535836_00097106QDAIAKDJ/mindstudio_profiler_output/op_summary_20261004091541.csv"
+  },
+  {
+    "shape": [
+      1,
+      31,
+      513,
+      8192
+    ],
+    "variant": "reference",
+    "median_us": 61.39,
+    "mean_us": 63.347000000000016,
+    "tasks": 23,
+    "passed": true,
+    "csv": "/home/developer/bmms_codex_round2/profiles/1_31_513_8192/reference/profile/PROF_000001_20261004091542939_00097370PGFOCHJM/mindstudio_profiler_output/op_summary_20261004091548.csv"
+  },
+  {
+    "shape": [
+      1,
+      31,
+      513,
+      8192
+    ],
+    "variant": "selected",
+    "median_us": 39.39,
+    "mean_us": 39.116,
+    "tasks": 23,
+    "passed": true,
+    "csv": "/home/developer/bmms_codex_round2/profiles/1_31_513_8192/selected/profile/PROF_000001_20261004091549979_00097618HPHDKKGB/mindstudio_profiler_output/op_summary_20261004091555.csv"
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      1024
+    ],
+    "variant": "reference",
+    "median_us": 25.11,
+    "mean_us": 25.17,
+    "tasks": 23,
+    "passed": true,
+    "csv": "/home/developer/bmms_codex_round2/profiles/1_1024_1024_1024/reference/profile/PROF_000001_20261004091557135_00097869KGJPIKKE/mindstudio_profiler_output/op_summary_20261004091602.csv"
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      1024
+    ],
+    "variant": "selected",
+    "median_us": 24.83,
+    "mean_us": 24.916,
+    "tasks": 23,
+    "passed": true,
+    "csv": "/home/developer/bmms_codex_round2/profiles/1_1024_1024_1024/selected/profile/PROF_000001_20261004091604174_00098119QQBKOBNQ/mindstudio_profiler_output/op_summary_20261004091609.csv"
+  }
+]

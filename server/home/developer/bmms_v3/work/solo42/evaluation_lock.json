@@ -1,0 +1,18 @@
+{
+  "recorded_utc": "2026-10-15 06:00:51",
+  "reason": "User correction: do not choose targets or acceptance rules after seeing winners.",
+  "candidate": "s42b",
+  "candidate_sha256": "b405e207e962cf691ca813a76604c4811ed6628a90e104f683aa23df0b2f196d",
+  "baseline": "s33a",
+  "baseline_sha256": "3e98f5ecb1b847264180d1a6b551439f1a8c743e5272b3ea634f729a50e80040",
+  "performance_pool": "shapes_pool2.txt (unaltered historical 100-shape regression pool)",
+  "pool_sha256": "1703a26d993922e13db5de41a42bcdf3e266fffb5786491452cd97f927a69638",
+  "local_pool_copy": "work/solo42/locked_pool100.txt",
+  "metric": "Each shape 160 calls; last80 msprof Task Duration median; all100 shapes geometric mean candidate/baseline; ABBA order.",
+  "existing_acceptance_rule": "Both order ratios <=0.995, followed by an independent same-hash full100 ABBA repeat under the same rule; all precision suites and six hang regressions must pass.",
+  "unchanged_since_before_this_pool_run": ["candidate source", "100-shape membership", "performance metric", "acceptance threshold"],
+  "reporting": "Report every shape, regressions and all order results. Five targeted screening shapes are development evidence, not a representative improvement estimate. The historical100 pool is not a blind holdout because prior rounds used it.",
+  "known_at_record_time": "Targeted screening and direct five-shape s33a comparisons already observed; this document must not be described as preregistration of those experiments. s33a NT five-shape comparison regressed 0.3%-1.0%.",
+  "prohibited_posthoc_changes": ["remove losing shapes", "narrow source dispatch to observed winners in this frozen candidate", "choose a favorable layout or version order as the headline", "change thresholds after observing the pool", "claim local timings identify hidden official test shapes"],
+  "next_candidate_protocol": "State hardware-derived hypothesis, implementation range, failure criteria and untouched validation set before the next experiment. Withdraw unsupported8/7 N-partition threshold; no further ns candidate implemented."
+}

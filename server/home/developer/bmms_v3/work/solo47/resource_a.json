@@ -1,0 +1,20 @@
+{
+  "UB": 0,
+  "L1": 2048,
+  "L0A": 1024,
+  "L0B": 1024,
+  "L0C": 1024,
+  "workspace": 0,
+  "limits": {
+    "UB": 196352,
+    "L1": 524032,
+    "L0A": 65536,
+    "L0B": 65536,
+    "L0C": 131072
+  },
+  "gate": "M=N=1,K=32,1<=B<=availableAIC,input addresses aligned32B",
+  "layout": "GM contiguous 64B -> two 32B NZ rows at L1 offsets0,512; only valid C(0,0) copied",
+  "math": "one FP32-accumulating Mmad per real input pair; unused padding cannot contribute to C(0,0)",
+  "difference_from39a": "GM to L1 ordinary strided DataCopy replaces Nd2Nz; no implicit padding/format conversion",
+  "contract": "one Cube kernel per invocation, current real inputs, all output from NPU"
+}

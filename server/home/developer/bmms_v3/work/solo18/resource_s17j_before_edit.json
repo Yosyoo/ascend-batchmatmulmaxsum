@@ -1,0 +1,453 @@
+{
+  "variant": "s17j",
+  "parent": "s17i",
+  "capacity_calculated_before_edit": true,
+  "UB_max_bytes": 164864,
+  "outer_tile": [
+    128,
+    512
+  ],
+  "base_tile": [
+    128,
+    256,
+    64
+  ],
+  "actual_probe": [
+    {
+      "shape": [
+        1280,
+        4096,
+        1152
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 0,
+      "baseM": 128,
+      "baseN": 256,
+      "baseK": 64,
+      "singleCoreK": 576,
+      "L1_bytes": 212992,
+      "L0A_bytes": 32768,
+      "L0B_bytes": 65536,
+      "L0C_bytes": 131072
+    },
+    {
+      "shape": [
+        1280,
+        4096,
+        1152
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 1,
+      "baseM": 128,
+      "baseN": 256,
+      "baseK": 64,
+      "singleCoreK": 576,
+      "L1_bytes": 212992,
+      "L0A_bytes": 32768,
+      "L0B_bytes": 65536,
+      "L0C_bytes": 131072
+    },
+    {
+      "shape": [
+        1280,
+        4096,
+        1152
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 0,
+      "baseM": 128,
+      "baseN": 256,
+      "baseK": 64,
+      "singleCoreK": 576,
+      "L1_bytes": 212992,
+      "L0A_bytes": 32768,
+      "L0B_bytes": 65536,
+      "L0C_bytes": 131072
+    },
+    {
+      "shape": [
+        1280,
+        4096,
+        1152
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 1,
+      "baseM": 128,
+      "baseN": 256,
+      "baseK": 64,
+      "singleCoreK": 576,
+      "L1_bytes": 212992,
+      "L0A_bytes": 32768,
+      "L0B_bytes": 65536,
+      "L0C_bytes": 131072
+    },
+    {
+      "shape": [
+        1280,
+        4096,
+        1152
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 0,
+      "baseM": 128,
+      "baseN": 256,
+      "baseK": 64,
+      "singleCoreK": 576,
+      "L1_bytes": 212992,
+      "L0A_bytes": 32768,
+      "L0B_bytes": 65536,
+      "L0C_bytes": 131072
+    },
+    {
+      "shape": [
+        1280,
+        4096,
+        1152
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 1,
+      "baseM": 128,
+      "baseN": 256,
+      "baseK": 64,
+      "singleCoreK": 576,
+      "L1_bytes": 212992,
+      "L0A_bytes": 32768,
+      "L0B_bytes": 65536,
+      "L0C_bytes": 131072
+    },
+    {
+      "shape": [
+        1280,
+        4096,
+        1152
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 0,
+      "baseM": 128,
+      "baseN": 256,
+      "baseK": 64,
+      "singleCoreK": 576,
+      "L1_bytes": 212992,
+      "L0A_bytes": 32768,
+      "L0B_bytes": 65536,
+      "L0C_bytes": 131072
+    },
+    {
+      "shape": [
+        1280,
+        4096,
+        1152
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 1,
+      "baseM": 128,
+      "baseN": 256,
+      "baseK": 64,
+      "singleCoreK": 576,
+      "L1_bytes": 212992,
+      "L0A_bytes": 32768,
+      "L0B_bytes": 65536,
+      "L0C_bytes": 131072
+    },
+    {
+      "shape": [
+        1280,
+        4096,
+        1536
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 0,
+      "baseM": 128,
+      "baseN": 256,
+      "baseK": 64,
+      "singleCoreK": 768,
+      "L1_bytes": 327680,
+      "L0A_bytes": 32768,
+      "L0B_bytes": 65536,
+      "L0C_bytes": 131072
+    },
+    {
+      "shape": [
+        1280,
+        4096,
+        1536
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 1,
+      "baseM": 128,
+      "baseN": 256,
+      "baseK": 64,
+      "singleCoreK": 768,
+      "L1_bytes": 327680,
+      "L0A_bytes": 32768,
+      "L0B_bytes": 65536,
+      "L0C_bytes": 131072
+    },
+    {
+      "shape": [
+        1280,
+        4096,
+        1536
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 0,
+      "baseM": 128,
+      "baseN": 256,
+      "baseK": 64,
+      "singleCoreK": 768,
+      "L1_bytes": 327680,
+      "L0A_bytes": 32768,
+      "L0B_bytes": 65536,
+      "L0C_bytes": 131072
+    },
+    {
+      "shape": [
+        1280,
+        4096,
+        1536
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 1,
+      "baseM": 128,
+      "baseN": 256,
+      "baseK": 64,
+      "singleCoreK": 768,
+      "L1_bytes": 327680,
+      "L0A_bytes": 32768,
+      "L0B_bytes": 65536,
+      "L0C_bytes": 131072
+    },
+    {
+      "shape": [
+        1280,
+        4096,
+        1536
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 0,
+      "baseM": 128,
+      "baseN": 256,
+      "baseK": 64,
+      "singleCoreK": 768,
+      "L1_bytes": 327680,
+      "L0A_bytes": 32768,
+      "L0B_bytes": 65536,
+      "L0C_bytes": 131072
+    },
+    {
+      "shape": [
+        1280,
+        4096,
+        1536
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 1,
+      "baseM": 128,
+      "baseN": 256,
+      "baseK": 64,
+      "singleCoreK": 768,
+      "L1_bytes": 327680,
+      "L0A_bytes": 32768,
+      "L0B_bytes": 65536,
+      "L0C_bytes": 131072
+    },
+    {
+      "shape": [
+        1280,
+        4096,
+        1536
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 0,
+      "baseM": 128,
+      "baseN": 256,
+      "baseK": 64,
+      "singleCoreK": 768,
+      "L1_bytes": 327680,
+      "L0A_bytes": 32768,
+      "L0B_bytes": 65536,
+      "L0C_bytes": 131072
+    },
+    {
+      "shape": [
+        1280,
+        4096,
+        1536
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 1,
+      "baseM": 128,
+      "baseN": 256,
+      "baseK": 64,
+      "singleCoreK": 768,
+      "L1_bytes": 327680,
+      "L0A_bytes": 32768,
+      "L0B_bytes": 65536,
+      "L0C_bytes": 131072
+    },
+    {
+      "shape": [
+        1280,
+        4096,
+        1792
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 0,
+      "baseM": 128,
+      "baseN": 256,
+      "baseK": 64,
+      "singleCoreK": 896,
+      "L1_bytes": 360448,
+      "L0A_bytes": 32768,
+      "L0B_bytes": 65536,
+      "L0C_bytes": 131072
+    },
+    {
+      "shape": [
+        1280,
+        4096,
+        1792
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 1,
+      "baseM": 128,
+      "baseN": 256,
+      "baseK": 64,
+      "singleCoreK": 896,
+      "L1_bytes": 360448,
+      "L0A_bytes": 32768,
+      "L0B_bytes": 65536,
+      "L0C_bytes": 131072
+    },
+    {
+      "shape": [
+        1280,
+        4096,
+        1792
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 0,
+      "baseM": 128,
+      "baseN": 256,
+      "baseK": 64,
+      "singleCoreK": 896,
+      "L1_bytes": 360448,
+      "L0A_bytes": 32768,
+      "L0B_bytes": 65536,
+      "L0C_bytes": 131072
+    },
+    {
+      "shape": [
+        1280,
+        4096,
+        1792
+      ],
+      "dtype": 1,
+      "ta": 1,
+      "tb": 1,
+      "baseM": 128,
+      "baseN": 256,
+      "baseK": 64,
+      "singleCoreK": 896,
+      "L1_bytes": 360448,
+      "L0A_bytes": 32768,
+      "L0B_bytes": 65536,
+      "L0C_bytes": 131072
+    },
+    {
+      "shape": [
+        1280,
+        4096,
+        1792
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 0,
+      "baseM": 128,
+      "baseN": 256,
+      "baseK": 64,
+      "singleCoreK": 896,
+      "L1_bytes": 360448,
+      "L0A_bytes": 32768,
+      "L0B_bytes": 65536,
+      "L0C_bytes": 131072
+    },
+    {
+      "shape": [
+        1280,
+        4096,
+        1792
+      ],
+      "dtype": 2,
+      "ta": 0,
+      "tb": 1,
+      "baseM": 128,
+      "baseN": 256,
+      "baseK": 64,
+      "singleCoreK": 896,
+      "L1_bytes": 360448,
+      "L0A_bytes": 32768,
+      "L0B_bytes": 65536,
+      "L0C_bytes": 131072
+    },
+    {
+      "shape": [
+        1280,
+        4096,
+        1792
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 0,
+      "baseM": 128,
+      "baseN": 256,
+      "baseK": 64,
+      "singleCoreK": 896,
+      "L1_bytes": 360448,
+      "L0A_bytes": 32768,
+      "L0B_bytes": 65536,
+      "L0C_bytes": 131072
+    },
+    {
+      "shape": [
+        1280,
+        4096,
+        1792
+      ],
+      "dtype": 2,
+      "ta": 1,
+      "tb": 1,
+      "baseM": 128,
+      "baseN": 256,
+      "baseK": 64,
+      "singleCoreK": 896,
+      "L1_bytes": 360448,
+      "L0A_bytes": 32768,
+      "L0B_bytes": 65536,
+      "L0C_bytes": 131072
+    }
+  ],
+  "host_kernel_workspace_geometry": "outer tile chosen before guard, tiling, tasks, workspace",
+  "independent_K_halves": true,
+  "change": "restrict resident A to transposeX2=true; no allocation or tiling change",
+  "reason": "layout_gi: BF16 NN/TN resident loses 4.6%-14.8%; NT/TT exchanged pilots win 8.6%/3.6%"
+}

@@ -1,0 +1,29 @@
+{
+  "parent": "s43a",
+  "change": "Increase balanced L1 K slab to the largest integer step fitting effective L1, allowing a final partial slab; retain baseK and all two-half arithmetic.",
+  "official_evidence": "s23v to s26b balanced L1 slabs improved real official points9/11. This candidate extends that mechanism; hidden shapes and response remain unknown.",
+  "capacities": {
+    "L1_effective": 524032,
+    "L0A": 65536,
+    "L0B": 65536,
+    "L0C": 131072,
+    "UB_effective": 196352
+  },
+  "changed_resource_formula": "L1 = 4*baseK*(baseM+baseN)*q <= 524032. Equal A/B step q; depthA1=depthB1=2*q. Increase only; original tiling retained otherwise.",
+  "example": {
+    "baseM": 128,
+    "baseN": 256,
+    "baseK": 64,
+    "old_q": 4,
+    "old_L1": 393216,
+    "new_q": 5,
+    "new_L1": 491520,
+    "L0A_max": 65536,
+    "L0B_max": 65536,
+    "L0C_max": 131072
+  },
+  "unchanged": "UB, L0 allocations, GM scratch, tile M/N, core count, N partitioning, kernel code, input reading, reduction order, precision fixes.",
+  "sdk_evidence": "Installed CANN k_loop_mdl_base.h:296-302 explicitly computes singleShape % (baseK*stepKa/stepKb) and uses tail slab; equal A/B steps leave step ratio1. No internal header included by candidate.",
+  "validation": "Full unchanged precision incl new cancellation cases; all original100 shapes ABBA160 last80; six hangs. Report all outcomes. User permits unstable local results for official trials after correctness passes. No timing-based shape selection or gate narrowing.",
+  "hypothesis": "Larger balanced DMA slabs reduce GM-to-L1 transactions without losing A/B double buffering. Modulo/tail scheduling may offset or reverse benefit; this remains an unproven performance hypothesis."
+}

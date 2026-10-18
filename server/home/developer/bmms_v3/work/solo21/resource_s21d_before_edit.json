@@ -1,0 +1,24 @@
+{
+  "variant": "s21d",
+  "parent": "s20f",
+  "capacity_calculated_before_edit": true,
+  "resource_probe_rows": 1920,
+  "probe_sha256": "8acf0e4c96b4f5dd471d652b942a49f1e24791748ba524ab130d97a3545ca920",
+  "maxima": {
+    "L1_bytes": 524288,
+    "L0A_bytes": 32768,
+    "L0B_bytes": 65536,
+    "L0C_bytes": 131072,
+    "UB_bytes": 118784
+  },
+  "limits": {
+    "L1_bytes": 524288,
+    "L0A_bytes": 65536,
+    "L0B_bytes": 65536,
+    "L0C_bytes": 131072,
+    "UB_bytes": 184320
+  },
+  "scope": "GM ND; K=2048..8192 multiple32; M=512..2432 multiple128; N=512..8192 multiple256; existing tile128x256; b*ceil(M/128)<availableCoreNum",
+  "change": "Retain tile/baseK/arithmetic/workspace; choose larger stepKb dividing stepKa within remaining L1, depthB1=2*stepKb and shareL1Size=actual allocation; cache key includes the new flag",
+  "inference": "Larger B prefetch may reduce GM transfer/scalar overhead; official shapes unknown. K128 API attempts actually returned64 and were never built as an operator."
+}

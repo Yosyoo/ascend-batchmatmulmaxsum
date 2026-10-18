@@ -1,0 +1,9 @@
+{
+  "variant": "s42a",
+  "baseline": "s41c",
+  "sha256": "dc7c037c671d8c921cbf093d322adfa53dde32b4d57513c7698e93c06e5bf3aa",
+  "bytes": 223141,
+  "status": "source-only, not compiled or NPU tested",
+  "change": "K256 A2 four-BK64 resident slices with B2 double buffer, original two-half FP32 merge",
+  "aiv_byte_identical": true
+}

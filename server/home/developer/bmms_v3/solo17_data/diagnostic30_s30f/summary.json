@@ -1,0 +1,15 @@
+{
+  "variant": "s30f",
+  "hashes": {
+    "bench_cases": "e6d52c6caa1372e643345348adc3bb5ea77480ac0aa33e3a5e12e1101238c89b",
+    "kernel.asc": "1d5583d35ba170229dc98a186cb2a6bbb5f3abffd86f2894ba740c302018efc0"
+  },
+  "manifest_sha256": "7eedaea1a1fbb969042238c2a40c1f31e3c6af7446a512f693396ad2a949ecd6",
+  "total": 328,
+  "expected": 328,
+  "passed": true,
+  "fixture_metadata_sha256": "a52048585fde3b1c09779fe89f9adca6f1aeedab9a6fbfbda920943c3b93a7b7",
+  "all_fixture_hashes_unchanged": true,
+  "failures": [],
+  "returncode": 0
+}

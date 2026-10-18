@@ -1,0 +1,172 @@
+[
+  {
+    "point": "P1",
+    "control_sessions_us": [
+      1.14,
+      1.14,
+      1.13,
+      1.13
+    ],
+    "control_range_percent": 0.8849557522123908,
+    "blocks": [
+      {
+        "times_ABBA": [
+          1.14,
+          1.14,
+          1.12,
+          1.14
+        ],
+        "speedup_geomean": 1.0088890637018237,
+        "time_reduction_percent": 0.881074443329577,
+        "control_drift_percent": 0.0
+      },
+      {
+        "times_ABBA": [
+          1.13,
+          1.14,
+          1.14,
+          1.13
+        ],
+        "speedup_geomean": 0.9912280701754386,
+        "time_reduction_percent": -0.8849557522123908,
+        "control_drift_percent": 0.0
+      }
+    ]
+  },
+  {
+    "point": "P3",
+    "control_sessions_us": [
+      1.98,
+      2.0,
+      1.98,
+      1.98
+    ],
+    "control_range_percent": 1.0101010101010166,
+    "blocks": [
+      {
+        "times_ABBA": [
+          1.98,
+          1.98,
+          1.98,
+          2.0
+        ],
+        "speedup_geomean": 1.005037815259212,
+        "time_reduction_percent": 0.5012562893380146,
+        "control_drift_percent": 1.0101010101010166
+      },
+      {
+        "times_ABBA": [
+          1.98,
+          2.0,
+          1.98,
+          1.98
+        ],
+        "speedup_geomean": 0.9949874371066199,
+        "time_reduction_percent": -0.5037815259212097,
+        "control_drift_percent": 0.0
+      }
+    ]
+  },
+  {
+    "point": "P5",
+    "control_sessions_us": [
+      2.54,
+      2.5,
+      2.46,
+      2.6
+    ],
+    "control_range_percent": 5.691056910569103,
+    "blocks": [
+      {
+        "times_ABBA": [
+          2.54,
+          2.6100000000000003,
+          2.58,
+          2.5
+        ],
+        "speedup_geomean": 0.9710839048307163,
+        "time_reduction_percent": -2.977713359828016,
+        "control_drift_percent": -1.5748031496062964
+      },
+      {
+        "times_ABBA": [
+          2.46,
+          2.58,
+          2.54,
+          2.6
+        ],
+        "speedup_geomean": 0.9879330541414734,
+        "time_reduction_percent": -1.2214335584725289,
+        "control_drift_percent": 5.691056910569103
+      }
+    ]
+  },
+  {
+    "point": "P6",
+    "control_sessions_us": [
+      4.06,
+      4.06,
+      3.99,
+      3.94
+    ],
+    "control_range_percent": 3.045685279187804,
+    "blocks": [
+      {
+        "times_ABBA": [
+          4.06,
+          3.96,
+          3.88,
+          4.06
+        ],
+        "speedup_geomean": 1.035768210910777,
+        "time_reduction_percent": 3.453302634121702,
+        "control_drift_percent": 0.0
+      },
+      {
+        "times_ABBA": [
+          3.99,
+          4.1,
+          4.04,
+          3.94
+        ],
+        "speedup_geomean": 0.974208574823234,
+        "time_reduction_percent": -2.647423338625998,
+        "control_drift_percent": -1.253132832080206
+      }
+    ]
+  },
+  {
+    "point": "P7",
+    "control_sessions_us": [
+      3.99,
+      4.04,
+      4.14,
+      4.28
+    ],
+    "control_range_percent": 7.268170426065157,
+    "blocks": [
+      {
+        "times_ABBA": [
+          3.99,
+          4.08,
+          4.12,
+          4.04
+        ],
+        "speedup_geomean": 0.979260959812504,
+        "time_reduction_percent": -2.117825690862496,
+        "control_drift_percent": 1.2531328320801949
+      },
+      {
+        "times_ABBA": [
+          4.14,
+          4.22,
+          4.0,
+          4.28
+        ],
+        "speedup_geomean": 1.0245563136355298,
+        "time_reduction_percent": 2.3967753952336968,
+        "control_drift_percent": 3.3816425120773097
+      }
+    ]
+  }
+]

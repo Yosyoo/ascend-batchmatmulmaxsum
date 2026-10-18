@@ -1,0 +1,6 @@
+{
+  "variant": "s45b",
+  "parent": "s45a",
+  "sha256": "446132aacaf16a5603a4c3f0ef0980f326b8698942c8d39cf704158dfc13f048",
+  "kernel_bodies_unchanged_from_A": true
+}

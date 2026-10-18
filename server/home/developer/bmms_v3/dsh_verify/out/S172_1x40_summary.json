@@ -1,0 +1,64 @@
+{
+  "summary": {
+    "shape": "1_3_5_40_2_1_0",
+    "tag": "S172_1x40",
+    "control": "dsh157",
+    "candidate": "dsh172",
+    "device": 1,
+    "iters": 120,
+    "warm": 3,
+    "runs": [
+      {
+        "block": 0,
+        "pos": 0,
+        "variant": "dsh157",
+        "median_us": 1.56,
+        "n": 123,
+        "passed": true,
+        "rc": 0,
+        "maxrel": 0.0,
+        "error": null
+      },
+      {
+        "block": 0,
+        "pos": 1,
+        "variant": "dsh172",
+        "median_us": 1.46,
+        "n": 123,
+        "passed": true,
+        "rc": 0,
+        "maxrel": 0.0,
+        "error": null
+      },
+      {
+        "block": 0,
+        "pos": 2,
+        "variant": "dsh172",
+        "median_us": 1.46,
+        "n": 123,
+        "passed": true,
+        "rc": 0,
+        "maxrel": 0.0,
+        "error": null
+      },
+      {
+        "block": 0,
+        "pos": 3,
+        "variant": "dsh157",
+        "median_us": 1.56,
+        "n": 123,
+        "passed": true,
+        "rc": 0,
+        "maxrel": 0.0,
+        "error": null
+      }
+    ],
+    "pooled_speedup": 1.0684931506849316,
+    "pooled_reduction_percent": 6.410256410256421,
+    "control_median": 1.56,
+    "candidate_median": 1.46,
+    "control_spread_percent": 0.0,
+    "candidate_spread_percent": 0.0,
+    "ranges_separated": true
+  }
+}

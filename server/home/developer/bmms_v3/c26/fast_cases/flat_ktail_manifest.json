@@ -1,0 +1,7 @@
+{
+  "groups": {
+    "flat_ktail32": 32
+  },
+  "cases": 32,
+  "golden": "FP64 of actual stored input values ->FP32; 4 storage layouts; both16bit dtypes; negative rows andtails"
+}

@@ -1,0 +1,228 @@
+{
+  "variant": "s17k",
+  "parent": "s17j",
+  "capacity_calculated_before_edit": true,
+  "UB_max_bytes": 164864,
+  "workspace": "unchanged two slots per core",
+  "manual_tiles": [
+    {
+      "tileM": 16,
+      "tileN": 16,
+      "bk": 2048,
+      "L1": 131072,
+      "L0A": 65536,
+      "L0B": 65536,
+      "L0C": 1024
+    },
+    {
+      "tileM": 16,
+      "tileN": 32,
+      "bk": 1024,
+      "L1": 98304,
+      "L0A": 32768,
+      "L0B": 65536,
+      "L0C": 2048
+    },
+    {
+      "tileM": 16,
+      "tileN": 64,
+      "bk": 512,
+      "L1": 81920,
+      "L0A": 16384,
+      "L0B": 65536,
+      "L0C": 4096
+    },
+    {
+      "tileM": 16,
+      "tileN": 128,
+      "bk": 256,
+      "L1": 73728,
+      "L0A": 8192,
+      "L0B": 65536,
+      "L0C": 8192
+    },
+    {
+      "tileM": 16,
+      "tileN": 256,
+      "bk": 128,
+      "L1": 69632,
+      "L0A": 4096,
+      "L0B": 65536,
+      "L0C": 16384
+    },
+    {
+      "tileM": 32,
+      "tileN": 16,
+      "bk": 1024,
+      "L1": 98304,
+      "L0A": 65536,
+      "L0B": 32768,
+      "L0C": 2048
+    },
+    {
+      "tileM": 32,
+      "tileN": 32,
+      "bk": 1024,
+      "L1": 131072,
+      "L0A": 65536,
+      "L0B": 65536,
+      "L0C": 4096
+    },
+    {
+      "tileM": 32,
+      "tileN": 64,
+      "bk": 512,
+      "L1": 98304,
+      "L0A": 32768,
+      "L0B": 65536,
+      "L0C": 8192
+    },
+    {
+      "tileM": 32,
+      "tileN": 128,
+      "bk": 256,
+      "L1": 81920,
+      "L0A": 16384,
+      "L0B": 65536,
+      "L0C": 16384
+    },
+    {
+      "tileM": 32,
+      "tileN": 256,
+      "bk": 128,
+      "L1": 73728,
+      "L0A": 8192,
+      "L0B": 65536,
+      "L0C": 32768
+    },
+    {
+      "tileM": 64,
+      "tileN": 16,
+      "bk": 512,
+      "L1": 81920,
+      "L0A": 65536,
+      "L0B": 16384,
+      "L0C": 4096
+    },
+    {
+      "tileM": 64,
+      "tileN": 32,
+      "bk": 512,
+      "L1": 98304,
+      "L0A": 65536,
+      "L0B": 32768,
+      "L0C": 8192
+    },
+    {
+      "tileM": 64,
+      "tileN": 64,
+      "bk": 512,
+      "L1": 131072,
+      "L0A": 65536,
+      "L0B": 65536,
+      "L0C": 16384
+    },
+    {
+      "tileM": 64,
+      "tileN": 128,
+      "bk": 256,
+      "L1": 98304,
+      "L0A": 32768,
+      "L0B": 65536,
+      "L0C": 32768
+    },
+    {
+      "tileM": 64,
+      "tileN": 256,
+      "bk": 128,
+      "L1": 81920,
+      "L0A": 16384,
+      "L0B": 65536,
+      "L0C": 65536
+    },
+    {
+      "tileM": 128,
+      "tileN": 16,
+      "bk": 256,
+      "L1": 73728,
+      "L0A": 65536,
+      "L0B": 8192,
+      "L0C": 8192
+    },
+    {
+      "tileM": 128,
+      "tileN": 32,
+      "bk": 256,
+      "L1": 81920,
+      "L0A": 65536,
+      "L0B": 16384,
+      "L0C": 16384
+    },
+    {
+      "tileM": 128,
+      "tileN": 64,
+      "bk": 256,
+      "L1": 98304,
+      "L0A": 65536,
+      "L0B": 32768,
+      "L0C": 32768
+    },
+    {
+      "tileM": 128,
+      "tileN": 128,
+      "bk": 256,
+      "L1": 131072,
+      "L0A": 65536,
+      "L0B": 65536,
+      "L0C": 65536
+    },
+    {
+      "tileM": 128,
+      "tileN": 256,
+      "bk": 128,
+      "L1": 98304,
+      "L0A": 32768,
+      "L0B": 65536,
+      "L0C": 131072
+    },
+    {
+      "tileM": 256,
+      "tileN": 16,
+      "bk": 128,
+      "L1": 69632,
+      "L0A": 65536,
+      "L0B": 4096,
+      "L0C": 16384
+    },
+    {
+      "tileM": 256,
+      "tileN": 32,
+      "bk": 128,
+      "L1": 73728,
+      "L0A": 65536,
+      "L0B": 8192,
+      "L0C": 32768
+    },
+    {
+      "tileM": 256,
+      "tileN": 64,
+      "bk": 128,
+      "L1": 81920,
+      "L0A": 65536,
+      "L0B": 16384,
+      "L0C": 65536
+    },
+    {
+      "tileM": 256,
+      "tileN": 128,
+      "bk": 128,
+      "L1": 98304,
+      "L0A": 65536,
+      "L0B": 32768,
+      "L0C": 131072
+    }
+  ],
+  "half_tail_guard": "k%32==0 ensures Nd2Nz half and chunk tails multiple16",
+  "ordering": "same core first overwrites GM, FIX_M wait before second half Mmad; second Fixpipe atomic adds; one AIC/AIV flag per full tile",
+  "reason": "manual_base_j shows lost short-matrix manual eligibility adds overhead at long K; preserve two-half precision in restored path"
+}

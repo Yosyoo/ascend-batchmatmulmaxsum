@@ -1,0 +1,9 @@
+{
+  "csv_verified": 804,
+  "passed": 804,
+  "failed": 0,
+  "only_given15": true,
+  "device0": true,
+  "warm_last60_verified": true,
+  "source_hashes_verified": true
+}

@@ -1,0 +1,64 @@
+{
+  "summary": {
+    "shape": "4_8_16_128_2_1_1",
+    "tag": "S172_4x128",
+    "control": "dsh157",
+    "candidate": "dsh172",
+    "device": 1,
+    "iters": 120,
+    "warm": 3,
+    "runs": [
+      {
+        "block": 0,
+        "pos": 0,
+        "variant": "dsh157",
+        "median_us": 2.63,
+        "n": 123,
+        "passed": true,
+        "rc": 0,
+        "maxrel": 8.316895616644615e-08,
+        "error": null
+      },
+      {
+        "block": 0,
+        "pos": 1,
+        "variant": "dsh172",
+        "median_us": 2.26,
+        "n": 123,
+        "passed": true,
+        "rc": 0,
+        "maxrel": 8.316895616644615e-08,
+        "error": null
+      },
+      {
+        "block": 0,
+        "pos": 2,
+        "variant": "dsh172",
+        "median_us": 2.26,
+        "n": 123,
+        "passed": true,
+        "rc": 0,
+        "maxrel": 8.316895616644615e-08,
+        "error": null
+      },
+      {
+        "block": 0,
+        "pos": 3,
+        "variant": "dsh157",
+        "median_us": 2.62,
+        "n": 123,
+        "passed": true,
+        "rc": 0,
+        "maxrel": 8.316895616644615e-08,
+        "error": null
+      }
+    ],
+    "pooled_speedup": 1.1615023177393446,
+    "pooled_reduction_percent": 13.904605722499108,
+    "control_median": 2.625,
+    "candidate_median": 2.26,
+    "control_spread_percent": 0.3816793893129722,
+    "candidate_spread_percent": 0.0,
+    "ranges_separated": true
+  }
+}

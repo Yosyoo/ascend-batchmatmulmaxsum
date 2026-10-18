@@ -1,0 +1,12 @@
+{
+  "variant": "s30p",
+  "total": 320,
+  "passed": true,
+  "hashes_unchanged": true,
+  "fixture_metadata_sha256": "7b144cf94a7674d33e77acf95fe7c31d5820cffb2ea1c4f04b125c1c7ea47ddb",
+  "hashes": {
+    "kernel.asc": "27bdef5b733320408f9179c8de1b74ee9b36df9801214d47c10bb2310fc1941c",
+    "bench_cases": "b9f6bb237d2b6aab177c453210c36ab9988648dcc1e3108d9c6a528ab05298a9"
+  },
+  "failures": []
+}

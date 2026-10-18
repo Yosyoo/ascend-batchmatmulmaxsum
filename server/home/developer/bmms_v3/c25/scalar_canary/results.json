@@ -1,0 +1,50 @@
+[
+  {
+    "B": 1,
+    "dtype": 1,
+    "passed": true,
+    "rc": 0,
+    "stdout": "{\"iters\":1,\"rounds\":[13.900],\"min\":13.900,\"median\":13.900,\"mean\":13.900,\"consistent\":true}\nCANARY PASS: 128 bytes before and after the exact B*4 output unchanged\n",
+    "stderr": ""
+  },
+  {
+    "B": 1,
+    "dtype": 2,
+    "passed": true,
+    "rc": 0,
+    "stdout": "{\"iters\":1,\"rounds\":[13.680],\"min\":13.680,\"median\":13.680,\"mean\":13.680,\"consistent\":true}\nCANARY PASS: 128 bytes before and after the exact B*4 output unchanged\n",
+    "stderr": ""
+  },
+  {
+    "B": 2,
+    "dtype": 1,
+    "passed": true,
+    "rc": 0,
+    "stdout": "{\"iters\":1,\"rounds\":[13.900],\"min\":13.900,\"median\":13.900,\"mean\":13.900,\"consistent\":true}\nCANARY PASS: 128 bytes before and after the exact B*4 output unchanged\n",
+    "stderr": ""
+  },
+  {
+    "B": 2,
+    "dtype": 2,
+    "passed": true,
+    "rc": 0,
+    "stdout": "{\"iters\":1,\"rounds\":[13.720],\"min\":13.720,\"median\":13.720,\"mean\":13.720,\"consistent\":true}\nCANARY PASS: 128 bytes before and after the exact B*4 output unchanged\n",
+    "stderr": ""
+  },
+  {
+    "B": 20,
+    "dtype": 1,
+    "passed": true,
+    "rc": 0,
+    "stdout": "{\"iters\":1,\"rounds\":[13.600],\"min\":13.600,\"median\":13.600,\"mean\":13.600,\"consistent\":true}\nCANARY PASS: 128 bytes before and after the exact B*4 output unchanged\n",
+    "stderr": ""
+  },
+  {
+    "B": 20,
+    "dtype": 2,
+    "passed": true,
+    "rc": 0,
+    "stdout": "{\"iters\":1,\"rounds\":[13.960],\"min\":13.960,\"median\":13.960,\"mean\":13.960,\"consistent\":true}\nCANARY PASS: 128 bytes before and after the exact B*4 output unchanged\n",
+    "stderr": ""
+  }
+]

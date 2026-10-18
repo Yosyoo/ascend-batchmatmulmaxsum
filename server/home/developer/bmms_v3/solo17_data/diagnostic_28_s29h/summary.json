@@ -1,0 +1,60 @@
+{
+  "variant": "s29h",
+  "hashes": {
+    "kernel.asc": "e83bdbf870521a8141fcbab7f4ecfafb7800ed8feec563cfe2688f01225def43",
+    "bench_cases": "de7cadb50121d708638e346be655481d3770301a6f11862f42b1d2f73703d406"
+  },
+  "suites": [
+    {
+      "suite": "medium_cases",
+      "manifest": "/home/developer/bmms_v3/solo17_data/medium_cases.txt",
+      "manifest_sha256": "1ddd1946a72286fb8e3edf9113e7cbacf5a6b8bf4c0d2c7c154ae9b147683cef",
+      "expected": 256,
+      "observed": 256,
+      "passed": true,
+      "returncode": 0,
+      "failures": []
+    },
+    {
+      "suite": "split16_cases",
+      "manifest": "/home/developer/bmms_v3/solo14_data/split16_cases.txt",
+      "manifest_sha256": "6f8aaac72b5b4485c389477a26f706ce02a9ee29fee32cd07785b492e0ffd2a7",
+      "expected": 160,
+      "observed": 160,
+      "passed": true,
+      "returncode": 0,
+      "failures": []
+    },
+    {
+      "suite": "fail_8",
+      "manifest": "/home/developer/bmms_v3/work/solo18/fail_8.txt",
+      "manifest_sha256": "bde0d318b39d6c8187090f434dfc122e8aae63642959aaaae1249eee1072dc9d",
+      "expected": 8,
+      "observed": 8,
+      "passed": true,
+      "returncode": 0,
+      "failures": []
+    },
+    {
+      "suite": "resident_cases18",
+      "manifest": "/home/developer/bmms_v3/solo17_data/resident_cases18.txt",
+      "manifest_sha256": "74cf24ff771339ee01725d3bc9d8d117001eadbb393b4d61f87f62cca059fc16",
+      "expected": 96,
+      "observed": 96,
+      "passed": true,
+      "returncode": 0,
+      "failures": []
+    },
+    {
+      "suite": "manual_cases18",
+      "manifest": "/home/developer/bmms_v3/solo17_data/manual_cases18.txt",
+      "manifest_sha256": "354827c1afe621bfaf4cca506f37424f4ec2e0abd282b07bdcf9df7c1d943d72",
+      "expected": 128,
+      "observed": 128,
+      "passed": true,
+      "returncode": 0,
+      "failures": []
+    }
+  ],
+  "passed": true
+}

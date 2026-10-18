@@ -1,0 +1,14 @@
+{
+  "UB_max": 98848,
+  "L1": 0,
+  "L0A": 0,
+  "L0B": 0,
+  "L0C": 0,
+  "workspace": 0,
+  "scope": "Existing M=N=1 FP16 Vector dot path, all K; BF16 unchanged",
+  "math": "Each FP16 product is exactly representable in FP32. vmla FP32 += FP16*FP16 starts at zero; original bmms_sum order retained.",
+  "sources": [
+    "installed dav_c220/kernel_operator_vec_binary_impl.h MulAddDstIntrinsicsImpl",
+    "https://www.hiascend.com/doc_center/source/zh/CANNCommunityEdition/800alpha003/apiref/ascendcopapi/atlasascendc_api_07_0048.html"
+  ]
+}

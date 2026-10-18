@@ -1,0 +1,36 @@
+[
+  {
+    "point": "P4",
+    "control_sessions_us": [
+      2.8499999999999996,
+      2.86,
+      2.86,
+      2.86
+    ],
+    "control_range_percent": 0.35087719298245723,
+    "blocks": [
+      {
+        "times_ABBA": [
+          2.8499999999999996,
+          3.04,
+          3.04,
+          2.86
+        ],
+        "speedup_geomean": 0.9391432966160955,
+        "time_reduction_percent": -6.4800231874286185,
+        "control_drift_percent": 0.35087719298245723
+      },
+      {
+        "times_ABBA": [
+          2.86,
+          3.04,
+          3.04,
+          2.86
+        ],
+        "speedup_geomean": 0.9407894736842106,
+        "time_reduction_percent": -6.2937062937062915,
+        "control_drift_percent": 0.0
+      }
+    ]
+  }
+]

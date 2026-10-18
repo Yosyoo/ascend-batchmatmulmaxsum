@@ -1,0 +1,24 @@
+{
+  "variant": "s17l",
+  "parent": "s17g",
+  "capacity_calculated_before_edit": true,
+  "resource_probe_rows": 80,
+  "probe_sha256": "8476e8ea5e68effd3532bfc3f862fe0bdeb4930c42a08d21be8139615d00a465",
+  "maxima": {
+    "L1_bytes": 524288,
+    "L0A_bytes": 65536,
+    "L0B_bytes": 65536,
+    "L0C_bytes": 131072
+  },
+  "limits": {
+    "L1_bytes": 524288,
+    "L0A_bytes": 65536,
+    "L0B_bytes": 65536,
+    "L0C_bytes": 131072
+  },
+  "UB_official_max_bytes": 164864,
+  "workspace_unchanged": true,
+  "plan": "Use original full-K API resource plan when half-K is 16 aligned; execute two half-K calls with original strides and ordered FP32 addition.",
+  "tail": "K%32!=0 retains previously validated half-K API plan.",
+  "hypothesis": "Changed API planning may cause performance loss; this is unverified and not an official case-shape attribution."
+}

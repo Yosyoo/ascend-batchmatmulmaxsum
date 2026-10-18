@@ -1,0 +1,28 @@
+{
+  "variant": "s43a",
+  "parent": "s41c",
+  "parent_sha256": "5fc87dcd3f6e8eff0c036274369af504b2951ae2a1c186a88d107e5e398b3494",
+  "mechanism": "In bmms_fused_nz only, move AIC CrossCoreWaitFlag(7) after MatmulImpl Init and SetOrgShape and before the first task/tensor/IterateAll. AIV packing can overlap independent Cube setup. No claim that official test 8 executes this branch or benefits.",
+  "scope": "Existing packed gate only: M,N in [512,4096], original K in [512,2048], K%16!=0, M*N*K>=2^29, and (M%128!=0 or N%256!=0). All dtypes and layouts already supported by this gate remain included.",
+  "resource_delta_bytes": {"UB": 0, "L1": 0, "L0A": 0, "L0B": 0, "L0C": 0, "GM": 0},
+  "UB": {
+    "pack_phase_bytes": 131072,
+    "pack_formula": "x = 32768 input elements * 2 B at byte 0; z = 32768 input elements * 2 B at byte 65536. Buffers reused after pack.",
+    "reduce_phase_formula": "4*tileM*min(tileN,128) + 8*round_up(M,8) + 8*tileM + 32768 bytes; unchanged host guard keeps this <= 180*1024 bytes.",
+    "reduce_phase_max_for_existing_packed_gate_bytes": 132096,
+    "combined_lifetime": "Packing and AIV reduction remain sequential and reuse UB; their sizes are not additive. Moving AIC setup creates no AIV UB allocation.",
+    "api_capacity_bytes": 196352
+  },
+  "L1_L0": "Existing TCubeTiling and SDK allocations byte-for-byte unchanged. No added residency, local tensor, queue, tile dimension, depth, event id, or new storage. Existing raw/API capacity differences are not modified by this scheduling-only experiment.",
+  "GM": "Unchanged aligned packed A = round_up(B*storeM*kp*2,512), packed B = B*storeN*kp*2, existing two tile scratch slots per core, maxima and output.",
+  "synchronization": "AIV pack PipeBarrier, SyncAll<true>, and CrossCoreSetFlag<2,PIPE_MTE3>(7) unchanged. AIC still consumes exactly one flag 7 before any SetTensor or IterateAll; no operand can be read before packing completes. TPipe construction and SDK event ownership unchanged. Existing output/scratch flags unchanged.",
+  "sdk_evidence": {
+    "root": "/home/developer/Ascend/cann-9.0.0/aarch64-linux/asc",
+    "scheduler/base/scheduler_base.h:67-146": "Init sets tiling/loop state, initializes local buffer pools and configuration; operand tensors have not been passed. CopyCubeIn A/B Init only allocates local resources.",
+    "stage/copy_cube_in/base/copy_cube_in_base.h:44-60": "Init calls CubeInBuffer::Init(size,depth). SetInput separately installs the operand tensor and resets its cache.",
+    "param/matmul_shape_info.h:287-303": "SetOrgShape assigns M/N/Ka/Kb/Kc scalar fields; subBlock 0 uses local base fields.",
+    "impl/basic_api/kernel_tpipe_impl.h:558-597": "InitShareBufStart/End configure local L1/L0C pools on arch2201; no operand GM transfer or cross-core barrier."
+  },
+  "validation_policy": "Source-only construction. Do not compile or run NPU in this subtask. Before future testing select every existing precision case and fixed-pool entry satisfying the unchanged packed gate, all existing dtype/layout/pattern instances, without timing-based filtering. Keep medium-K precision repair from s41c.",
+  "status": "Resource ledger written before candidate construction. Timing benefit and official path coverage remain unverified."
+}

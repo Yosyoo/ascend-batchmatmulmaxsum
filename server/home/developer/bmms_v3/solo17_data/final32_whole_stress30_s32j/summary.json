@@ -1,0 +1,14 @@
+{
+  "variant": "s32j",
+  "expected": 512,
+  "observed": 512,
+  "passed": true,
+  "fixture_metadata_sha256": "b558db6077de07c2324aae9784ee9fbf0c553f740a0d931b04400da181787a56",
+  "manifest_sha256": "268367890ead863276edf44acd9a39a7cde4797b4fea8e2105c1185679433d6d",
+  "inputs_unchanged": true,
+  "hashes": {
+    "kernel.asc": "a1a4b73424b2817beee13c305f5b8ca6507d8c11ea5c2925a9642056fd01044b",
+    "bench_cases": "8090f74d70a728c8dbcc3ca7edd6eed2348aa20e4f731003a5841d0da8cfe4b7"
+  },
+  "failures": []
+}

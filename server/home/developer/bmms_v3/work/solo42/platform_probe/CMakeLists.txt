@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+find_package(ASC REQUIRED)
+project(bmms42_platform_probe LANGUAGES ASC CXX)
+set(CMAKE_CXX_STANDARD 14)
+add_executable(platform_probe platform_probe.asc)
+target_compile_options(platform_probe PRIVATE $<$<COMPILE_LANGUAGE:ASC>:--npu-arch=dav-2201>)
+target_link_libraries(platform_probe PRIVATE tiling_api register platform unified_dlog dl m graph_base ascendcl)

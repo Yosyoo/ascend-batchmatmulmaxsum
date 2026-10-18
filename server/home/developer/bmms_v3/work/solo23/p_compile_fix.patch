@@ -1,0 +1,31 @@
+--- 
++++ 
+@@ -73,8 +73,8 @@
+     if(busy){WaitFlag<HardEvent::MTE1_MTE2>(bank);busy=false;}
+     LocalTensor<T> la(TPosition::A1,bank*BANKBYTES,TM*BK);
+     LocalTensor<T> lb(TPosition::B1,bank*BANKBYTES+TM*BK*2,TN*BK);
+-    Nd2NzParams pa{1,cm,kk,0,k,cm,1,0};
+-    Nd2NzParams pb{1,kk,TN,0,n,kk,1,0};
++    Nd2NzParams pa{1,(uint16_t)cm,(uint16_t)kk,0,(uint16_t)k,(uint16_t)cm,1,0};
++    Nd2NzParams pb{1,(uint16_t)kk,TN,0,(uint16_t)n,(uint16_t)kk,1,0};
+     DataCopy(la,ag[(int64_t)mi*k+start],pa);
+     DataCopy(lb,bg[(int64_t)start*n+ni],pb);
+     SetFlag<HardEvent::MTE2_MTE1>(bank);
+@@ -110,14 +110,14 @@
+                 LocalTensor<T> lb(TPosition::B1,bank*BANKBYTES+TM*BK*2,TN*BK);
+                 LocalTensor<T> aa(TPosition::A2,slot*TM*BK*2,TM*BK);
+                 LocalTensor<T> bb(TPosition::B2,slot*TN*BK*2,TN*BK);
+-                LoadData2dParams ap{0,kk/16,cm/16,0,0,false,0};
++                LoadData2dParams ap{0,(uint8_t)(kk/16),(uint16_t)(cm/16),0,0,false,0};
+                 for(int row=0;row<cm/16;++row)LoadData(aa[row*kk*16],la[row*256],ap);
+-                LoadData2dParams bp{0,TN/16,kk/16,0,0,true,0};
++                LoadData2dParams bp{0,TN/16,(uint16_t)(kk/16),0,0,true,0};
+                 for(int row=0;row<kk/16;++row)LoadData(bb[row*TN*16],lb[row*256],bp);
+                 SetFlag<HardEvent::MTE1_MTE2>(bank);l1Busy[bank]=true;
+                 SetFlag<HardEvent::MTE1_M>(slot);WaitFlag<HardEvent::MTE1_M>(slot);
+                 if(fixBusy){WaitFlag<HardEvent::FIX_M>(EVENT_ID0);fixBusy=false;}
+-                MmadParams mm{cm,TN,kk,0,false,i==0};Mmad(cc,aa,bb,mm);
++                MmadParams mm{(uint16_t)cm,TN,(uint16_t)kk,0,false,i==0};Mmad(cc,aa,bb,mm);
+                 SetFlag<HardEvent::M_MTE1>(slot);l0Busy[slot]=true;
+                 if(i+BANKS<chunks){
+                     const int next=i+BANKS,nextkk=half-next*BK<BK?half-next*BK:BK;

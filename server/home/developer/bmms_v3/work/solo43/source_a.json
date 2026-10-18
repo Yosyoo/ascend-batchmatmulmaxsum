@@ -1,0 +1,14 @@
+{
+  "variant": "s43a",
+  "baseline": "s41c",
+  "parent_sha256": "5fc87dcd3f6e8eff0c036274369af504b2951ae2a1c186a88d107e5e398b3494",
+  "sha256": "d7da3ac492077853523520c934902cc336c221e3c429b4deee741fe423874d2e",
+  "bytes": 210078,
+  "change": "Only move packed fused NZ AIC flag-7 wait after Init + SetOrgShape; keep wait before task loop and first operand use.",
+  "outside_bmms_fused_nz_byte_identical": true,
+  "all_non_wait_instructions_byte_identical": true,
+  "new_resource_bytes": 0,
+  "official_test_8_coverage": "unknown; this experiment does not infer hidden shapes or dispatch",
+  "status": "source only; not compiled or NPU tested",
+  "zip_sha256": "2306a5e815ac6ea3021ab05e62d978f22bf61e9470628be4f6f291b2f1880b4d"
+}

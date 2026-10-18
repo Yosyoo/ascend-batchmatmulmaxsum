@@ -1,0 +1,28 @@
+{
+  "parent": "s45a",
+  "scope": "All layouts/dtypes, M,N<=128, M*N>32, K<=256 aligned16; preserve existing mediumPair precision gate. Runtime AIC count, no exact-shape gate.",
+  "hypothesis": "A whole small GEMM fits L0A/B, and two C banks fit L0C. One Mmad per batch plus direct WholeReduce max/sum may reduce scheduler, K-loop and queue overhead; independent batches overlap Cube/Vector through two slots.",
+  "official_mapping": "Unknown. Official3 remains materially slower than TBest and historically unresponsive. This broad class is a mechanism hypothesis, not an inferred hidden shape.",
+  "max_bytes": {
+    "L1": 131072,
+    "L0A": 65536,
+    "L0B": 65536,
+    "L0C": 131072,
+    "UB": 66112,
+    "GM_per_core": 131072
+  },
+  "limits": {
+    "L1": 524032,
+    "L0A": 65536,
+    "L0B": 65536,
+    "L0C": 131072,
+    "UB": 196352
+  },
+  "formulas": "L1=2*256*(MP+NP); A2=2*MP*256; B2=2*NP*256; C=2*MP*NP*4; UB=MP*NP*4+MP*4+64. MP/NP are ceil powers of2,16..128.",
+  "event_ownership": "Raw kernel, no TPipe preset events. MTE1_MTE2 releases L1, M_MTE1 event3 releases A2/B2. Two L0C/GM slots released only after Vector input copy. AIV PipeBarrierALL per batch protects UB/output reuse.",
+  "math": "Same Nd2Nz/LoadData/Mmad/Fixpipe as existing direct kernel; current real inputs every batch/call, CPU metadata/allocation only, one mixed kernel launch.",
+  "validation": "Run unchanged full precision and new656, all original100 ABBA160-last80 and six hangs. No removal of losses or retuning to winners; user permits unstable performance trials after correctness.",
+  "correction": "Do not route K256 through new whole-dot kernel. Include K256 in existing small-matrix two-half FP32 path. Existing earlier fast paths remain ordered as before.",
+  "known_failure": "Bounds45 case12 FP16 NN[1,128,128,256] cancel_k abs0.000111688831>1e-4; original s43a also fails this new fixture. Preserve original failures and complete all128 comparisons.",
+  "resource_delta": "No kernel body or allocation increase from A; existing pair path follows its existing tiling/resource guards."
+}

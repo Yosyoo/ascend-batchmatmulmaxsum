@@ -1,0 +1,110 @@
+{
+  "ntasks": 123,
+  "csv": "/home/developer/bmms_v3/variants/s4t/work/1_64_64_8192_1_1_1/profile/PROF_000001_20261005001155366_00270998QLBOAEQF/mindstudio_profiler_output/op_summary_20261005001159.csv",
+  "fields": {
+    "Task Duration(us)": {
+      "first": 40.68,
+      "tail60_median": 21.3
+    },
+    "Block Num": {
+      "first": 1.0,
+      "tail60_median": 1.0
+    },
+    "Mix Block Num": {
+      "first": 1.0,
+      "tail60_median": 1.0
+    },
+    "aic_total_cycles": {
+      "first": 66410.0,
+      "tail60_median": 33976.5
+    },
+    "aic_mac_time(us)": {
+      "first": 5.576,
+      "tail60_median": 5.576
+    },
+    "aic_mac_ratio": {
+      "first": 0.139,
+      "tail60_median": 0.271
+    },
+    "aic_scalar_time(us)": {
+      "first": 19.923,
+      "tail60_median": 11.0
+    },
+    "aic_scalar_ratio": {
+      "first": 0.495,
+      "tail60_median": 0.533
+    },
+    "aic_mte1_time(us)": {
+      "first": 7.672,
+      "tail60_median": 7.672
+    },
+    "aic_mte1_ratio": {
+      "first": 0.191,
+      "tail60_median": 0.373
+    },
+    "aic_mte2_time(us)": {
+      "first": 24.854,
+      "tail60_median": 10.905999999999999
+    },
+    "aic_mte2_ratio": {
+      "first": 0.618,
+      "tail60_median": 0.53
+    },
+    "aic_fixpipe_time(us)": {
+      "first": 1.093,
+      "tail60_median": 0.2255
+    },
+    "aic_fixpipe_ratio": {
+      "first": 0.027,
+      "tail60_median": 0.011
+    },
+    "aic_icache_miss_rate": {
+      "first": 0.071,
+      "tail60_median": 0.0
+    },
+    "aiv_time(us)": {
+      "first": 40.116,
+      "tail60_median": 20.7785
+    },
+    "aiv_total_cycles": {
+      "first": 66192.0,
+      "tail60_median": 34284.0
+    },
+    "aiv_vec_time(us)": {
+      "first": 0.376,
+      "tail60_median": 0.376
+    },
+    "aiv_vec_ratio": {
+      "first": 0.009,
+      "tail60_median": 0.018
+    },
+    "aiv_scalar_time(us)": {
+      "first": 2.828,
+      "tail60_median": 0.8815
+    },
+    "aiv_scalar_ratio": {
+      "first": 0.071,
+      "tail60_median": 0.042
+    },
+    "aiv_mte2_time(us)": {
+      "first": 1.03,
+      "tail60_median": 0.2015
+    },
+    "aiv_mte2_ratio": {
+      "first": 0.026,
+      "tail60_median": 0.01
+    },
+    "aiv_mte3_time(us)": {
+      "first": 0.302,
+      "tail60_median": 0.132
+    },
+    "aiv_mte3_ratio": {
+      "first": 0.008,
+      "tail60_median": 0.006
+    },
+    "aiv_icache_miss_rate": {
+      "first": 0.199,
+      "tail60_median": 0.0
+    }
+  }
+}

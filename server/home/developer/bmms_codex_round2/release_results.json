@@ -1,0 +1,1514 @@
+[
+  {
+    "shape": [
+      16,
+      8192,
+      7,
+      64
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      191.569,
+      193.697,
+      192.357,
+      191.025,
+      192.583
+    ],
+    "min": 191.025,
+    "median": 192.357,
+    "mean": 192.246,
+    "consistent": true,
+    "passed": true,
+    "relative": 3.908045869138732e-07
+  },
+  {
+    "shape": [
+      16,
+      8192,
+      7,
+      64
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 1,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      142.437,
+      142.163,
+      142.439,
+      142.314,
+      142.566
+    ],
+    "min": 142.163,
+    "median": 142.437,
+    "mean": 142.384,
+    "consistent": true,
+    "passed": true,
+    "relative": 3.908045869138732e-07
+  },
+  {
+    "shape": [
+      16,
+      8192,
+      7,
+      64
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      204.748,
+      204.911,
+      206.783,
+      204.61,
+      204.355
+    ],
+    "min": 204.355,
+    "median": 204.748,
+    "mean": 205.081,
+    "consistent": true,
+    "passed": true,
+    "relative": 3.908045869138732e-07
+  },
+  {
+    "shape": [
+      16,
+      8192,
+      7,
+      64
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 1,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      142.333,
+      142.345,
+      142.235,
+      142.652,
+      142.636
+    ],
+    "min": 142.235,
+    "median": 142.345,
+    "mean": 142.44,
+    "consistent": true,
+    "passed": true,
+    "relative": 3.908045869138732e-07
+  },
+  {
+    "shape": [
+      16,
+      8192,
+      7,
+      64
+    ],
+    "dtype": 2,
+    "ta": 0,
+    "tb": 0,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      194.645,
+      193.447,
+      192.902,
+      192.531,
+      195.383
+    ],
+    "min": 192.531,
+    "median": 193.447,
+    "mean": 193.782,
+    "consistent": true,
+    "passed": true,
+    "relative": 2.629307402912673e-07
+  },
+  {
+    "shape": [
+      16,
+      8192,
+      7,
+      64
+    ],
+    "dtype": 2,
+    "ta": 0,
+    "tb": 1,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      142.226,
+      142.292,
+      142.41,
+      141.979,
+      141.935
+    ],
+    "min": 141.935,
+    "median": 142.226,
+    "mean": 142.168,
+    "consistent": true,
+    "passed": true,
+    "relative": 2.629307402912673e-07
+  },
+  {
+    "shape": [
+      16,
+      8192,
+      7,
+      64
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 0,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      194.557,
+      194.956,
+      194.553,
+      194.174,
+      194.38
+    ],
+    "min": 194.174,
+    "median": 194.553,
+    "mean": 194.524,
+    "consistent": true,
+    "passed": true,
+    "relative": 2.629307402912673e-07
+  },
+  {
+    "shape": [
+      16,
+      8192,
+      7,
+      64
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 1,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      142.474,
+      143.354,
+      142.194,
+      142.327,
+      142.431
+    ],
+    "min": 142.194,
+    "median": 142.431,
+    "mean": 142.556,
+    "consistent": true,
+    "passed": true,
+    "relative": 2.629307402912673e-07
+  },
+  {
+    "shape": [
+      1,
+      4095,
+      31,
+      72
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      20.691,
+      21.077,
+      21.037,
+      20.907,
+      20.86
+    ],
+    "min": 20.691,
+    "median": 20.907,
+    "mean": 20.914,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      4095,
+      31,
+      72
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 1,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      18.572,
+      18.691,
+      18.603,
+      18.559,
+      18.565
+    ],
+    "min": 18.559,
+    "median": 18.572,
+    "mean": 18.598,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      4095,
+      31,
+      72
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      20.697,
+      20.421,
+      20.487,
+      20.303,
+      20.453
+    ],
+    "min": 20.303,
+    "median": 20.453,
+    "mean": 20.472,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      4095,
+      31,
+      72
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 1,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      16.788,
+      16.56,
+      16.651,
+      16.661,
+      16.499
+    ],
+    "min": 16.499,
+    "median": 16.651,
+    "mean": 16.632,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      4095,
+      31,
+      72
+    ],
+    "dtype": 2,
+    "ta": 0,
+    "tb": 0,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      21.857,
+      23.071,
+      22.193,
+      22.342,
+      22.267
+    ],
+    "min": 21.857,
+    "median": 22.267,
+    "mean": 22.346,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      4095,
+      31,
+      72
+    ],
+    "dtype": 2,
+    "ta": 0,
+    "tb": 1,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      18.541,
+      18.797,
+      18.725,
+      18.837,
+      18.665
+    ],
+    "min": 18.541,
+    "median": 18.725,
+    "mean": 18.713,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      4095,
+      31,
+      72
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 0,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      19.616,
+      19.442,
+      19.311,
+      19.314,
+      19.278
+    ],
+    "min": 19.278,
+    "median": 19.314,
+    "mean": 19.392,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      4095,
+      31,
+      72
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 1,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      17.351,
+      17.001,
+      17.087,
+      16.996,
+      17.053
+    ],
+    "min": 16.996,
+    "median": 17.053,
+    "mean": 17.098,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      2049,
+      1,
+      8
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      15.649,
+      15.643,
+      15.585,
+      15.628,
+      15.697
+    ],
+    "min": 15.585,
+    "median": 15.643,
+    "mean": 15.64,
+    "consistent": true,
+    "passed": true,
+    "relative": 3.587462913401396e-07
+  },
+  {
+    "shape": [
+      1,
+      2049,
+      1,
+      8
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 1,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      14.713,
+      14.791,
+      14.659,
+      14.789,
+      14.726
+    ],
+    "min": 14.659,
+    "median": 14.726,
+    "mean": 14.736,
+    "consistent": true,
+    "passed": true,
+    "relative": 3.587462913401396e-07
+  },
+  {
+    "shape": [
+      1,
+      2049,
+      1,
+      8
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      13.941,
+      13.903,
+      13.891,
+      13.65,
+      13.986
+    ],
+    "min": 13.65,
+    "median": 13.903,
+    "mean": 13.874,
+    "consistent": true,
+    "passed": true,
+    "relative": 3.587462913401396e-07
+  },
+  {
+    "shape": [
+      1,
+      2049,
+      1,
+      8
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 1,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      11.318,
+      11.417,
+      11.373,
+      11.343,
+      11.278
+    ],
+    "min": 11.278,
+    "median": 11.343,
+    "mean": 11.346,
+    "consistent": true,
+    "passed": true,
+    "relative": 3.587462913401396e-07
+  },
+  {
+    "shape": [
+      1,
+      2049,
+      1,
+      8
+    ],
+    "dtype": 2,
+    "ta": 0,
+    "tb": 0,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      16.769,
+      16.901,
+      16.657,
+      16.916,
+      16.728
+    ],
+    "min": 16.657,
+    "median": 16.769,
+    "mean": 16.794,
+    "consistent": true,
+    "passed": true,
+    "relative": 3.591420920656674e-07
+  },
+  {
+    "shape": [
+      1,
+      2049,
+      1,
+      8
+    ],
+    "dtype": 2,
+    "ta": 0,
+    "tb": 1,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      14.541,
+      14.547,
+      14.488,
+      14.609,
+      14.821
+    ],
+    "min": 14.488,
+    "median": 14.547,
+    "mean": 14.601,
+    "consistent": true,
+    "passed": true,
+    "relative": 3.591420920656674e-07
+  },
+  {
+    "shape": [
+      1,
+      2049,
+      1,
+      8
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 0,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      14.231,
+      13.838,
+      13.709,
+      13.759,
+      13.594
+    ],
+    "min": 13.594,
+    "median": 13.759,
+    "mean": 13.826,
+    "consistent": true,
+    "passed": true,
+    "relative": 3.591420920656674e-07
+  },
+  {
+    "shape": [
+      1,
+      2049,
+      1,
+      8
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 1,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      10.943,
+      11.127,
+      10.776,
+      10.821,
+      10.782
+    ],
+    "min": 10.776,
+    "median": 10.821,
+    "mean": 10.89,
+    "consistent": true,
+    "passed": true,
+    "relative": 3.591420920656674e-07
+  },
+  {
+    "shape": [
+      1,
+      8192,
+      17,
+      32
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      23.455,
+      23.506,
+      23.503,
+      23.537,
+      23.534
+    ],
+    "min": 23.455,
+    "median": 23.506,
+    "mean": 23.507,
+    "consistent": true,
+    "passed": true,
+    "relative": 2.7817048930955934e-07
+  },
+  {
+    "shape": [
+      1,
+      8192,
+      17,
+      32
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 1,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      15.449,
+      15.681,
+      15.608,
+      15.641,
+      15.629
+    ],
+    "min": 15.449,
+    "median": 15.629,
+    "mean": 15.601,
+    "consistent": true,
+    "passed": true,
+    "relative": 2.7817048930955934e-07
+  },
+  {
+    "shape": [
+      1,
+      8192,
+      17,
+      32
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      25.5,
+      24.684,
+      24.751,
+      24.979,
+      24.693
+    ],
+    "min": 24.684,
+    "median": 24.751,
+    "mean": 24.921,
+    "consistent": true,
+    "passed": true,
+    "relative": 2.7817048930955934e-07
+  },
+  {
+    "shape": [
+      1,
+      8192,
+      17,
+      32
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 1,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      17.098,
+      16.157,
+      16.044,
+      16.047,
+      16.019
+    ],
+    "min": 16.019,
+    "median": 16.047,
+    "mean": 16.273,
+    "consistent": true,
+    "passed": true,
+    "relative": 2.7817048930955934e-07
+  },
+  {
+    "shape": [
+      1,
+      8192,
+      17,
+      32
+    ],
+    "dtype": 2,
+    "ta": 0,
+    "tb": 0,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      23.152,
+      23.424,
+      23.402,
+      23.371,
+      23.421
+    ],
+    "min": 23.152,
+    "median": 23.402,
+    "mean": 23.354,
+    "consistent": true,
+    "passed": true,
+    "relative": 6.95338471246032e-08
+  },
+  {
+    "shape": [
+      1,
+      8192,
+      17,
+      32
+    ],
+    "dtype": 2,
+    "ta": 0,
+    "tb": 1,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      15.453,
+      15.666,
+      15.561,
+      15.593,
+      15.608
+    ],
+    "min": 15.453,
+    "median": 15.593,
+    "mean": 15.576,
+    "consistent": true,
+    "passed": true,
+    "relative": 6.95338471246032e-08
+  },
+  {
+    "shape": [
+      1,
+      8192,
+      17,
+      32
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 0,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      24.766,
+      24.297,
+      24.044,
+      24.167,
+      24.071
+    ],
+    "min": 24.044,
+    "median": 24.167,
+    "mean": 24.269,
+    "consistent": true,
+    "passed": true,
+    "relative": 6.95338471246032e-08
+  },
+  {
+    "shape": [
+      1,
+      8192,
+      17,
+      32
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 1,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      16.791,
+      15.885,
+      15.741,
+      15.803,
+      15.804
+    ],
+    "min": 15.741,
+    "median": 15.804,
+    "mean": 16.005,
+    "consistent": true,
+    "passed": true,
+    "relative": 6.95338471246032e-08
+  },
+  {
+    "shape": [
+      4,
+      2048,
+      17,
+      64
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      19.301,
+      19.815,
+      19.769,
+      19.592,
+      19.678
+    ],
+    "min": 19.301,
+    "median": 19.678,
+    "mean": 19.631,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.0285277340926768e-07
+  },
+  {
+    "shape": [
+      4,
+      2048,
+      17,
+      64
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 1,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      15.397,
+      15.942,
+      15.731,
+      15.758,
+      15.708
+    ],
+    "min": 15.397,
+    "median": 15.731,
+    "mean": 15.707,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.0285277340926768e-07
+  },
+  {
+    "shape": [
+      4,
+      2048,
+      17,
+      64
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      18.605,
+      18.794,
+      18.705,
+      19.035,
+      19.199
+    ],
+    "min": 18.605,
+    "median": 18.794,
+    "mean": 18.868,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.0285277340926768e-07
+  },
+  {
+    "shape": [
+      4,
+      2048,
+      17,
+      64
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 1,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      15.437,
+      15.605,
+      15.625,
+      15.605,
+      15.707
+    ],
+    "min": 15.437,
+    "median": 15.605,
+    "mean": 15.596,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.0285277340926768e-07
+  },
+  {
+    "shape": [
+      4,
+      2048,
+      17,
+      64
+    ],
+    "dtype": 2,
+    "ta": 0,
+    "tb": 0,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      18.856,
+      19.117,
+      19.049,
+      19.331,
+      18.924
+    ],
+    "min": 18.856,
+    "median": 19.049,
+    "mean": 19.055,
+    "consistent": true,
+    "passed": true,
+    "relative": 2.0210880791182717e-07
+  },
+  {
+    "shape": [
+      4,
+      2048,
+      17,
+      64
+    ],
+    "dtype": 2,
+    "ta": 0,
+    "tb": 1,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      15.357,
+      15.815,
+      15.777,
+      15.845,
+      15.505
+    ],
+    "min": 15.357,
+    "median": 15.777,
+    "mean": 15.66,
+    "consistent": true,
+    "passed": true,
+    "relative": 2.0210880791182717e-07
+  },
+  {
+    "shape": [
+      4,
+      2048,
+      17,
+      64
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 0,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      19.102,
+      19.095,
+      19.7,
+      23.173,
+      19.487
+    ],
+    "min": 19.095,
+    "median": 19.487,
+    "mean": 20.111,
+    "consistent": true,
+    "passed": true,
+    "relative": 2.0210880791182717e-07
+  },
+  {
+    "shape": [
+      4,
+      2048,
+      17,
+      64
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 1,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      15.615,
+      15.783,
+      15.421,
+      15.429,
+      15.481
+    ],
+    "min": 15.421,
+    "median": 15.481,
+    "mean": 15.546,
+    "consistent": true,
+    "passed": true,
+    "relative": 2.0210880791182717e-07
+  },
+  {
+    "shape": [
+      2,
+      3,
+      7,
+      40
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      8.344,
+      7.765,
+      7.779,
+      7.755,
+      7.757
+    ],
+    "min": 7.755,
+    "median": 7.765,
+    "mean": 7.88,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      2,
+      3,
+      7,
+      40
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 1,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      7.457,
+      7.692,
+      7.252,
+      7.323,
+      7.491
+    ],
+    "min": 7.252,
+    "median": 7.457,
+    "mean": 7.443,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      2,
+      3,
+      7,
+      40
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      9.316,
+      9.012,
+      8.968,
+      8.953,
+      8.96
+    ],
+    "min": 8.953,
+    "median": 8.968,
+    "mean": 9.042,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      2,
+      3,
+      7,
+      40
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 1,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      9.627,
+      9.016,
+      8.981,
+      9.027,
+      8.997
+    ],
+    "min": 8.981,
+    "median": 9.016,
+    "mean": 9.13,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      2,
+      3,
+      7,
+      40
+    ],
+    "dtype": 2,
+    "ta": 0,
+    "tb": 0,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      8.532,
+      7.839,
+      7.735,
+      7.773,
+      7.804
+    ],
+    "min": 7.735,
+    "median": 7.804,
+    "mean": 7.937,
+    "consistent": true,
+    "passed": true,
+    "relative": 7.666298529329652e-08
+  },
+  {
+    "shape": [
+      2,
+      3,
+      7,
+      40
+    ],
+    "dtype": 2,
+    "ta": 0,
+    "tb": 1,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      7.288,
+      7.273,
+      7.225,
+      7.269,
+      7.531
+    ],
+    "min": 7.225,
+    "median": 7.273,
+    "mean": 7.317,
+    "consistent": true,
+    "passed": true,
+    "relative": 7.666298529329652e-08
+  },
+  {
+    "shape": [
+      2,
+      3,
+      7,
+      40
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 0,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      9.587,
+      8.968,
+      8.941,
+      8.975,
+      8.95
+    ],
+    "min": 8.941,
+    "median": 8.968,
+    "mean": 9.084,
+    "consistent": true,
+    "passed": true,
+    "relative": 7.666298529329652e-08
+  },
+  {
+    "shape": [
+      2,
+      3,
+      7,
+      40
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 1,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      9.565,
+      9.003,
+      8.983,
+      9.025,
+      8.988
+    ],
+    "min": 8.983,
+    "median": 9.003,
+    "mean": 9.113,
+    "consistent": true,
+    "passed": true,
+    "relative": 7.666298529329652e-08
+  },
+  {
+    "shape": [
+      1,
+      16,
+      256,
+      4096
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      17.803,
+      15.937,
+      16.045,
+      15.911,
+      15.984
+    ],
+    "min": 15.911,
+    "median": 15.984,
+    "mean": 16.336,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      16,
+      256,
+      4096
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 1,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      16.708,
+      14.629,
+      14.562,
+      14.563,
+      14.523
+    ],
+    "min": 14.523,
+    "median": 14.563,
+    "mean": 14.997,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      16,
+      256,
+      4096
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      54.345,
+      53.523,
+      53.589,
+      53.422,
+      53.485
+    ],
+    "min": 53.422,
+    "median": 53.523,
+    "mean": 53.673,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      16,
+      256,
+      4096
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 1,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      50.319,
+      49.076,
+      49.033,
+      49.163,
+      48.981
+    ],
+    "min": 48.981,
+    "median": 49.076,
+    "mean": 49.315,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      16,
+      256,
+      4096
+    ],
+    "dtype": 2,
+    "ta": 0,
+    "tb": 0,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      18.082,
+      15.981,
+      15.887,
+      15.965,
+      15.918
+    ],
+    "min": 15.887,
+    "median": 15.965,
+    "mean": 16.367,
+    "consistent": true,
+    "passed": true,
+    "relative": 6.513085537562802e-08
+  },
+  {
+    "shape": [
+      1,
+      16,
+      256,
+      4096
+    ],
+    "dtype": 2,
+    "ta": 0,
+    "tb": 1,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      16.037,
+      14.455,
+      14.438,
+      14.44,
+      14.441
+    ],
+    "min": 14.438,
+    "median": 14.441,
+    "mean": 14.762,
+    "consistent": true,
+    "passed": true,
+    "relative": 6.513085537562802e-08
+  },
+  {
+    "shape": [
+      1,
+      16,
+      256,
+      4096
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 0,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      53.961,
+      52.885,
+      52.965,
+      52.945,
+      53.065
+    ],
+    "min": 52.885,
+    "median": 52.965,
+    "mean": 53.164,
+    "consistent": true,
+    "passed": true,
+    "relative": 6.513085537562802e-08
+  },
+  {
+    "shape": [
+      1,
+      16,
+      256,
+      4096
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 1,
+    "variant": "release",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      50.145,
+      49.104,
+      48.861,
+      49.192,
+      49.137
+    ],
+    "min": 48.861,
+    "median": 49.137,
+    "mean": 49.288,
+    "consistent": true,
+    "passed": true,
+    "relative": 6.513085537562802e-08
+  }
+]

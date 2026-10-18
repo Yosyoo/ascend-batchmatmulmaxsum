@@ -1,0 +1,8 @@
+1 512 512 1040 1 0 0 /home/developer/bmms_v3/solo17_data/medium_cases/c012
+1 512 512 1040 1 0 1 /home/developer/bmms_v3/solo17_data/medium_cases/c013
+1 512 512 1040 1 1 0 /home/developer/bmms_v3/solo17_data/medium_cases/c014
+1 512 512 1040 1 1 1 /home/developer/bmms_v3/solo17_data/medium_cases/c015
+1 64 64 8176 1 0 0 /home/developer/bmms_v3/solo14_data/split16_cases/c012
+1 64 64 8176 1 0 1 /home/developer/bmms_v3/solo14_data/split16_cases/c013
+1 64 64 8176 1 1 0 /home/developer/bmms_v3/solo14_data/split16_cases/c014
+1 64 64 8176 1 1 1 /home/developer/bmms_v3/solo14_data/split16_cases/c015

@@ -1,0 +1,4 @@
+{"plan":0,"rc":0,"baseM":128,"baseN":256,"baseK":64,"dbL0A":2,"dbL0B":2,"dbL0C":1,"L0C_bytes":131072,"stepM":1,"stepN":1,"stepKb":2}
+{"plan":1,"rc":0,"baseM":64,"baseN":256,"baseK":64,"dbL0A":2,"dbL0B":2,"dbL0C":1,"L0C_bytes":65536,"stepM":1,"stepN":1,"stepKb":4}
+{"plan":2,"rc":0,"baseM":64,"baseN":256,"baseK":64,"dbL0A":2,"dbL0B":2,"dbL0C":1,"L0C_bytes":65536,"stepM":1,"stepN":1,"stepKb":4}
+{"plan":3,"rc":0,"baseM":64,"baseN":256,"baseK":64,"dbL0A":2,"dbL0B":2,"dbL0C":1,"L0C_bytes":65536,"stepM":1,"stepN":1,"stepKb":4}

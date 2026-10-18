@@ -1,0 +1,482 @@
+[
+  {
+    "shape": [
+      128,
+      128,
+      256
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 0,
+    "start": 128,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      128,
+      256
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 1,
+    "start": 128,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      128,
+      256
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 2,
+    "start": 128,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      128,
+      256
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 3,
+    "start": 128,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      128,
+      256
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 0,
+    "start": 128,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      128,
+      256
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 1,
+    "start": 128,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      128,
+      256
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 2,
+    "start": 128,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      128,
+      256
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 3,
+    "start": 128,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      128,
+      256
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 0,
+    "start": 128,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      128,
+      256
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 1,
+    "start": 128,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      128,
+      256
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 2,
+    "start": 128,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      128,
+      256
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 3,
+    "start": 128,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      128,
+      256
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 0,
+    "start": 128,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      128,
+      256
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 1,
+    "start": 128,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      128,
+      256
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 2,
+    "start": 128,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      128,
+      256
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 3,
+    "start": 128,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      16,
+      256
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 0,
+    "start": 128,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      16,
+      256
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 1,
+    "start": 128,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      16,
+      256
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 2,
+    "start": 128,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      16,
+      256
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 3,
+    "start": 128,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      16,
+      256
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 0,
+    "start": 128,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      16,
+      256
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 1,
+    "start": 128,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      16,
+      256
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 2,
+    "start": 128,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      16,
+      256
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 3,
+    "start": 128,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      48,
+      80,
+      240
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 0,
+    "start": 16,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      48,
+      80,
+      240
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 1,
+    "start": 16,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      48,
+      80,
+      240
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 2,
+    "start": 16,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      48,
+      80,
+      240
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 3,
+    "start": 16,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      48,
+      80,
+      240
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 0,
+    "start": 16,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      48,
+      80,
+      240
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 1,
+    "start": 16,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      48,
+      80,
+      240
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 2,
+    "start": 16,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      48,
+      80,
+      240
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 3,
+    "start": 16,
+    "count": 128,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  }
+]

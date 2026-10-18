@@ -1,0 +1,16 @@
+{
+  "variant": "s45c",
+  "parent": "s43a",
+  "change": "Keep K256 small-matrix two-half precision correction; remove the unhelpful new batched-direct route.",
+  "resource_delta_bytes": {
+    "UB": 0,
+    "L1": 0,
+    "L0A": 0,
+    "L0B": 0,
+    "L0C": 0,
+    "GM": 0
+  },
+  "kernel_bodies": "Byte-identical to s43a; existing pair kernels and tiling guards.",
+  "official_evidence": "s45b825351 Pass but point4=7.86us vs3.90us s43a824522. This single-change C isolates whether new small-matrix route or required K256 precision correction causes the official loss.",
+  "validation": "New128 bounds plus unchanged old21818 precision, original100 ABBA160 last80, six hangs. No tolerance or failed fixture changes."
+}

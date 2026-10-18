@@ -1,0 +1,12 @@
+{
+  "variant": "s23m",
+  "passed": true,
+  "observed": 192,
+  "expected": 192,
+  "hashes": {
+    "bench_cases": "072a116b14e1025449e9f68879ba88343b92c0b7e2d7133676eaa0c29965284b",
+    "kernel.asc": "ef5af43ab8fba85dd4dfd2e93c7aa982260597b72c5186165dcb1c434348f695"
+  },
+  "fixture_metadata_sha256": "6bb2b3d17e1b911c0994396191add25165303fd0ddb404c63afba2a4b2e1ac4d",
+  "all_fixture_hashes_unchanged": true
+}

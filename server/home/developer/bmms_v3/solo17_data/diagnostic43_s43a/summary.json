@@ -1,0 +1,13 @@
+{
+  "variant": "s43a",
+  "expected": 200,
+  "observed": 200,
+  "passed": true,
+  "returncode": 0,
+  "manifest_sha256": "88116ea4d317c0e154ff0777882e6237422f5f0aeec30b9d0bf6a5b9847d4b5c",
+  "hashes": {
+    "kernel.asc": "d7da3ac492077853523520c934902cc336c221e3c429b4deee741fe423874d2e",
+    "bench_cases": "c4d4af01d0e016e501c8655a3c99d00e94cd38234b77ecd79142852cd835d31e"
+  },
+  "failures": []
+}

@@ -1,0 +1,3452 @@
+[
+ {
+  "shape": [
+   1,
+   8192,
+   64,
+   128
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    21.247,
+    21.157,
+    21.577,
+    21.508,
+    21.583
+   ],
+   "min": 21.157,
+   "median": 21.508,
+   "mean": 21.414,
+   "consistent": true,
+   "passed": true,
+   "relative": 3.229343406019325e-07,
+   "wall": 2.1
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    22.187,
+    22.64,
+    22.826,
+    22.708,
+    22.698
+   ],
+   "min": 22.187,
+   "median": 22.698,
+   "mean": 22.612,
+   "consistent": true,
+   "passed": true,
+   "relative": 3.229343406019325e-07,
+   "wall": 2.1,
+   "ratio": 1.0487
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    14.565,
+    15.066,
+    15.195,
+    15.052,
+    15.031
+   ],
+   "min": 14.565,
+   "median": 15.052,
+   "mean": 14.982,
+   "consistent": true,
+   "passed": true,
+   "relative": 3.229343406019325e-07,
+   "wall": 2.1,
+   "ratio": 0.6884
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    14.726,
+    15.184,
+    15.181,
+    15.177,
+    15.158
+   ],
+   "min": 14.726,
+   "median": 15.177,
+   "mean": 15.085,
+   "consistent": true,
+   "passed": true,
+   "relative": 3.229343406019325e-07,
+   "wall": 2.1,
+   "ratio": 0.696
+  }
+ },
+ {
+  "shape": [
+   1,
+   4096,
+   64,
+   128
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    15.419,
+    16.009,
+    15.99,
+    16.047,
+    15.958
+   ],
+   "min": 15.419,
+   "median": 15.99,
+   "mean": 15.885,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.0882339296358623e-07,
+   "wall": 2.1
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    15.287,
+    15.766,
+    15.864,
+    15.832,
+    15.901
+   ],
+   "min": 15.287,
+   "median": 15.832,
+   "mean": 15.73,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.0882339296358623e-07,
+   "wall": 2.1,
+   "ratio": 0.9914
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    15.837,
+    16.085,
+    16.176,
+    16.266,
+    16.122
+   ],
+   "min": 15.837,
+   "median": 16.122,
+   "mean": 16.097,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.0882339296358623e-07,
+   "wall": 2.1,
+   "ratio": 1.0271
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    15.296,
+    15.844,
+    15.913,
+    15.907,
+    15.86
+   ],
+   "min": 15.296,
+   "median": 15.86,
+   "mean": 15.764,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.0882339296358623e-07,
+   "wall": 2.1,
+   "ratio": 0.992
+  }
+ },
+ {
+  "shape": [
+   1,
+   16384,
+   64,
+   64
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    31.615,
+    32.093,
+    32.164,
+    32.009,
+    32.068
+   ],
+   "min": 31.615,
+   "median": 32.068,
+   "mean": 31.99,
+   "consistent": true,
+   "passed": true,
+   "relative": 6.839851494078175e-07,
+   "wall": 2.1
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    32.579,
+    33.108,
+    33.206,
+    33.04,
+    33.103
+   ],
+   "min": 32.579,
+   "median": 33.103,
+   "mean": 33.007,
+   "consistent": true,
+   "passed": true,
+   "relative": 6.839851494078175e-07,
+   "wall": 2.1,
+   "ratio": 1.0305
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    19.225,
+    19.866,
+    19.584,
+    19.694,
+    19.627
+   ],
+   "min": 19.225,
+   "median": 19.627,
+   "mean": 19.599,
+   "consistent": true,
+   "passed": true,
+   "relative": 6.839851494078175e-07,
+   "wall": 2.1,
+   "ratio": 0.6081
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    19.648,
+    19.966,
+    20.061,
+    20.082,
+    20.012
+   ],
+   "min": 19.648,
+   "median": 20.012,
+   "mean": 19.954,
+   "consistent": true,
+   "passed": true,
+   "relative": 6.839851494078175e-07,
+   "wall": 3.1,
+   "ratio": 0.6215
+  }
+ },
+ {
+  "shape": [
+   1,
+   8192,
+   32,
+   64
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    20.983,
+    21.303,
+    21.308,
+    21.348,
+    21.378
+   ],
+   "min": 20.983,
+   "median": 21.308,
+   "mean": 21.264,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 3.0
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    21.004,
+    21.641,
+    21.136,
+    21.453,
+    21.125
+   ],
+   "min": 21.004,
+   "median": 21.136,
+   "mean": 21.272,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 3.1,
+   "ratio": 1.001
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    14.236,
+    14.528,
+    14.567,
+    14.549,
+    14.539
+   ],
+   "min": 14.236,
+   "median": 14.539,
+   "mean": 14.484,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 3.1,
+   "ratio": 0.6785
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    14.168,
+    14.529,
+    14.669,
+    14.647,
+    14.457
+   ],
+   "min": 14.168,
+   "median": 14.529,
+   "mean": 14.494,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 3.1,
+   "ratio": 0.6752
+  }
+ },
+ {
+  "shape": [
+   2,
+   8192,
+   64,
+   128
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    32.483,
+    32.978,
+    32.53,
+    32.308,
+    32.804
+   ],
+   "min": 32.308,
+   "median": 32.53,
+   "mean": 32.621,
+   "consistent": true,
+   "passed": true,
+   "relative": 3.2700677365937736e-07,
+   "wall": 2.1
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    33.778,
+    34.457,
+    34.223,
+    34.233,
+    34.235
+   ],
+   "min": 33.778,
+   "median": 34.233,
+   "mean": 34.185,
+   "consistent": true,
+   "passed": true,
+   "relative": 3.2700677365937736e-07,
+   "wall": 2.1,
+   "ratio": 1.0455
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    20.289,
+    21.006,
+    21.008,
+    20.996,
+    20.977
+   ],
+   "min": 20.289,
+   "median": 20.996,
+   "mean": 20.855,
+   "consistent": true,
+   "passed": true,
+   "relative": 3.2700677365937736e-07,
+   "wall": 2.1,
+   "ratio": 0.628
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    20.622,
+    20.927,
+    20.948,
+    21.036,
+    20.979
+   ],
+   "min": 20.622,
+   "median": 20.948,
+   "mean": 20.902,
+   "consistent": true,
+   "passed": true,
+   "relative": 3.2700677365937736e-07,
+   "wall": 2.1,
+   "ratio": 0.6383
+  }
+ },
+ {
+  "shape": [
+   4,
+   4096,
+   64,
+   128
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    32.699,
+    33.194,
+    33.091,
+    33.014,
+    32.699
+   ],
+   "min": 32.699,
+   "median": 33.014,
+   "mean": 32.939,
+   "consistent": true,
+   "passed": true,
+   "relative": 2.1487913670625858e-07,
+   "wall": 2.1
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    33.388,
+    33.821,
+    33.582,
+    33.76,
+    33.85
+   ],
+   "min": 33.388,
+   "median": 33.76,
+   "mean": 33.68,
+   "consistent": true,
+   "passed": true,
+   "relative": 2.1487913670625858e-07,
+   "wall": 2.1,
+   "ratio": 1.0211
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    20.401,
+    20.888,
+    20.762,
+    20.776,
+    20.972
+   ],
+   "min": 20.401,
+   "median": 20.776,
+   "mean": 20.76,
+   "consistent": true,
+   "passed": true,
+   "relative": 2.1487913670625858e-07,
+   "wall": 2.1,
+   "ratio": 0.6239
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    20.763,
+    21.141,
+    21.024,
+    21.142,
+    20.964
+   ],
+   "min": 20.763,
+   "median": 21.024,
+   "mean": 21.007,
+   "consistent": true,
+   "passed": true,
+   "relative": 2.1487913670625858e-07,
+   "wall": 2.1,
+   "ratio": 0.635
+  }
+ },
+ {
+  "shape": [
+   1,
+   2048,
+   64,
+   128
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    11.809,
+    12.222,
+    12.18,
+    12.185,
+    12.182
+   ],
+   "min": 11.809,
+   "median": 12.182,
+   "mean": 12.116,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.0940029682160457e-07,
+   "wall": 2.1
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    12.015,
+    11.943,
+    12.403,
+    12.459,
+    12.403
+   ],
+   "min": 11.943,
+   "median": 12.403,
+   "mean": 12.245,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.0940029682160457e-07,
+   "wall": 3.0,
+   "ratio": 1.0113
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    11.966,
+    12.282,
+    11.944,
+    12.315,
+    11.975
+   ],
+   "min": 11.944,
+   "median": 11.975,
+   "mean": 12.096,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.0940029682160457e-07,
+   "wall": 3.1,
+   "ratio": 1.0114
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    11.78,
+    12.223,
+    12.25,
+    12.181,
+    12.222
+   ],
+   "min": 11.78,
+   "median": 12.222,
+   "mean": 12.131,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.0940029682160457e-07,
+   "wall": 3.0,
+   "ratio": 0.9975
+  }
+ },
+ {
+  "shape": [
+   1,
+   32768,
+   64,
+   128
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    57.929,
+    58.595,
+    58.577,
+    58.721,
+    58.395
+   ],
+   "min": 57.929,
+   "median": 58.577,
+   "mean": 58.443,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 3.1
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    59.436,
+    59.762,
+    59.755,
+    59.83,
+    60.101
+   ],
+   "min": 59.436,
+   "median": 59.762,
+   "mean": 59.777,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.1,
+   "ratio": 1.026
+  },
+  "final": {
+   "error": "",
+   "wall": 3.6,
+   "ratio": null
+  },
+  "balanced": {
+   "error": "",
+   "wall": 3.0,
+   "ratio": null
+  }
+ },
+ {
+  "shape": [
+   1,
+   8192,
+   64,
+   32
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    20.142,
+    20.486,
+    20.336,
+    20.502,
+    20.543
+   ],
+   "min": 20.142,
+   "median": 20.486,
+   "mean": 20.402,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.1065402105714384e-07,
+   "wall": 3.1
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    21.152,
+    21.297,
+    21.127,
+    20.941,
+    21.004
+   ],
+   "min": 20.941,
+   "median": 21.127,
+   "mean": 21.104,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.1065402105714384e-07,
+   "wall": 3.1,
+   "ratio": 1.0397
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    14.231,
+    14.382,
+    14.117,
+    14.121,
+    14.082
+   ],
+   "min": 14.082,
+   "median": 14.121,
+   "mean": 14.187,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.1065402105714384e-07,
+   "wall": 3.0,
+   "ratio": 0.6991
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    13.626,
+    14.214,
+    13.676,
+    14.219,
+    14.177
+   ],
+   "min": 13.626,
+   "median": 14.177,
+   "mean": 13.982,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.1065402105714384e-07,
+   "wall": 3.1,
+   "ratio": 0.6765
+  }
+ },
+ {
+  "shape": [
+   1,
+   6144,
+   48,
+   96
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    21.086,
+    21.579,
+    21.556,
+    21.153,
+    21.17
+   ],
+   "min": 21.086,
+   "median": 21.17,
+   "mean": 21.309,
+   "consistent": true,
+   "passed": true,
+   "relative": 8.724285294192669e-08,
+   "wall": 3.1
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    21.861,
+    22.335,
+    22.219,
+    22.245,
+    22.285
+   ],
+   "min": 21.861,
+   "median": 22.245,
+   "mean": 22.189,
+   "consistent": true,
+   "passed": true,
+   "relative": 8.724285294192669e-08,
+   "wall": 2.1,
+   "ratio": 1.0368
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    20.376,
+    20.715,
+    20.751,
+    20.576,
+    20.771
+   ],
+   "min": 20.376,
+   "median": 20.715,
+   "mean": 20.638,
+   "consistent": true,
+   "passed": true,
+   "relative": 8.724285294192669e-08,
+   "wall": 2.1,
+   "ratio": 0.9663
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    20.128,
+    20.504,
+    20.614,
+    20.583,
+    20.548
+   ],
+   "min": 20.128,
+   "median": 20.548,
+   "mean": 20.475,
+   "consistent": true,
+   "passed": true,
+   "relative": 8.724285294192669e-08,
+   "wall": 2.1,
+   "ratio": 0.9546
+  }
+ },
+ {
+  "shape": [
+   1,
+   12288,
+   64,
+   128
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    27.55,
+    27.92,
+    27.867,
+    28.013,
+    27.768
+   ],
+   "min": 27.55,
+   "median": 27.867,
+   "mean": 27.824,
+   "consistent": true,
+   "passed": true,
+   "relative": 2.1716478215694224e-07,
+   "wall": 2.1
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    27.851,
+    28.307,
+    28.114,
+    28.174,
+    28.207
+   ],
+   "min": 27.851,
+   "median": 28.174,
+   "mean": 28.131,
+   "consistent": true,
+   "passed": true,
+   "relative": 2.1716478215694224e-07,
+   "wall": 2.1,
+   "ratio": 1.0109
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    17.927,
+    18.304,
+    18.315,
+    18.392,
+    18.197
+   ],
+   "min": 17.927,
+   "median": 18.304,
+   "mean": 18.227,
+   "consistent": true,
+   "passed": true,
+   "relative": 2.1716478215694224e-07,
+   "wall": 2.1,
+   "ratio": 0.6507
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    18.102,
+    18.81,
+    18.776,
+    18.519,
+    18.847
+   ],
+   "min": 18.102,
+   "median": 18.776,
+   "mean": 18.611,
+   "consistent": true,
+   "passed": true,
+   "relative": 2.1716478215694224e-07,
+   "wall": 2.1,
+   "ratio": 0.6571
+  }
+ },
+ {
+  "shape": [
+   8,
+   2048,
+   64,
+   64
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    30.883,
+    31.231,
+    31.272,
+    31.228,
+    31.176
+   ],
+   "min": 30.883,
+   "median": 31.228,
+   "mean": 31.158,
+   "consistent": true,
+   "passed": true,
+   "relative": 7.637727605924738e-08,
+   "wall": 2.1
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    31.9,
+    32.359,
+    32.41,
+    32.365,
+    32.283
+   ],
+   "min": 31.9,
+   "median": 32.359,
+   "mean": 32.263,
+   "consistent": true,
+   "passed": true,
+   "relative": 7.637727605924738e-08,
+   "wall": 2.1,
+   "ratio": 1.0329
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    19.051,
+    19.465,
+    19.47,
+    19.588,
+    19.497
+   ],
+   "min": 19.051,
+   "median": 19.47,
+   "mean": 19.414,
+   "consistent": true,
+   "passed": true,
+   "relative": 7.637727605924738e-08,
+   "wall": 2.1,
+   "ratio": 0.6169
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    18.656,
+    19.261,
+    19.111,
+    19.079,
+    19.002
+   ],
+   "min": 18.656,
+   "median": 19.079,
+   "mean": 19.022,
+   "consistent": true,
+   "passed": true,
+   "relative": 7.637727605924738e-08,
+   "wall": 2.1,
+   "ratio": 0.6041
+  }
+ },
+ {
+  "shape": [
+   1,
+   1024,
+   1024,
+   1024
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    46.53,
+    46.737,
+    46.305,
+    46.301,
+    46.353
+   ],
+   "min": 46.301,
+   "median": 46.353,
+   "mean": 46.445,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 3.2
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    51.836,
+    52.359,
+    51.897,
+    52.088,
+    52.183
+   ],
+   "min": 51.836,
+   "median": 52.088,
+   "mean": 52.073,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.2,
+   "ratio": 1.1195
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    27.328,
+    27.572,
+    27.605,
+    27.656,
+    27.748
+   ],
+   "min": 27.328,
+   "median": 27.605,
+   "mean": 27.582,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.2,
+   "ratio": 0.5902
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    27.609,
+    28.09,
+    27.741,
+    27.671,
+    27.667
+   ],
+   "min": 27.609,
+   "median": 27.671,
+   "mean": 27.756,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.2,
+   "ratio": 0.5963
+  }
+ },
+ {
+  "shape": [
+   1,
+   512,
+   512,
+   512
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    19.092,
+    19.292,
+    19.132,
+    18.8,
+    18.803
+   ],
+   "min": 18.8,
+   "median": 19.092,
+   "mean": 19.024,
+   "consistent": true,
+   "passed": true,
+   "relative": 8.321958233636906e-08,
+   "wall": 2.1
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    15.446,
+    15.426,
+    15.278,
+    15.219,
+    15.346
+   ],
+   "min": 15.219,
+   "median": 15.346,
+   "mean": 15.343,
+   "consistent": true,
+   "passed": true,
+   "relative": 8.321958233636906e-08,
+   "wall": 2.1,
+   "ratio": 0.8095
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    15.389,
+    15.142,
+    15.171,
+    15.222,
+    15.137
+   ],
+   "min": 15.137,
+   "median": 15.171,
+   "mean": 15.212,
+   "consistent": true,
+   "passed": true,
+   "relative": 8.321958233636906e-08,
+   "wall": 2.1,
+   "ratio": 0.8052
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    15.141,
+    14.975,
+    14.931,
+    15.166,
+    14.886
+   ],
+   "min": 14.886,
+   "median": 14.975,
+   "mean": 15.02,
+   "consistent": true,
+   "passed": true,
+   "relative": 8.321958233636906e-08,
+   "wall": 2.1,
+   "ratio": 0.7918
+  }
+ },
+ {
+  "shape": [
+   1,
+   256,
+   4096,
+   1024
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    149.009,
+    148.781,
+    148.252,
+    148.155,
+    148.159
+   ],
+   "min": 148.155,
+   "median": 148.252,
+   "mean": 148.471,
+   "consistent": true,
+   "passed": true,
+   "relative": 9.887616414516742e-08,
+   "wall": 3.2
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    41.357,
+    41.793,
+    41.814,
+    41.493,
+    41.799
+   ],
+   "min": 41.357,
+   "median": 41.793,
+   "mean": 41.651,
+   "consistent": true,
+   "passed": true,
+   "relative": 9.887616414516742e-08,
+   "wall": 2.2,
+   "ratio": 0.2791
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    28.715,
+    27.849,
+    27.965,
+    27.828,
+    27.806
+   ],
+   "min": 27.806,
+   "median": 27.849,
+   "mean": 28.033,
+   "consistent": true,
+   "passed": true,
+   "relative": 9.887616414516742e-08,
+   "wall": 2.2,
+   "ratio": 0.1877
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    28.643,
+    27.927,
+    27.773,
+    27.786,
+    27.788
+   ],
+   "min": 27.773,
+   "median": 27.788,
+   "mean": 27.983,
+   "consistent": true,
+   "passed": true,
+   "relative": 9.887616414516742e-08,
+   "wall": 2.2,
+   "ratio": 0.1875
+  }
+ },
+ {
+  "shape": [
+   1,
+   2048,
+   2048,
+   1024
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    157.203,
+    157.533,
+    157.497,
+    156.974,
+    157.644
+   ],
+   "min": 156.974,
+   "median": 157.497,
+   "mean": 157.37,
+   "consistent": true,
+   "passed": true,
+   "relative": 2.0815782875160949e-07,
+   "wall": 3.5
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    148.159,
+    148.371,
+    148.45,
+    148.213,
+    148.318
+   ],
+   "min": 148.159,
+   "median": 148.318,
+   "mean": 148.302,
+   "consistent": true,
+   "passed": true,
+   "relative": 2.0815782875160949e-07,
+   "wall": 2.5,
+   "ratio": 0.9438
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    104.165,
+    104.069,
+    104.41,
+    104.283,
+    104.317
+   ],
+   "min": 104.069,
+   "median": 104.283,
+   "mean": 104.249,
+   "consistent": true,
+   "passed": true,
+   "relative": 2.0815782875160949e-07,
+   "wall": 3.5,
+   "ratio": 0.663
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    103.978,
+    104.419,
+    104.109,
+    104.508,
+    104.59
+   ],
+   "min": 103.978,
+   "median": 104.419,
+   "mean": 104.321,
+   "consistent": true,
+   "passed": true,
+   "relative": 2.0815782875160949e-07,
+   "wall": 2.5,
+   "ratio": 0.6624
+  }
+ },
+ {
+  "shape": [
+   1,
+   1024,
+   4096,
+   2048
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    209.269,
+    210.662,
+    209.853,
+    210.067,
+    209.519
+   ],
+   "min": 209.269,
+   "median": 209.853,
+   "mean": 209.874,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.9
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    185.295,
+    185.837,
+    186.19,
+    185.929,
+    185.899
+   ],
+   "min": 185.295,
+   "median": 185.899,
+   "mean": 185.83,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.9,
+   "ratio": 0.8854
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    157.784,
+    158.574,
+    158.529,
+    158.382,
+    158.384
+   ],
+   "min": 157.784,
+   "median": 158.384,
+   "mean": 158.331,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.9,
+   "ratio": 0.754
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    158.345,
+    158.264,
+    158.333,
+    158.393,
+    158.583
+   ],
+   "min": 158.264,
+   "median": 158.345,
+   "mean": 158.384,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.9,
+   "ratio": 0.7563
+  }
+ },
+ {
+  "shape": [
+   1,
+   512,
+   8192,
+   512
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    158.355,
+    159.135,
+    159.265,
+    158.774,
+    158.677
+   ],
+   "min": 158.355,
+   "median": 158.774,
+   "mean": 158.841,
+   "consistent": true,
+   "passed": true,
+   "relative": 6.613421277279485e-08,
+   "wall": 2.3
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    74.446,
+    74.704,
+    74.835,
+    75.248,
+    74.825
+   ],
+   "min": 74.446,
+   "median": 74.825,
+   "mean": 74.812,
+   "consistent": true,
+   "passed": true,
+   "relative": 6.613421277279485e-08,
+   "wall": 2.3,
+   "ratio": 0.4701
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    63.294,
+    63.891,
+    63.209,
+    63.935,
+    63.793
+   ],
+   "min": 63.209,
+   "median": 63.793,
+   "mean": 63.624,
+   "consistent": true,
+   "passed": true,
+   "relative": 6.613421277279485e-08,
+   "wall": 3.3,
+   "ratio": 0.3992
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    63.394,
+    64.169,
+    64.097,
+    64.079,
+    63.835
+   ],
+   "min": 63.394,
+   "median": 64.079,
+   "mean": 63.915,
+   "consistent": true,
+   "passed": true,
+   "relative": 6.613421277279485e-08,
+   "wall": 2.3,
+   "ratio": 0.4003
+  }
+ },
+ {
+  "shape": [
+   1,
+   128,
+   8192,
+   1024
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    284.708,
+    281.525,
+    281.34,
+    281.198,
+    281.108
+   ],
+   "min": 281.108,
+   "median": 281.34,
+   "mean": 281.976,
+   "consistent": true,
+   "passed": true,
+   "relative": 9.380881493825655e-08,
+   "wall": 2.3
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    41.7,
+    42.14,
+    42.02,
+    42.147,
+    42.058
+   ],
+   "min": 41.7,
+   "median": 42.058,
+   "mean": 42.013,
+   "consistent": true,
+   "passed": true,
+   "relative": 9.380881493825655e-08,
+   "wall": 3.3,
+   "ratio": 0.1483
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    29.241,
+    29.348,
+    29.142,
+    29.204,
+    29.116
+   ],
+   "min": 29.116,
+   "median": 29.204,
+   "mean": 29.21,
+   "consistent": true,
+   "passed": true,
+   "relative": 9.380881493825655e-08,
+   "wall": 2.3,
+   "ratio": 0.1036
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    28.722,
+    28.723,
+    28.868,
+    28.738,
+    28.768
+   ],
+   "min": 28.722,
+   "median": 28.738,
+   "mean": 28.764,
+   "consistent": true,
+   "passed": true,
+   "relative": 9.380881493825655e-08,
+   "wall": 2.3,
+   "ratio": 0.1022
+  }
+ },
+ {
+  "shape": [
+   1,
+   2048,
+   512,
+   512
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    33.369,
+    33.904,
+    33.954,
+    34.039,
+    33.954
+   ],
+   "min": 33.369,
+   "median": 33.954,
+   "mean": 33.844,
+   "consistent": true,
+   "passed": true,
+   "relative": 8.299855380755616e-08,
+   "wall": 2.1
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    38.743,
+    39.131,
+    39.129,
+    38.994,
+    38.651
+   ],
+   "min": 38.651,
+   "median": 38.994,
+   "mean": 38.93,
+   "consistent": true,
+   "passed": true,
+   "relative": 8.299855380755616e-08,
+   "wall": 2.1,
+   "ratio": 1.1583
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    26.81,
+    27.21,
+    27.384,
+    27.239,
+    27.299
+   ],
+   "min": 26.81,
+   "median": 27.239,
+   "mean": 27.188,
+   "consistent": true,
+   "passed": true,
+   "relative": 8.299855380755616e-08,
+   "wall": 3.1,
+   "ratio": 0.8034
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    26.685,
+    27.43,
+    27.372,
+    27.266,
+    27.44
+   ],
+   "min": 26.685,
+   "median": 27.372,
+   "mean": 27.239,
+   "consistent": true,
+   "passed": true,
+   "relative": 8.299855380755616e-08,
+   "wall": 3.1,
+   "ratio": 0.7997
+  }
+ },
+ {
+  "shape": [
+   1,
+   4096,
+   1024,
+   512
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    90.346,
+    90.713,
+    90.962,
+    90.544,
+    90.643
+   ],
+   "min": 90.346,
+   "median": 90.643,
+   "mean": 90.642,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.5601062841597013e-07,
+   "wall": 2.3
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    91.325,
+    91.944,
+    91.718,
+    91.706,
+    92.107
+   ],
+   "min": 91.325,
+   "median": 91.718,
+   "mean": 91.76,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.5601062841597013e-07,
+   "wall": 2.3,
+   "ratio": 1.0108
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    78.085,
+    78.224,
+    78.397,
+    78.491,
+    78.635
+   ],
+   "min": 78.085,
+   "median": 78.397,
+   "mean": 78.366,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.5601062841597013e-07,
+   "wall": 3.3,
+   "ratio": 0.8643
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    77.826,
+    78.419,
+    78.529,
+    78.412,
+    78.46
+   ],
+   "min": 77.826,
+   "median": 78.419,
+   "mean": 78.329,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.5601062841597013e-07,
+   "wall": 3.3,
+   "ratio": 0.8614
+  }
+ },
+ {
+  "shape": [
+   1,
+   1024,
+   2048,
+   4096
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    193.919,
+    194.432,
+    194.304,
+    194.369,
+    193.941
+   ],
+   "min": 193.919,
+   "median": 194.304,
+   "mean": 194.193,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.0374297687576473e-07,
+   "wall": 3.1
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    181.18,
+    181.78,
+    181.779,
+    181.911,
+    181.759
+   ],
+   "min": 181.18,
+   "median": 181.779,
+   "mean": 181.682,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.0374297687576473e-07,
+   "wall": 3.1,
+   "ratio": 0.9343
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    144.417,
+    145.16,
+    144.917,
+    144.894,
+    145.116
+   ],
+   "min": 144.417,
+   "median": 144.917,
+   "mean": 144.901,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.0374297687576473e-07,
+   "wall": 3.0,
+   "ratio": 0.7447
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    144.733,
+    144.863,
+    145.295,
+    144.987,
+    145.214
+   ],
+   "min": 144.733,
+   "median": 144.987,
+   "mean": 145.018,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.0374297687576473e-07,
+   "wall": 3.0,
+   "ratio": 0.7464
+  }
+ },
+ {
+  "shape": [
+   2,
+   1024,
+   1024,
+   1024
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    84.963,
+    84.978,
+    84.901,
+    85.001,
+    85.013
+   ],
+   "min": 84.901,
+   "median": 84.978,
+   "mean": 84.971,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.3
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    89.642,
+    90.148,
+    89.954,
+    90.096,
+    90.005
+   ],
+   "min": 89.642,
+   "median": 90.005,
+   "mean": 89.969,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.3,
+   "ratio": 1.0558
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    60.305,
+    60.577,
+    60.745,
+    60.875,
+    60.676
+   ],
+   "min": 60.305,
+   "median": 60.676,
+   "mean": 60.636,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 3.3,
+   "ratio": 0.7103
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    60.173,
+    60.806,
+    60.688,
+    60.879,
+    60.89
+   ],
+   "min": 60.173,
+   "median": 60.806,
+   "mean": 60.687,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.3,
+   "ratio": 0.7087
+  }
+ },
+ {
+  "shape": [
+   1,
+   768,
+   3072,
+   768
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    92.565,
+    92.152,
+    92.483,
+    91.82,
+    91.939
+   ],
+   "min": 91.82,
+   "median": 92.152,
+   "mean": 92.192,
+   "consistent": true,
+   "passed": true,
+   "relative": 7.763000553495658e-08,
+   "wall": 2.2
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    65.444,
+    66.093,
+    66.089,
+    65.986,
+    66.05
+   ],
+   "min": 65.444,
+   "median": 66.05,
+   "mean": 65.932,
+   "consistent": true,
+   "passed": true,
+   "relative": 7.763000553495658e-08,
+   "wall": 2.2,
+   "ratio": 0.7127
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    52.618,
+    53.201,
+    53.109,
+    53.206,
+    53.142
+   ],
+   "min": 52.618,
+   "median": 53.142,
+   "mean": 53.055,
+   "consistent": true,
+   "passed": true,
+   "relative": 7.763000553495658e-08,
+   "wall": 2.4,
+   "ratio": 0.5731
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    52.574,
+    53.162,
+    53.116,
+    53.107,
+    53.248
+   ],
+   "min": 52.574,
+   "median": 53.116,
+   "mean": 53.041,
+   "consistent": true,
+   "passed": true,
+   "relative": 7.763000553495658e-08,
+   "wall": 2.2,
+   "ratio": 0.5726
+  }
+ },
+ {
+  "shape": [
+   1,
+   1024,
+   1536,
+   1536
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    68.047,
+    68.201,
+    67.914,
+    68.233,
+    68.123
+   ],
+   "min": 67.914,
+   "median": 68.123,
+   "mean": 68.104,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.7355620229864144e-07,
+   "wall": 2.3
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    62.265,
+    62.51,
+    64.287,
+    62.52,
+    62.447
+   ],
+   "min": 62.265,
+   "median": 62.51,
+   "mean": 62.806,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.7355620229864144e-07,
+   "wall": 3.3,
+   "ratio": 0.9168
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    56.108,
+    56.485,
+    56.639,
+    56.371,
+    56.417
+   ],
+   "min": 56.108,
+   "median": 56.417,
+   "mean": 56.404,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.7355620229864144e-07,
+   "wall": 2.3,
+   "ratio": 0.8262
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    56.671,
+    57.027,
+    56.881,
+    57.03,
+    57.002
+   ],
+   "min": 56.671,
+   "median": 57.002,
+   "mean": 56.922,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.7355620229864144e-07,
+   "wall": 2.3,
+   "ratio": 0.8345
+  }
+ },
+ {
+  "shape": [
+   1,
+   3072,
+   768,
+   768
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    74.668,
+    75.066,
+    75.093,
+    75.109,
+    74.969
+   ],
+   "min": 74.668,
+   "median": 75.066,
+   "mean": 74.981,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.7344908087579824e-07,
+   "wall": 3.2
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    68.251,
+    68.662,
+    68.321,
+    68.374,
+    68.811
+   ],
+   "min": 68.251,
+   "median": 68.374,
+   "mean": 68.484,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.7344908087579824e-07,
+   "wall": 2.2,
+   "ratio": 0.9141
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    62.735,
+    63.164,
+    62.985,
+    63.219,
+    63.139
+   ],
+   "min": 62.735,
+   "median": 63.139,
+   "mean": 63.048,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.7344908087579824e-07,
+   "wall": 2.2,
+   "ratio": 0.8402
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    62.924,
+    63.062,
+    63.244,
+    63.132,
+    62.979
+   ],
+   "min": 62.924,
+   "median": 63.062,
+   "mean": 63.068,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.7344908087579824e-07,
+   "wall": 2.2,
+   "ratio": 0.8427
+  }
+ },
+ {
+  "shape": [
+   1,
+   31,
+   513,
+   8192
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    263.601,
+    244.977,
+    244.755,
+    244.597,
+    244.747
+   ],
+   "min": 244.597,
+   "median": 244.755,
+   "mean": 248.535,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.1
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    66.272,
+    64.943,
+    64.895,
+    64.908,
+    64.641
+   ],
+   "min": 64.641,
+   "median": 64.908,
+   "mean": 65.132,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 3.1,
+   "ratio": 0.2643
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    66.13,
+    64.901,
+    64.554,
+    64.707,
+    64.84
+   ],
+   "min": 64.554,
+   "median": 64.84,
+   "mean": 65.026,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 3.1,
+   "ratio": 0.2639
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    66.352,
+    64.754,
+    64.605,
+    64.673,
+    64.644
+   ],
+   "min": 64.605,
+   "median": 64.673,
+   "mean": 65.006,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.1,
+   "ratio": 0.2641
+  }
+ },
+ {
+  "shape": [
+   1,
+   8192,
+   17,
+   32
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    110.743,
+    111.006,
+    111.079,
+    111.307,
+    111.121
+   ],
+   "min": 110.743,
+   "median": 111.079,
+   "mean": 111.051,
+   "consistent": true,
+   "passed": true,
+   "relative": 7.061967011168235e-08,
+   "wall": 2.1
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    110.554,
+    110.992,
+    111.245,
+    110.812,
+    111.657
+   ],
+   "min": 110.554,
+   "median": 110.992,
+   "mean": 111.052,
+   "consistent": true,
+   "passed": true,
+   "relative": 7.061967011168235e-08,
+   "wall": 2.1,
+   "ratio": 0.9983
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    37.446,
+    37.904,
+    38.066,
+    37.797,
+    37.902
+   ],
+   "min": 37.446,
+   "median": 37.902,
+   "mean": 37.823,
+   "consistent": true,
+   "passed": true,
+   "relative": 7.061967011168235e-08,
+   "wall": 2.1,
+   "ratio": 0.3381
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    36.861,
+    37.235,
+    37.304,
+    37.256,
+    37.083
+   ],
+   "min": 36.861,
+   "median": 37.235,
+   "mean": 37.148,
+   "consistent": true,
+   "passed": true,
+   "relative": 7.061967011168235e-08,
+   "wall": 2.1,
+   "ratio": 0.3329
+  }
+ },
+ {
+  "shape": [
+   1,
+   16,
+   8192,
+   64
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    59.214,
+    56.663,
+    55.845,
+    56.539,
+    56.076
+   ],
+   "min": 55.845,
+   "median": 56.539,
+   "mean": 56.867,
+   "consistent": true,
+   "passed": true,
+   "relative": 9.378694443284985e-08,
+   "wall": 2.1
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    13.881,
+    14.138,
+    14.155,
+    14.08,
+    14.305
+   ],
+   "min": 13.881,
+   "median": 14.138,
+   "mean": 14.112,
+   "consistent": true,
+   "passed": true,
+   "relative": 9.378694443284985e-08,
+   "wall": 2.1,
+   "ratio": 0.2486
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    12.796,
+    12.718,
+    12.729,
+    12.822,
+    12.815
+   ],
+   "min": 12.718,
+   "median": 12.796,
+   "mean": 12.776,
+   "consistent": true,
+   "passed": true,
+   "relative": 9.378694443284985e-08,
+   "wall": 2.0,
+   "ratio": 0.2277
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    12.79,
+    12.843,
+    12.817,
+    12.79,
+    12.808
+   ],
+   "min": 12.79,
+   "median": 12.808,
+   "mean": 12.81,
+   "consistent": true,
+   "passed": true,
+   "relative": 9.378694443284985e-08,
+   "wall": 2.1,
+   "ratio": 0.229
+  }
+ },
+ {
+  "shape": [
+   4,
+   256,
+   256,
+   128
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    11.639,
+    11.014,
+    10.958,
+    11.303,
+    10.898
+   ],
+   "min": 10.898,
+   "median": 11.014,
+   "mean": 11.162,
+   "consistent": true,
+   "passed": true,
+   "relative": 8.946474849835795e-08,
+   "wall": 2.1
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    11.684,
+    11.265,
+    11.16,
+    11.188,
+    11.121
+   ],
+   "min": 11.121,
+   "median": 11.188,
+   "mean": 11.284,
+   "consistent": true,
+   "passed": true,
+   "relative": 8.946474849835795e-08,
+   "wall": 2.1,
+   "ratio": 1.0205
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    11.944,
+    11.497,
+    11.488,
+    11.529,
+    11.596
+   ],
+   "min": 11.488,
+   "median": 11.529,
+   "mean": 11.611,
+   "consistent": true,
+   "passed": true,
+   "relative": 8.946474849835795e-08,
+   "wall": 2.1,
+   "ratio": 1.0541
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    11.811,
+    11.041,
+    11.148,
+    11.229,
+    11.176
+   ],
+   "min": 11.041,
+   "median": 11.176,
+   "mean": 11.281,
+   "consistent": true,
+   "passed": true,
+   "relative": 8.946474849835795e-08,
+   "wall": 2.1,
+   "ratio": 1.0131
+  }
+ },
+ {
+  "shape": [
+   1,
+   65,
+   129,
+   128
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    12.0,
+    9.96,
+    9.772,
+    9.913,
+    9.774
+   ],
+   "min": 9.772,
+   "median": 9.913,
+   "mean": 10.284,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 3.1
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    9.998,
+    9.688,
+    9.707,
+    9.191,
+    9.56
+   ],
+   "min": 9.191,
+   "median": 9.688,
+   "mean": 9.629,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 3.0,
+   "ratio": 0.9405
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    9.683,
+    9.62,
+    9.487,
+    9.258,
+    9.451
+   ],
+   "min": 9.258,
+   "median": 9.487,
+   "mean": 9.5,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 3.0,
+   "ratio": 0.9474
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    9.796,
+    9.77,
+    9.719,
+    9.678,
+    9.46
+   ],
+   "min": 9.46,
+   "median": 9.719,
+   "mean": 9.685,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 3.0,
+   "ratio": 0.9681
+  }
+ },
+ {
+  "shape": [
+   2,
+   129,
+   257,
+   256
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    16.389,
+    13.673,
+    13.657,
+    13.783,
+    13.58
+   ],
+   "min": 13.58,
+   "median": 13.673,
+   "mean": 14.216,
+   "consistent": true,
+   "passed": true,
+   "relative": 6.286341402983453e-08,
+   "wall": 3.1
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    14.293,
+    13.323,
+    13.409,
+    13.285,
+    13.366
+   ],
+   "min": 13.285,
+   "median": 13.366,
+   "mean": 13.535,
+   "consistent": true,
+   "passed": true,
+   "relative": 6.286341402983453e-08,
+   "wall": 3.1,
+   "ratio": 0.9783
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    14.438,
+    13.586,
+    13.53,
+    13.303,
+    13.53
+   ],
+   "min": 13.303,
+   "median": 13.53,
+   "mean": 13.677,
+   "consistent": true,
+   "passed": true,
+   "relative": 6.286341402983453e-08,
+   "wall": 3.1,
+   "ratio": 0.9796
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    14.409,
+    13.482,
+    13.656,
+    13.612,
+    13.614
+   ],
+   "min": 13.482,
+   "median": 13.614,
+   "mean": 13.755,
+   "consistent": true,
+   "passed": true,
+   "relative": 6.286341402983453e-08,
+   "wall": 2.0,
+   "ratio": 0.9928
+  }
+ },
+ {
+  "shape": [
+   1,
+   8191,
+   33,
+   72
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    77.028,
+    77.159,
+    76.849,
+    76.974,
+    76.974
+   ],
+   "min": 76.849,
+   "median": 76.974,
+   "mean": 76.997,
+   "consistent": true,
+   "passed": true,
+   "relative": 8.148159480469985e-08,
+   "wall": 2.1
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    77.18,
+    77.931,
+    77.794,
+    76.979,
+    76.96
+   ],
+   "min": 76.96,
+   "median": 77.18,
+   "mean": 77.369,
+   "consistent": true,
+   "passed": true,
+   "relative": 8.148159480469985e-08,
+   "wall": 2.1,
+   "ratio": 1.0014
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    39.023,
+    39.025,
+    39.303,
+    39.037,
+    38.794
+   ],
+   "min": 38.794,
+   "median": 39.025,
+   "mean": 39.036,
+   "consistent": true,
+   "passed": true,
+   "relative": 8.148159480469985e-08,
+   "wall": 2.1,
+   "ratio": 0.5048
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    38.408,
+    38.838,
+    38.389,
+    38.768,
+    38.277
+   ],
+   "min": 38.277,
+   "median": 38.408,
+   "mean": 38.536,
+   "consistent": true,
+   "passed": true,
+   "relative": 8.148159480469985e-08,
+   "wall": 2.1,
+   "ratio": 0.4981
+  }
+ },
+ {
+  "shape": [
+   1,
+   511,
+   64,
+   128
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    8.953,
+    9.529,
+    9.101,
+    9.04,
+    9.159
+   ],
+   "min": 8.953,
+   "median": 9.101,
+   "mean": 9.156,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.0911013959002958e-07,
+   "wall": 2.0
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    8.379,
+    8.316,
+    8.381,
+    8.534,
+    8.402
+   ],
+   "min": 8.316,
+   "median": 8.381,
+   "mean": 8.402,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.0911013959002958e-07,
+   "wall": 2.1,
+   "ratio": 0.9289
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    8.555,
+    8.626,
+    8.638,
+    8.593,
+    8.696
+   ],
+   "min": 8.555,
+   "median": 8.626,
+   "mean": 8.622,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.0911013959002958e-07,
+   "wall": 2.0,
+   "ratio": 0.9555
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    8.394,
+    8.599,
+    8.461,
+    8.456,
+    8.393
+   ],
+   "min": 8.393,
+   "median": 8.456,
+   "mean": 8.461,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.0911013959002958e-07,
+   "wall": 2.1,
+   "ratio": 0.9375
+  }
+ },
+ {
+  "shape": [
+   1,
+   511,
+   512,
+   128
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    12.991,
+    12.235,
+    12.258,
+    11.763,
+    12.093
+   ],
+   "min": 11.763,
+   "median": 12.235,
+   "mean": 12.268,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.2
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    11.159,
+    11.331,
+    11.353,
+    11.287,
+    11.343
+   ],
+   "min": 11.159,
+   "median": 11.331,
+   "mean": 11.295,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 3.1,
+   "ratio": 0.9487
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    11.509,
+    12.384,
+    12.314,
+    12.605,
+    12.164
+   ],
+   "min": 11.509,
+   "median": 12.314,
+   "mean": 12.195,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 3.1,
+   "ratio": 0.9784
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    11.118,
+    11.468,
+    11.486,
+    11.404,
+    11.383
+   ],
+   "min": 11.118,
+   "median": 11.404,
+   "mean": 11.372,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 3.1,
+   "ratio": 0.9452
+  }
+ },
+ {
+  "shape": [
+   1,
+   8191,
+   512,
+   128
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    48.479,
+    48.456,
+    49.199,
+    49.195,
+    49.143
+   ],
+   "min": 48.456,
+   "median": 49.143,
+   "mean": 48.894,
+   "consistent": true,
+   "passed": true,
+   "relative": 2.5077287091335165e-07,
+   "wall": 3.1
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    50.439,
+    50.894,
+    51.53,
+    51.263,
+    51.079
+   ],
+   "min": 50.439,
+   "median": 51.079,
+   "mean": 51.041,
+   "consistent": true,
+   "passed": true,
+   "relative": 2.5077287091335165e-07,
+   "wall": 2.1,
+   "ratio": 1.0409
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    47.508,
+    47.995,
+    48.082,
+    48.137,
+    48.017
+   ],
+   "min": 47.508,
+   "median": 48.017,
+   "mean": 47.948,
+   "consistent": true,
+   "passed": true,
+   "relative": 2.5077287091335165e-07,
+   "wall": 2.1,
+   "ratio": 0.9804
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    50.756,
+    51.16,
+    51.179,
+    51.035,
+    51.037
+   ],
+   "min": 50.756,
+   "median": 51.037,
+   "mean": 51.033,
+   "consistent": true,
+   "passed": true,
+   "relative": 2.5077287091335165e-07,
+   "wall": 2.1,
+   "ratio": 1.0475
+  }
+ },
+ {
+  "shape": [
+   1,
+   256,
+   256,
+   8192
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    51.197,
+    50.736,
+    50.764,
+    50.809,
+    50.753
+   ],
+   "min": 50.736,
+   "median": 50.764,
+   "mean": 50.852,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.1
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    30.694,
+    30.761,
+    30.757,
+    30.635,
+    30.778
+   ],
+   "min": 30.635,
+   "median": 30.757,
+   "mean": 30.725,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.2,
+   "ratio": 0.6038
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    30.574,
+    30.806,
+    30.614,
+    30.592,
+    30.632
+   ],
+   "min": 30.574,
+   "median": 30.614,
+   "mean": 30.644,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.2,
+   "ratio": 0.6026
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    30.512,
+    31.026,
+    31.024,
+    30.905,
+    30.695
+   ],
+   "min": 30.512,
+   "median": 30.905,
+   "mean": 30.832,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 3.2,
+   "ratio": 0.6014
+  }
+ },
+ {
+  "shape": [
+   1,
+   8192,
+   64,
+   8192
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    159.285,
+    159.664,
+    157.685,
+    157.176,
+    157.143
+   ],
+   "min": 157.143,
+   "median": 157.685,
+   "mean": 158.191,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.076646327646813e-07,
+   "wall": 3.3
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    160.779,
+    161.965,
+    161.528,
+    161.493,
+    161.934
+   ],
+   "min": 160.779,
+   "median": 161.528,
+   "mean": 161.54,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.076646327646813e-07,
+   "wall": 3.3,
+   "ratio": 1.0231
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    116.091,
+    117.022,
+    116.734,
+    116.723,
+    116.791
+   ],
+   "min": 116.091,
+   "median": 116.734,
+   "mean": 116.672,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.076646327646813e-07,
+   "wall": 4.3,
+   "ratio": 0.7388
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    159.715,
+    160.694,
+    160.268,
+    160.887,
+    161.119
+   ],
+   "min": 159.715,
+   "median": 160.694,
+   "mean": 160.537,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.076646327646813e-07,
+   "wall": 3.3,
+   "ratio": 1.0164
+  }
+ },
+ {
+  "shape": [
+   1,
+   33,
+   8192,
+   64
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    63.356,
+    60.76,
+    59.897,
+    60.138,
+    59.893
+   ],
+   "min": 59.893,
+   "median": 60.138,
+   "mean": 60.809,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.1
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    14.18,
+    14.56,
+    14.671,
+    14.564,
+    14.565
+   ],
+   "min": 14.18,
+   "median": 14.564,
+   "mean": 14.508,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.1,
+   "ratio": 0.2368
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    12.915,
+    13.371,
+    13.481,
+    13.473,
+    13.381
+   ],
+   "min": 12.915,
+   "median": 13.381,
+   "mean": 13.324,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.0,
+   "ratio": 0.2156
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    13.106,
+    13.632,
+    13.62,
+    13.67,
+    13.551
+   ],
+   "min": 13.106,
+   "median": 13.62,
+   "mean": 13.516,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.1,
+   "ratio": 0.2188
+  }
+ },
+ {
+  "shape": [
+   1,
+   64,
+   8192,
+   64
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    68.991,
+    66.991,
+    65.865,
+    66.763,
+    65.789
+   ],
+   "min": 65.789,
+   "median": 66.763,
+   "mean": 66.88,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.1
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    14.473,
+    14.91,
+    14.869,
+    14.883,
+    14.767
+   ],
+   "min": 14.473,
+   "median": 14.869,
+   "mean": 14.78,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.1,
+   "ratio": 0.22
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    13.471,
+    13.852,
+    13.745,
+    13.716,
+    13.71
+   ],
+   "min": 13.471,
+   "median": 13.716,
+   "mean": 13.699,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.1,
+   "ratio": 0.2048
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    13.058,
+    13.577,
+    13.533,
+    13.349,
+    13.508
+   ],
+   "min": 13.058,
+   "median": 13.508,
+   "mean": 13.405,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.1,
+   "ratio": 0.1985
+  }
+ },
+ {
+  "shape": [
+   1,
+   128,
+   8192,
+   64
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    69.08,
+    67.289,
+    66.779,
+    67.106,
+    67.174
+   ],
+   "min": 66.779,
+   "median": 67.174,
+   "mean": 67.486,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.1
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    17.741,
+    18.167,
+    18.18,
+    18.191,
+    18.081
+   ],
+   "min": 17.741,
+   "median": 18.167,
+   "mean": 18.072,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.1,
+   "ratio": 0.2657
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    14.795,
+    15.415,
+    15.208,
+    15.089,
+    15.092
+   ],
+   "min": 14.795,
+   "median": 15.092,
+   "mean": 15.12,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.1,
+   "ratio": 0.2216
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    14.843,
+    15.225,
+    15.383,
+    15.207,
+    15.285
+   ],
+   "min": 14.843,
+   "median": 15.225,
+   "mean": 15.189,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 3.1,
+   "ratio": 0.2223
+  }
+ },
+ {
+  "shape": [
+   1,
+   8192,
+   128,
+   64
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    23.027,
+    23.411,
+    23.421,
+    23.491,
+    23.433
+   ],
+   "min": 23.027,
+   "median": 23.421,
+   "mean": 23.357,
+   "consistent": true,
+   "passed": true,
+   "relative": 6.942316588265385e-08,
+   "wall": 3.1
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    23.445,
+    23.88,
+    23.927,
+    24.087,
+    23.588
+   ],
+   "min": 23.445,
+   "median": 23.88,
+   "mean": 23.785,
+   "consistent": true,
+   "passed": true,
+   "relative": 6.942316588265385e-08,
+   "wall": 3.1,
+   "ratio": 1.0182
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    23.126,
+    23.686,
+    23.652,
+    23.578,
+    23.456
+   ],
+   "min": 23.126,
+   "median": 23.578,
+   "mean": 23.5,
+   "consistent": true,
+   "passed": true,
+   "relative": 6.942316588265385e-08,
+   "wall": 3.1,
+   "ratio": 1.0043
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    23.529,
+    23.772,
+    23.858,
+    23.812,
+    23.859
+   ],
+   "min": 23.529,
+   "median": 23.812,
+   "mean": 23.766,
+   "consistent": true,
+   "passed": true,
+   "relative": 6.942316588265385e-08,
+   "wall": 2.1,
+   "ratio": 1.0218
+  }
+ },
+ {
+  "shape": [
+   1,
+   8192,
+   129,
+   64
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    58.13,
+    58.966,
+    58.56,
+    58.557,
+    58.562
+   ],
+   "min": 58.13,
+   "median": 58.56,
+   "mean": 58.555,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.3872448789697955e-07,
+   "wall": 2.1
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    57.816,
+    58.753,
+    58.035,
+    58.395,
+    58.293
+   ],
+   "min": 57.816,
+   "median": 58.293,
+   "mean": 58.258,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.3872448789697955e-07,
+   "wall": 2.1,
+   "ratio": 0.9946
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    50.215,
+    51.009,
+    51.202,
+    50.711,
+    50.875
+   ],
+   "min": 50.215,
+   "median": 50.875,
+   "mean": 50.802,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.3872448789697955e-07,
+   "wall": 2.1,
+   "ratio": 0.8638
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    58.396,
+    58.242,
+    58.613,
+    58.419,
+    58.715
+   ],
+   "min": 58.242,
+   "median": 58.419,
+   "mean": 58.477,
+   "consistent": true,
+   "passed": true,
+   "relative": 1.3872448789697955e-07,
+   "wall": 2.1,
+   "ratio": 1.0019
+  }
+ },
+ {
+  "shape": [
+   1,
+   256,
+   1024,
+   2048
+  ],
+  "baseline": {
+   "iters": 20,
+   "rounds": [
+    55.396,
+    55.494,
+    55.366,
+    55.277,
+    55.343
+   ],
+   "min": 55.277,
+   "median": 55.366,
+   "mean": 55.375,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.1
+  },
+  "conservative": {
+   "iters": 20,
+   "rounds": [
+    21.264,
+    21.76,
+    21.731,
+    21.751,
+    21.681
+   ],
+   "min": 21.264,
+   "median": 21.731,
+   "mean": 21.637,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.1,
+   "ratio": 0.3847
+  },
+  "final": {
+   "iters": 20,
+   "rounds": [
+    21.501,
+    21.817,
+    21.843,
+    21.832,
+    21.88
+   ],
+   "min": 21.501,
+   "median": 21.832,
+   "mean": 21.775,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 2.1,
+   "ratio": 0.389
+  },
+  "balanced": {
+   "iters": 20,
+   "rounds": [
+    21.029,
+    21.468,
+    21.563,
+    21.372,
+    21.316
+   ],
+   "min": 21.029,
+   "median": 21.372,
+   "mean": 21.35,
+   "consistent": true,
+   "passed": true,
+   "relative": 0.0,
+   "wall": 3.1,
+   "ratio": 0.3804
+  }
+ }
+]

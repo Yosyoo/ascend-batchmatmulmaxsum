@@ -1,0 +1,167 @@
+{
+  "candidate": "clean106",
+  "sha256": "2ba7b9d776e232c1c8d2fc8684c47a8938aabc0a9399e91823380d169eec99a2",
+  "byte_size": 129048,
+  "scope": "Only user-supplied15 shapes, focused ABBA repetitions at P2/P14/P15; zero OJ submissions",
+  "full15_passed": 15,
+  "all_returncodes_zero": true,
+  "maxrel_full15": 1.1627313512008186e-07,
+  "full15_warm_last60_us": [
+    1.14,
+    1.57,
+    1.98,
+    2.9,
+    2.42,
+    3.9,
+    4.14,
+    27.490000000000002,
+    43.38,
+    60.769999999999996,
+    62.16,
+    84.0,
+    7.46,
+    9.2,
+    5.890000000000001
+  ],
+  "focused_profile_sessions": 24,
+  "focused_all_passed": true,
+  "ABBA": {
+    "rows": [
+      {
+        "point": "P15",
+        "control_sessions_us": [
+          5.73,
+          5.75,
+          5.66,
+          5.65
+        ],
+        "control_range_percent": 1.7699115044247815,
+        "blocks": [
+          {
+            "times_ABBA": [
+              5.73,
+              5.58,
+              5.9,
+              5.75
+            ],
+            "speedup_geomean": 1.0003872040596535,
+            "time_reduction_percent": 0.038705419069962055,
+            "control_drift_percent": 0.3490401396160525
+          },
+          {
+            "times_ABBA": [
+              5.66,
+              5.88,
+              5.68,
+              5.65
+            ],
+            "speedup_geomean": 0.9785197791203462,
+            "time_reduction_percent": -2.1951749303385393,
+            "control_drift_percent": -0.17667844522968323
+          }
+        ]
+      }
+    ],
+    "max": [
+      {
+        "point": "P14",
+        "control_sessions_us": [
+          9.28,
+          9.25,
+          8.79,
+          8.86
+        ],
+        "control_range_percent": 5.574516496018211,
+        "blocks": [
+          {
+            "times_ABBA": [
+              9.28,
+              9.05,
+              8.89,
+              9.25
+            ],
+            "speedup_geomean": 1.03292713000358,
+            "time_reduction_percent": 3.187749556298902,
+            "control_drift_percent": -0.3232758620689613
+          },
+          {
+            "times_ABBA": [
+              8.79,
+              8.86,
+              9.48,
+              8.86
+            ],
+            "speedup_geomean": 0.9629201368095995,
+            "time_reduction_percent": -3.8507724340728355,
+            "control_drift_percent": 0.7963594994311762
+          }
+        ]
+      }
+    ],
+    "prefetch": [
+      {
+        "point": "P2",
+        "control_sessions_us": [
+          1.66,
+          1.68,
+          1.66,
+          1.66
+        ],
+        "control_range_percent": 1.2048192771084265,
+        "blocks": [
+          {
+            "times_ABBA": [
+              1.66,
+              1.56,
+              1.56,
+              1.68
+            ],
+            "speedup_geomean": 1.0704936279563129,
+            "time_reduction_percent": 6.58515157076579,
+            "control_drift_percent": 1.2048192771084265
+          },
+          {
+            "times_ABBA": [
+              1.66,
+              1.56,
+              1.56,
+              1.66
+            ],
+            "speedup_geomean": 1.064102564102564,
+            "time_reduction_percent": 6.024096385542165,
+            "control_drift_percent": 0.0
+          }
+        ]
+      }
+    ]
+  },
+  "prefetch_session_pipe_medians_us": {
+    "clean102": {
+      "aiv_vec_time(us)": 0.523,
+      "aiv_scalar_time(us)": 0.494,
+      "aiv_mte2_time(us)": 0.1755
+    },
+    "clean106": {
+      "aiv_vec_time(us)": 0.516,
+      "aiv_scalar_time(us)": 0.4925,
+      "aiv_mte2_time(us)": 0.17925
+    }
+  },
+  "saved_output_comparison": {
+    "rows": {
+      "baseline_outputs_identical": true,
+      "candidate_outputs_identical_to_baseline": false
+    },
+    "max": {
+      "baseline_outputs_identical": true,
+      "candidate_outputs_identical_to_baseline": true
+    },
+    "prefetch": {
+      "baseline_outputs_identical": true,
+      "candidate_outputs_identical_to_baseline": true
+    }
+  },
+  "retained": "clean106 only; clean104 no gain, clean105 inconsistent result",
+  "score_prediction": null,
+  "measurement_unit": "120 complete calls per session, last60 Task Duration median; independent sessions are the repeats"
+}

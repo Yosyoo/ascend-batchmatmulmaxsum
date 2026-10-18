@@ -1,0 +1,26 @@
+[
+  {
+    "variant": "s7i",
+    "shape": [
+      1,
+      1280,
+      4096,
+      1536
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 0,
+    "iters": 1,
+    "rounds": [
+      96.08
+    ],
+    "min": 96.08,
+    "median": 96.08,
+    "mean": 96.08,
+    "consistent": true,
+    "median_us": 96.08,
+    "returncode": 0,
+    "passed": false,
+    "maxrel": 0.0015909065259620547
+  }
+]

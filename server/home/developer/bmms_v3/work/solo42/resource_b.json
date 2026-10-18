@@ -1,0 +1,25 @@
+{
+  "variant": "s42b",
+  "parent": "s42a",
+  "parent_sha256": "dc7c037c671d8c921cbf093d322adfa53dde32b4d57513c7698e93c06e5bf3aa",
+  "fix": "Move TPipe construction into the AIV branch only. AIC uses public InitSocState() for register initialization without implicit event tokens. No arithmetic, address, tile, buffer, launch gate, or explicit event schedule changes.",
+  "L1_bytes": 327680,
+  "L1_api_capacity_bytes": 524032,
+  "L0A_bytes": 65536,
+  "L0B_bytes": 65536,
+  "L0C_bytes": 131072,
+  "UB_max_bytes": 164864,
+  "UB_api_capacity_bytes": 196352,
+  "GM": "same two scratch slots/core and maxima allocation as s41c/s42a",
+  "event_audit": {
+    "TPipe_ctor": "kernel_tpipe_impl.h:61-64 calls InitSocState then Init",
+    "TPipe_Init": "kernel_tpipe_impl.h:78-95 resets event pool, allocates and SETs M_MTE1 event0,event1,event2 on AIC; no MTE1_MTE2 token is set by this Init",
+    "TPipe_Destroy": "kernel_tpipe_impl.h:500-530 waits registered queue release events, then WAITs M_MTE1 0/1/2 on AIC and PIPE_ALL",
+    "InitSocState": "public kernel_operator_common_intf.h:52; implementation kernel_operator_common_intf_impl.h:102-105 calls InitSocStateImpl only",
+    "InitSocStateImpl": "kernel_utils_base.h:52-65: atomic none, normal mask, AIC L1 3D size0 and padding0; no event SET/WAIT",
+    "remaining_AIC_events": "Only source-explicit MTE2_MTE1 0/1/2, MTE1_MTE2 0/1/2, MTE1_M 0/1/2, M_MTE1 0/1; all initial busy flags false and no implicit initial tokens",
+    "AIV": "Original TPipe and queue/reduce code remains, with TPipe declaration moved inside AIV scope. AIV TPipe Init does not seed AIC-only M_MTE1 tokens."
+  },
+  "status": "budget and SDK initialization audit saved before candidate construction; no compile or NPU run by this subagent",
+  "required_validation": "Retain s42a failure and 592 passing cases; validate isolated failing c096 first, then all 656 cases and other required suites under unchanged tolerance."
+}

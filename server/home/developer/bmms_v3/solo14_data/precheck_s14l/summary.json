@@ -1,0 +1,20 @@
+[
+  {
+    "label": "baseline_cancel_k",
+    "variant": "s13k",
+    "expected": 1,
+    "observed": 1,
+    "passed": false,
+    "returncode": 3,
+    "max_absolute": 0.00290234131
+  },
+  {
+    "label": "balanced_bf16",
+    "variant": "s14k",
+    "expected": 192,
+    "observed": 13,
+    "passed": false,
+    "returncode": 3,
+    "max_absolute": 0.0078125
+  }
+]

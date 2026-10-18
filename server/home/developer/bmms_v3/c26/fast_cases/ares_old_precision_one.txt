@@ -1,0 +1,1 @@
+1 8192 256 512 1 0 0 /home/developer/bmms_v3/c26/fast_cases/ares128_kcancel_1_8192_256_512_1/00

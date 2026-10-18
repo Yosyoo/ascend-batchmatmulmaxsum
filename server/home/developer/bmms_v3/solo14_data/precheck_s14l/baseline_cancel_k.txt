@@ -1,0 +1,1 @@
+1 7680 64 128 1 0 0 /home/developer/bmms_v3/solo14_data/balanced_cases/c012

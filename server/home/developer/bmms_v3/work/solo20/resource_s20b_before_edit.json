@@ -1,0 +1,16 @@
+{
+  "variant": "s20b",
+  "parent": "s20a_compile_failed",
+  "capacity_calculated_before_edit": true,
+  "combinations": 720,
+  "maxima": {
+    "L1_bytes": 262144,
+    "L0A_bytes": 65536,
+    "L0B_bytes": 65536,
+    "L0C_bytes": 131072,
+    "UB_bytes": 164864
+  },
+  "gate": "Existing manual gate, M/N<=8192, tileM<=128, K>current bk. Existing manual gate already enforces K<=1024, K multiple16, workload<2^28, no packed inputs.",
+  "change": "Same L1 ping-pong algorithm; replace unsupported implicit-host lambda with explicitly aicore always_inline helper. No buffer/tile/precision changes.",
+  "unchanged": "AIV code, host tiling/workspace formulas, precision tolerance, real current input reads, one kernel launch."
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "cases": 576,
+  "fixture_hashes_unchanged": true,
+  "hashes": {
+    "bench_cases": "65a32b75b1f0cace7094d4834fdc294ff5f5128e86b7a24162bbd5239065ba86",
+    "kernel.asc": "c1363aef7224cf29b98e428786040dd746dec302d9f2e832ad8dd62a64f89757"
+  }
+}

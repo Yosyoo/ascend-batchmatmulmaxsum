@@ -1,0 +1,1 @@
+1 2048 128 8192 2 1 0 /home/developer/bmms_v3/solo17_data/balanced_stress23/c090

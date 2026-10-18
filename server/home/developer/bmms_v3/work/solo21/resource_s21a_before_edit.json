@@ -1,0 +1,24 @@
+{
+  "variant": "s21a",
+  "parent": "s20f",
+  "capacity_calculated_before_edit": true,
+  "resource_probe_rows": 1920,
+  "probe_sha256": "4bb7faa3ea48f77fe888b6f44785506efb1b8887784c1398ee84879f42f1d14b",
+  "maxima": {
+    "L1_bytes": 524288,
+    "L0A_bytes": 16384,
+    "L0B_bytes": 65536,
+    "L0C_bytes": 65536,
+    "UB_bytes": 85504
+  },
+  "limits": {
+    "L1_bytes": 524288,
+    "L0A_bytes": 65536,
+    "L0B_bytes": 65536,
+    "L0C_bytes": 131072,
+    "UB_bytes": 184320
+  },
+  "scope": "GM ND; K=2048..8192 multiple32; M=512..2432 multiple128; N=512..8192 multiple256; existing tile128x256; b*ceil(M/128)<availableCoreNum",
+  "change": "tileM128 to64 before UB guard, tiling, tasks, workspace and dispatch; no change to half-K computation or ordered FP32 accumulation",
+  "inference": "More independent row tasks may offset long-K paired overhead; official case shapes unknown. Prior half-K resource replan was slower and is not repeated."
+}

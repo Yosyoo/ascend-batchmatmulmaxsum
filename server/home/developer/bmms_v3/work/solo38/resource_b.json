@@ -1,0 +1,14 @@
+{
+  "UB_per_AIV_max": 164864,
+  "L1_max": 524288,
+  "L0A_max": 65536,
+  "L0B_max": 65536,
+  "L0C_max": 131072,
+  "GM": "unchanged; both AIVs write disjoint halves of the original maxima rows",
+  "gate": "existing non-pair SDK static full tiles, M>=256, tileM=128, tileN=baseN in {128,256}",
+  "math": "unchanged Cube accumulation and final row sum; split row-wise ReduceMax between two AIVs",
+  "sync": "mode2 broadcasts Cube ready to both AIVs; slot release requires both AIVs. All AIVs join SyncAll; subblock0 alone performs final batch reduction.",
+  "sources": [
+    "https://www.hiascend.com/doc_center/source/zh/CANNCommunityEdition/910beta2/API/ascendcopapi/atlasascendc_api_07_0273.html"
+  ]
+}

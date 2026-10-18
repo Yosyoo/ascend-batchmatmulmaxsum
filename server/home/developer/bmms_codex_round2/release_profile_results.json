@@ -1,0 +1,86 @@
+[
+  {
+    "shape": [
+      1,
+      4096,
+      17,
+      128
+    ],
+    "variant": "reference",
+    "median_us": 60.400000000000006,
+    "mean_us": 60.414999999999985,
+    "tasks": 23,
+    "passed": true,
+    "csv": "/home/developer/bmms_codex_round2/release_profiles/1_4096_17_128/reference/profile/PROF_000001_20261004092129729_00099221NGLDNDMO/mindstudio_profiler_output/op_summary_20261004092134.csv"
+  },
+  {
+    "shape": [
+      1,
+      4096,
+      17,
+      128
+    ],
+    "variant": "release",
+    "median_us": 21.68,
+    "mean_us": 21.799,
+    "tasks": 23,
+    "passed": true,
+    "csv": "/home/developer/bmms_codex_round2/release_profiles/1_4096_17_128/release/profile/PROF_000001_20261004092136764_00099469NQEJJGJA/mindstudio_profiler_output/op_summary_20261004092141.csv"
+  },
+  {
+    "shape": [
+      1,
+      8192,
+      17,
+      32
+    ],
+    "variant": "reference",
+    "median_us": 29.38,
+    "mean_us": 29.451,
+    "tasks": 23,
+    "passed": true,
+    "csv": "/home/developer/bmms_codex_round2/release_profiles/1_8192_17_32/reference/profile/PROF_000001_20261004092143802_00099720LDAPAKIF/mindstudio_profiler_output/op_summary_20261004092149.csv"
+  },
+  {
+    "shape": [
+      1,
+      8192,
+      17,
+      32
+    ],
+    "variant": "release",
+    "median_us": 20.259999999999998,
+    "mean_us": 20.499000000000002,
+    "tasks": 23,
+    "passed": true,
+    "csv": "/home/developer/bmms_codex_round2/release_profiles/1_8192_17_32/release/profile/PROF_000001_20261004092150835_00099970AKEKDNEA/mindstudio_profiler_output/op_summary_20261004092156.csv"
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      1024
+    ],
+    "variant": "reference",
+    "median_us": 24.84,
+    "mean_us": 24.931000000000004,
+    "tasks": 23,
+    "passed": true,
+    "csv": "/home/developer/bmms_codex_round2/release_profiles/1_1024_1024_1024/reference/profile/PROF_000001_20261004092157987_00100218INIILPJJ/mindstudio_profiler_output/op_summary_20261004092203.csv"
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      1024
+    ],
+    "variant": "release",
+    "median_us": 25.0,
+    "mean_us": 25.13,
+    "tasks": 23,
+    "passed": true,
+    "csv": "/home/developer/bmms_codex_round2/release_profiles/1_1024_1024_1024/release/profile/PROF_000001_20261004092205024_00100469PJFNKFDN/mindstudio_profiler_output/op_summary_20261004092210.csv"
+  }
+]

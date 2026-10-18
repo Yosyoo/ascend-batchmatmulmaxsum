@@ -1,0 +1,13 @@
+{
+  "total": 145,
+  "suites": [
+    {
+      "suite": "micro_precision",
+      "expected": 192,
+      "observed": 145,
+      "passed": false,
+      "max_absolute": 5.14670587,
+      "max_relative": 1.74622018
+    }
+  ]
+}

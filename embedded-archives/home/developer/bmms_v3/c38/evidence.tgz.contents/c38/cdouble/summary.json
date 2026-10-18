@@ -1,0 +1,36 @@
+[
+  {
+    "point": "P14",
+    "control_sessions_us": [
+      8.68,
+      8.7,
+      8.68,
+      8.64
+    ],
+    "control_range_percent": 0.6944444444444198,
+    "blocks": [
+      {
+        "times_ABBA": [
+          8.68,
+          8.6,
+          9.24,
+          8.7
+        ],
+        "speedup_geomean": 0.9748421024636397,
+        "time_reduction_percent": -2.580715120200572,
+        "control_drift_percent": 0.23041474654377225
+      },
+      {
+        "times_ABBA": [
+          8.68,
+          9.26,
+          8.67,
+          8.64
+        ],
+        "speedup_geomean": 0.9664996292048527,
+        "time_reduction_percent": -3.4661545419017337,
+        "control_drift_percent": -0.4608294930875445
+      }
+    ]
+  }
+]

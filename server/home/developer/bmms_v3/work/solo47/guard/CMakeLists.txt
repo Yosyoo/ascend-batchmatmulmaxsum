@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.16)
+find_package(ASC REQUIRED)
+project(bmms_dot_guard LANGUAGES ASC CXX)
+add_executable(guard guard.asc)
+target_compile_options(guard PRIVATE $<$<COMPILE_LANGUAGE:ASC>:--npu-arch=dav-2201>)
+target_link_libraries(guard PRIVATE tiling_api register platform unified_dlog dl m graph_base)

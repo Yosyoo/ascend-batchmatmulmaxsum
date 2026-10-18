@@ -1,0 +1,9 @@
+{
+  "groups": {
+    "standard104": 104,
+    "packed40": 40,
+    "chunks24": 24
+  },
+  "cases": 168,
+  "golden": "FP64 of actual stored input values ->FP32; 4 storage layouts; both16bit dtypes; negative rows andtails"
+}

@@ -1,0 +1,30 @@
+{
+  "variant": "s42a",
+  "parent": "s41c",
+  "gate": "original pairStaticKey==1, k==256, ns==1, tileM==128, tileN==256, nt>=4, m<=8192, n<=65535 (ND2NZ uint16 source stride); original pair key already guarantees aligned complete tiles",
+  "L1_bytes": 327680,
+  "L1_api_capacity_bytes": 524032,
+  "L1_layout": "A full 128x256x2 at [0,65536); B full 256x256x2 ping-pong at [65536,196608) and [196608,327680)",
+  "L0A_bytes": 65536,
+  "L0A_layout": "four separately packed 128x64x2 slices at 0,16384,32768,49152; every row task loads once and reuses across all N tiles",
+  "L0B_bytes": 65536,
+  "L0B_layout": "two 256x64x2 banks at 0,32768; alternate each BK64 chunk",
+  "L0C_bytes": 131072,
+  "UB_max_bytes": 164864,
+  "UB_api_capacity_bytes": 196352,
+  "UB_formula": "128*128*4 + 32768 + 2*align8(m)*4 + 2*128*4, exact original pair_static AIV buffers",
+  "GM": "unchanged: two scratch slots/core, maxima and final reduction exactly as s41c",
+  "arithmetic": "each half is two consecutive BK64 Mmad operations; reset C at K0 and K128; q0 normal Fixpipe, q1 FP32 atomic Fixpipe; no reordered K, no interleaving, no extra result planes",
+  "load_instructions": "A: one LoadData3DParamsV2 per resident BK64 slice (four once per row task); !TB B: one LoadData3DParamsV2 per chunk; TB B: one contiguous LoadData2D repeat64 per chunk; no per-fractal Load2D loops",
+  "SDK_layout_audit": "Independent read of CANN9.0 load_to_l0a_loadInstr.h:100-127 and load_to_l0b_loadInstr.h:178-193 confirms full-L1 K stride256 and chunk*64 offset parameters. Public ParamsV2 rectangles also exist in 648Pass historical s29j; the new mechanism is A2 residency, not its long-K reload pipeline.",
+  "AIC_events": {
+    "MTE2_MTE1": "0=A ready; 1/2=B full-tile ping-pong ready",
+    "MTE1_MTE2": "0=A L1 released; 1/2=B full-tile ping-pong released",
+    "MTE1_M": "2=A2 ready; 0/1=B2 ready",
+    "M_MTE1": "0/1=B2 released, both drained before next row's A2 overwrite",
+    "unitFlag": "SetMMLayoutTransform(true), Mmad 2 on first and 3 on last BK64 of each half; Fixpipe 3, matching CANN9 SDK MatmulUnitFlag/FixpipeParamsUtil; restore false after all scratch releases and PIPE_ALL drain",
+    "cross_core": "8/9 output ready, 10/15 scratch released, same monotonic step across tasks as s41c"
+  },
+  "status": "resource and event budget saved before candidate source construction; source generated and layout parameters independently checked; no compile or NPU test by this subagent",
+  "risks": ["four-layout ND2NZ to A2/B2 slice mapping requires true-device precision screening", "unitFlag direct API behavior and event drain must be validated on dav-2201", "manual load issue cost can still outweigh A reuse; no performance claim"]
+}

@@ -1,0 +1,108 @@
+{
+  "summary": {
+    "shape": "16_32_128_256_1_1_0",
+    "tag": "C157_16x256",
+    "control": "dsh152",
+    "candidate": "dsh157",
+    "device": 1,
+    "iters": 120,
+    "warm": 3,
+    "runs": [
+      {
+        "block": 0,
+        "pos": 0,
+        "variant": "dsh152",
+        "median_us": 3.84,
+        "n": 123,
+        "passed": true,
+        "rc": 0,
+        "maxrel": 7.176270599984491e-08,
+        "error": null
+      },
+      {
+        "block": 0,
+        "pos": 1,
+        "variant": "dsh157",
+        "median_us": 3.9,
+        "n": 123,
+        "passed": true,
+        "rc": 0,
+        "maxrel": 7.176270599984491e-08,
+        "error": null
+      },
+      {
+        "block": 0,
+        "pos": 2,
+        "variant": "dsh157",
+        "median_us": 3.88,
+        "n": 123,
+        "passed": true,
+        "rc": 0,
+        "maxrel": 7.176270599984491e-08,
+        "error": null
+      },
+      {
+        "block": 0,
+        "pos": 3,
+        "variant": "dsh152",
+        "median_us": 4.14,
+        "n": 123,
+        "passed": true,
+        "rc": 0,
+        "maxrel": 7.176270599984491e-08,
+        "error": null
+      },
+      {
+        "block": 1,
+        "pos": 0,
+        "variant": "dsh152",
+        "median_us": 3.98,
+        "n": 123,
+        "passed": true,
+        "rc": 0,
+        "maxrel": 7.176270599984491e-08,
+        "error": null
+      },
+      {
+        "block": 1,
+        "pos": 1,
+        "variant": "dsh157",
+        "median_us": 3.78,
+        "n": 123,
+        "passed": true,
+        "rc": 0,
+        "maxrel": 7.176270599984491e-08,
+        "error": null
+      },
+      {
+        "block": 1,
+        "pos": 2,
+        "variant": "dsh157",
+        "median_us": 4.04,
+        "n": 123,
+        "passed": true,
+        "rc": 0,
+        "maxrel": 7.176270599984491e-08,
+        "error": null
+      },
+      {
+        "block": 1,
+        "pos": 3,
+        "variant": "dsh152",
+        "median_us": 3.92,
+        "n": 123,
+        "passed": true,
+        "rc": 0,
+        "maxrel": 7.176270599984491e-08,
+        "error": null
+      }
+    ],
+    "pooled_speedup": 1.0178477050146044,
+    "pooled_reduction_percent": 1.7534749969641439,
+    "control_median": 3.95,
+    "candidate_median": 3.8899999999999997,
+    "control_spread_percent": 7.8125,
+    "candidate_spread_percent": 6.8783068783068835,
+    "ranges_separated": false
+  }
+}

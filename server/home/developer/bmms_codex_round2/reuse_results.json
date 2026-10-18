@@ -1,0 +1,1298 @@
+[
+  {
+    "shape": [
+      1,
+      31,
+      513,
+      8192
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      65.513,
+      64.42,
+      64.663,
+      64.372,
+      64.355
+    ],
+    "min": 64.355,
+    "median": 64.42,
+    "mean": 64.665,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      31,
+      513,
+      8192
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reuse_a",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      65.515,
+      64.591,
+      64.245,
+      64.39,
+      64.235
+    ],
+    "min": 64.235,
+    "median": 64.39,
+    "mean": 64.595,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      31,
+      513,
+      8192
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "original",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      256.835,
+      245.333,
+      244.26,
+      245.192,
+      244.223
+    ],
+    "min": 244.223,
+    "median": 245.192,
+    "mean": 247.169,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      31,
+      513,
+      8192
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 1,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      28.881,
+      28.007,
+      27.997,
+      28.006,
+      28.021
+    ],
+    "min": 27.997,
+    "median": 28.007,
+    "mean": 28.182,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      31,
+      513,
+      8192
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 1,
+    "variant": "reuse_a",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      28.745,
+      27.893,
+      27.857,
+      27.759,
+      27.834
+    ],
+    "min": 27.759,
+    "median": 27.857,
+    "mean": 28.018,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      31,
+      513,
+      8192
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 1,
+    "variant": "original",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      110.922,
+      98.985,
+      98.57,
+      98.979,
+      98.625
+    ],
+    "min": 98.57,
+    "median": 98.979,
+    "mean": 101.216,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      31,
+      513,
+      8192
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      156.679,
+      156.276,
+      155.895,
+      157.311,
+      156.572
+    ],
+    "min": 155.895,
+    "median": 156.572,
+    "mean": 156.547,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      31,
+      513,
+      8192
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "variant": "reuse_a",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      156.885,
+      157.069,
+      156.561,
+      156.055,
+      156.505
+    ],
+    "min": 156.055,
+    "median": 156.561,
+    "mean": 156.615,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      31,
+      513,
+      8192
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "variant": "original",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      647.711,
+      644.702,
+      643.007,
+      644.273,
+      642.763
+    ],
+    "min": 642.763,
+    "median": 644.273,
+    "mean": 644.491,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      31,
+      513,
+      8192
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 1,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      109.574,
+      108.487,
+      108.894,
+      108.913,
+      108.351
+    ],
+    "min": 108.351,
+    "median": 108.894,
+    "mean": 108.844,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      31,
+      513,
+      8192
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 1,
+    "variant": "reuse_a",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      108.713,
+      108.5,
+      109.015,
+      108.89,
+      109.421
+    ],
+    "min": 108.5,
+    "median": 108.89,
+    "mean": 108.908,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      31,
+      513,
+      8192
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 1,
+    "variant": "original",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      459.492,
+      455.683,
+      455.912,
+      455.445,
+      455.847
+    ],
+    "min": 455.445,
+    "median": 455.847,
+    "mean": 456.476,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      1024
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      27.624,
+      28.115,
+      28.033,
+      27.889,
+      28.016
+    ],
+    "min": 27.624,
+    "median": 28.016,
+    "mean": 27.936,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.1009145595153313e-07
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      1024
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reuse_a",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      27.409,
+      27.794,
+      27.745,
+      27.623,
+      27.751
+    ],
+    "min": 27.409,
+    "median": 27.745,
+    "mean": 27.664,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.1009145595153313e-07
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      1024
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "original",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      46.178,
+      46.621,
+      46.471,
+      46.383,
+      46.494
+    ],
+    "min": 46.178,
+    "median": 46.471,
+    "mean": 46.43,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.1009145595153313e-07
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      1024
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 1,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      27.061,
+      27.291,
+      27.258,
+      27.165,
+      27.233
+    ],
+    "min": 27.061,
+    "median": 27.233,
+    "mean": 27.201,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.1009145595153313e-07
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      1024
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 1,
+    "variant": "reuse_a",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      27.036,
+      27.291,
+      26.957,
+      27.154,
+      26.885
+    ],
+    "min": 26.885,
+    "median": 27.036,
+    "mean": 27.065,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.1009145595153313e-07
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      1024
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 1,
+    "variant": "original",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      40.283,
+      40.344,
+      40.536,
+      40.423,
+      40.482
+    ],
+    "min": 40.283,
+    "median": 40.423,
+    "mean": 40.413,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.1009145595153313e-07
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      1024
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      30.211,
+      30.523,
+      30.399,
+      30.509,
+      30.463
+    ],
+    "min": 30.211,
+    "median": 30.463,
+    "mean": 30.421,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.1009145595153313e-07
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      1024
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "variant": "reuse_a",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      30.115,
+      30.32,
+      30.264,
+      30.273,
+      30.301
+    ],
+    "min": 30.115,
+    "median": 30.273,
+    "mean": 30.255,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.1009145595153313e-07
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      1024
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "variant": "original",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      56.591,
+      57.381,
+      56.917,
+      56.955,
+      57.121
+    ],
+    "min": 56.591,
+    "median": 56.955,
+    "mean": 56.993,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.1009145595153313e-07
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      1024
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 1,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      30.113,
+      30.293,
+      30.427,
+      30.341,
+      30.485
+    ],
+    "min": 30.113,
+    "median": 30.341,
+    "mean": 30.332,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.1009145595153313e-07
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      1024
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 1,
+    "variant": "reuse_a",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      30.012,
+      30.024,
+      30.375,
+      30.212,
+      30.393
+    ],
+    "min": 30.012,
+    "median": 30.212,
+    "mean": 30.203,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.1009145595153313e-07
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      1024
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 1,
+    "variant": "original",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      50.554,
+      50.974,
+      50.856,
+      50.979,
+      50.831
+    ],
+    "min": 50.554,
+    "median": 50.856,
+    "mean": 50.839,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.1009145595153313e-07
+  },
+  {
+    "shape": [
+      1,
+      128,
+      8192,
+      1024
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      29.181,
+      29.327,
+      29.135,
+      29.423,
+      29.305
+    ],
+    "min": 29.135,
+    "median": 29.305,
+    "mean": 29.275,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      128,
+      8192,
+      1024
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reuse_a",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      28.923,
+      28.937,
+      28.966,
+      29.043,
+      29.038
+    ],
+    "min": 28.923,
+    "median": 28.966,
+    "mean": 28.981,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      128,
+      8192,
+      1024
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "original",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      283.95,
+      282.615,
+      281.985,
+      282.592,
+      282.057
+    ],
+    "min": 281.985,
+    "median": 282.592,
+    "mean": 282.64,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      128,
+      8192,
+      1024
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 1,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      28.349,
+      28.027,
+      28.442,
+      28.298,
+      28.355
+    ],
+    "min": 28.027,
+    "median": 28.349,
+    "mean": 28.294,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      128,
+      8192,
+      1024
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 1,
+    "variant": "reuse_a",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      28.445,
+      28.377,
+      28.274,
+      28.353,
+      28.345
+    ],
+    "min": 28.274,
+    "median": 28.353,
+    "mean": 28.359,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      128,
+      8192,
+      1024
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 1,
+    "variant": "original",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      246.127,
+      244.583,
+      244.205,
+      244.644,
+      244.199
+    ],
+    "min": 244.199,
+    "median": 244.583,
+    "mean": 244.752,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      128,
+      8192,
+      1024
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      34.761,
+      35.118,
+      35.091,
+      34.987,
+      35.139
+    ],
+    "min": 34.761,
+    "median": 35.091,
+    "mean": 35.019,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      128,
+      8192,
+      1024
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "variant": "reuse_a",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      35.048,
+      35.09,
+      35.204,
+      35.006,
+      35.251
+    ],
+    "min": 35.006,
+    "median": 35.09,
+    "mean": 35.12,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      128,
+      8192,
+      1024
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "variant": "original",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      385.999,
+      383.845,
+      383.053,
+      383.181,
+      383.095
+    ],
+    "min": 383.053,
+    "median": 383.181,
+    "mean": 383.835,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      128,
+      8192,
+      1024
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 1,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      34.846,
+      35.155,
+      34.975,
+      35.085,
+      35.309
+    ],
+    "min": 34.846,
+    "median": 35.085,
+    "mean": 35.074,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      128,
+      8192,
+      1024
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 1,
+    "variant": "reuse_a",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      34.741,
+      35.259,
+      35.466,
+      35.375,
+      35.138
+    ],
+    "min": 34.741,
+    "median": 35.259,
+    "mean": 35.196,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      128,
+      8192,
+      1024
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 1,
+    "variant": "original",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      348.201,
+      345.922,
+      345.163,
+      345.631,
+      345.043
+    ],
+    "min": 345.043,
+    "median": 345.631,
+    "mean": 345.992,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      3,
+      255,
+      4096,
+      64
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      34.519,
+      34.827,
+      34.771,
+      34.72,
+      34.767
+    ],
+    "min": 34.519,
+    "median": 34.767,
+    "mean": 34.721,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.014532031717863e-07
+  },
+  {
+    "shape": [
+      3,
+      255,
+      4096,
+      64
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reuse_a",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      34.064,
+      34.407,
+      34.365,
+      34.251,
+      34.29
+    ],
+    "min": 34.064,
+    "median": 34.29,
+    "mean": 34.275,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.014532031717863e-07
+  },
+  {
+    "shape": [
+      3,
+      255,
+      4096,
+      64
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "original",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      40.641,
+      39.969,
+      39.851,
+      39.815,
+      39.702
+    ],
+    "min": 39.702,
+    "median": 39.851,
+    "mean": 39.996,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.014532031717863e-07
+  },
+  {
+    "shape": [
+      3,
+      255,
+      4096,
+      64
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 1,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      34.109,
+      34.219,
+      34.497,
+      34.419,
+      34.41
+    ],
+    "min": 34.109,
+    "median": 34.41,
+    "mean": 34.331,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.014532031717863e-07
+  },
+  {
+    "shape": [
+      3,
+      255,
+      4096,
+      64
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 1,
+    "variant": "reuse_a",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      34.485,
+      34.781,
+      34.705,
+      34.822,
+      34.769
+    ],
+    "min": 34.485,
+    "median": 34.769,
+    "mean": 34.712,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.014532031717863e-07
+  },
+  {
+    "shape": [
+      3,
+      255,
+      4096,
+      64
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 1,
+    "variant": "original",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      40.692,
+      39.996,
+      40.005,
+      40.026,
+      39.949
+    ],
+    "min": 39.949,
+    "median": 40.005,
+    "mean": 40.134,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.014532031717863e-07
+  },
+  {
+    "shape": [
+      3,
+      255,
+      4096,
+      64
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      43.687,
+      43.881,
+      43.921,
+      44.124,
+      44.133
+    ],
+    "min": 43.687,
+    "median": 43.921,
+    "mean": 43.949,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.014532031717863e-07
+  },
+  {
+    "shape": [
+      3,
+      255,
+      4096,
+      64
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "variant": "reuse_a",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      44.051,
+      44.085,
+      44.132,
+      44.355,
+      44.119
+    ],
+    "min": 44.051,
+    "median": 44.119,
+    "mean": 44.149,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.014532031717863e-07
+  },
+  {
+    "shape": [
+      3,
+      255,
+      4096,
+      64
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "variant": "original",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      46.203,
+      45.079,
+      44.904,
+      44.986,
+      45.233
+    ],
+    "min": 44.904,
+    "median": 45.079,
+    "mean": 45.281,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.014532031717863e-07
+  },
+  {
+    "shape": [
+      3,
+      255,
+      4096,
+      64
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 1,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      43.216,
+      43.666,
+      43.497,
+      43.466,
+      43.525
+    ],
+    "min": 43.216,
+    "median": 43.497,
+    "mean": 43.474,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.014532031717863e-07
+  },
+  {
+    "shape": [
+      3,
+      255,
+      4096,
+      64
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 1,
+    "variant": "reuse_a",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      43.261,
+      43.463,
+      43.692,
+      43.65,
+      43.477
+    ],
+    "min": 43.261,
+    "median": 43.477,
+    "mean": 43.509,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.014532031717863e-07
+  },
+  {
+    "shape": [
+      3,
+      255,
+      4096,
+      64
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 1,
+    "variant": "original",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      45.935,
+      44.843,
+      44.713,
+      44.769,
+      44.609
+    ],
+    "min": 44.609,
+    "median": 44.769,
+    "mean": 44.974,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.014532031717863e-07
+  }
+]

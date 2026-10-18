@@ -1,0 +1,70 @@
+[
+  {
+    "point": "P2",
+    "control_sessions_us": [
+      1.68,
+      1.66,
+      1.65,
+      1.65
+    ],
+    "control_range_percent": 1.81818181818183,
+    "blocks": [
+      {
+        "times_ABBA": [
+          1.68,
+          1.68,
+          1.66,
+          1.66
+        ],
+        "speedup_geomean": 1.0,
+        "time_reduction_percent": 0.0,
+        "control_drift_percent": -1.1904761904761862
+      },
+      {
+        "times_ABBA": [
+          1.65,
+          1.64,
+          1.66,
+          1.65
+        ],
+        "speedup_geomean": 1.0000183659788622,
+        "time_reduction_percent": 0.0018365641559325852,
+        "control_drift_percent": 0.0
+      }
+    ]
+  },
+  {
+    "point": "P4",
+    "control_sessions_us": [
+      2.8899999999999997,
+      2.8899999999999997,
+      2.9,
+      2.9
+    ],
+    "control_range_percent": 0.34602076124568004,
+    "blocks": [
+      {
+        "times_ABBA": [
+          2.8899999999999997,
+          2.9,
+          2.9,
+          2.8899999999999997
+        ],
+        "speedup_geomean": 0.9965517241379311,
+        "time_reduction_percent": -0.34602076124565784,
+        "control_drift_percent": 0.0
+      },
+      {
+        "times_ABBA": [
+          2.9,
+          2.9,
+          2.9,
+          2.9
+        ],
+        "speedup_geomean": 1.0,
+        "time_reduction_percent": 0.0,
+        "control_drift_percent": 0.0
+      }
+    ]
+  }
+]

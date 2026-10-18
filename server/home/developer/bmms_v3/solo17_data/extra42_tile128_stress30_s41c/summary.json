@@ -1,0 +1,14 @@
+{
+  "variant": "s41c",
+  "expected": 320,
+  "observed": 320,
+  "passed": true,
+  "fixture_metadata_sha256": "a52048585fde3b1c09779fe89f9adca6f1aeedab9a6fbfbda920943c3b93a7b7",
+  "manifest_sha256": "db209489824c704f47bb378134e9e9b767608ea62f77e84e1cd6282f151adf0c",
+  "inputs_unchanged": true,
+  "hashes": {
+    "kernel.asc": "5fc87dcd3f6e8eff0c036274369af504b2951ae2a1c186a88d107e5e398b3494",
+    "bench_cases": "d7e4a0fc8887886d5e71c00610f325c9d1d51c46bb403cbe6e98cc341d715a29"
+  },
+  "failures": []
+}

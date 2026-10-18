@@ -1,0 +1,7 @@
+{
+  "variant": "s38b",
+  "sha256": "f47223beab7bee0df0f729d8f325a575cbde1679757f5caa4c6289006a34d8e1",
+  "baseline": "s33a",
+  "parent": "s38a",
+  "change": "Normalize GetBlockIdx by GetTaskRation per installed dav_c220 SDK"
+}

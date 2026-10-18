@@ -1,0 +1,135 @@
+{
+  "summary": {
+    "shape": "1_64_8192_128_2_0_1",
+    "control": "dsh137",
+    "candidate": "dsh152",
+    "device": 1,
+    "iters": 120,
+    "warm": 3,
+    "blocks": [
+      {
+        "times_ABBA_us": [
+          7.86,
+          7.6,
+          7.52,
+          7.82
+        ],
+        "control_geom": 7.8399744897544155,
+        "cand_geom": 7.5598941791535665,
+        "speedup": 1.0370481787130263,
+        "reduction_percent": 3.572464565629252,
+        "drift_percent": -0.5089058524173073
+      },
+      {
+        "times_ABBA_us": [
+          7.94,
+          7.73,
+          7.64,
+          7.94
+        ],
+        "control_geom": 7.9399999999999995,
+        "cand_geom": 7.684868248707975,
+        "speedup": 1.0331992355672355,
+        "reduction_percent": 3.2132462379348192,
+        "drift_percent": 0.0
+      }
+    ],
+    "control_median": 7.9,
+    "candidate_median": 7.619999999999999,
+    "pooled_speedup": 1.035121918178092,
+    "pooled_reduction_percent": 3.39302236396557,
+    "control_spread_percent": 1.534526854219953,
+    "candidate_spread_percent": 2.7925531914893664,
+    "ranges_separated": true
+  },
+  "runs": [
+    {
+      "block": 0,
+      "pos": 0,
+      "variant": "dsh137",
+      "median_us": 7.86,
+      "n": 123,
+      "passed": true,
+      "rc": 0,
+      "maxrel": 0.0,
+      "error": null
+    },
+    {
+      "block": 0,
+      "pos": 1,
+      "variant": "dsh152",
+      "median_us": 7.6,
+      "n": 123,
+      "passed": true,
+      "rc": 0,
+      "maxrel": 0.0,
+      "error": null
+    },
+    {
+      "block": 0,
+      "pos": 2,
+      "variant": "dsh152",
+      "median_us": 7.52,
+      "n": 123,
+      "passed": true,
+      "rc": 0,
+      "maxrel": 0.0,
+      "error": null
+    },
+    {
+      "block": 0,
+      "pos": 3,
+      "variant": "dsh137",
+      "median_us": 7.82,
+      "n": 123,
+      "passed": true,
+      "rc": 0,
+      "maxrel": 0.0,
+      "error": null
+    },
+    {
+      "block": 1,
+      "pos": 0,
+      "variant": "dsh137",
+      "median_us": 7.94,
+      "n": 123,
+      "passed": true,
+      "rc": 0,
+      "maxrel": 0.0,
+      "error": null
+    },
+    {
+      "block": 1,
+      "pos": 1,
+      "variant": "dsh152",
+      "median_us": 7.73,
+      "n": 123,
+      "passed": true,
+      "rc": 0,
+      "maxrel": 0.0,
+      "error": null
+    },
+    {
+      "block": 1,
+      "pos": 2,
+      "variant": "dsh152",
+      "median_us": 7.64,
+      "n": 123,
+      "passed": true,
+      "rc": 0,
+      "maxrel": 0.0,
+      "error": null
+    },
+    {
+      "block": 1,
+      "pos": 3,
+      "variant": "dsh137",
+      "median_us": 7.94,
+      "n": 123,
+      "passed": true,
+      "rc": 0,
+      "maxrel": 0.0,
+      "error": null
+    }
+  ]
+}

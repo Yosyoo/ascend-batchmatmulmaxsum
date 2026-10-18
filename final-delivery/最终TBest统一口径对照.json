@@ -1,0 +1,9 @@
+{
+  "reference_time": "2026-10-17 18:00 local",
+  "final_official_score": 63.72,
+  "final_official_rank": 29,
+  "original197_historical_official_score": 65.68,
+  "original197_raw_times_final_reference_prediction": 63.02779169681982,
+  "final203_raw_times_final_reference_prediction": 63.721159018402844,
+  "note": "Historical65.68 used an earlier TBest. Same final reference estimates are provided only for a fair timing comparison, not a claimed historical official score."
+}

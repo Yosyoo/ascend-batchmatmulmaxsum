@@ -1,0 +1,60 @@
+{
+  "selected_variant": "clean203",
+  "sha256": "9feb4e97863b23d014f85f59393629ebb775b9b755dbd0262bd9847aa65c4a3e",
+  "A_variant": "clean197",
+  "A_ids": [
+    892711,
+    893041
+  ],
+  "B_ids": [
+    892848,
+    892941
+  ],
+  "A_mean_times_us": [
+    1.7149999999999999,
+    2.635,
+    2.84,
+    3.5,
+    4.835000000000001,
+    9.865,
+    6.8100000000000005,
+    31.689999999999998,
+    50.53,
+    78.47999999999999,
+    76.85499999999999,
+    95.56,
+    10.030000000000001,
+    10.73,
+    9.05
+  ],
+  "B_mean_times_us": [
+    1.69,
+    2.3449999999999998,
+    2.76,
+    3.635,
+    4.67,
+    10.07,
+    6.495,
+    31.145,
+    49.715,
+    77.77000000000001,
+    75.97,
+    94.98,
+    9.85,
+    10.625,
+    9.06
+  ],
+  "A_mean_time_fixed_estimate": 61.666158834191236,
+  "B_mean_time_fixed_estimate": 63.47025430466397,
+  "P2_time_reduction_percent": 11.005692599620499,
+  "score_type": "Fixed17:30TBest prediction only; board sealed, no real-time official total/rank",
+  "reason": "Both B official runs all15Pass, repeated P2 improvement; full15 mean comparison favors B. All other math/Host unchanged at source level. This is evidence for selection, not a guaranteed future speedup.",
+  "final_submission_id": 893147,
+  "last_known_rank": 29,
+  "final_submission_status": "Pass",
+  "final15_passed": true,
+  "final_estimate_fixed1730_reference": 64.14660488834542,
+  "final_official_score": 63.72,
+  "final_official_rank": 29,
+  "top20_achieved": false
+}

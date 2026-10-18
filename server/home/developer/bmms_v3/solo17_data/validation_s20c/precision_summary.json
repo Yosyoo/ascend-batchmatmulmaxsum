@@ -1,0 +1,192 @@
+{
+  "variant": "s20c",
+  "total": 18378,
+  "suites": [
+    {
+      "suite": "medium_256",
+      "manifest": "/home/developer/bmms_v3/solo17_data/medium_cases.txt",
+      "expected": 256,
+      "observed": 256,
+      "passed": true,
+      "max_absolute": 0.015625,
+      "max_relative": 4.95910645
+    },
+    {
+      "suite": "split_stress_160",
+      "manifest": "/home/developer/bmms_v3/solo14_data/split16_cases.txt",
+      "expected": 160,
+      "observed": 160,
+      "passed": true,
+      "max_absolute": 0.03125,
+      "max_relative": 1.20563068e-07
+    },
+    {
+      "suite": "narrow_legal_120",
+      "manifest": "/home/developer/bmms_v3/solo14_data/narrow_legal_cases.txt",
+      "expected": 120,
+      "observed": 120,
+      "passed": true,
+      "max_absolute": 0.0078125,
+      "max_relative": 3.05175781
+    },
+    {
+      "suite": "balanced_384",
+      "manifest": "/home/developer/bmms_v3/solo14_data/balanced_cases.txt",
+      "expected": 384,
+      "observed": 384,
+      "passed": true,
+      "max_absolute": 0.015625,
+      "max_relative": 3.05175781
+    },
+    {
+      "suite": "pair_edge_312",
+      "manifest": "/home/developer/bmms_v3/solo14_data/pair_edge_cases.txt",
+      "expected": 312,
+      "observed": 312,
+      "passed": true,
+      "max_absolute": 0.00390625,
+      "max_relative": 5.34057617
+    },
+    {
+      "suite": "dot_once_576",
+      "manifest": "/home/developer/bmms_v3/solo17_data/dot_once_cases.txt",
+      "expected": 576,
+      "observed": 576,
+      "passed": true,
+      "max_absolute": 1.90734863e-06,
+      "max_relative": 0.0238418579
+    },
+    {
+      "suite": "long_sum",
+      "manifest": "/home/developer/bmms_v3/solo14_data/long_sum_cases.txt",
+      "expected": 72,
+      "observed": 72,
+      "passed": true,
+      "max_absolute": 0.00390625,
+      "max_relative": 9.75145397e-08
+    },
+    {
+      "suite": "generic_nt_2970",
+      "manifest": "/home/developer/bmms_v3/solo13_data/generic_nt_cases.txt",
+      "expected": 2970,
+      "observed": 2970,
+      "passed": true,
+      "max_absolute": 1.52587891e-05,
+      "max_relative": 0.0953674316
+    },
+    {
+      "suite": "nt_2352",
+      "manifest": "/home/developer/bmms_v3/solo13_data/nt_cases.txt",
+      "expected": 2352,
+      "observed": 2352,
+      "passed": true,
+      "max_absolute": 7.62939453e-06,
+      "max_relative": 0.0953674316
+    },
+    {
+      "suite": "copy_1728",
+      "manifest": "/home/developer/bmms_v3/solo11_data/copy_cases.txt",
+      "expected": 1728,
+      "observed": 1728,
+      "passed": true,
+      "max_absolute": 0.000122070312,
+      "max_relative": 0.190734863
+    },
+    {
+      "suite": "vector_192",
+      "manifest": "/home/developer/bmms_v3/solo10_data/vector_cases.txt",
+      "expected": 192,
+      "observed": 192,
+      "passed": true,
+      "max_absolute": 1.52587891e-05,
+      "max_relative": 1.53694587e-07
+    },
+    {
+      "suite": "micro_precision",
+      "manifest": "/home/developer/bmms_v3/solo9_data/micro_cases.txt",
+      "expected": 192,
+      "observed": 192,
+      "passed": true,
+      "max_absolute": 3.81469727e-06,
+      "max_relative": 1.81081804e-07
+    },
+    {
+      "suite": "nz_precision",
+      "manifest": "/home/developer/bmms_v3/solo8_data/nz_cases.txt",
+      "expected": 192,
+      "observed": 192,
+      "passed": true,
+      "max_absolute": 0.125,
+      "max_relative": 3.05175781
+    },
+    {
+      "suite": "regression_5712",
+      "manifest": "/home/developer/bmms_v3/delivery4/validation/cases.txt",
+      "expected": 5712,
+      "observed": 5712,
+      "passed": true,
+      "max_absolute": 0.0078125,
+      "max_relative": 0.000628002105
+    },
+    {
+      "suite": "split_precision",
+      "manifest": "/home/developer/bmms_v3/variants/s5d/split_cases.txt",
+      "expected": 504,
+      "observed": 504,
+      "passed": true,
+      "max_absolute": 0.0078125,
+      "max_relative": 1.12536397e-07
+    },
+    {
+      "suite": "direct_precision",
+      "manifest": "/home/developer/bmms_v3/variants/s5p/direct_cases.txt",
+      "expected": 2016,
+      "observed": 2016,
+      "passed": true,
+      "max_absolute": 0.000122070312,
+      "max_relative": 0.381469727
+    },
+    {
+      "suite": "tail_precision",
+      "manifest": "/home/developer/bmms_v3/variants/s5r/tail_cases.txt",
+      "expected": 96,
+      "observed": 96,
+      "passed": true,
+      "max_absolute": 0.03125,
+      "max_relative": 1.2945205e-07
+    },
+    {
+      "suite": "large_precision",
+      "manifest": "/home/developer/bmms_v3/solo6_data/large_cases.txt",
+      "expected": 256,
+      "observed": 256,
+      "passed": true,
+      "max_absolute": 0.75,
+      "max_relative": 2.28881836
+    },
+    {
+      "suite": "narrow_precision",
+      "manifest": "/home/developer/bmms_v3/solo8_data/narrow_cases.txt",
+      "expected": 192,
+      "observed": 192,
+      "passed": true,
+      "max_absolute": 0.015625,
+      "max_relative": 4.91142273
+    },
+    {
+      "suite": "narrow_extra_precision",
+      "manifest": "/home/developer/bmms_v3/solo8_data/narrow_extra_cases.txt",
+      "expected": 96,
+      "observed": 96,
+      "passed": true,
+      "max_absolute": 0.015625,
+      "max_relative": 4.57763672
+    }
+  ],
+  "source_and_exe_sha256": {
+    "bench_cases": "26d044206535cc1c126341f1475105535a12237562f0eed74d9b8f36ec6b086d",
+    "kernel.asc": "e3b429c07ee8a2d133151a4ee6c09f1621d5d82dc207560da4a1f7152c38ee8d"
+  },
+  "passed": true,
+  "scope": "historical plus medium diagnostic"
+}

@@ -1,0 +1,12 @@
+{
+  "UB": 0,
+  "L1": 2048,
+  "L0A": 1024,
+  "L0B": 1024,
+  "L0C": 1024,
+  "GM_workspace": 0,
+  "gate": "M=N=1,K=32,B<=availableCubeCores",
+  "math": "FP16/BF16 operands, FP32 Cube accumulation; Fixpipe ROW_MAJOR 1x1 direct FP32 store",
+  "input": "Both full length32 vectors read on every call; padded unused rows/columns cannot affect element(0,0)",
+  "validation": "Precision, repeated-input freshness, output canaries, ABBA; never submit without full gates"
+}

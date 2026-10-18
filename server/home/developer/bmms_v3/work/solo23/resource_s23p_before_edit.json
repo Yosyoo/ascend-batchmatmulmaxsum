@@ -1,0 +1,16 @@
+{
+  "variant": "s23p",
+  "parent": "s23m",
+  "capacity_calculated_before_edit": true,
+  "scope": "M fullBase scope112x128 only, NN B1, original128x128grid16,M>=N,K2048..8192 multiple32,20Cube available",
+  "UB_max": 74720,
+  "L1_bytes": 491520,
+  "L0A_bytes": 57344,
+  "L0B_bytes": 65536,
+  "L0C_bytes": 57344,
+  "GM_C_max": 1146880,
+  "GM_maxima_max": 8192,
+  "change": "Explicit8-bankL1 and2-bankL0 pipeline,2FP32 half-K sums,Fix overwrite thenatomic add,Vector valid max and paired-row sum in one mixedkernel",
+  "host_kernel_workspace_same_source": true,
+  "real_inputs_each_call": true
+}

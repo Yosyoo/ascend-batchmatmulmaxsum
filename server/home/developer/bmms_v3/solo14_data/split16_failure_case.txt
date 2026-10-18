@@ -1,0 +1,1 @@
+1 64 64 8176 1 0 0 /home/developer/bmms_v3/solo14_data/split16_cases/c012

@@ -1,0 +1,86 @@
+    MATMUL_MODULE(MatmulShapeInfo)->CheckOrgShape(orgM, orgN, orgKa, orgKb, orgKc);
+    MATMUL_MODULE(MatmulShapeInfo)->SetOrgShape(orgM, orgN, orgKa, orgKb, orgKc);
+}
+
+template <class A_TYPE, class B_TYPE, class C_TYPE, class BIAS_TYPE, const auto& MM_CFG, class MM_CB,
+    MATMUL_POLICY_TEMPLATE_OF(MATMUL_POLICY)>
+__aicore__ inline void MatmulImplBase<A_TYPE, B_TYPE, C_TYPE, BIAS_TYPE, MM_CFG, MM_CB, MATMUL_POLICY>::SetSingleShape(
+    int singleM, int singleN, int singleK)
+{
+    SetTail(singleM, singleN, singleK);
+}
+
+template <class A_TYPE, class B_TYPE, class C_TYPE, class BIAS_TYPE, const auto& MM_CFG, class MM_CB,
+    MATMUL_POLICY_TEMPLATE_OF(MATMUL_POLICY)>
+__aicore__ inline void MatmulImplBase<A_TYPE, B_TYPE, C_TYPE, BIAS_TYPE, MM_CFG, MM_CB, MATMUL_POLICY>::SetHF32(bool enableHF32,
+    int32_t transMode)
+{
+    ASCENDC_ASSERT((transMode == 0 || transMode == 1),
+                   { KERNEL_LOG(KERNEL_ERROR, "transMode is %d , which should only be 0 / 1", transMode); });
+    if (unlikely(enableHF32)) {
+        SetHF32Mode(1);
+    } else {
+        SetHF32Mode(0);
+    }
+    if (unlikely(transMode == 1)) {
+        SetHF32TransMode(1);
+    } else {
+        SetHF32TransMode(0);
+    }
+}
+
+template <class A_TYPE, class B_TYPE, class C_TYPE, class BIAS_TYPE, const auto &MM_CFG, class MM_CB,
+    MATMUL_POLICY_TEMPLATE_OF(MATMUL_POLICY)>
+__aicore__ inline void MatmulImplBase<A_TYPE, B_TYPE, C_TYPE, BIAS_TYPE, MM_CFG, MM_CB, MATMUL_POLICY>::SetSubBlockIdx(uint8_t subBlockIdx)
+{
+    MATMUL_MODULE(MatmulSubBlockInfo)->SetSubBlockIdx(subBlockIdx);
+}
+
+template <class A_TYPE, class B_TYPE, class C_TYPE, class BIAS_TYPE, const auto& MM_CFG, class MM_CB,
+    MATMUL_POLICY_TEMPLATE_OF(MATMUL_POLICY)>
+__aicore__ inline void MatmulImplBase<A_TYPE, B_TYPE, C_TYPE, BIAS_TYPE, MM_CFG, MM_CB, MATMUL_POLICY>::End()
+{
+    MATMUL_MODULE(Scheduler)->End();
+}
+
+template <class A_TYPE, class B_TYPE, class C_TYPE, class BIAS_TYPE, const auto& MM_CFG, class MM_CB,
+    MATMUL_POLICY_TEMPLATE_OF(MATMUL_POLICY)>
+__aicore__ inline void MatmulImplBase<A_TYPE, B_TYPE, C_TYPE, BIAS_TYPE, MM_CFG, MM_CB, MATMUL_POLICY>::SetTail(
+    int tailM, int tailN, int tailK)
+{
+    auto shapeInfo = MATMUL_MODULE(MatmulShapeInfo);
+    shapeInfo->CheckTailShape(tailM, tailN, tailK);
+    if constexpr (ToMatmulConfig(MM_CFG).intraBlockPartSum) {
+        int singleM = (MATMUL_MODULE(MatmulSubBlockInfo)->GetSubBlockIdx() == 0) ? shapeInfo->GetSingleCoreM()
+                          : shapeInfo->template GetSingleCoreM<true>();
+        int singleN = (MATMUL_MODULE(MatmulSubBlockInfo)->GetSubBlockIdx() == 0) ? shapeInfo->GetSingleCoreN()
+                          : shapeInfo->template GetSingleCoreN<true>();
+        int singleK = (MATMUL_MODULE(MatmulSubBlockInfo)->GetSubBlockIdx() == 0) ? shapeInfo->GetSingleCoreK()
+                          : shapeInfo->template GetSingleCoreK<true>();
+        singleM = (tailM != -1) ? tailM : singleM;
+        singleN = (tailN != -1) ? tailN : singleN;
+        singleK = (tailK != -1) ? tailK : singleK;
+        shapeInfo->SetSingleShape(singleM, singleN, singleK);
+        MATMUL_MODULE(MLoop)->SetSingleShape(singleM);
+        MATMUL_MODULE(NLoop)->SetSingleShape(singleN);
+        MATMUL_MODULE(KLoop)->SetSingleShape(singleK);
+    } else {
+        if ((tailM != -1) && (tailM != shapeInfo->GetSingleCoreM())) {
+            shapeInfo->SetSingleCoreM(tailM);
+            MATMUL_MODULE(MLoop)->SetSingleShape(shapeInfo->GetSingleCoreM());
+        }
+        if ((tailN != -1) && (tailN != shapeInfo->GetSingleCoreN())) {
+            shapeInfo->SetSingleCoreN(tailN);
+            MATMUL_MODULE(NLoop)->SetSingleShape(shapeInfo->GetSingleCoreN());
+        }
+        if ((tailK != -1) && (tailK != shapeInfo->GetSingleCoreK())) {
+            shapeInfo->SetSingleCoreK(tailK);
+            MATMUL_MODULE(KLoop)->SetSingleShape(shapeInfo->GetSingleCoreK());
+        }
+    }
+
+    shapeInfo->CheckSpecificShape();
+}
+
+template <class A_TYPE, class B_TYPE, class C_TYPE, class BIAS_TYPE, const auto& MM_CFG, class MM_CB,
+    MATMUL_POLICY_TEMPLATE_OF(MATMUL_POLICY)>

@@ -1,0 +1,49 @@
+--- s23p/kernel.asc
++++ s23q/kernel.asc
+@@ -69,7 +69,7 @@
+     GlobalTensor<T>& ag,GlobalTensor<T>& bg,int m,int n,int k,int mi,int ni,
+     int cm,int start,int kk,int bank,bool& busy)
+ {
+-    constexpr int TM=112,TN=128,BK=128,BANKBYTES=(TM+TN)*BK*2;
++    constexpr int TM=112,TN=128,BK=256,BANKBYTES=(TM+TN)*BK*2;
+     if(busy){WaitFlag<HardEvent::MTE1_MTE2>(bank);busy=false;}
+     LocalTensor<T> la(TPosition::A1,bank*BANKBYTES,TM*BK);
+     LocalTensor<T> lb(TPosition::B1,bank*BANKBYTES+TM*BK*2,TN*BK);
+@@ -84,7 +84,7 @@
+ __global__ __aicore__ __mix__(1,1) void bmms_ring_pair(
+     GM_ADDR a,GM_ADDR b,GM_ADDR scratch,GM_ADDR maxima,GM_ADDR y,int m,int n,int k,int ns)
+ {
+-    constexpr int TM=112,TN=128,BK=128,BANKS=8,BANKBYTES=(TM+TN)*BK*2;
++    constexpr int TM=112,TN=128,BK=256,BANKS=4,BANKBYTES=(TM+TN)*BK*2;
+     const int core=GetBlockIdx(),mi=(core/ns)*TM,ni=(core%ns)*TN;
+     const int cm=m-mi<TM?m-mi:TM;
+     GlobalTensor<float> sg,mg,yg;
+@@ -93,8 +93,8 @@
+     if ASCEND_IS_AIC {
+         GlobalTensor<T> ag,bg;ag.SetGlobalBuffer((__gm__ T*)a);bg.SetGlobalBuffer((__gm__ T*)b);
+         LocalTensor<float> cc(TPosition::CO1,0,TM*TN);
+-        bool l1Busy[BANKS]={false,false,false,false,false,false,false,false};
+-        bool l0Busy[2]={false,false},fixBusy=false;
++        bool l1Busy[BANKS]={false,false,false,false};
++        bool l0Busy[1]={false},fixBusy=false;
+         const int half=k/2,chunks=(half+BK-1)/BK;
+         for(int part=0;part<2;++part){
+             for(int first=0;first<BANKS;++first){
+@@ -102,7 +102,7 @@
+                 bmms_ring_prefetch(ag,bg,m,n,k,mi,ni,cm,part*half+first*BK,kk,first,l1Busy[first]);
+             }
+             for(int i=0;i<chunks;++i){
+-                const int bank=i&(BANKS-1),slot=i&1;
++                const int bank=i&(BANKS-1),slot=0;
+                 const int kk=half-i*BK<BK?half-i*BK:BK;
+                 WaitFlag<HardEvent::MTE2_MTE1>(bank);
+                 if(l0Busy[slot]){WaitFlag<HardEvent::M_MTE1>(slot);l0Busy[slot]=false;}
+@@ -124,7 +124,7 @@
+                     bmms_ring_prefetch(ag,bg,m,n,k,mi,ni,cm,part*half+next*BK,nextkk,bank,l1Busy[bank]);
+                 }
+             }
+-            for(int slot=0;slot<2;++slot)if(l0Busy[slot]){WaitFlag<HardEvent::M_MTE1>(slot);l0Busy[slot]=false;}
++            for(int slot=0;slot<1;++slot)if(l0Busy[slot]){WaitFlag<HardEvent::M_MTE1>(slot);l0Busy[slot]=false;}
+             SetFlag<HardEvent::M_FIX>(EVENT_ID0);WaitFlag<HardEvent::M_FIX>(EVENT_ID0);
+             FixpipeParamsV220 fp;fp.mSize=cm;fp.nSize=TN;fp.srcStride=cm;fp.dstStride=TN;
+             if(part==1)SetAtomicAdd<float>();else DisableDmaAtomic();

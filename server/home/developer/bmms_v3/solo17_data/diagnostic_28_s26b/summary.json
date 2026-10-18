@@ -1,0 +1,64 @@
+{
+  "variant": "s26b",
+  "hashes": {
+    "kernel.asc": "4b214cd4e162bd2c18340e14bffe70376d93d7df3bfb99ceb9e5968bff1060d4",
+    "bench_cases": "8cd8dfaa6c660306d4e36d5d582972ae3cbde62d3d4c50e3cac9cae0babb7c7d"
+  },
+  "suites": [
+    {
+      "suite": "medium_cases",
+      "manifest": "/home/developer/bmms_v3/solo17_data/medium_cases.txt",
+      "manifest_sha256": "1ddd1946a72286fb8e3edf9113e7cbacf5a6b8bf4c0d2c7c154ae9b147683cef",
+      "expected": 256,
+      "observed": 13,
+      "passed": false,
+      "returncode": 3,
+      "failures": [
+        {
+          "case": 12,
+          "shape": [
+            1,
+            512,
+            512,
+            1040
+          ],
+          "dtype": 1,
+          "ta": 0,
+          "tb": 0,
+          "absolute": 0.00242972071,
+          "relative": 242.972071,
+          "consistent": true,
+          "passed": false
+        }
+      ]
+    },
+    {
+      "suite": "split16_cases",
+      "manifest": "/home/developer/bmms_v3/solo14_data/split16_cases.txt",
+      "manifest_sha256": "6f8aaac72b5b4485c389477a26f706ce02a9ee29fee32cd07785b492e0ffd2a7",
+      "expected": 160,
+      "observed": 13,
+      "passed": false,
+      "returncode": 3,
+      "failures": [
+        {
+          "case": 12,
+          "shape": [
+            1,
+            64,
+            64,
+            8176
+          ],
+          "dtype": 1,
+          "ta": 0,
+          "tb": 0,
+          "absolute": 0.000716984272,
+          "relative": 71.6984272,
+          "consistent": true,
+          "passed": false
+        }
+      ]
+    }
+  ],
+  "passed": false
+}

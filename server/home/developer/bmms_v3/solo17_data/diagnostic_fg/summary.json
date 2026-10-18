@@ -1,0 +1,35 @@
+[
+  {
+    "variant": "s17f",
+    "suite": "fail_8",
+    "passed": true,
+    "observed": 8,
+    "hashes": {
+      "bench_cases": "28031b4a011f076637f05e1711dd83981e00668932135adbdfc39cd984f2a5b8",
+      "kernel.asc": "f572363dc3d85480e5dfb22fffb70e4031c2cdae7f9bf3c1011047e372f34c8c"
+    },
+    "returncode": 0
+  },
+  {
+    "variant": "s17g",
+    "suite": "fail_8",
+    "passed": true,
+    "observed": 8,
+    "hashes": {
+      "bench_cases": "b8eede32793465a80f51de5802c02abe8cf90ae4515ddea9c2cdc5ec2b653e17",
+      "kernel.asc": "1c31d711f36c6c8e23d67b00693b7cc29f22cfa2f6677513138d0876f8359a3c"
+    },
+    "returncode": 0
+  },
+  {
+    "variant": "s17g",
+    "suite": "long_sum_cases",
+    "passed": true,
+    "observed": 72,
+    "hashes": {
+      "bench_cases": "b8eede32793465a80f51de5802c02abe8cf90ae4515ddea9c2cdc5ec2b653e17",
+      "kernel.asc": "1c31d711f36c6c8e23d67b00693b7cc29f22cfa2f6677513138d0876f8359a3c"
+    },
+    "returncode": 0
+  }
+]

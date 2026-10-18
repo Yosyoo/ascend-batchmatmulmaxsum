@@ -1,0 +1,13 @@
+{
+  "UB_max": 132128,
+  "L1_max": 524288,
+  "L0A_max": 65536,
+  "L0B_max": 65536,
+  "L0C_max": 131072,
+  "mechanism": "one core owns whole batches; retain full ordered row maxima in UB and perform original ReduceSum without SyncAll or maxima GM traffic",
+  "gate": "nonpair original SDK static full tiles; ns=1, tileM=128, M>128 and <=8192; predicted serial row-tile waves no greater than original",
+  "GM": "original workspace allocation unchanged (conservative); core scratch offsets retain two slots; maxima region unused in new branch",
+  "math": "original Matmul tiling and K accumulation unchanged; same row maxima and original SDK ReduceSum count/order",
+  "sync": "same two-slot AIC/AIV handshake; step persists across batches; no cross-core dependency because one core owns every row in a batch",
+  "launch": "one mixed kernel; batchCores=min(availableCoreNum,batch); never cache tensor outputs"
+}

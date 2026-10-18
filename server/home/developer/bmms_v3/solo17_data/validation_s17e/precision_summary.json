@@ -1,0 +1,75 @@
+{
+  "variant": "s17e",
+  "total": 1809,
+  "suites": [
+    {
+      "suite": "medium_256",
+      "manifest": "/home/developer/bmms_v3/solo17_data/medium_cases.txt",
+      "expected": 256,
+      "observed": 256,
+      "passed": true,
+      "max_absolute": 0.015625,
+      "max_relative": 4.95910645
+    },
+    {
+      "suite": "split_stress_160",
+      "manifest": "/home/developer/bmms_v3/solo14_data/split16_cases.txt",
+      "expected": 160,
+      "observed": 160,
+      "passed": true,
+      "max_absolute": 0.03125,
+      "max_relative": 1.20563068e-07
+    },
+    {
+      "suite": "narrow_legal_120",
+      "manifest": "/home/developer/bmms_v3/solo14_data/narrow_legal_cases.txt",
+      "expected": 120,
+      "observed": 120,
+      "passed": true,
+      "max_absolute": 0.0078125,
+      "max_relative": 3.05175781
+    },
+    {
+      "suite": "balanced_384",
+      "manifest": "/home/developer/bmms_v3/solo14_data/balanced_cases.txt",
+      "expected": 384,
+      "observed": 384,
+      "passed": true,
+      "max_absolute": 0.015625,
+      "max_relative": 3.05175781
+    },
+    {
+      "suite": "pair_edge_312",
+      "manifest": "/home/developer/bmms_v3/solo14_data/pair_edge_cases.txt",
+      "expected": 312,
+      "observed": 312,
+      "passed": true,
+      "max_absolute": 0.00390625,
+      "max_relative": 5.34057617
+    },
+    {
+      "suite": "dot_once_576",
+      "manifest": "/home/developer/bmms_v3/solo17_data/dot_once_cases.txt",
+      "expected": 576,
+      "observed": 576,
+      "passed": true,
+      "max_absolute": 1.90734863e-06,
+      "max_relative": 0.0238418579
+    },
+    {
+      "suite": "long_sum",
+      "manifest": "/home/developer/bmms_v3/solo14_data/long_sum_cases.txt",
+      "expected": 72,
+      "observed": 1,
+      "passed": false,
+      "max_absolute": 13506.293,
+      "max_relative": 0.333139895
+    }
+  ],
+  "source_and_exe_sha256": {
+    "bench_cases": "974905aca67bb5a3050144bb6406114c5fd47db17034a480de64878518d0f310",
+    "kernel.asc": "89a49e934020a1d0183574d1956326b707bce0acf03b7b72f4a39b17b6434980"
+  },
+  "passed": false,
+  "scope": "historical plus medium diagnostic"
+}

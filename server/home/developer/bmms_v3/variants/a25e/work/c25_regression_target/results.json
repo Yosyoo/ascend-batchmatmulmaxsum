@@ -1,0 +1,404 @@
+[
+  {
+    "shape": [
+      1,
+      512,
+      1024,
+      512
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "passed": true,
+    "relative": 0.0,
+    "returncode": 0,
+    "seconds": 3.0489839460060466
+  },
+  {
+    "shape": [
+      1,
+      512,
+      1024,
+      512
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 1,
+    "passed": true,
+    "relative": 7.717116545791214e-08,
+    "returncode": 0,
+    "seconds": 3.0486166089831386
+  },
+  {
+    "shape": [
+      1,
+      512,
+      1024,
+      512
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "passed": true,
+    "relative": 7.774326604703674e-08,
+    "returncode": 0,
+    "seconds": 3.0492466109863017
+  },
+  {
+    "shape": [
+      1,
+      512,
+      1024,
+      512
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 1,
+    "passed": true,
+    "relative": 7.834492521396896e-08,
+    "returncode": 0,
+    "seconds": 2.047889565990772
+  },
+  {
+    "shape": [
+      1,
+      512,
+      1024,
+      512
+    ],
+    "dtype": 2,
+    "ta": 0,
+    "tb": 0,
+    "passed": true,
+    "relative": 0.0,
+    "returncode": 0,
+    "seconds": 2.0449801349896006
+  },
+  {
+    "shape": [
+      1,
+      512,
+      1024,
+      512
+    ],
+    "dtype": 2,
+    "ta": 0,
+    "tb": 1,
+    "passed": true,
+    "relative": 0.0,
+    "returncode": 0,
+    "seconds": 2.047950406995369
+  },
+  {
+    "shape": [
+      1,
+      512,
+      1024,
+      512
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 0,
+    "passed": true,
+    "relative": 7.806578850022561e-08,
+    "returncode": 0,
+    "seconds": 2.0519124679849483
+  },
+  {
+    "shape": [
+      1,
+      512,
+      1024,
+      512
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 1,
+    "passed": true,
+    "relative": 7.82675115829079e-08,
+    "returncode": 0,
+    "seconds": 2.0476939320215024
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      8192
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "passed": true,
+    "relative": 7.767920351398061e-08,
+    "returncode": 0,
+    "seconds": 2.045408711011987
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      8192
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 1,
+    "passed": true,
+    "relative": 0.0,
+    "returncode": 0,
+    "seconds": 2.046205986000132
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      8192
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "passed": true,
+    "relative": 0.0,
+    "returncode": 0,
+    "seconds": 2.044775140006095
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      8192
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 1,
+    "passed": true,
+    "relative": 7.810760394022509e-08,
+    "returncode": 0,
+    "seconds": 2.0450290449953172
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      8192
+    ],
+    "dtype": 2,
+    "ta": 0,
+    "tb": 0,
+    "passed": true,
+    "relative": 7.779177479960708e-08,
+    "returncode": 0,
+    "seconds": 2.045015654002782
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      8192
+    ],
+    "dtype": 2,
+    "ta": 0,
+    "tb": 1,
+    "passed": true,
+    "relative": 1.5534915576154162e-07,
+    "returncode": 0,
+    "seconds": 2.045180907996837
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      8192
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 0,
+    "passed": true,
+    "relative": 1.5675655617997108e-07,
+    "returncode": 0,
+    "seconds": 2.0480978199921083
+  },
+  {
+    "shape": [
+      1,
+      1024,
+      1024,
+      8192
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 1,
+    "passed": true,
+    "relative": 0.0,
+    "returncode": 0,
+    "seconds": 2.2410827839921694
+  },
+  {
+    "shape": [
+      1,
+      2048,
+      1536,
+      1280
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "passed": false,
+    "relative": 0.04524068534374237,
+    "returncode": 0,
+    "seconds": 3.0494563529791776,
+    "stderr": "",
+    "actual": [
+      78378.265625
+    ],
+    "golden": [
+      82092.171875
+    ]
+  },
+  {
+    "shape": [
+      1,
+      2048,
+      1536,
+      1280
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 1,
+    "passed": false,
+    "relative": NaN,
+    "returncode": 0,
+    "seconds": 2.0466660970123485,
+    "stderr": "",
+    "actual": [
+      NaN
+    ],
+    "golden": [
+      82144.96875
+    ]
+  },
+  {
+    "shape": [
+      1,
+      2048,
+      1536,
+      1280
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "passed": true,
+    "relative": 0.0,
+    "returncode": 0,
+    "seconds": 3.0509586509724613
+  },
+  {
+    "shape": [
+      1,
+      2048,
+      1536,
+      1280
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 1,
+    "passed": false,
+    "relative": NaN,
+    "returncode": 0,
+    "seconds": 2.0517646730004344,
+    "stderr": "",
+    "actual": [
+      NaN
+    ],
+    "golden": [
+      81917.484375
+    ]
+  },
+  {
+    "shape": [
+      1,
+      2048,
+      1536,
+      1280
+    ],
+    "dtype": 2,
+    "ta": 0,
+    "tb": 0,
+    "passed": false,
+    "relative": 0.0403456874191761,
+    "returncode": 0,
+    "seconds": 2.0478170689893886,
+    "stderr": "",
+    "actual": [
+      78606.296875
+    ],
+    "golden": [
+      81911.0546875
+    ]
+  },
+  {
+    "shape": [
+      1,
+      2048,
+      1536,
+      1280
+    ],
+    "dtype": 2,
+    "ta": 0,
+    "tb": 1,
+    "passed": false,
+    "relative": NaN,
+    "returncode": 0,
+    "seconds": 2.051525829010643,
+    "stderr": "",
+    "actual": [
+      NaN
+    ],
+    "golden": [
+      81983.9375
+    ]
+  },
+  {
+    "shape": [
+      1,
+      2048,
+      1536,
+      1280
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 0,
+    "passed": true,
+    "relative": 0.0,
+    "returncode": 0,
+    "seconds": 2.047028347995365
+  },
+  {
+    "shape": [
+      1,
+      2048,
+      1536,
+      1280
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 1,
+    "passed": false,
+    "relative": NaN,
+    "returncode": 0,
+    "seconds": 3.0491116369958036,
+    "stderr": "",
+    "actual": [
+      NaN
+    ],
+    "golden": [
+      82221.6328125
+    ]
+  }
+]

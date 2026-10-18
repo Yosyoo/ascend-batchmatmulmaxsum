@@ -1,0 +1,2 @@
+{"mode":"default","aclInit":0,"soc":"Ascend910_9362","aic":20,"aiv":40,"core":40,"socVersion":1,"npuArch":2201,"memoryBytes":{"L0A":65536,"L0B":65536,"L0C":131072,"L1":524032,"L2":176160768,"UB":196352,"HBM":34359738368}}
+{"mode":"soc","aclInit":0,"soc":"Ascend910_9362","aic":20,"aiv":40,"core":40,"socVersion":1,"npuArch":2201,"memoryBytes":{"L0A":65536,"L0B":65536,"L0C":131072,"L1":524032,"L2":176160768,"UB":196352,"HBM":34359738368}}

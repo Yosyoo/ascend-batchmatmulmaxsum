@@ -1,0 +1,104 @@
+[
+  {
+    "point": "P9",
+    "control_sessions_us": [
+      43.17,
+      43.099999999999994,
+      43.730000000000004,
+      43.76
+    ],
+    "control_range_percent": 1.531322505800481,
+    "blocks": [
+      {
+        "times_ABBA": [
+          43.17,
+          46.3,
+          46.16,
+          43.099999999999994
+        ],
+        "speedup_geomean": 0.9330528931081267,
+        "time_reduction_percent": -7.175060212166895,
+        "control_drift_percent": -0.16214964095437878
+      },
+      {
+        "times_ABBA": [
+          43.730000000000004,
+          46.16,
+          45.64,
+          43.76
+        ],
+        "speedup_geomean": 0.9530653432558917,
+        "time_reduction_percent": -4.924600089199416,
+        "control_drift_percent": 0.06860278984677226
+      }
+    ]
+  },
+  {
+    "point": "P10",
+    "control_sessions_us": [
+      60.52,
+      60.71,
+      60.17,
+      60.53
+    ],
+    "control_range_percent": 0.8974572045870044,
+    "blocks": [
+      {
+        "times_ABBA": [
+          60.52,
+          68.15,
+          68.91,
+          60.71
+        ],
+        "speedup_geomean": 0.8845156492941887,
+        "time_reduction_percent": -13.056224703086205,
+        "control_drift_percent": 0.3139458030403164
+      },
+      {
+        "times_ABBA": [
+          60.17,
+          68.83,
+          68.3,
+          60.53
+        ],
+        "speedup_geomean": 0.8801893432010667,
+        "time_reduction_percent": -13.611918585972283,
+        "control_drift_percent": 0.5983048030580029
+      }
+    ]
+  },
+  {
+    "point": "P11",
+    "control_sessions_us": [
+      62.63,
+      62.64,
+      62.89,
+      63.08
+    ],
+    "control_range_percent": 0.7185055085422221,
+    "blocks": [
+      {
+        "times_ABBA": [
+          62.63,
+          62.93,
+          62.23,
+          62.64
+        ],
+        "speedup_geomean": 1.0008945258998105,
+        "time_reduction_percent": 0.08937264383639398,
+        "control_drift_percent": 0.015966789078714072
+      },
+      {
+        "times_ABBA": [
+          62.89,
+          62.14,
+          62.68000000000001,
+          63.08
+        ],
+        "speedup_geomean": 1.0092215636190607,
+        "time_reduction_percent": 0.9137303394501584,
+        "control_drift_percent": 0.302114803625364
+      }
+    ]
+  }
+]

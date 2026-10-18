@@ -1,0 +1,545 @@
+{
+  "round": 42,
+  "evidence_root": "evidence/remote_round28_round42_a20261015",
+  "collection_manifest": "evidence/remote_round28_round42_a20261015/collection_manifest.json",
+  "collection_manifest_sha256": "e3c9dea67e5e1fb0fd255632f039b97eb491c113c022553d916ded51fbd23f97",
+  "collection_files": 132,
+  "independently_rehashed_used_files": 103,
+  "source_and_executable_identity": {
+    "variants/s41c/kernel.asc": "5fc87dcd3f6e8eff0c036274369af504b2951ae2a1c186a88d107e5e398b3494",
+    "variants/s41c/build/bench_cases": "d7e4a0fc8887886d5e71c00610f325c9d1d51c46bb403cbe6e98cc341d715a29",
+    "variants/s41c/build/bench_multi": "d37bc8cb0f3f5188a4dd4c3487c56f5ceabd89661025ff39c597f516b52fa874",
+    "variants/s42a/kernel.asc": "dc7c037c671d8c921cbf093d322adfa53dde32b4d57513c7698e93c06e5bf3aa",
+    "variants/s42a/build/bench_cases": "4f40e196c993fb0d95c465f837ffb9d1447e685fd30ae15541928b3831de6618",
+    "variants/s42a/build/bench_multi": "b50c0725a53bf6a6e5d3a1fab0593482f75796292be0fe86b0f903705f9484d3"
+  },
+  "identity_scope": "Local and archived kernel bytes match. Executable hashes match run summaries and collection records; executable bytes are not included and cannot be rehashed locally.",
+  "s41c": {
+    "suites": {
+      "historical": [
+        {
+          "suite": "medium_256",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo17_data/medium_cases.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/validation_s41c/medium_256.log",
+          "expected": 256,
+          "observed": 256,
+          "passed_records": 256,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "split_stress_160",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo14_data/split16_cases.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/validation_s41c/split_stress_160.log",
+          "expected": 160,
+          "observed": 160,
+          "passed_records": 160,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "narrow_legal_120",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo14_data/narrow_legal_cases.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/validation_s41c/narrow_legal_120.log",
+          "expected": 120,
+          "observed": 120,
+          "passed_records": 120,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "balanced_384",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo14_data/balanced_cases.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/validation_s41c/balanced_384.log",
+          "expected": 384,
+          "observed": 384,
+          "passed_records": 384,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "pair_edge_312",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo14_data/pair_edge_cases.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/validation_s41c/pair_edge_312.log",
+          "expected": 312,
+          "observed": 312,
+          "passed_records": 312,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "dot_once_576",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo17_data/dot_once_cases.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/validation_s41c/dot_once_576.log",
+          "expected": 576,
+          "observed": 576,
+          "passed_records": 576,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "long_sum",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo14_data/long_sum_cases.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/validation_s41c/long_sum.log",
+          "expected": 72,
+          "observed": 72,
+          "passed_records": 72,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "generic_nt_2970",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo13_data/generic_nt_cases.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/validation_s41c/generic_nt_2970.log",
+          "expected": 2970,
+          "observed": 2970,
+          "passed_records": 2970,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "nt_2352",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo13_data/nt_cases.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/validation_s41c/nt_2352.log",
+          "expected": 2352,
+          "observed": 2352,
+          "passed_records": 2352,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "copy_1728",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo11_data/copy_cases.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/validation_s41c/copy_1728.log",
+          "expected": 1728,
+          "observed": 1728,
+          "passed_records": 1728,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "vector_192",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo10_data/vector_cases.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/validation_s41c/vector_192.log",
+          "expected": 192,
+          "observed": 192,
+          "passed_records": 192,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "micro_precision",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo9_data/micro_cases.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/validation_s41c/micro_precision.log",
+          "expected": 192,
+          "observed": 192,
+          "passed_records": 192,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "nz_precision",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo8_data/nz_cases.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/validation_s41c/nz_precision.log",
+          "expected": 192,
+          "observed": 192,
+          "passed_records": 192,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "regression_5712",
+          "manifest": "evidence/remote_round28_round42_a20261015/delivery4/validation/cases.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/validation_s41c/regression_5712.log",
+          "expected": 5712,
+          "observed": 5712,
+          "passed_records": 5712,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "split_precision",
+          "manifest": "evidence/remote_round28_round42_a20261015/variants/s5d/split_cases.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/validation_s41c/split_precision.log",
+          "expected": 504,
+          "observed": 504,
+          "passed_records": 504,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "direct_precision",
+          "manifest": "evidence/remote_round28_round42_a20261015/variants/s5p/direct_cases.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/validation_s41c/direct_precision.log",
+          "expected": 2016,
+          "observed": 2016,
+          "passed_records": 2016,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "tail_precision",
+          "manifest": "evidence/remote_round28_round42_a20261015/variants/s5r/tail_cases.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/validation_s41c/tail_precision.log",
+          "expected": 96,
+          "observed": 96,
+          "passed_records": 96,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "large_precision",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo6_data/large_cases.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/validation_s41c/large_precision.log",
+          "expected": 256,
+          "observed": 256,
+          "passed_records": 256,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "narrow_precision",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo8_data/narrow_cases.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/validation_s41c/narrow_precision.log",
+          "expected": 192,
+          "observed": 192,
+          "passed_records": 192,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "narrow_extra_precision",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo8_data/narrow_extra_cases.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/validation_s41c/narrow_extra_precision.log",
+          "expected": 96,
+          "observed": 96,
+          "passed_records": 96,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        }
+      ],
+      "stress28": [
+        {
+          "suite": "balanced_stress23",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo17_data/balanced_stress23.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/stress28_s41c/balanced_stress23.log",
+          "expected": 96,
+          "observed": 96,
+          "passed_records": 96,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "kparallel_batch_stress23",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo17_data/kparallel_batch_stress23.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/stress28_s41c/kparallel_batch_stress23.log",
+          "expected": 96,
+          "observed": 96,
+          "passed_records": 96,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "kparallel_stress23",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo17_data/kparallel_stress23.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/stress28_s41c/kparallel_stress23.log",
+          "expected": 96,
+          "observed": 96,
+          "passed_records": 96,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "pair_stress23",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo17_data/pair_stress23.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/stress28_s41c/pair_stress23.log",
+          "expected": 96,
+          "observed": 96,
+          "passed_records": 96,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "long_stress21",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo17_data/long_stress21.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/stress28_s41c/long_stress21.log",
+          "expected": 96,
+          "observed": 96,
+          "passed_records": 96,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "tiny_stress23",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo17_data/tiny_stress23.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/stress28_s41c/tiny_stress23.log",
+          "expected": 192,
+          "observed": 192,
+          "passed_records": 192,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        }
+      ],
+      "extra42": [
+        {
+          "suite": "batch_stress30",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo17_data/batch_stress30.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/extra42_batch_stress30_s41c/precision.log",
+          "expected": 320,
+          "observed": 320,
+          "passed_records": 320,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "direct_stress32",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo17_data/direct_stress32.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/extra42_direct_stress32_s41c/precision.log",
+          "expected": 384,
+          "observed": 384,
+          "passed_records": 384,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "narrow_stress33",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo17_data/narrow_stress33.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/extra42_narrow_stress33_s41c/precision.log",
+          "expected": 256,
+          "observed": 256,
+          "passed_records": 256,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "pad_legal32",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo17_data/pad_legal32.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/extra42_pad_legal32_s41c/precision.log",
+          "expected": 96,
+          "observed": 96,
+          "passed_records": 96,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "pad_stress32",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo17_data/pad_stress32.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/extra42_pad_stress32_s41c/precision.log",
+          "expected": 96,
+          "observed": 96,
+          "passed_records": 96,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "short_resident_stress31",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo17_data/short_resident_stress31.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/extra42_short_resident_stress31_s41c/precision.log",
+          "expected": 128,
+          "observed": 128,
+          "passed_records": 128,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "tile128_stress30",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo17_data/tile128_stress30.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/extra42_tile128_stress30_s41c/precision.log",
+          "expected": 320,
+          "observed": 320,
+          "passed_records": 320,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        },
+        {
+          "suite": "whole_stress30",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo17_data/whole_stress30.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/extra42_whole_stress30_s41c/precision.log",
+          "expected": 512,
+          "observed": 512,
+          "passed_records": 512,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        }
+      ],
+      "diagnostic42": [
+        {
+          "suite": "s41c",
+          "manifest": "evidence/remote_round28_round42_a20261015/solo17_data/diagnostic42_s41c/cases.txt",
+          "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/diagnostic42_s41c/precision.log",
+          "expected": 656,
+          "observed": 656,
+          "passed_records": 656,
+          "inconsistent": 0,
+          "completed": true,
+          "shape_dtype_layout_index_order_verified": true
+        }
+      ]
+    },
+    "group_observed": {
+      "historical": 18378,
+      "stress28": 672,
+      "extra42": 2112,
+      "diagnostic42": 656
+    },
+    "all_logged_records_passed_and_consistent": true,
+    "pass_observations": 21818,
+    "distinct_manifest_cases": 21482,
+    "repeated_observations": 336,
+    "overlaps": [
+      {
+        "left": "historical",
+        "right": "stress28",
+        "shared_cases": 0
+      },
+      {
+        "left": "historical",
+        "right": "extra42",
+        "shared_cases": 0
+      },
+      {
+        "left": "historical",
+        "right": "diagnostic42",
+        "shared_cases": 336
+      },
+      {
+        "left": "stress28",
+        "right": "extra42",
+        "shared_cases": 0
+      },
+      {
+        "left": "stress28",
+        "right": "diagnostic42",
+        "shared_cases": 0
+      },
+      {
+        "left": "extra42",
+        "right": "diagnostic42",
+        "shared_cases": 0
+      }
+    ],
+    "repeated_case_differing_error_metrics": 0,
+    "diagnostic_manifest_reconstructed": true,
+    "diagnostic_origin_files": [
+      "evidence/remote_round28_round42_a20261015/solo17_data/medium_cases.txt",
+      "evidence/remote_round28_round42_a20261015/solo14_data/split16_cases.txt",
+      "evidence/remote_round28_round42_a20261015/solo14_data/narrow_legal_cases.txt",
+      "evidence/remote_round28_round42_a20261015/solo14_data/balanced_cases.txt",
+      "evidence/remote_round28_round42_a20261015/solo14_data/pair_edge_cases.txt",
+      "evidence/remote_round28_round42_a20261015/solo17_data/dot_once_cases.txt",
+      "evidence/remote_round28_round42_a20261015/solo14_data/long_sum_cases.txt",
+      "evidence/remote_round28_round42_a20261015/solo13_data/generic_nt_cases.txt",
+      "evidence/remote_round28_round42_a20261015/solo13_data/nt_cases.txt",
+      "evidence/remote_round28_round42_a20261015/solo11_data/copy_cases.txt",
+      "evidence/remote_round28_round42_a20261015/solo10_data/vector_cases.txt",
+      "evidence/remote_round28_round42_a20261015/solo9_data/micro_cases.txt",
+      "evidence/remote_round28_round42_a20261015/solo8_data/nz_cases.txt",
+      "evidence/remote_round28_round42_a20261015/delivery4/validation/cases.txt",
+      "evidence/remote_round28_round42_a20261015/variants/s5d/split_cases.txt",
+      "evidence/remote_round28_round42_a20261015/variants/s5p/direct_cases.txt",
+      "evidence/remote_round28_round42_a20261015/variants/s5r/tail_cases.txt",
+      "evidence/remote_round28_round42_a20261015/solo6_data/large_cases.txt",
+      "evidence/remote_round28_round42_a20261015/solo8_data/narrow_cases.txt",
+      "evidence/remote_round28_round42_a20261015/solo8_data/narrow_extra_cases.txt",
+      "evidence/remote_round18/work/solo18/fail_8.txt",
+      "evidence/remote_round28_round41_acde20261015/solo17_data/owned_stress41.txt",
+      "evidence/remote_round28_round42_a20261015/solo17_data/a2_stress42.txt"
+    ]
+  },
+  "s42a": {
+    "manifest": "evidence/remote_round28_round42_a20261015/solo17_data/diagnostic42_s42a/cases.txt",
+    "raw_log": "evidence/remote_round28_round42_a20261015/solo17_data/diagnostic42_s42a/precision.log",
+    "expected": 656,
+    "observed": 592,
+    "passed_records": 592,
+    "inconsistent": 0,
+    "completed": false,
+    "shape_dtype_layout_index_order_verified": true,
+    "status": "runtime_failure_before_performance",
+    "numeric_failure_rows": 0,
+    "uncompleted_cases": 64,
+    "first_uncompleted_case": 592,
+    "first_uncompleted_shape": [
+      4,
+      512,
+      1024,
+      256
+    ],
+    "first_uncompleted_dtype": 1,
+    "first_uncompleted_layout": [
+      "0",
+      "0"
+    ],
+    "first_uncompleted_fixture": "/home/developer/bmms_v3/solo17_data/a2_stress42/c096",
+    "first_uncompleted_case_attempted_but_no_precision_result": true,
+    "subsequent_unobserved_cases": 63,
+    "full_precision_passed": false,
+    "runtime_error": 507015,
+    "hardware_error": "0x8000004000",
+    "driver_error": "L0B read/write conflict in the MTE (same address)",
+    "driver_log": "evidence/remote_round28_round42_a20261015/work/solo42/failure_a/debug_plog.log",
+    "driver_evidence_lines": {
+      "L0B_conflict": [
+        4
+      ],
+      "runtime_507015": [
+        52,
+        54
+      ],
+      "failed_kernel": [
+        45,
+        50
+      ],
+      "hardware_error": [
+        3,
+        4
+      ]
+    },
+    "completed_cases_differing_error_metrics_vs_s41c": 0,
+    "differing_metric_case_indices": [],
+    "performance_ran": false,
+    "full_100_shape_pool_run": false
+  },
+  "limits": [
+    "Distinct cases are deduplicated by the full manifest row, including fixture path; this is not a binary-content deduplication.",
+    "21,818 is a count of s41c passed observations, not independent fixtures; 336 diagnostic observations repeat historical cases.",
+    "Archived fixture metadata and remote unchanged flags do not substitute for rehashing absent fixture binaries.",
+    "s42a has 592 passed records and 64 cases without a completed precision result; an empty numeric failures list does not mean the suite passed.",
+    "The raw driver establishes L0B read/write conflict. The TPipe initial-event-token mechanism is a separate code diagnosis, not proved by this log alone.",
+    "This verification performs no compilation, NPU execution, performance measurement or official submission."
+  ]
+}

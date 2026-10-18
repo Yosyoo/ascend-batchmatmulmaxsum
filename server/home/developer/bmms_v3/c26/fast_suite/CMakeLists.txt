@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.16)
+find_package(ASC REQUIRED)
+project(bmms_correctness_suite LANGUAGES ASC CXX)
+set(CMAKE_CXX_STANDARD 14)
+add_executable(bench_cases bench_cases.asc)
+target_link_libraries(bench_cases PRIVATE tiling_api register platform unified_dlog dl m graph_base)
+target_include_directories(bench_cases PRIVATE /home/developer/bmms_v3/variants/${BMMS_VARIANT})
+target_compile_options(bench_cases PRIVATE $<$<COMPILE_LANGUAGE:ASC>:--npu-arch=dav-2201>)

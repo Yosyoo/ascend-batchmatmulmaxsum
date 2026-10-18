@@ -1,0 +1,20 @@
+[
+  {
+    "label": "balanced_384",
+    "variant": "s14n",
+    "expected": 384,
+    "observed": 384,
+    "passed": true,
+    "returncode": 0,
+    "max_absolute": 0.015625
+  },
+  {
+    "label": "pair_edge_312",
+    "variant": "s14n",
+    "expected": 312,
+    "observed": 73,
+    "passed": false,
+    "returncode": 3,
+    "max_absolute": 135.333008
+  }
+]

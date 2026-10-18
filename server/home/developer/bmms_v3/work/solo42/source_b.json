@@ -1,0 +1,9 @@
+{
+  "variant": "s42b",
+  "baseline": "s42a",
+  "sha256": "b405e207e962cf691ca813a76604c4811ed6628a90e104f683aa23df0b2f196d",
+  "bytes": 223332,
+  "status": "source only; not compiled or NPU tested by this subagent",
+  "fix": "AIC raw-memory path uses InitSocState without TPipe implicit event tokens; AIV retains scoped TPipe",
+  "aiv_after_pipe_byte_identical": true
+}

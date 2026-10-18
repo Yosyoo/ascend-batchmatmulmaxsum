@@ -1,0 +1,56 @@
+[
+  {
+    "label": "balanced_384",
+    "variant": "s14o",
+    "expected": 384,
+    "observed": 384,
+    "passed": true,
+    "returncode": 0,
+    "max_absolute": 0.015625
+  },
+  {
+    "label": "pair_edge_312",
+    "variant": "s14o",
+    "expected": 312,
+    "observed": 312,
+    "passed": true,
+    "returncode": 0,
+    "max_absolute": 0.00390625
+  },
+  {
+    "label": "narrow_legal_120",
+    "variant": "s14o",
+    "expected": 120,
+    "observed": 120,
+    "passed": true,
+    "returncode": 0,
+    "max_absolute": 0.0078125
+  },
+  {
+    "label": "split_stress_160",
+    "variant": "s14o",
+    "expected": 160,
+    "observed": 160,
+    "passed": true,
+    "returncode": 0,
+    "max_absolute": 0.015625
+  },
+  {
+    "label": "narrow_precision",
+    "variant": "s14o",
+    "expected": 192,
+    "observed": 192,
+    "passed": true,
+    "returncode": 0,
+    "max_absolute": 0.015625
+  },
+  {
+    "label": "narrow_extra_precision",
+    "variant": "s14o",
+    "expected": 96,
+    "observed": 96,
+    "passed": true,
+    "returncode": 0,
+    "max_absolute": 0.015625
+  }
+]

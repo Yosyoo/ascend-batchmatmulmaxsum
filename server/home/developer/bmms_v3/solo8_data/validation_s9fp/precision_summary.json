@@ -1,0 +1,69 @@
+{
+  "total": 9064,
+  "suites": [
+    {
+      "suite": "nz_precision",
+      "expected": 192,
+      "observed": 192,
+      "passed": true,
+      "max_absolute": 0.125,
+      "max_relative": 3.05175781
+    },
+    {
+      "suite": "regression_5712",
+      "expected": 5712,
+      "observed": 5712,
+      "passed": true,
+      "max_absolute": 0.015625,
+      "max_relative": 0.000628002105
+    },
+    {
+      "suite": "split_precision",
+      "expected": 504,
+      "observed": 504,
+      "passed": true,
+      "max_absolute": 0.0078125,
+      "max_relative": 1.12536397e-07
+    },
+    {
+      "suite": "direct_precision",
+      "expected": 2016,
+      "observed": 2016,
+      "passed": true,
+      "max_absolute": 0.000122070312,
+      "max_relative": 0.381469727
+    },
+    {
+      "suite": "tail_precision",
+      "expected": 96,
+      "observed": 96,
+      "passed": true,
+      "max_absolute": 0.03125,
+      "max_relative": 1.2945205e-07
+    },
+    {
+      "suite": "large_precision",
+      "expected": 256,
+      "observed": 256,
+      "passed": true,
+      "max_absolute": 0.75,
+      "max_relative": 2.28881836
+    },
+    {
+      "suite": "narrow_precision",
+      "expected": 192,
+      "observed": 192,
+      "passed": true,
+      "max_absolute": 0.015625,
+      "max_relative": 4.91142273
+    },
+    {
+      "suite": "narrow_extra_precision",
+      "expected": 96,
+      "observed": 96,
+      "passed": true,
+      "max_absolute": 0.015625,
+      "max_relative": 3.05175781
+    }
+  ]
+}

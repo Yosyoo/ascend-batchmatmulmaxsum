@@ -1,0 +1,251 @@
+{
+  "variant": "s19b",
+  "parent": "s19a",
+  "capacity_calculated_before_edit": true,
+  "probe_rows": 104,
+  "maxima": {
+    "L1_bytes": 524288,
+    "L0A_bytes": 65536,
+    "L0B_bytes": 65536,
+    "L0C_bytes": 131072
+  },
+  "limits": {
+    "L1_bytes": 524288,
+    "L0A_bytes": 65536,
+    "L0B_bytes": 65536,
+    "L0C_bytes": 131072
+  },
+  "UB_official_max_bytes": 164864,
+  "workspace_unchanged": true,
+  "manual_tiles": [
+    {
+      "tileM": 16,
+      "tileN": 16,
+      "bk": 2048,
+      "L1": 131072,
+      "L0A": 65536,
+      "L0B": 65536,
+      "L0C": 1024
+    },
+    {
+      "tileM": 16,
+      "tileN": 32,
+      "bk": 1024,
+      "L1": 98304,
+      "L0A": 32768,
+      "L0B": 65536,
+      "L0C": 2048
+    },
+    {
+      "tileM": 16,
+      "tileN": 64,
+      "bk": 512,
+      "L1": 81920,
+      "L0A": 16384,
+      "L0B": 65536,
+      "L0C": 4096
+    },
+    {
+      "tileM": 16,
+      "tileN": 128,
+      "bk": 256,
+      "L1": 73728,
+      "L0A": 8192,
+      "L0B": 65536,
+      "L0C": 8192
+    },
+    {
+      "tileM": 16,
+      "tileN": 256,
+      "bk": 128,
+      "L1": 69632,
+      "L0A": 4096,
+      "L0B": 65536,
+      "L0C": 16384
+    },
+    {
+      "tileM": 32,
+      "tileN": 16,
+      "bk": 1024,
+      "L1": 98304,
+      "L0A": 65536,
+      "L0B": 32768,
+      "L0C": 2048
+    },
+    {
+      "tileM": 32,
+      "tileN": 32,
+      "bk": 1024,
+      "L1": 131072,
+      "L0A": 65536,
+      "L0B": 65536,
+      "L0C": 4096
+    },
+    {
+      "tileM": 32,
+      "tileN": 64,
+      "bk": 512,
+      "L1": 98304,
+      "L0A": 32768,
+      "L0B": 65536,
+      "L0C": 8192
+    },
+    {
+      "tileM": 32,
+      "tileN": 128,
+      "bk": 256,
+      "L1": 81920,
+      "L0A": 16384,
+      "L0B": 65536,
+      "L0C": 16384
+    },
+    {
+      "tileM": 32,
+      "tileN": 256,
+      "bk": 128,
+      "L1": 73728,
+      "L0A": 8192,
+      "L0B": 65536,
+      "L0C": 32768
+    },
+    {
+      "tileM": 64,
+      "tileN": 16,
+      "bk": 512,
+      "L1": 81920,
+      "L0A": 65536,
+      "L0B": 16384,
+      "L0C": 4096
+    },
+    {
+      "tileM": 64,
+      "tileN": 32,
+      "bk": 512,
+      "L1": 98304,
+      "L0A": 65536,
+      "L0B": 32768,
+      "L0C": 8192
+    },
+    {
+      "tileM": 64,
+      "tileN": 64,
+      "bk": 512,
+      "L1": 131072,
+      "L0A": 65536,
+      "L0B": 65536,
+      "L0C": 16384
+    },
+    {
+      "tileM": 64,
+      "tileN": 128,
+      "bk": 256,
+      "L1": 98304,
+      "L0A": 32768,
+      "L0B": 65536,
+      "L0C": 32768
+    },
+    {
+      "tileM": 64,
+      "tileN": 256,
+      "bk": 128,
+      "L1": 81920,
+      "L0A": 16384,
+      "L0B": 65536,
+      "L0C": 65536
+    },
+    {
+      "tileM": 128,
+      "tileN": 16,
+      "bk": 256,
+      "L1": 73728,
+      "L0A": 65536,
+      "L0B": 8192,
+      "L0C": 8192
+    },
+    {
+      "tileM": 128,
+      "tileN": 32,
+      "bk": 256,
+      "L1": 81920,
+      "L0A": 65536,
+      "L0B": 16384,
+      "L0C": 16384
+    },
+    {
+      "tileM": 128,
+      "tileN": 64,
+      "bk": 256,
+      "L1": 98304,
+      "L0A": 65536,
+      "L0B": 32768,
+      "L0C": 32768
+    },
+    {
+      "tileM": 128,
+      "tileN": 128,
+      "bk": 256,
+      "L1": 131072,
+      "L0A": 65536,
+      "L0B": 65536,
+      "L0C": 65536
+    },
+    {
+      "tileM": 128,
+      "tileN": 256,
+      "bk": 128,
+      "L1": 98304,
+      "L0A": 32768,
+      "L0B": 65536,
+      "L0C": 131072
+    },
+    {
+      "tileM": 256,
+      "tileN": 16,
+      "bk": 128,
+      "L1": 69632,
+      "L0A": 65536,
+      "L0B": 4096,
+      "L0C": 16384
+    },
+    {
+      "tileM": 256,
+      "tileN": 32,
+      "bk": 128,
+      "L1": 73728,
+      "L0A": 65536,
+      "L0B": 8192,
+      "L0C": 32768
+    },
+    {
+      "tileM": 256,
+      "tileN": 64,
+      "bk": 128,
+      "L1": 81920,
+      "L0A": 65536,
+      "L0B": 16384,
+      "L0C": 65536
+    },
+    {
+      "tileM": 256,
+      "tileN": 128,
+      "bk": 128,
+      "L1": 98304,
+      "L0A": 65536,
+      "L0B": 32768,
+      "L0C": 131072
+    }
+  ],
+  "edit": "Only SetShape planning K; keep real half-K execution, paired ordered FP32 write/add, BF16 NT/TT resident and restored aligned manual path.",
+  "evidence": "Generic library pair adds scalar scheduling and repeated IterateAll; a new manual eligibility experiment, benefit unproven.",
+  "trial": "Use existing paired manual kernel for aligned generic 128x256 tiles at 1024<K<=2048; keep resident BF16 NT/TT 128x512 on library.",
+  "explicit_manual": {
+    "tileM": 128,
+    "tileN": 256,
+    "bk": 128,
+    "L1": 98304,
+    "L0A": 32768,
+    "L0B": 65536,
+    "L0C": 131072
+  },
+  "input_gate": "M>=512%128=0,N>=512%256=0,K%32=0,tileM128/tileN256 and original manual tail/size gates; no input-value predicate."
+}

@@ -1,0 +1,50 @@
+{
+  "variant": "clean203",
+  "sha256": "9feb4e97863b23d014f85f59393629ebb775b9b755dbd0262bd9847aa65c4a3e",
+  "review_scope": "Whole-source inherited157 review plus exact157->172 diff and composition proof; no extra NPU inputs",
+  "locations": {
+    "bmms_vector_short_nt": 1429,
+    "bmms_kmajor_eight": 2114,
+    "bmms_kmajor_sixteen": 2188,
+    "bmms_single_tile": 1628,
+    "bmms_scalar_tile": 2091,
+    "BmmsCallSpace": 2426,
+    "run_kernel": 2438
+  },
+  "checks": {
+    "Host_tensor_data_reads_or_math": "not found; metadata only, allocation, tiling, stream synchronization and one selected launch",
+    "Host_input_reorder": "not found; all real input movement/conversion occurs on Device",
+    "precomputed_or_hardcoded_answers": "not found; constants describe physical tiles, masks and layout, never output values",
+    "test_tuple_matching": "No exact B/M/N/K tuple table in new changes; same algorithm selected by full32B row layout, legal block broadcast strides, or complete metadata-proven physical base tile",
+    "skip_markers_or_empty_kernel": "not found; hardware flags enforce real Mmad/Fixpipe and buffer ownership",
+    "old_output_or_uninitialized_memory_used_to_skip_math": "not found as a computation path; current-call scratch/output initialized or produced before consumption",
+    "judge_or_timer_changes": "none in submitted source; all complete operations remain inside the same global kernel",
+    "warmup_detection_or_work_outside_timing": "not found; kernel has no phase/iteration/seed environment input",
+    "cross_invocation_result_cache": "not found; no persistent result state, per-call workspace released",
+    "multiple_global_kernels_per_operator": "one selected global launch per invocation; packing and reductions are Device inline helpers",
+    "failure_returns_stale_output_as_success": "allocation and GetTiling failures throw; not silently treated as successful computation"
+  },
+  "new_changes": {
+    "Kmajor8_broadcast": "srcB blockStride0 reuses exactly the same current-call B eight-column block for each real M row; all products/K tree retained. No input result cache.",
+    "Kmajor16_BlockPair": "All original products retained. K group reduction and three Pair stages consume each real K term once; retired current-call buffers reused only after dependency fence.",
+    "constantCore": "Only static.singleCoreM/N fixed to actual metadata-selected BM/BN when tileM/baseM and tileN/baseN equality and global divisibility prove every tile complete; all global/K fields and loops remain runtime. Partial or multi-base frames retain old complete path."
+  },
+  "resource_bytes": {
+    "shortNT_UB": 13888,
+    "kmajor8_UB": 43072,
+    "kmajor16_UB": 93248,
+    "singleTile_L1_max": 81920,
+    "singleTile_L0_operand_each_max": 65536,
+    "singleTile_L0C_max": 16384,
+    "singleTile_UB_max": 16544
+  },
+  "limits": [
+    "Not an official compliance ruling",
+    "Only user supplied15 NPU shapes are to be tested this round",
+    "Inherited large-M NN cancellation precision defect outside supplied15 is not fixed or retested; do not claim universal precision certification",
+    "No official910C runtime or score guarantee; changed FP32 reduction association validated only on user supplied15 this round",
+    "Inherited Host heuristic ranges are performance choices; not all numeric bounds are capacity limits. Full fallback calculation retained."
+  ],
+  "status": "Built, Full15 local NPU PASS; self review complete; no official score guarantee",
+  "new_scope": "Public4KiB instruction prefetch at entry of the entire existing K-major-eight algorithm; no Host gates or other changes; instruction fetch only, whole current call computation preserved. SDK PC is instruction address only. All preexisting metadata family gates and complete fallback paths are unchanged."
+}

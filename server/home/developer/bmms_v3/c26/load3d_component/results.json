@@ -1,0 +1,1666 @@
+[
+  {
+    "shape": [
+      16,
+      16,
+      32
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      16,
+      32
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      16,
+      32
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      16,
+      32
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      16,
+      32
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 4.76837158203125e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      16,
+      32
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 4.76837158203125e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      16,
+      32
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 4.76837158203125e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      16,
+      32
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 4.76837158203125e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      16,
+      32
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      16,
+      32
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      16,
+      32
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      16,
+      32
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      16,
+      32
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 1.1920928955078125e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      16,
+      32
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 1.1920928955078125e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      16,
+      32
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 1.1920928955078125e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      16,
+      32
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 1.1920928955078125e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      32,
+      64,
+      64
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      32,
+      64,
+      64
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      32,
+      64,
+      64
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      32,
+      64,
+      64
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      32,
+      64,
+      64
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      32,
+      64,
+      64
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      32,
+      64,
+      64
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      32,
+      64,
+      64
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      32,
+      64,
+      64
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      32,
+      64,
+      64
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      32,
+      64,
+      64
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      32,
+      64,
+      64
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      32,
+      64,
+      64
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 4.76837158203125e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      32,
+      64,
+      64
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 4.76837158203125e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      32,
+      64,
+      64
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 4.76837158203125e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      32,
+      64,
+      64
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 4.76837158203125e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      64,
+      32,
+      128
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      64,
+      32,
+      128
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      64,
+      32,
+      128
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      64,
+      32,
+      128
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      64,
+      32,
+      128
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      64,
+      32,
+      128
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      64,
+      32,
+      128
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      64,
+      32,
+      128
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      64,
+      32,
+      128
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      64,
+      32,
+      128
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      64,
+      32,
+      128
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      64,
+      32,
+      128
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      64,
+      32,
+      128
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      64,
+      32,
+      128
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      64,
+      32,
+      128
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      64,
+      32,
+      128
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      128,
+      128
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      128,
+      128
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      128,
+      128
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      128,
+      128
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      128,
+      128
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      128,
+      128
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      128,
+      128
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      128,
+      128
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      128,
+      128
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      128,
+      128
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      128,
+      128
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      128,
+      128
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      128,
+      128
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      128,
+      128
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      128,
+      128
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      128,
+      128
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 9.5367431640625e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      48,
+      80,
+      240
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      48,
+      80,
+      240
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      48,
+      80,
+      240
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      48,
+      80,
+      240
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      48,
+      80,
+      240
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      48,
+      80,
+      240
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      48,
+      80,
+      240
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      48,
+      80,
+      240
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      48,
+      80,
+      240
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      48,
+      80,
+      240
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      48,
+      80,
+      240
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      48,
+      80,
+      240
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      48,
+      80,
+      240
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 2.86102294921875e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      48,
+      80,
+      240
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 2.86102294921875e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      48,
+      80,
+      240
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 2.86102294921875e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      48,
+      80,
+      240
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 2.86102294921875e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      64,
+      256
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      64,
+      256
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      64,
+      256
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      64,
+      256
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      64,
+      256
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      64,
+      256
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      64,
+      256
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      64,
+      256
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      64,
+      256
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      64,
+      256
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      64,
+      256
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      64,
+      256
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      64,
+      256
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      64,
+      256
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      64,
+      256
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      64,
+      256
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      128,
+      256
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      128,
+      256
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      128,
+      256
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      128,
+      256
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      128,
+      256
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      128,
+      256
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      128,
+      256
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      128,
+      256
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      128,
+      256
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      128,
+      256
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      128,
+      256
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      128,
+      256
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      128,
+      256
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      128,
+      256
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      128,
+      256
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      16,
+      128,
+      256
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 1.9073486328125e-06,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      16,
+      32
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      16,
+      32
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      16,
+      32
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      16,
+      32
+    ],
+    "dtype": 1,
+    "pattern": "exact",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      16,
+      32
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 4.76837158203125e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      16,
+      32
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 4.76837158203125e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      16,
+      32
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 4.76837158203125e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      16,
+      32
+    ],
+    "dtype": 1,
+    "pattern": "random",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 4.76837158203125e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      16,
+      32
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      16,
+      32
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      16,
+      32
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      16,
+      32
+    ],
+    "dtype": 2,
+    "pattern": "exact",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 0.0,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      16,
+      32
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 0,
+    "gold_pass": true,
+    "maxabs": 4.76837158203125e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      16,
+      32
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 1,
+    "gold_pass": true,
+    "maxabs": 4.76837158203125e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      16,
+      32
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 2,
+    "gold_pass": true,
+    "maxabs": 4.76837158203125e-07,
+    "bitwise_baseline": true
+  },
+  {
+    "shape": [
+      128,
+      16,
+      32
+    ],
+    "dtype": 2,
+    "pattern": "random",
+    "mode": 3,
+    "gold_pass": true,
+    "maxabs": 4.76837158203125e-07,
+    "bitwise_baseline": true
+  }
+]

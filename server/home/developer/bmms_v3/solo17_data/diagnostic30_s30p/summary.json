@@ -1,0 +1,19 @@
+{
+  "variant": "s30p",
+  "hashes": {
+    "bench_cases": "b9f6bb237d2b6aab177c453210c36ab9988648dcc1e3108d9c6a528ab05298a9",
+    "kernel.asc": "27bdef5b733320408f9179c8de1b74ee9b36df9801214d47c10bb2310fc1941c"
+  },
+  "origin_hashes": {
+    "/home/developer/bmms_v3/solo17_data/diagnostic30_s30l/cases.txt": "57d0f4fb174d611094fd7ff76e18560f065a0b9c26719f585abf7812627e6b83",
+    "/home/developer/bmms_v3/solo17_data/whole_stress30.txt": "268367890ead863276edf44acd9a39a7cde4797b4fea8e2105c1185679433d6d"
+  },
+  "fixture_metadata_sha256": "b558db6077de07c2324aae9784ee9fbf0c553f740a0d931b04400da181787a56",
+  "expected": 552,
+  "observed": 552,
+  "passed": true,
+  "inputs_unchanged": true,
+  "manifest_sha256": "cdc42ad63ec17cc32981dc6cef88e16cb2858461feacb0b7470b863f66ee109b",
+  "failures": [],
+  "returncode": 0
+}

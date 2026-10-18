@@ -1,0 +1,15 @@
+[
+  {
+    "variant": "clean49",
+    "shape": [
+      1,
+      1025,
+      1031,
+      1032
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "error": "put path.\n[INFO] Export all data in PROF_000001_20261016080808028_00393686RLHHBAPF done.\n[INFO] Start query data in PROF_000001_20261016080808028_00393686RLHHBAPF.\nJob Info\tDevice ID\tDir Name\tCollection Time           \tModel ID\tIteration Number\tTop Time Iteration\tRank ID\t\n\nNA      \t         \thost    \t2026-10-16 08:08:08.667338\tN/A     \tN/A             \tN/A               \t-1     \t\n\nNA      \t0        \tdevice_0\t2026-10-16 08:08:08.668879\tN/A     \tN/A             \tN/A               \t-1     \t\n\n[INFO] Query all data in PROF_000001_20261016080808028_00393686RLHHBAPF done.\n[INFO] Profiling finished.\n[INFO] Process profiling data complete. Data is saved in /home/developer/bmms_v3/variants/clean49/research/PipeUtilization/1_1025_1031_1032_1_0_0/profile/PROF_000001_20261016080808028_00393686RLHHBAPF\n"
+  }
+]

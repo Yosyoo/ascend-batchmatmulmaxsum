@@ -1,0 +1,66 @@
+{
+  "variant": "s30j",
+  "hashes": {
+    "bench_cases": "3300557d088116bea0cac78fb3a588108fae5b2a9c021a402b35ad0ddbddbf65",
+    "kernel.asc": "392bbf772116af4403d6edc591f958def8011f58759962245844145b109ed156"
+  },
+  "origins": [
+    {
+      "path": "/home/developer/bmms_v3/delivery4/validation/cases.txt",
+      "sha256": "4e205575ee08001febe14e61d8bb5067ee53961ebe8cd9587344c18d54a57f45",
+      "selected": 8
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo14_data/narrow_legal_cases.txt",
+      "sha256": "9315eb0e1c254c4a74a342e488758989a17fcae3ee01d769ad71d7da69ddf707",
+      "selected": 120
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo8_data/narrow_cases.txt",
+      "sha256": "1717ea3b9765d93c1b2323a333c1ca0fad05027116b4fb1e929b2e4ab0409817",
+      "selected": 48
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo8_data/narrow_extra_cases.txt",
+      "sha256": "e5f1eca222f0e606e55b6142edbb137a18e41e5096f11244a017c8003ab6410b",
+      "selected": 96
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo17_data/pair_stress23.txt",
+      "sha256": "0e650ec4f163e56d4bd6a63bae3f767eb0e9432d3d16b72c9e1c6cdaf6a37708",
+      "selected": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo17_data/manual_cases18.txt",
+      "sha256": "354827c1afe621bfaf4cca506f37424f4ec2e0abd282b07bdcf9df7c1d943d72",
+      "selected": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo17_data/medium_cases.txt",
+      "sha256": "1ddd1946a72286fb8e3edf9113e7cbacf5a6b8bf4c0d2c7c154ae9b147683cef",
+      "selected": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo14_data/balanced_cases.txt",
+      "sha256": "307ee00a720f9fbfc05838f2733ca2e07f160f16dcc8c0f4e90af54b7ea66914",
+      "selected": 384
+    },
+    {
+      "path": "/home/developer/bmms_v3/solo10_data/vector_cases.txt",
+      "sha256": "396970e3e08f18aaf26404cfb2c7adb0ac07d90a582a7c8d24723727327868e2",
+      "selected": 0
+    },
+    {
+      "path": "/home/developer/bmms_v3/work/solo18/fail_8.txt",
+      "sha256": "bde0d318b39d6c8187090f434dfc122e8aae63642959aaaae1249eee1072dc9d",
+      "selected": 8
+    }
+  ],
+  "manifest_sha256": "c457644dbb2133eef91de4521bc19aacbf3ecef6b0227674c278ae448ce3443b",
+  "expected": 664,
+  "observed": 664,
+  "passed": true,
+  "failures": [],
+  "returncode": 0,
+  "scope": "affected preserved cases plus all failure8; screening only"
+}

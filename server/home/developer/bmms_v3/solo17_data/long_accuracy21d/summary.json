@@ -1,0 +1,12 @@
+{
+  "variant": "s21d",
+  "passed": true,
+  "observed": 96,
+  "expected": 96,
+  "hashes": {
+    "bench_cases": "33e1dc0c02ef40822e21f8e05b3aee1e73d1a0b319aa9309daf126dd6a5ec58a",
+    "kernel.asc": "00601d4b917ad487200cc7907e6a6adfdbf76d9a820bb8a8e6c47df56f2c272d"
+  },
+  "fixture_metadata_sha256": "07fb2be7d946b2eaf9e9ae3bc42759f6c7dacffdc22fc68e96310f3bbeaa20c6",
+  "all_fixture_hashes_unchanged": true
+}

@@ -1,0 +1,70 @@
+{
+  "variant": "s28c",
+  "hashes": {
+    "kernel.asc": "3c538315434560f3e20d983b8f97a6f60c3bd6be46ac930d9d766a52ae6310fd",
+    "bench_cases": "00f565ba13f152eb015ca04cc509b7f5d9389036299783b24095de95a9609ce1"
+  },
+  "items": [
+    {
+      "fixture": "balanced_stress23",
+      "passed": true,
+      "expected": 96,
+      "observed": 96,
+      "returncode": 0,
+      "fixture_metadata_sha256": "a8e54e2dca375f9478de6ce3d94670eb9ad7e5a97c8b1948f745dd33578d596d",
+      "all_fixture_hashes_unchanged": true,
+      "failures": []
+    },
+    {
+      "fixture": "kparallel_batch_stress23",
+      "passed": true,
+      "expected": 96,
+      "observed": 96,
+      "returncode": 0,
+      "fixture_metadata_sha256": "bdcec4bc712ef0059a92cb6ef26131732108b7be166e156f570a36dd5c3b0bb6",
+      "all_fixture_hashes_unchanged": true,
+      "failures": []
+    },
+    {
+      "fixture": "kparallel_stress23",
+      "passed": true,
+      "expected": 96,
+      "observed": 96,
+      "returncode": 0,
+      "fixture_metadata_sha256": "121be6c17288f8f4179615f02b22f8546144332aeee6fde5ba086b7cf7205384",
+      "all_fixture_hashes_unchanged": true,
+      "failures": []
+    },
+    {
+      "fixture": "pair_stress23",
+      "passed": true,
+      "expected": 96,
+      "observed": 96,
+      "returncode": 0,
+      "fixture_metadata_sha256": "b107d0bea147e2c6fd7fe9f3a19a9ff7814803dec6587648252bed730b75a806",
+      "all_fixture_hashes_unchanged": true,
+      "failures": []
+    },
+    {
+      "fixture": "long_stress21",
+      "passed": true,
+      "expected": 96,
+      "observed": 96,
+      "returncode": 0,
+      "fixture_metadata_sha256": "07fb2be7d946b2eaf9e9ae3bc42759f6c7dacffdc22fc68e96310f3bbeaa20c6",
+      "all_fixture_hashes_unchanged": true,
+      "failures": []
+    },
+    {
+      "fixture": "tiny_stress23",
+      "passed": true,
+      "expected": 192,
+      "observed": 192,
+      "returncode": 0,
+      "fixture_metadata_sha256": "6bb2b3d17e1b911c0994396191add25165303fd0ddb404c63afba2a4b2e1ac4d",
+      "all_fixture_hashes_unchanged": true,
+      "failures": []
+    }
+  ],
+  "passed": true
+}

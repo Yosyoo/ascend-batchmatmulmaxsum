@@ -1,0 +1,36 @@
+[
+  {
+    "point": "P8",
+    "control_sessions_us": [
+      26.46,
+      26.86,
+      26.93,
+      26.86
+    ],
+    "control_range_percent": 1.776266061980336,
+    "blocks": [
+      {
+        "times_ABBA": [
+          26.46,
+          35.96,
+          35.989999999999995,
+          26.86
+        ],
+        "speedup_geomean": 0.7410493987293065,
+        "time_reduction_percent": -34.94377051175288,
+        "control_drift_percent": 1.5117157974300799
+      },
+      {
+        "times_ABBA": [
+          26.93,
+          36.02,
+          35.56,
+          26.86
+        ],
+        "speedup_geomean": 0.7514817715001454,
+        "time_reduction_percent": -33.07042671224747,
+        "control_drift_percent": -0.25993316004455647
+      }
+    ]
+  }
+]

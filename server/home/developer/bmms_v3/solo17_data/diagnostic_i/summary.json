@@ -1,0 +1,20 @@
+[
+  {
+    "suite": "fail_8",
+    "passed": true,
+    "observed": 8,
+    "hashes": {
+      "bench_cases": "826016032d8ea13d329676a11da1d35246cd56f43d2cd7a3205ae2201efb809a",
+      "kernel.asc": "ca5c7b45aaa32584dddf553ffd450a95de6d8b576a472a1d1fbe1f10b8de8881"
+    }
+  },
+  {
+    "suite": "resident_cases18",
+    "passed": true,
+    "observed": 96,
+    "hashes": {
+      "bench_cases": "826016032d8ea13d329676a11da1d35246cd56f43d2cd7a3205ae2201efb809a",
+      "kernel.asc": "ca5c7b45aaa32584dddf553ffd450a95de6d8b576a472a1d1fbe1f10b8de8881"
+    }
+  }
+]

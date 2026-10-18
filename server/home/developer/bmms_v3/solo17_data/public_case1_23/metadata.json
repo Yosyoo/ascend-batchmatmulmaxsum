@@ -1,0 +1,30 @@
+{
+  "shape": [
+    1,
+    1,
+    1,
+    32
+  ],
+  "dtype": 1,
+  "ta": 0,
+  "tb": 0,
+  "seed": 42,
+  "gold": [
+    3.0635790824890137
+  ],
+  "reference": "CPU FP64 matmul thenFP32; inputs match official public generator",
+  "files": {
+    "x1.bin": {
+      "bytes": 64,
+      "sha256": "4b45e16383211c6d214dd7ed8738344a71d0ce1b4d397c2812143378e0415ebb"
+    },
+    "x2.bin": {
+      "bytes": 64,
+      "sha256": "7d10bc2334c9235df02abac5b29257ac5f573c6caa149417e86ba47e3a4260ce"
+    },
+    "gold.bin": {
+      "bytes": 4,
+      "sha256": "19f986b4b060567cf7463aa0adb4cae45fb762d10ac42186836f11e28fd078fd"
+    }
+  }
+}

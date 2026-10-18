@@ -1,0 +1,36 @@
+[
+  {
+    "point": "P3",
+    "control_sessions_us": [
+      1.98,
+      1.98,
+      1.98,
+      1.98
+    ],
+    "control_range_percent": 0.0,
+    "blocks": [
+      {
+        "times_ABBA": [
+          1.98,
+          2.52,
+          2.52,
+          1.98
+        ],
+        "speedup_geomean": 0.7857142857142857,
+        "time_reduction_percent": -27.27272727272727,
+        "control_drift_percent": 0.0
+      },
+      {
+        "times_ABBA": [
+          1.98,
+          2.52,
+          2.52,
+          1.98
+        ],
+        "speedup_geomean": 0.7857142857142857,
+        "time_reduction_percent": -27.27272727272727,
+        "control_drift_percent": 0.0
+      }
+    ]
+  }
+]

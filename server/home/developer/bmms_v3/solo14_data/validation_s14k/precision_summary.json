@@ -1,0 +1,29 @@
+{
+  "total": 293,
+  "suites": [
+    {
+      "suite": "split_stress_160",
+      "expected": 160,
+      "observed": 160,
+      "passed": true,
+      "max_absolute": 0.015625,
+      "max_relative": 1.11457931e-07
+    },
+    {
+      "suite": "narrow_legal_120",
+      "expected": 120,
+      "observed": 120,
+      "passed": true,
+      "max_absolute": 0.015625,
+      "max_relative": 3.05175781
+    },
+    {
+      "suite": "balanced_384",
+      "expected": 384,
+      "observed": 13,
+      "passed": false,
+      "max_absolute": 0.015625,
+      "max_relative": 290.234131
+    }
+  ]
+}

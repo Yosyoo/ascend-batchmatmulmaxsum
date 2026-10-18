@@ -1,0 +1,434 @@
+[
+  {
+    "shape": [
+      2,
+      3,
+      7,
+      40
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      8.281,
+      7.765,
+      7.783,
+      7.747,
+      7.744
+    ],
+    "min": 7.744,
+    "median": 7.765,
+    "mean": 7.864,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      2,
+      3,
+      7,
+      40
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "tailpack",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      8.303,
+      7.782,
+      9.193,
+      7.412,
+      7.445
+    ],
+    "min": 7.412,
+    "median": 7.782,
+    "mean": 8.027,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      3,
+      17,
+      19,
+      72
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      8.141,
+      7.813,
+      7.786,
+      7.745,
+      7.742
+    ],
+    "min": 7.742,
+    "median": 7.786,
+    "mean": 7.845,
+    "consistent": true,
+    "passed": true,
+    "relative": 8.022377073757525e-08
+  },
+  {
+    "shape": [
+      3,
+      17,
+      19,
+      72
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "tailpack",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      7.969,
+      7.831,
+      7.817,
+      7.764,
+      7.788
+    ],
+    "min": 7.764,
+    "median": 7.817,
+    "mean": 7.834,
+    "consistent": true,
+    "passed": true,
+    "relative": 8.022377073757525e-08
+  },
+  {
+    "shape": [
+      1,
+      65,
+      129,
+      128
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      9.685,
+      9.3,
+      9.359,
+      9.421,
+      9.401
+    ],
+    "min": 9.3,
+    "median": 9.401,
+    "mean": 9.433,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      65,
+      129,
+      128
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "tailpack",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      9.623,
+      9.457,
+      9.503,
+      9.033,
+      9.265
+    ],
+    "min": 9.033,
+    "median": 9.457,
+    "mean": 9.376,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      2,
+      129,
+      257,
+      256
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      14.131,
+      13.383,
+      13.424,
+      13.323,
+      13.387
+    ],
+    "min": 13.323,
+    "median": 13.387,
+    "mean": 13.53,
+    "consistent": true,
+    "passed": true,
+    "relative": 6.285858944465872e-08
+  },
+  {
+    "shape": [
+      2,
+      129,
+      257,
+      256
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "tailpack",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      13.721,
+      13.198,
+      13.086,
+      13.107,
+      12.947
+    ],
+    "min": 12.947,
+    "median": 13.107,
+    "mean": 13.212,
+    "consistent": true,
+    "passed": true,
+    "relative": 6.285858944465872e-08
+  },
+  {
+    "shape": [
+      1,
+      8192,
+      17,
+      32
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      33.657,
+      34.152,
+      33.997,
+      34.049,
+      34.001
+    ],
+    "min": 33.657,
+    "median": 34.001,
+    "mean": 33.971,
+    "consistent": true,
+    "passed": true,
+    "relative": 2.7817048930955934e-07
+  },
+  {
+    "shape": [
+      1,
+      8192,
+      17,
+      32
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "tailpack",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      32.031,
+      32.404,
+      32.42,
+      32.447,
+      32.268
+    ],
+    "min": 32.031,
+    "median": 32.404,
+    "mean": 32.314,
+    "consistent": true,
+    "passed": true,
+    "relative": 2.7817048930955934e-07
+  },
+  {
+    "shape": [
+      1,
+      8191,
+      33,
+      72
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      36.817,
+      37.641,
+      37.421,
+      37.329,
+      37.205
+    ],
+    "min": 36.817,
+    "median": 37.329,
+    "mean": 37.283,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.6199469143884926e-07
+  },
+  {
+    "shape": [
+      1,
+      8191,
+      33,
+      72
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "tailpack",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      37.856,
+      38.109,
+      37.989,
+      38.06,
+      37.906
+    ],
+    "min": 37.856,
+    "median": 37.989,
+    "mean": 37.984,
+    "consistent": true,
+    "passed": true,
+    "relative": 1.6199469143884926e-07
+  },
+  {
+    "shape": [
+      1,
+      8192,
+      129,
+      64
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      56.727,
+      56.845,
+      57.264,
+      56.923,
+      56.776
+    ],
+    "min": 56.727,
+    "median": 56.845,
+    "mean": 56.907,
+    "consistent": true,
+    "passed": true,
+    "relative": 6.985086997701728e-08
+  },
+  {
+    "shape": [
+      1,
+      8192,
+      129,
+      64
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "tailpack",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      57.011,
+      57.201,
+      57.279,
+      57.219,
+      57.471
+    ],
+    "min": 57.011,
+    "median": 57.219,
+    "mean": 57.236,
+    "consistent": true,
+    "passed": true,
+    "relative": 6.985086997701728e-08
+  },
+  {
+    "shape": [
+      1,
+      511,
+      63,
+      128
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "reference",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      12.223,
+      12.373,
+      12.263,
+      12.318,
+      12.339
+    ],
+    "min": 12.223,
+    "median": 12.318,
+    "mean": 12.303,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  },
+  {
+    "shape": [
+      1,
+      511,
+      63,
+      128
+    ],
+    "dtype": 1,
+    "ta": 0,
+    "tb": 0,
+    "variant": "tailpack",
+    "returncode": 0,
+    "iters": 30,
+    "rounds": [
+      12.38,
+      12.436,
+      12.341,
+      12.408,
+      12.363
+    ],
+    "min": 12.341,
+    "median": 12.38,
+    "mean": 12.386,
+    "consistent": true,
+    "passed": true,
+    "relative": 0.0
+  }
+]

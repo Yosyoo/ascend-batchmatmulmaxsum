@@ -1,0 +1,14 @@
+{
+  "variant": "s32i",
+  "expected": 96,
+  "observed": 96,
+  "passed": true,
+  "fixture_metadata_sha256": "0b0327840e2e4152b3f776c0ef5af6eecd9c7e40bd6b26cddf69e0009c5a3edf",
+  "manifest_sha256": "83b54e1276c84c75939522b4a39ee868ca319ce7f6f39f33d6b44016df85b9fd",
+  "inputs_unchanged": true,
+  "hashes": {
+    "kernel.asc": "5a2e4117fc3829c6b74452ef5303254d918b3ca094cc2fb3773b6b5ed1dd84b4",
+    "bench_cases": "54e8086a42f2f770c633f58f8c4e15c63e6d8b22b371f3e2094cece751de0747"
+  },
+  "failures": []
+}

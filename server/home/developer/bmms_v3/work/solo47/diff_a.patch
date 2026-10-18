@@ -1,0 +1,46 @@
+--- s46a
++++ s47a
+@@ -2346,6 +2346,30 @@
+     PipeBarrier<PIPE_ALL>();
+ }
+ 
++template<class T>
++__global__ __aicore__ __cube__ void bmms_dot_packed32(GM_ADDR a, GM_ADDR b, GM_ADDR y)
++{
++    const int batch=GetBlockIdx();
++    GlobalTensor<T> ag,bg; GlobalTensor<float> yg;
++    ag.SetGlobalBuffer((__gm__ T*)a); bg.SetGlobalBuffer((__gm__ T*)b);
++    yg.SetGlobalBuffer((__gm__ float*)y);
++    LocalTensor<T> la(TPosition::A1,0,16*32),lb(TPosition::B1,1024,16*32);
++    LocalTensor<T> aa(TPosition::A2,0,16*32),bb(TPosition::B2,0,16*32);
++    LocalTensor<float> cc(TPosition::CO1,0,16*16);
++    // Each vector is the valid row of two NZ fractals. Every 32B comes from this call's input.
++    DataCopyParams cp{2,1,0,15};
++    DataCopy(la,ag[batch*32],cp); DataCopy(lb,bg[batch*32],cp);
++    SetFlag<HardEvent::MTE2_MTE1>(EVENT_ID0); WaitFlag<HardEvent::MTE2_MTE1>(EVENT_ID0);
++    LoadData2dParams ld{0,2,1,0,0,false,0};
++    LoadData(aa,la,ld); LoadData(bb,lb,ld);
++    SetFlag<HardEvent::MTE1_M>(EVENT_ID0); WaitFlag<HardEvent::MTE1_M>(EVENT_ID0);
++    MmadParams mm{16,16,32,0,false,true}; Mmad(cc,aa,bb,mm);
++    SetFlag<HardEvent::M_FIX>(EVENT_ID0); WaitFlag<HardEvent::M_FIX>(EVENT_ID0);
++    FixpipeParamsV220 fp; fp.mSize=1; fp.nSize=1; fp.srcStride=16; fp.dstStride=1;
++    Fixpipe(yg[batch],cc,fp);
++    PipeBarrier<PIPE_ALL>();
++}
++
+ template<class T, int KK = 0, bool ONCE = false>
+ __global__ __aicore__ __vector__ void bmms_dot(GM_ADDR a, GM_ADDR b, GM_ADDR y, int32_t batches, int32_t k)
+ {
+@@ -3553,6 +3577,12 @@
+ #undef BMMS_TINY
+         return;
+     }
++    if (m == 1 && n == 1 && k == 32 && b >= 1 && b <= availableCoreNum &&
++        ((reinterpret_cast<uintptr_t>(x1) | reinterpret_cast<uintptr_t>(x2)) & 31) == 0) {
++        if(info_x1.tensors[0].dtype==2) bmms_dot_packed32<bfloat16_t><<<b,nullptr,stream>>>(x1,x2,y);
++        else bmms_dot_packed32<half><<<b,nullptr,stream>>>(x1,x2,y);
++        return;
++    }
+     if (m == 1 && n == 1) {
+         int32_t vc = std::max<int32_t>(1, std::min<int64_t>(b, availableCoreNum * 2));
+         if (k == 32 && vc == b) {

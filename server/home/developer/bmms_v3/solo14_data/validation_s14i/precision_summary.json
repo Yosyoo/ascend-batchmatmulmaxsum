@@ -1,0 +1,13 @@
+{
+  "total": 4,
+  "suites": [
+    {
+      "suite": "split_stress_160",
+      "expected": 160,
+      "observed": 4,
+      "passed": false,
+      "max_absolute": 4.95361328,
+      "max_relative": 0.00109667412
+    }
+  ]
+}

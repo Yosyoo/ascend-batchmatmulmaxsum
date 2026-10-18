@@ -1,0 +1,22 @@
+{
+  "passed": false,
+  "observed": 13,
+  "failures": [
+    {
+      "case": 12,
+      "shape": [
+        16,
+        256,
+        256,
+        256
+      ],
+      "dtype": 1,
+      "ta": 0,
+      "tb": 0,
+      "absolute": 0.000268957956,
+      "relative": 26.8957956,
+      "consistent": true,
+      "passed": false
+    }
+  ]
+}

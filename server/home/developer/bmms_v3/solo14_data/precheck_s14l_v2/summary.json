@@ -1,0 +1,11 @@
+[
+  {
+    "label": "balanced_dtype1",
+    "variant": "s14l",
+    "expected": 192,
+    "observed": 192,
+    "passed": true,
+    "returncode": 0,
+    "max_absolute": 0.015625
+  }
+]

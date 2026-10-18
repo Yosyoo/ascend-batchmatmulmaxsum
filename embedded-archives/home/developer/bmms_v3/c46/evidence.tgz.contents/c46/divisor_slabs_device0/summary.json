@@ -1,0 +1,70 @@
+[
+  {
+    "point": "P9",
+    "control_sessions_us": [
+      43.34,
+      43.42,
+      43.57,
+      43.58
+    ],
+    "control_range_percent": 0.5537609598523119,
+    "blocks": [
+      {
+        "times_ABBA": [
+          43.34,
+          55.989999999999995,
+          55.68,
+          43.42
+        ],
+        "speedup_geomean": 0.7769346952730397,
+        "time_reduction_percent": -28.710946503498324,
+        "control_drift_percent": 0.1845869866174299
+      },
+      {
+        "times_ABBA": [
+          43.57,
+          55.730000000000004,
+          56.02,
+          43.58
+        ],
+        "speedup_geomean": 0.7798683926675992,
+        "time_reduction_percent": -28.22676356704543,
+        "control_drift_percent": 0.0229515721826834
+      }
+    ]
+  },
+  {
+    "point": "P10",
+    "control_sessions_us": [
+      59.69,
+      59.68,
+      60.04,
+      60.09
+    ],
+    "control_range_percent": 0.6869973190348544,
+    "blocks": [
+      {
+        "times_ABBA": [
+          59.69,
+          67.6,
+          67.52,
+          59.68
+        ],
+        "speedup_geomean": 0.8834370966790259,
+        "time_reduction_percent": -13.19425047455578,
+        "control_drift_percent": -0.016753224995813554
+      },
+      {
+        "times_ABBA": [
+          60.04,
+          67.49000000000001,
+          67.03999999999999,
+          60.09
+        ],
+        "speedup_geomean": 0.8929655962273151,
+        "time_reduction_percent": -11.98639726153996,
+        "control_drift_percent": 0.08327781479013918
+      }
+    ]
+  }
+]

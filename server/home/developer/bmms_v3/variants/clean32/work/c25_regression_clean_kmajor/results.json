@@ -1,0 +1,152 @@
+[
+  {
+    "shape": [
+      2,
+      2,
+      6,
+      24
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "passed": true,
+    "relative": 6.730968493684486e-08,
+    "returncode": 0,
+    "seconds": 2.051074890012387
+  },
+  {
+    "shape": [
+      2,
+      2,
+      6,
+      24
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 0,
+    "passed": true,
+    "relative": 0.0,
+    "returncode": 0,
+    "seconds": 2.051365835010074
+  },
+  {
+    "shape": [
+      1,
+      3,
+      5,
+      40
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "passed": true,
+    "relative": 0.0,
+    "returncode": 0,
+    "seconds": 3.047389938001288
+  },
+  {
+    "shape": [
+      1,
+      3,
+      5,
+      40
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 0,
+    "passed": true,
+    "relative": 0.0,
+    "returncode": 0,
+    "seconds": 3.04757448201417
+  },
+  {
+    "shape": [
+      41,
+      7,
+      7,
+      56
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "passed": true,
+    "relative": 1.0454046162067243e-07,
+    "returncode": 0,
+    "seconds": 3.050629117002245
+  },
+  {
+    "shape": [
+      41,
+      7,
+      7,
+      56
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 0,
+    "passed": true,
+    "relative": 9.123520783305139e-08,
+    "returncode": 0,
+    "seconds": 3.047237264981959
+  },
+  {
+    "shape": [
+      2,
+      8,
+      8,
+      64
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "passed": true,
+    "relative": 7.11583965085083e-08,
+    "returncode": 0,
+    "seconds": 3.0432904129847884
+  },
+  {
+    "shape": [
+      2,
+      8,
+      8,
+      64
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 0,
+    "passed": true,
+    "relative": 6.1233471626565e-08,
+    "returncode": 0,
+    "seconds": 3.047452269005589
+  },
+  {
+    "shape": [
+      1,
+      1,
+      8,
+      8
+    ],
+    "dtype": 1,
+    "ta": 1,
+    "tb": 0,
+    "passed": true,
+    "relative": 0.0,
+    "returncode": 0,
+    "seconds": 3.047495330014499
+  },
+  {
+    "shape": [
+      1,
+      1,
+      8,
+      8
+    ],
+    "dtype": 2,
+    "ta": 1,
+    "tb": 0,
+    "passed": true,
+    "relative": 0.0,
+    "returncode": 0,
+    "seconds": 2.0513786360097583
+  }
+]

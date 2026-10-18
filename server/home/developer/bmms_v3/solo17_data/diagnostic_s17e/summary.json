@@ -1,0 +1,26 @@
+{
+  "suites": [
+    {
+      "suite": "fail_8",
+      "passed": true,
+      "observed": 8,
+      "returncode": 0
+    },
+    {
+      "suite": "medium_256",
+      "passed": true,
+      "observed": 256,
+      "returncode": 0
+    },
+    {
+      "suite": "split_160",
+      "passed": true,
+      "observed": 160,
+      "returncode": 0
+    }
+  ],
+  "hashes": {
+    "/home/developer/bmms_v3/variants/s17e/build/bench_cases": "974905aca67bb5a3050144bb6406114c5fd47db17034a480de64878518d0f310",
+    "/home/developer/bmms_v3/variants/s17e/kernel.asc": "89a49e934020a1d0183574d1956326b707bce0acf03b7b72f4a39b17b6434980"
+  }
+}
