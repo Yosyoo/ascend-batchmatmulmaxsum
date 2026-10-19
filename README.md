@@ -4,13 +4,15 @@
 
 ## 竞赛背景与题目要求
 
-题目要求将批量矩阵乘法、按行取最大值、按行求和融合为一次完整的算子计算。设逻辑输入为 A ∈ R^(B×M×K)、X ∈ R^(B×K×N)，输出为 y ∈ R^B：
+题目要求将批量矩阵乘法、按行取最大值、按行求和融合为一次完整的算子计算。设逻辑输入为 $A \in \mathbb{R}^{B \times M \times K}$、$X \in \mathbb{R}^{B \times K \times N}$，输出为 $y \in \mathbb{R}^{B}$：
 
-```text
-C[b, m, n] = Σ_k A[b, m, k] × X[b, k, n]
-r[b, m]    = max_n C[b, m, n]
-y[b]       = Σ_m r[b, m]
-```
+$$
+\begin{aligned}
+C_{b,m,n} &= \sum_{k=0}^{K-1} A_{b,m,k}\,X_{b,k,n}, \\
+r_{b,m} &= \max_{0 \le n < N} C_{b,m,n}, \\
+y_b &= \sum_{m=0}^{M-1} r_{b,m}.
+\end{aligned}
+$$
 
 这对应 `torch.bmm`、`torch.amax`、`torch.sum` 的组合。输入支持 FP16、BF16，输出为 FP32；转置参数描述输入张量的存储布局，逻辑计算关系不变。精度判定应以官方题目和校验器为准。
 
