@@ -4,25 +4,188 @@
 
 ## 竞赛背景与题目要求
 
-题目要求将批量矩阵乘法、按行取最大值、按行求和融合为一次完整的算子计算。设逻辑输入为 $A \in \mathbb{R}^{B \times M \times K}$、 $X \in \mathbb{R}^{B \times K \times N}$，输出为 $y \in \mathbb{R}^{B}$：
+### 一、赛题背景
+
+在神经信息检索和RAG重排场景中，ColBERT使用Late Interaction计算query与document的相关性：先计算token级点积相似度，再对每个query token执行MaxSim，最后求和得到query-document分数。该流程由BatchMatMul、ReduceMax和ReduceSum组成，融合后可减少Kernel Launch与中间数据搬运。
+
+本题要求基于PyTorch中`torch.bmm`、`torch.amax`和`torch.sum`的核心业务逻辑，采用Ascend C编程语言进行算子原生开发，在昇腾NPU硬件上实现一款高性能的BatchMatmulMaxSum算子。
+
+### 二、算子功能描述
+
+实现的BatchMatmulMaxSum算子需完成以下核心计算：
+
+- **批量矩阵乘**：对B组一一对应的矩阵执行BatchMatMul，计算query token与document token的点积相似度。
+- **MaxSim归约**：沿document-token维N取最大值，得到每个query token的最高相似度。
+- **求和归约**：沿query-token维M求和，输出每个query-document pair的相关性分数。
+
+输入embedding的L2归一化由上游网络完成，本算子不执行L2归一化，也不接收padding、有效长度或mask输入。
+
+算子的核心难点在于：在支持四种输入存储布局组合、非对齐尾块、较小Batch和最大可达8192的M/N/K维度时，协调Cube矩阵乘与Vector归约流水，降低相似度计算与两级归约之间的数据搬运开销。
+
+### 三、核心定义与约束
+
+#### 3.1 参考算子
+
+PyTorch原生算子：`torch.bmm`、`torch.amax`、`torch.sum`
+
+等价Python实现：
+
+```python
+import torch
+
+
+def batch_matmul_max_sum(x1_logical, x2_logical):
+    # x1_logical: [B, M, K]
+    # x2_logical: [B, K, N]
+    similarity = torch.bmm(
+        x1_logical.to(torch.float32),
+        x2_logical.to(torch.float32),
+    )
+    max_sim = torch.amax(similarity, dim=-1)
+    return torch.sum(max_sim, dim=-1, dtype=torch.float32)
+```
+
+上述代码描述固定逻辑shape下的计算语义。`transposeX1`和`transposeX2`只声明输入的storage shape，不参与数学计算，也不表示算子需要额外执行transpose操作。算子行为、计算结果需与上述PyTorch组合实现的数学语义对齐。标准golden使用输入实际存储值在FP64精度下计算，最后转换为FP32。
+
+#### 3.2 数学公式
+
+参与 BatchMatMul 的逻辑矩阵固定为：
 
 $$
-\begin{aligned}
-C_{b,m,n} &= \sum_{k=0}^{K-1} A_{b,m,k}\,X_{b,k,n}, \\
-r_{b,m} &= \max_{0 \le n < N} C_{b,m,n}, \\
-y_b &= \sum_{m=0}^{M-1} r_{b,m}.
-\end{aligned}
+X_1 \in \mathbb{R}^{B \times M \times K}, \qquad
+X_2 \in \mathbb{R}^{B \times K \times N}
 $$
 
-这对应 `torch.bmm`、`torch.amax`、`torch.sum` 的组合。输入支持 FP16、BF16，输出为 FP32；转置参数描述输入张量的存储布局，逻辑计算关系不变。精度判定应以官方题目和校验器为准。
+**阶段一——批量矩阵乘：**
 
-OJ 评测硬件为 **昇腾 910C**。
+$$
+A[b,m,n] = \sum_{k=0}^{K-1} X_1[b,m,k] \times X_2[b,k,n], \qquad A \in \mathbb{R}^{B \times M \times N}
+$$
 
-性能基线为拆分执行 BatchMatMul、ReduceMax、ReduceSum 的总耗时，评分考查融合实现相对基线的加速效果。优化围绕 Cube 与 Vector 协同、GM/L1/L0/UB 数据搬运和复用、多核分块、尾块处理、流水与双缓冲展开，同时关注小形状的初始化、同步和收尾开销。
+**阶段二——MaxSim 归约：**
 
-Host 侧仅负责参数校验、shape 推导、tiling 和启动配置；Device 侧承担完整计算，单次算子调用通过一次 Kernel 启动完成。开发必须遵守赛事规则，包括禁止 Host 读取或重排输入参与计算、预存结果、按评测用例或数据规律跳算、复用旧输出、跨调用缓存结果，以及干扰校验或计时。通用分派条件应能解释其布局、容量或性能依据。
+$$
+R[b,m] = \max_{0 \le n < N} A[b,m,n], \qquad R \in \mathbb{R}^{B \times M}
+$$
 
-## 最终提交与成绩
+**阶段三——求和归约：**
+
+$$
+y[b] = \sum_{m=0}^{M-1} R[b,m] = \sum_{m=0}^{M-1} \left( \max_{0 \le n < N} A[b,m,n] \right), \qquad y \in \mathbb{R}^{B}
+$$
+
+第 $b$ 个 $x_1$ 仅与第 $b$ 个 $x_2$ 配对，不进行 batch broadcast 或跨 batch 笛卡尔积计算。
+
+#### 3.3 输入输出与属性总览
+
+| 类型 | 参数名 | 类型 | 逻辑shape / storage shape | 支持数据类型 | 数据格式 | 备注 |
+|---|---|---|---|---|---|---|
+| INPUT(必选) | x1 | tensor | 逻辑shape固定为 `(B,M,K)`；storage shape在 `transposeX1=false` 时为 `(B,M,K)`，`true` 时为 `(B,K,M)` | FLOAT16、BFLOAT16 | ND | Query token embedding |
+| INPUT(必选) | x2 | tensor | 逻辑shape固定为 `(B,K,N)`；storage shape在 `transposeX2=false` 时为 `(B,K,N)`，`true` 时为 `(B,N,K)` | FLOAT16、BFLOAT16 | ND | Document token embedding的矩阵乘布局 |
+| OUTPUT(输出) | y | tensor | `(B,)` | FLOAT32 | ND | 每个query-document pair的相关性分数 |
+| ATTR(可选) | transposeX1 | bool | - | BOOL | - | 仅声明x1的storage shape，默认false |
+| ATTR(可选) | transposeX2 | bool | - | BOOL | - | 仅声明x2的storage shape，默认false |
+
+#### 3.4 关键输入约束
+
+维度取值范围（均为正整数）：
+
+- `1 ≤ B ≤ 64`。
+- `1 ≤ M ≤ 8192`。
+- `1 ≤ N ≤ 8192`。
+- `32 ≤ K ≤ 8192`，且 `K` 为8的整数倍。
+- 输入规模同时满足 `B × M × K ≤ 2^26` 和 `B × N × K ≤ 2^26`。
+
+形状约束：
+
+- x1和x2均为3维Tensor。
+- x1的逻辑形状固定为 `(B,M,K)`，x2的逻辑形状固定为 `(B,K,N)`；`transposeX1` 和 `transposeX2` 仅用于确定对应输入的storage shape。
+- 两个输入的B和K必须分别相等，不支持batch broadcast。
+- M、N建议为16的整数倍；非对齐场景必须正确处理尾块。
+
+数据类型约束：
+
+- x1和x2的数据类型必须相同。
+- x1和x2仅支持FLOAT16、BFLOAT16。
+- K维点积、MaxSim和Sum Reduction采用FLOAT32累加或具有等效精度的实现。
+
+其他约束：
+
+- 不支持空Tensor，仅支持连续ND Tensor。
+- 输入不包含NaN或正负Inf，输入元素允许为负数。
+- M和N均表示参与计算的实际token数，不提供padding、有效长度或mask输入。
+- 算子不得修改输入。
+
+#### 3.5 核心属性说明
+
+- `transposeX1`（bool，默认false）：用于说明x1的storage shape。false时storage shape为 `(B,M,K)`；true时storage shape为 `(B,K,M)`。该属性不改变x1的逻辑shape。
+- `transposeX2`（bool，默认false）：用于说明x2的storage shape。false时storage shape为 `(B,K,N)`；true时storage shape为 `(B,N,K)`。该属性不改变x2的逻辑shape。
+- 两个属性仅描述输入数据的存储布局，不改变逻辑BatchMatMul与输出结果的定义。
+
+#### 3.6 输出严格要求
+
+- **形状约束**：输出y的shape固定为 `(B,)`。
+- **类型约束**：输出y的数据类型固定为FLOAT32。
+- **计算顺序**：必须按照BatchMatMul → Max(N) → Sum(M)计算，Max与Sum不可交换。
+- **有限性**：所有输出均不得包含NaN或正负Inf。
+
+#### 3.7 特殊值处理规则
+
+- **全负相似度**：MaxSim的初始值必须为负无穷或归约行的首个元素，不得初始化为0；当某行全部为负数时仍需返回其中最大负数。
+- **大K累加**：K维点积采用FLOAT32累加或具有等效精度的实现，避免低精度长归约造成明显误差。
+- **无效输入**：题目用例不包含NaN、正负Inf、空Tensor或形状不匹配输入。
+
+### 四、规则要求
+
+- **数值一致性规则**：给定相同输入与属性，算子多次执行结果应保持一致。
+- **一一配对规则**：x1与x2的batch维必须相同，第 `b` 组x1只与第 `b` 组x2计算，不允许batch broadcast。
+- **归约顺序规则**：计算顺序固定为先沿N维取最大值，再沿M维求和，不得改写为先求和再取最大值。
+- **存储布局规则**：`transposeX1` 和 `transposeX2` 仅声明对应输入的storage shape，不表示执行转置操作；四种storage shape组合均需正确支持。
+- **性能要求**：在保证数值精度和正确性的前提下，充分利用NPU硬件特性：
+  - 合理利用Cube与Vector计算单元，设计BatchMatMul和两级归约的协同流水。
+  - 优化GM、L1、L0和UB之间的数据搬运与复用。
+  - 沿B维和/或M维合理分配多核任务，兼顾较小Batch、大M/N/K和尾块负载均衡。
+  - 鼓励使用Double Buffer或Ping-Pong机制重叠计算与搬运。
+  - 性能基线为BatchMatMul + ReduceMax + ReduceSum拆分实现的总耗时，按融合实现相对基线的加速比评分。
+  - 使用msprof采集Task Duration、Cube利用率、Vector利用率及MTE带宽利用率。
+
+### 五、精度判断规则
+
+精度要求：计算结果需满足以下精度误差要求：
+
+- float32：相对误差 < 1e-4，绝对误差 < 1e-4（双万分之一精度）
+- float16、bfloat16：相对误差 < 1e-3，绝对误差 < 1e-3（双千分之一精度）
+- int32：要求计算结果完全准确，无误差
+
+### 六、示例说明
+
+#### 示例1：基础计算
+
+x1：shape=(1,2,2)，值为 `[[[1,0],[0,1]]]`。  
+x2：shape=(1,2,3)，值为 `[[[1,0,-1],[0,1,0]]]`。  
+`transposeX1=false`，`transposeX2=false`。
+
+BatchMatMul结果为 `[[[1,0,-1],[0,1,0]]]`。  
+MaxSim结果为 `[[1,1]]`，最终输出 `y=[2.0]`。
+
+#### 示例2：转置存储布局
+
+逻辑矩阵内容与示例1相同。  
+x1按 `(B,K,M)` 物理布局输入，x2按 `(B,N,K)` 物理布局输入。  
+`transposeX1=true`，`transposeX2=true`。
+
+两个属性仅说明上述storage shape；x1和x2的逻辑shape仍分别为 `(B,M,K)` 和 `(B,K,N)`。算子不额外交换维度，而是直接按照对应存储布局完成相同逻辑计算，输出仍为 `y=[2.0]`。
+
+#### 示例3：全负相似度
+
+x1：shape=(1,1,2)，值为 `[[[1,0]]]`。  
+x2：shape=(1,2,2)，值为 `[[[-1,-2],[0,0]]]`。
+
+BatchMatMul结果为 `[[[-1,-2]]]`。  
+MaxSim结果为 `[[-1]]`。  
+最终输出 `y=[-1.0]`，不能因错误地将MaxSim初始值设为0而输出0。
+
+## 最终提交与成绩（昇腾 910C）
 
 | 项目 | 记录 |
 | :--- | :--- |
